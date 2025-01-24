@@ -3547,10 +3547,10 @@
             ['Full House'] = "Cù Lũ",
             ['Flush'] = "Thùng",
             ['Straight'] = "Sảnh",
-            ['Three of a Kind'] = "Bộ Ba",
-            ['Two Pair'] = "Hai Đôi",
+            ['Three of a Kind'] = "Sám Chi",
+            ['Two Pair'] = "Thú",
             ['Pair'] = "Đôi",
-            ['High Card'] = "Bài Cao"
+            ['High Card'] = "Mậu Thầu"
         },
         poker_hand_descriptions = {
             ['Flush Five'] = {
