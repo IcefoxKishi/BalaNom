@@ -2577,7 +2577,7 @@
             bl_wheel = {
                 name = "The Wheel",
                 text = {
-                    " trên 7 lá bài",
+                    "#1# trên 7 lá bài",
                     "bị bốc sấp"
                 }
             },
