@@ -3713,7 +3713,7 @@
             b_load_profile = "Tải Hồ Sơ",
             b_create_profile = "Tạo Hồ Sơ",
             b_delete_profile = "Xoá Hồ Sơ",
-            b_reset_profile = "Đặt Lai Hồ Sơ",
+            b_reset_profile = "Đặt Lại Hồ Sơ",
             b_rules = "Luật",
             b_restrictions = "Hạn Chế",
             b_deck = "Bộ Bài",
