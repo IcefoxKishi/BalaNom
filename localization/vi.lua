@@ -1616,7 +1616,7 @@
                 },
                 unlock = {
                     "Sở hữu ít nhất {C:attention}#1#",
-                    "lá {C:attention}Joker{} với phiên bản",
+                    "lá {C:attention}Joker{} với ấn bản",
                     "{C:dark_edition}Ánh Kim{}, {C:dark_edition}Lấp Lánh",
                     "hoặc {C:dark_edition}Đa Sắc"
                 }
@@ -1718,7 +1718,7 @@
                 text = {
                     "{C:attention}Lá bài thường{} trong shop",
                     "có thể có {C:enhanced}Cường Hoá{},",
-                    "{C:dark_edition}Phiên Bản{}, và/hoặc {C:attention}Con Dấu"
+                    "{C:dark_edition}Ấn Bản{}, và/hoặc {C:attention}Con Dấu"
                 },
                 unlock = {
                     "Mua tổng cộng",
@@ -1848,7 +1848,7 @@
                 name = "Bánh Xe Số Phận",
                 text = {
                     "Xác suất {C:green}#1# trên #2#{} để thêm",
-                    "phiên bản {C:dark_edition}Ánh Kim{}, {C:dark_edition}Lấp Lánh",
+                    "ấn bản {C:dark_edition}Ánh Kim{}, {C:dark_edition}Lấp Lánh",
                     "hoặc {C:dark_edition}Đa Sắc{} cho một {C:attention}Joker",
                     "ngẫu nhiên"
                 }
@@ -2092,7 +2092,7 @@
             c_aura = {
                 name = "Hào Quang",
                 text = {
-                    "Thêm phiên bản {C:dark_edition}Ánh Kim{},",
+                    "Thêm ấn bản {C:dark_edition}Ánh Kim{},",
                     "{C:dark_edition}Lấp Lánh{} hoặc {C:dark_edition}Đa Sắc{} vào",
                     "{C:attention}1{} lá đã chọn trong tay"
                 }
@@ -2157,7 +2157,7 @@
             c_hex = {
                 name = "Hắc Thuật",
                 text = {
-                    "Thêm phiên bản {C:dark_edition}Đa Sắc{} cho",
+                    "Thêm ấn bản {C:dark_edition}Đa Sắc{} cho",
                     "một {C:attention}Joker{} ngẫu nhiên,",
                     "phá huỷ toàn bộ Joker khác"
                 }
@@ -3160,7 +3160,7 @@
             undiscovered_edition = {
                 name = "Chưa Khám Phá",
                 text = {
-                    "Tìm phiên bản này",
+                    "Tìm ấn bản này",
                     "trong một trận ngẫu nhiên",
                     "để biết tác dụng của nó"
                 }
@@ -3696,7 +3696,7 @@
             b_planet_cards = "Lá Hành Tinh",
             b_spectral_cards = "Lá Siêu Linh",
             b_enhanced_cards = "Lá Cường Hoá",
-            b_editions = "Phiên Bản",
+            b_editions = "Ấn Bản",
             b_booster_packs = "Gói Bài",
             b_tags = "Nhãn",
             b_decks = "Bộ Bài",
@@ -3751,7 +3751,7 @@
             k_planet_q = "Hành Tinh?",
             k_spectral = "Siêu Linh",
             k_booster = "Gói Bài",
-            k_edition = "Phiên Bản",
+            k_edition = "Ấn Bản",
             k_hud_hands = "Tay Bài",
             k_hud_discards = "Lượt Bỏ",
             k_lower_score = "Điểm",
@@ -3926,7 +3926,7 @@
             },
             ml_edition_seal_enhancement_explanation = {
                 "Lá bài Thường có thể có một",
-                "Cường Hoá, Phiên Bản và Con Dấu"
+                "Cường Hoá, Ấn Bản và Con Dấu"
             },
             ml_unlock_all_explanation = {
                 "CẢNH BÁO! Mở khoá toàn bộ Bộ sưu tập",
