@@ -1425,7 +1425,7 @@
             j_perkeo = {
                 name = "Perkeo",
                 text = {
-                    "Tạo ra một bản sao {C:dark_edition}Âm Tính",
+                    "Tạo ra một bản sao {C:dark_edition}Âm Bản",
                     "của {C:attention}1{} lá {C:attention}Tiêu Thụ{} ngẫu nhiên",
                     "thuộc sở hữu của bạn",
                     "ở cuối {C:attention}shop",
@@ -2125,7 +2125,7 @@
             c_ectoplasm = {
                 name = "Ngoại Chất",
                 text = {
-                    "Thêm phiên bản {C:dark_edition}Âm Tính{} cho",
+                    "Thêm {C:dark_edition}Âm Bản{} cho",
                     "một {C:attention}Joker{} ngẫu nhiên,",
                     "{C:red}-#1#{} lá giữ trong tay"
                 }
@@ -2229,20 +2229,20 @@
                 }
             },
             e_negative = {
-                name = "Âm Tính",
+                name = "Âm Bản",
                 text = {
                     "{C:dark_edition}+#1#{} ô Joker"
                 }
             },
             e_negative_consumable = {
-                name = "Âm Tính",
+                name = "Âm Bản",
                 text = {
                     "{C:dark_edition}+#1#{} ô tiêu thụ"
                 }
             },
             ----------------------------------------------- Phần dùng cho Steamodded -----------------------------------------------
             e_negative_playing_card = {
-                name = "Âm Tính",
+                name = "Âm Bản",
                 text = {
                     "{C:dark_edition}+#1#{} lá giữ trong tay"
                 }
@@ -2387,11 +2387,11 @@
                 }
             },
             tag_negative = {
-                name = "Nhãn Âm Tính",
+                name = "Nhãn Âm Bản",
                 text = {
                     "Joker bản chuẩn tiếp theo",
                     "trong shop thì miễn phí",
-                    "và trở thành {C:dark_edition}Âm Tính"
+                    "và trở thành {C:dark_edition}Âm Bản"
                 }
             },
             tag_foil = {
@@ -3019,7 +3019,7 @@
             remove_negative = {
                 name = "n",
                 text = {
-                    "{C:inactive,s:0.9}(Loại bỏ {C:dark_edition,s:0.9}Âm Tính{C:inactive,s:0.9} khỏi bản sao)"
+                    "{C:inactive,s:0.9}(Loại bỏ {C:dark_edition,s:0.9}Âm Bản{C:inactive,s:0.9} khỏi bản sao)"
                 }
             },
             locked = {
@@ -3613,7 +3613,7 @@
             foil = "Ánh Kim",
             holographic = "Lấp Lánh",
             polychrome = "Đa Sắc",
-            negative = "Âm Tính",
+            negative = "Âm Bản",
             gold_seal = "Con Dấu Vàng",
             blue_seal = "Con Dấu Xanh",
             red_seal = "Con Dấu Đỏ",
@@ -4118,11 +4118,11 @@
                 "X#1# Nhân"
             },
             ml_negative_desc = {
-                "Âm Tính",
+                "Âm Bản",
                 "+#1# ô Joker"
             },
             ml_negative_consumable_desc = {
-                "Âm Tính",
+                "Âm Bản",
                 "+#1# ô Tiêu Thụ"
             },
             ----------------------------------------------- Phần dùng cho Steamodded -----------------------------------------------
