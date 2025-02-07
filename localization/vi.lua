@@ -3362,6 +3362,196 @@
                 }
             }
             ------------------------------------------------------------------------------------------------------------------------
+        },
+        --------------------------------------------------- Phần dùng cho CardSleeves ---------------------------------------------------
+        Mod = {
+            CardSleeves = {
+                name = "Bọc Bài",
+                text = {
+                    "{s:1.3}Thêm {s:1.3,C:attention}15{} {s:1.3,E:1,C:dark_edition}Bọc Bài{} {s:1.3}ở dạnh điều chỉnh cho các bộ bài.",
+                    " ",
+                    "Bao gồm API cho các mod khác",
+                    "tự thêm Bọc Bài của riêng chúng.",
+                    " ",
+                    "Được lập trình và áp dụng bởi {C:blue}Larswijn{}.",
+                    "Ý tưởng ban đầu và hình vẽ bởi {C:red}Sable{}.",
+                    " ",
+                    "{s:1.1}Xem https://github.com/larswijn/CardSleeves để biết thêm thông tin."
+                }
+            }
+        },
+        Sleeve = {
+            sleeve_casl_none = {
+                name = "Không Bọc",
+                text = { "Không có điều chỉnh bọc" }
+            },
+
+            sleeve_locked = {
+                name = "Bị Khoá",
+                text = {
+                    "Thắng một trận bằng",
+                    "{C:attention}#1#{} ở độ khó",
+                    "{V:1}#2#{} trở lên"
+                }
+            },
+
+            sleeve_casl_red = {
+                name = "Bọc Đỏ",
+                text = G.localization.descriptions.Back["b_red"].text
+            },
+
+            sleeve_casl_blue = {
+                name = "Bọc Lam",
+                text = G.localization.descriptions.Back["b_blue"].text
+            },
+
+            sleeve_casl_yellow = {
+                name = "Bọc Vàng",
+                text = G.localization.descriptions.Back["b_yellow"].text
+            },
+
+            sleeve_casl_green = {
+                name = "Bọc Lục",
+                text = {
+                    "Ở cuối mỗi Ván:",
+                    "{C:money}$#1#{s:0.85} mỗi {C:blue}Tay bài{} còn lại",
+                    "{C:money}$#2#{s:0.85} mỗi {C:red}Lượt bỏ bài{} còn lại",
+                    "Không nhận {C:attention}Lãi"
+                    }
+            },
+
+            sleeve_casl_black = {
+                name = "Bọc Đen",
+                text = G.localization.descriptions.Back["b_black"].text
+            },
+            sleeve_casl_black_alt = {
+                name = "Bọc Đen",
+                text = {
+                    "{C:attention}+#1#{} ô Joker",
+                    "",
+                    "{C:blue}-#2#{} tay bài",
+                    "mỗi ván"
+                }
+            },
+
+            sleeve_casl_magic = {
+                name = "Bọc Ma Pháp",
+                text = G.localization.descriptions.Back["b_magic"].text
+            },
+            sleeve_casl_magic_alt = {
+                name = "Bọc Ma Pháp",
+                text = {
+                    "Bắt đầu trận với",
+                    "phiếu {C:tarot,T:v_omen_globe}#1#{}",
+                }
+            },
+
+            sleeve_casl_nebula = {
+                name = "Bọc Tinh Vân",
+                text = G.localization.descriptions.Back["b_nebula"].text
+            },
+            sleeve_casl_nebula_alt = {
+                name = "Bọc Tinh Vân",
+                text = {
+                    "Bắt đầu trận với",
+                    "phiếu {C:planet,T:v_observatory}#1#{}",
+                    }
+            },
+
+            sleeve_casl_ghost = {
+                name = "Bọc Bóng Ma",
+                text = G.localization.descriptions.Back["b_ghost"].text
+            },
+            sleeve_casl_ghost_alt = {
+                name = "Bọc Bóng Ma",
+                text = {
+                    "Tần suất xuất hiện lá {C:spectral}Siêu Linh{}",
+                    "ở trong shop được nhân đôi,",
+                    "Các {C:spectral}Gói Siêu Linh{} có thêm",
+                    "{C:attention}#1#{} lá để chọn",
+                }
+            },
+
+            sleeve_casl_abandoned = {
+                name = "Bọc Bỏ Hoang",
+                text = G.localization.descriptions.Back["b_abandoned"].text
+            },
+            sleeve_casl_abandoned_alt = {
+                name = "Bọc Bỏ Hoang",
+                text = {
+                    "{C:attention}Lá Mặt{} sẽ không còn",
+                    "xuất hiện trong trận"
+                }
+            },
+
+            sleeve_casl_checkered = {
+                name = "Bọc Sọc Carô",
+                text = G.localization.descriptions.Back["b_checkered"].text
+            },
+            sleeve_casl_checkered_alt = {
+                name = "Bọc Sọc Carô",
+                text = {
+                    "Mọi lá {C:clubs}Tép{} sẽ biến đổi",
+                    "thành lá {C:spades}Bích{} và",
+                    "mọi lá {C:diamonds}Rô{} sẽ biến đổi",
+                    "thành lá {C:hearts}Cơ{}",
+                }
+            },
+
+            sleeve_casl_zodiac = {
+                name = "Bọc Hoàng Đạo",
+                text = G.localization.descriptions.Back["b_zodiac"].text
+            },
+            sleeve_casl_zodiac_alt = {
+                name = "Bọc Hoàng Đạo",
+                text = {
+                    "Các Gói {C:tarot}Thần Bí{} và {C:planet}Thiên Thể{} đều",
+                    "có thêm {C:attention}#1#{} lá để chọn",
+                }
+            },
+
+            sleeve_casl_painted = {
+                name = "Bọc Sơn Màu",
+                text = G.localization.descriptions.Back["b_painted"].text
+            },
+
+            sleeve_casl_anaglyph = {
+                name = "Bọc Chạm Nổi",
+                text = G.localization.descriptions.Back["b_anaglyph"].text
+            },
+            sleeve_casl_anaglyph_alt = {
+                name = "Bọc Chạm Nổi",
+                text = {
+                    "Sau khi đánh bại {C:attention}Small Blind{}",
+                    "hoặc {C:attention}Big Blind{}, nhận",
+                    "một {C:attention,T:tag_double}#1#"
+                }
+            },
+
+            sleeve_casl_plasma = {
+                name = "Bọc Plasma",
+                text = G.localization.descriptions.Back["b_plasma"].text
+            },
+            sleeve_casl_plasma_alt = {
+                name = "Bọc Plasma",
+                text = {
+                    "Cân bằng {C:money}giá tiền{} của mọi",
+                    "vật phẩm trong {C:attention}shop{}",
+                }
+            },
+
+            sleeve_casl_erratic = {
+                name = "Bọc Hỗn Loạn",
+                text = G.localization.descriptions.Back["b_erratic"].text
+            },
+            sleeve_casl_erratic_alt = {
+                name = "Bọc Hỗn Loạn",
+                text = {
+                    "Số lượng {C:blue}tay bài{}, {C:red}lượt bỏ bài{},",
+                    "{C:money}tiền{} và {C:attention}ô joker{} khởi đầu đều",
+                    "ngẫu nhiên trong khoảng từ {C:attention}#1#{} đến {C:attention}#2#{}",
+                }
+            }
         }
     },
     UI = {},
@@ -4015,7 +4205,7 @@
 			["jdis_active"] = "Có hiệu lực!",
 			["jdis_inactive"] = "Không hiệu lực",
 			["jdis_all_suits"] = "Cả 4 chất",
-            ----------------------------------- Phần dùng cho Galdur - cần phiên bản đã Việt hoá -----------------------------------
+            ------------------------------------------------- Phần dùng cho Galdur -------------------------------------------------
             ["gald_master"] = "Bật Galdur",
             ["gald_use_desc"] = {
                 "Kích hoạt thiết lập Galdur"    
@@ -4064,7 +4254,37 @@
             ["gald_quick_start"] = "Trận Trước Đó",
             ["gald_random_deck"] = "Bộ Bài Ngẫu Nhiên",
             ["gald_random_stake"] = "Cược Ngẫu Nhiên",
-            ------------------------------- Galdur loc is deprecated - made out of personal interest -------------------------------
+            ---------------------------------------------- Phần dùng cho CardSleeves ----------------------------------------------
+            k_sleeve = "Bọc Bài",
+            gald_sleeves = "Chọn Bọc",
+            gald_random_sleeve = "Bọc Ngẫu Nhiên",
+            sleeve_unique_effect_desc = "Một số bọc bài có khả năng riêng biệt khi kết hợp với một số bộ bài nhất định",
+            adjust_deck_alignment = "Xếp chồng bài",
+            adjust_deck_alignment_desc = {
+                "Xếp chồng bài gọn hơn trong trận",
+                "(chỉ ảnh hưởng đến vẻ ngoài)"
+            },
+            allow_any_sleeve_selection = "Mở khoá mọi bọc bài",
+            allow_any_sleeve_selection_desc = {
+                "Cho phép chọn bất kì bọc bài nào từ",
+                "màn hình ván mới như thể đã mở khoá"
+            },
+            sleeve_info_location = "Vị trí thông tin bọc bài",
+            sleeve_info_location_desc = {
+                "Chọn vị trí hiển thị thông tin bọc bài",
+                "như tên và mô tả (chỉ ảnh hưởng đến vẻ ngoài)"
+            },
+            sleeve_info_location_options = {
+                "Chỉ ở Bảng Bộ bài",
+                "Chỉ ở T.Tin Trận Này",
+                "Xem ở cả hai",
+                "Ẩn T.Tin bọc bài"
+            },
+            sleeve_not_found_error = "Không thể tìm thấy bọc bài! Mod của nó bị gỡ rồi à?",
+            ----------------------------------------------- Phần dùng cho Incantation -----------------------------------------------
+            incant_negatives_only = "Chỉ chồng lá Âm Bản",
+            incant_stack_anything = "Cho phép chồng & chia bất kì lá tiêu thụ nào",
+			incant_unsafe_mode = 'Chế độ Không an toàn',
             ----------------------------------- Phần dùng cho Nopeus - cần phiên bản đã Việt hoá -----------------------------------
             nopeus_ff = "Siêu Tốc",
             nopeus_popup = "Chữ Lá Bài Nổi Lên",
@@ -4207,7 +4427,12 @@
             },
             ch_c_set_joker_slots_ante = {
                 "Khi boss ante {C:attention}#1#{} bị đánh bại, đặt số ô Joker thành {C:attention}0"
+            },
+            ---------------------------------------------- Phần dùng cho CardSleeves ----------------------------------------------
+            ch_m_sleeve = {
+                "Bắt đầu với {C:attention}#1#{}"
             }
+            -----------------------------------------------------------------------------------------------------------------------
         },
         quips = {
             wq_1 = {"Bạn Xuất Xắc lắm!"},
