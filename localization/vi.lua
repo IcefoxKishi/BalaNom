@@ -3368,7 +3368,7 @@
             CardSleeves = {
                 name = "Bọc Bài",
                 text = {
-                    "{s:1.3}Thêm {s:1.3,C:attention}15{} {s:1.3,E:1,C:dark_edition}Bọc Bài{} {s:1.3}ở dạnh điều chỉnh cho các bộ bài.",
+                    "{s:1.3}Thêm {s:1.3,C:attention}15{} {s:1.3,E:1,C:dark_edition}Bọc Bài{} {s:1.3}ở dạng điều chỉnh cho các bộ bài.",
                     " ",
                     "Bao gồm API cho các mod khác",
                     "tự thêm Bọc Bài của riêng chúng.",
