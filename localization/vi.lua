@@ -4440,7 +4440,7 @@
                 "Mỗi lượt bỏ bài tốn {C:money}$#1#"
             },
             ch_c_all_eternal = {
-                "Tất cả Jokers đều {C:eternal}Vĩnh Hằng"
+                "Mọi Joker đều {C:eternal}Vĩnh Hằng"
             },
             ch_c_flipped_cards = {
                 "{C:green}1 trên #1#{} lá bị bốc sấp"
