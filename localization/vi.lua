@@ -3389,6 +3389,22 @@
                     " ",
                     "{s:1.1}Xem https://github.com/larswijn/CardSleeves để biết thêm thông tin."
                 }
+            },
+            ---------------------------------------------- Phần dùng cho JokerDisplay -----------------------------------------------
+            ["JokerDisplay"] = {
+                name = "JokerDisplay",
+                text = {
+                    "Hiển thị thông tin hữu ích ngay bên dưới lá Joker",
+					" ",
+                    "{C:attention}Phím tắt:{}",
+                    "{C:blue}Chuột phải hoặc B:{} ẩn/hiện",
+                    "{C:blue}Chuột trái hoặc Mũi tên lên:{} đóng sập/mở rộng",
+					" ",
+					"Lời cảm ơn chân thành đến {C:green}Eremel{} và {C:green}OppositeWolf770{}",
+					" ",
+					"Bản dịch tiếng Nga bởi: {C:green}WholeHorse{}",
+					"Bản dịch tiếng Pháp bởi: {C:green}SDM_0{}",
+                },
             }
             -------------------------------------------------------------------------------------------------------------------------
         },
