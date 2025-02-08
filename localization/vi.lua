@@ -4329,6 +4329,7 @@
             k_voucher_restock_1 = "ĐÁNH BẠI",
             k_voucher_restock_2 = "BOSS BLIND",
             k_voucher_restock_3 = "ĐỂ THAY MỚI",
+            k_cry_voucher_restock_2 = "HAI BOSS BLIND",
         },
         v_dictionary = {
             a_xmult = "X#1# Nhân",
