@@ -3363,8 +3363,19 @@
             }
             ------------------------------------------------------------------------------------------------------------------------
         },
-        --------------------------------------------------- Phần dùng cho CardSleeves ---------------------------------------------------
         Mod = {
+            VNBalatro = {
+                name = "Balatro tiếng Việt",
+                text = {
+                   "{s:1.3}Thêm bản dịch {s:1.3,C:red}tiếng {s:1.3,C:money}Việt{} {s:1.3}cho Balatro và cung cấp font m6x11plus đã",
+                   "{s:1.3}được tinh chỉnh lại để hỗ trợ ngôn ngữ này.",
+                   " ",
+                   "Hiện đang cung cấp bản dịch cho game gốc và các mod sau:",
+                   "CardSleeves, Galdur, Incantation và JokerDisplay.",
+                   "(bản dịch Cryptid nằm ở mod chính chủ)",
+                },
+            },
+            ----------------------------------------------- Phần dùng cho CardSleeves -----------------------------------------------
             CardSleeves = {
                 name = "Bọc Bài",
                 text = {
@@ -3379,6 +3390,7 @@
                     "{s:1.1}Xem https://github.com/larswijn/CardSleeves để biết thêm thông tin."
                 }
             }
+            -------------------------------------------------------------------------------------------------------------------------
         },
         Sleeve = {
             sleeve_casl_none = {
