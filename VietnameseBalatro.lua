@@ -1,15 +1,3 @@
---- STEAMODDED HEADER
---- MOD_NAME: Vietnamese Balatro
---- MOD_ID: VNBalatro
---- MOD_AUTHOR: [HuyTheKiller]
---- MOD_DESCRIPTION: Adds Vietnamese translation to Balatro while using a modified version of m6x11plus. Thêm tiếng Việt vào Balatro trong khi dùng một phiên bản đã chỉnh sửa của m6x11plus.
---- PRIORITY: 9999999999
---- DISPLAY_NAME: Vietnamese Balatro
---- VERSION: 1.2.1
---- DEPENDENCIES: [Steamodded>=1.0.0~ALPHA-1217c]
-
-----------------------------------------------
-------------MOD CODE -------------------------
 SMODS.Language({
 	key = "vi",
 	label = "Tiếng Việt",
