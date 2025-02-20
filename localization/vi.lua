@@ -3371,8 +3371,8 @@
                    "{s:1.3}được tinh chỉnh lại để hỗ trợ ngôn ngữ này.",
                    " ",
                    "Hiện đang cung cấp bản dịch cho game gốc và các mod sau:",
-                   "CardSleeves, Galdur, Incantation và JokerDisplay.",
-                   "(bản dịch Cryptid nằm ở mod chính chủ)",
+                   "CardSleeves, Cryptid, Galdur, Incantation,",
+                   "JokerDisplay, Multiplayer và Ortalab.",
                 },
             },
             ----------------------------------------------- Phần dùng cho CardSleeves -----------------------------------------------
