@@ -1086,8 +1086,8 @@
             j_erosion = {
                 name = "Xói Mòn",
                 text = {
-                    "{C:red}+#1#{} Nhân cho",
-                    "mỗi lá bài dưới mức {C:attention}#3#{} lá",
+                    "{C:red}+#1#{} Nhân cho mỗi",
+                    "lá bài dưới mức {C:attention}#3#{} lá",
                     "trong cả bộ bài của bạn",
                     "{C:inactive}(Hiện tại là {C:red}+#2#{C:inactive} Nhân)"
                 }
@@ -1187,7 +1187,7 @@
                 name = "Ramen",
                 text = {
                     "{X:mult,C:white} X#1# {} Nhân,",
-                    "mất {X:mult,C:white} X#2# {} Nhân",
+                    "mất đi {X:mult,C:white} X#2# {} Nhân",
                     "mỗi {C:attention}lá bài{} bị bỏ",
                 }
             },
@@ -2473,7 +2473,7 @@
                 text = {
                     "Nhận {C:money}$#1#{} mỗi {C:blue}tay",
                     "đã chơi trận này",
-                    "{C:inactive}(Sẽ Nhận {C:money}$#2#{C:inactive})"
+                    "{C:inactive}(Sẽ nhận {C:money}$#2#{C:inactive})"
                 }
             },
             tag_garbage = {
@@ -2672,7 +2672,7 @@
             bl_house = {
                 name = "The House",
                 text = {
-                    "Tay đầu tiên",
+                    "Đợt bốc đầu tiên",
                     "bị bốc sấp"
                 }
             },
@@ -4024,7 +4024,7 @@
             k_skipped_cap = "ĐÃ BỎ QUA",
             k_no_reward = "Không Thưởng",
             k_reward = "Thưởng",
-            k_nope_ex = "Thục Lắc!",
+            k_nope_ex = "Trật!",
             k_not_allowed_ex = "Không Hợp Lệ!",
             k_or = "hoặc",
             k_poker_hand = "tay poker",
