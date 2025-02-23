@@ -995,7 +995,7 @@
                 text = {
                     "Joker này thêm {X:mult,C:white} X#1# {} Nhân",
                     "mỗi khi một {C:attention}lá bài thường",
-                    "được thêm vào bộ bài của bạn",
+                    "được thêm vào bộ bài",
                     "{C:inactive}(Hiện tại là {X:mult,C:white} X#2# {C:inactive} Nhân)"
                 }
             },
@@ -1088,7 +1088,7 @@
                 text = {
                     "{C:red}+#1#{} Nhân cho mỗi",
                     "lá bài dưới mức {C:attention}#3#{} lá",
-                    "trong cả bộ bài của bạn",
+                    "trong cả bộ bài",
                     "{C:inactive}(Hiện tại là {C:red}+#2#{C:inactive} Nhân)"
                 }
             },
@@ -1321,7 +1321,7 @@
                 text = {
                     "{X:mult,C:white} X#1# {} Nhân nếu bạn sở hữu",
                     "ít nhất {C:attention}16{} lá Cường Hoá",
-                    "trong cả bộ bài của bạn",
+                    "trong cả bộ bài",
                     "{C:inactive}(Hiện tại là {C:attention}#2#{C:inactive})"
                 },
                 unlock = {
@@ -2162,7 +2162,7 @@
                     "phá huỷ toàn bộ Joker khác"
                 }
             },
-            c_trance = {
+            c_S = {
                 name = "Thôi Miên",
                 text = {
                     "Thêm một {C:blue}Con Dấu Xanh",
