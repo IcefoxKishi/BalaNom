@@ -9,7 +9,7 @@ return {
                    " ",
                    "Currently providing translation for vanilla game and the following mods:",
                    "CardSleeves, Cryptid, Galdur, Incantation,",
-                   "JokerDisplay, Multiplayer and Ortalab.",
+                   "JokerDisplay, Jokermon, Multiplayer, and Ortalab.",
                 },
             },
         },

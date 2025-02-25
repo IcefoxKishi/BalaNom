@@ -3372,7 +3372,7 @@
                    " ",
                    "Hiện đang cung cấp bản dịch cho game gốc và các mod sau:",
                    "CardSleeves, Cryptid, Galdur, Incantation,",
-                   "JokerDisplay, Multiplayer và Ortalab.",
+                   "JokerDisplay, Jokermon, Multiplayer và Ortalab.",
                 },
             },
             ----------------------------------------------- Phần dùng cho CardSleeves -----------------------------------------------
