@@ -3168,7 +3168,7 @@
             undiscovered_tag = {
                 name = "Chưa Khám Phá",
                 text = {
-                    "Dùng nhãn này",
+                    "Dùng nhãn bỏ qua này",
                     "trong một trận ngẫu nhiên",
                     "để biết tác dụng của nó"
                 }
@@ -3916,7 +3916,7 @@
             b_enhanced_cards = "Lá Cường Hoá",
             b_editions = "Ấn Bản",
             b_booster_packs = "Gói Bài",
-            b_tags = "Nhãn",
+            b_tags = "Nhãn Bỏ Qua",
             b_decks = "Bộ Bài",
             b_seals = "Con Dấu",
             b_continue = "Tiếp Tục",
