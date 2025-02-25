@@ -12,8 +12,10 @@ Dự án này độc lập với [bản mod của Kanbei](https://github.com/Kan
 
 ## Cài đặt thủ công
 - Không có cài đặt tự động nha, dùng Steamodded thì phải làm quen với điều đó.
-- Đến trang [Release](https://github.com/HuyTheKiller/VietnameseBalatro/releases) và chọn phiên bản mới nhất để tải bản mod này xuống.
-- Giải nén rồi kéo thả thư mục "VietnameseBalatro" vào trong thư mục "Mods". Địa chỉ tương ứng của nó sẽ là:
+- Chọn 1 trong 2 cách sau:
+- 1. Nhấn vào [đây](https://github.com/HuyTheKiller/VietnameseBalatro/releases/latest) để đến trang Release chứa phiên bản mới nhất rồi nhấn vào VietnameseBalatro_v1.x.x.zip để tải về.
+- 2. Nhấn vào [đây](https://github.com/HuyTheKiller/VietnameseBalatro/archive/refs/heads/main.zip) để tải ngay bản mới nhất (main branch).
+- Giải nén rồi kéo thả thư mục "VietnameseBalatro" (không được phép lồng thư mục trùng tên) vào trong thư mục "Mods". Địa chỉ tương ứng của nó sẽ là:
 **Windows:** `%AppData%/Balatro`; **Mac:** `~/Library/Application Support/Balatro`; **Linux (WINE/Proton):** `~/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro`
 
 # Lưu ý khi sử dụng mod
@@ -34,8 +36,7 @@ Dự án này độc lập với [bản mod của Kanbei](https://github.com/Kan
 - Để chơi Balatro có mod, bạn phải chạy dòng lệnh `sh địa_chỉ/đến_tệp/run_lovely.sh` trong Terminal
 - Vì thế nên chỉ cần khởi chạy Balatro từ Steam để tái thiết tuỳ chọn ngôn ngữ
 # Danh sách tính năng/công việc đang chờ
-- Đóng góp để mở rộng hỗ trợ dịch thuật cho Steamodded
-- Việt hoá hoàn toàn giao diện Steamodded trong game
+- Việt hoá một số mod nổi tiếng
 
 
 ---
@@ -54,8 +55,10 @@ Note that this project is independent of [Kanbei's mod](https://github.com/Kanbe
 
 ## Manual installation
 - There is no "automatic" installation, which is a very common thing when using Steamodded. Just don't complain please.
-- Head to the [Release](https://github.com/HuyTheKiller/VietnameseBalatro/releases) page and select the latest version to download this mod.
-- Unzip the archive then drag and drop the "VietnameseBalatro" folder into "Mods". Its respective directory for each OS will be:
+- Chọn one of the following ways:
+- 1. Click [here](https://github.com/HuyTheKiller/VietnameseBalatro/releases/latest) to head to the Release page of the latest version then click on VietnameseBalatro_v1.x.x.zip to download it.
+- 2. Click [here](https://github.com/HuyTheKiller/VietnameseBalatro/archive/refs/heads/main.zip) to instantly download the latest main branch.
+- Unzip the archive then drag and drop the "VietnameseBalatro" folder (nested folder with the same name is not allowed) into "Mods". Its respective directory for each OS will be:
 **Windows:** `%AppData%/Balatro`; **Mac:** `~/Library/Application Support/Balatro`; **Linux (WINE/Proton):** `~/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro`
 
 # Important notes while using this mod
@@ -76,5 +79,4 @@ Note that this project is independent of [Kanbei's mod](https://github.com/Kanbe
 - In order to play modded Balatro, you have to run the command `sh path/to/run_lovely.sh` in Terminal
 - Therefore all you need to do is to launch Balatro via Steam to reset language option
 # To-do list
-- Contribute to Steamodded's localization support
-- Fully localize Steamodded UI
+- Add Vietnamese localization to well-known mods
