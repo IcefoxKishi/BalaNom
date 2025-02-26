@@ -3427,25 +3427,57 @@
                 name = "Bọc Đỏ",
                 text = G.localization.descriptions.Back["b_red"].text
             },
+            sleeve_casl_red_alt = {
+                name = "Bọc Đỏ",
+                text = {
+                    "{C:red}+#1#{} lượt bỏ bài mỗi ván",
+                    "",
+                    "{C:blue}#2#{} tay bài mỗi ván"
+                },
+            },
 
             sleeve_casl_blue = {
                 name = "Bọc Lam",
                 text = G.localization.descriptions.Back["b_blue"].text
+            },
+            sleeve_casl_blue_alt = {
+                name = "Bọc Lam",
+                text = {
+                    "{C:blue}+#1#{} tay bài mỗi ván",
+                    "",
+                    "{C:red}#2#{} lượt bỏ bài mỗi ván"
+                },
             },
 
             sleeve_casl_yellow = {
                 name = "Bọc Vàng",
                 text = G.localization.descriptions.Back["b_yellow"].text
             },
+            sleeve_casl_yellow_alt = {
+                name = "Bọc Vàng",
+                text = {
+                    "Bắt đầu trận với",
+                    "phiếu {C:money,T:v_seed_money}#1#{}"
+                },
+            },
 
             sleeve_casl_green = {
                 name = "Bọc Lục",
                 text = {
                     "Ở cuối mỗi Ván:",
-                    "{C:money}$#1#{s:0.85} mỗi {C:blue}Tay bài{} còn lại",
-                    "{C:money}$#2#{s:0.85} mỗi {C:red}Lượt bỏ bài{} còn lại",
+                    "+{C:money}$#1#{s:0.85} mỗi {C:blue}Tay bài{} còn lại",
+                    "+{C:money}$#2#{s:0.85} mỗi {C:red}Lượt bỏ bài{} còn lại",
                     "Không nhận {C:attention}Lãi"
                     }
+            },
+            sleeve_casl_green_alt = {
+                name = "Bọc Lục",
+                text = {
+                    "Ghi nợ {C:red}$#1#{}",
+                    "cho mỗi Tay bài",
+                    "và Lượt bỏ bài",
+                    "{C:inactive}(Hiện tại là {C:red}-$#2#{C:inactive})"
+                }
             },
 
             sleeve_casl_black = {
@@ -3457,7 +3489,7 @@
                 text = {
                     "{C:attention}+#1#{} ô Joker",
                     "",
-                    "{C:blue}-#2#{} tay bài",
+                    "{C:blue}-#2#{} lượt bỏ bài",
                     "mỗi ván"
                 }
             },
@@ -3541,6 +3573,13 @@
             sleeve_casl_painted = {
                 name = "Bọc Sơn Màu",
                 text = G.localization.descriptions.Back["b_painted"].text
+            },
+            sleeve_casl_painted_alt = {
+                name = "Bọc Sơn Màu",
+                text = {
+                    "{C:attention}+#1#{} số lá có thể chọn,",
+                    "{C:red}#2#{} ô Joker",
+                }
             },
 
             sleeve_casl_anaglyph = {
