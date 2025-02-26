@@ -2162,7 +2162,7 @@
                     "phá huỷ toàn bộ Joker khác"
                 }
             },
-            c_S = {
+            c_trance = {
                 name = "Thôi Miên",
                 text = {
                     "Thêm một {C:blue}Con Dấu Xanh",
