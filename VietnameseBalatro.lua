@@ -12,7 +12,7 @@ SMODS.Language({
 	},
 	beta = true,
 	button = "Phản Hồi Ngôn Ngữ (vô dụng)",
-	warning = {"Đây là bản dịch cá nhân và được chèn vào game thông qua Steamodded.", "Nếu có thắc mắc, vui lòng liên hệ chủ bản dịch", "dưới tên theambushingbush trong máy chủ Balatro chính thức."},
+	warning = {"Đây là bản dịch cá nhân và được chèn vào game thông qua Steamodded (smods).", "Nếu có thắc mắc, vui lòng liên hệ chủ bản dịch", "dưới tên theambushingbush trong máy chủ Balatro chính thức."},
 	path = "vi.lua",
 })
 
