@@ -1765,7 +1765,7 @@ return{
                 text={
                     "造𦋦蘿{C:tarot}些鱸",
                     "或蘿{C:planet}行星",
-                    "得用gầnnhất",
+                    "得用近一",
                     "𥪝陣呢",
                     "{s:0.8}空包歉{s:0.8,C:tarot}仉呆"
                 }
@@ -2924,7 +2924,7 @@ return{
                 text={
                     "無効化差",
                     "{C:attention}#1#{}盤",
-                    "{C:inactive}(còn{C:attention}#2#{C:inactive}盤)"
+                    "{C:inactive}(噲{C:attention}#2#{C:inactive}盤)"
                 }
             },
             rental={
