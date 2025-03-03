@@ -2494,7 +2494,7 @@ return{
                 text={
                     "造𦋦版抄𧵑",
                     "{C:attention}沲{}㐌撰接遶",
-                    "{s:0.8}空baogồm{s:0.8,C:attention}沲甲"
+                    "{s:0.8}空包歉{s:0.8,C:attention}沲甲"
                 }
             },
             tag_juggle={
