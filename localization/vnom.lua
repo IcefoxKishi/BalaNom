@@ -3324,7 +3324,7 @@ return{
             },
             load_failure_o={
                 text={
-                    '𣱬𥣫{C:attention}過屢！',
+                    '汽㩢{C:attention}過屢！',
                     '翻版自{C:money}0.9.8{}㨋𨑜',
                     '空噲得互助。'
                 }
@@ -3332,7 +3332,7 @@ return{
             load_failure_i={
                 text={
                     '{C:attention}空相適！{}',
-                    '𫢍𣱬𥣫翻版#1#,',
+                    '𫢍汽㩢翻版#1#,',
                     '仍當用#2#.'
                 }
             },
@@ -3641,48 +3641,48 @@ return{
             Selected="㐌撰"
         },
         ranks={
-            Ace="Ａ",
-            King="Ｋ",
-            Queen="Ｑ",
-            Jack="Ｊ",
+            Ace="A",
+            King="K",
+            Queen="Q",
+            Jack="J",
             ['10']="10",
-            ['9']="９",
-            ['8']="８",
-            ['7']="７",
-            ['6']="６",
-            ['5']="５",
-            ['4']="４",
-            ['3']="３",
-            ['2']="２"
+            ['9']="9",
+            ['8']="8",
+            ['7']="7",
+            ['6']="6",
+            ['5']="5",
+            ['4']="4",
+            ['3']="3",
+            ['2']="2"
         },
         collabs={
-            --------------------------dịchtêngamemấtdạy101--------------------------
+            --------------------------dịch tên game mất dạy 101--------------------------
             Spades={
                 ['1']='默定',
-                ['2']='𠊛符水',---thewitcher
-                ['3']='浮亂電子2077',---saibờpăn'77
-                ['4']='俠士鏟',---shovelknight
-                ['5']='停折𠲝',---don'tstarve
+                ['2']='𠊛符水',---the witcher
+                ['3']='遊棍數2077',---sai bờ păn '77
+                ['4']='俠士鏟',---shovel knight
+                ['5']='停折𠲝',---don't starve
             },
             Hearts={
                 ['1']='默定',
                 ['2']='中眾些',---amogus
-                ['3']='生祭衣角',---thebindingofisaac
-                ['4']='宗教裘嫩',---cultofthelamb
-                ['5']='神界：罪儡頭先２'---divinityoriginalsin2,
+                ['3']='生祭衣角',---the binding of isaac
+                ['4']='宗教裘嫩',---cult of the lamb
+                ['5']='神界：罪儡頭先２',---divinity original sin 2
             },
             Clubs={
                 ['1']='默定',
-                ['2']='𤯨率魔茄蠬',---vampiresurvivors
-                ['3']='𢷄𡼈',---slaythespire
-                ['4']='製神藥',---potioncraft
+                ['2']='𤯨率魔茄蠬',---vampire survivors
+                ['3']='𢷄𡼈',---slay the spire
+                ['4']='製神藥',---potion craft
                 ['5']='具𣛠戰爭',---warframe
             },
             Diamonds={
                 ['1']='默定',
-                ['2']='𠏲𣵰多撝',---davethediver
-                ['3']='樁隴𣇟枚',---stardewvalley
-                ['4']='𠓨獄銃',---enterthegungeon
+                ['2']='𠏲𣵰多撝',---dave the diver
+                ['3']='樁隴𣇟枚',---stardew valley
+                ['4']='𠓨獄銃',---enter the gungeon
                 ['5']='千因抗拒',---1000xresist
             },
             --------------------------------------------------------------------------------------------------------
@@ -3938,7 +3938,7 @@ return{
             b_stat_vouchers="票",
             b_next="接遶",
             b_endless="制度無限",
-            b_wishlist="添𠓨名冊約𨕭𣱬",
+            b_wishlist="添𠓨名冊約𨕭汽",
             b_playbalatro="𦤾張playbalatro.com",
             b_remaining="部噲吏",
             b_full_deck="部苔覩",
@@ -4030,7 +4030,7 @@ return{
             k_base_cap="點棧",
             k_jokers_cap="播消",
             k_vouchers_cap="票",
-            k_x_base="Ｘ點棧",
+            k_x_base="X點棧",
             k_not_discovered="諸勘破",
             k_unlocked_ex="㐌𢲫鎖！",
             k_achievement="成就",
@@ -4124,7 +4124,7 @@ return{
             ph_alert_debuff_confirm="𢭝'𨔈'吏帝確認",
             ml_demo_thanks_message={
                 "咳推擬𧗱役添波羅朱",
-                "𠓨名冊約𨕭𣱬吧登記",
+                "𠓨名冊約𨕭汽吧登記",
                 "認榜信於playbalatro.com"
             },
             ml_eternal={
@@ -4222,7 +4222,7 @@ return{
             b_mods='㩢',
             b_mods_cap='㩢',
             b_modded_version='版㧡㩢！',
-            b_steamodded='𣱬㩢',
+            b_steamodded='汽㩢',
             b_open_mods_dir='𢲫書目㩢',
             b_no_mods='空發現㩢鬧。。。',
             b_mod_list='名冊㩢㐌激活',
