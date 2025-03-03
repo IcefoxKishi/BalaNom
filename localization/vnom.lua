@@ -1220,7 +1220,7 @@ return{
                 text={
                     "再激每蘿牌",
                     "㐌𨔈朱",
-                    "{C:attention}#1#{}拪㕸𬧐",
+                    "{C:attention}#1#{}拪㕸逮",
                 }
             },
             j_castle={
@@ -1759,8 +1759,8 @@ return{
                 }
             }
         },
-        tarot={
-            c_fool={
+        Tarot = {
+            c_fool = {
                 name="仉呆",
                 text={
                     "造𦋦蘿{C:tarot}些鱸",
@@ -1770,7 +1770,7 @@ return{
                     "{s:0.8}空包歉{s:0.8,C:tarot}仉呆"
                 }
             },
-            c_magician={
+            c_magician = {
                 name="法師",
                 text={
                     "彊化{C:attention}#1#",
@@ -1778,7 +1778,7 @@ return{
                     "{C:attention}#2#"
                 }
             },
-            c_high_priestess={
+            c_high_priestess = {
                 name="大司祭",
                 text={
                     "造𦋦最多{C:attention}#1#",
@@ -1786,7 +1786,7 @@ return{
                     "{C:inactive}(沛固杇𥧪)"
                 }
             },
-            c_empress={
+            c_empress = {
                 name="皇后",
                 text={
                     "彊化{C:attention}#1#",
@@ -1794,7 +1794,7 @@ return{
                     "{C:attention}#2#"
                 }
             },
-            c_emperor={
+            c_emperor = {
                 name="皇帝",
                 text={
                     "造𦋦最多{C:attention}#1#",
@@ -1802,7 +1802,7 @@ return{
                     "{C:inactive}(沛固杇𥧪)"
                 }
             },
-            c_heirophant={
+            c_heirophant = {
                 name="教皇",
                 text={
                     "彊化{C:attention}#1#",
@@ -1810,7 +1810,7 @@ return{
                     "{C:attention}#2#"
                 }
             },
-            c_lovers={
+            c_lovers = {
                 name="情人",
                 text={
                     "彊化{C:attention}#1#",
@@ -1818,7 +1818,7 @@ return{
                     "{C:attention}#2#"
                 }
             },
-            c_chariot={
+            c_chariot = {
                 name="戰車",
                 text={
                     "彊化{C:attention}#1#",
@@ -1826,7 +1826,7 @@ return{
                     "{C:attention}#2#"
                 }
             },
-            c_justice={
+            c_justice = {
                 name="公理",
                 text={
                     "彊化{C:attention}#1#",
@@ -1834,14 +1834,14 @@ return{
                     "{C:attention}#2#"
                 }
             },
-            c_hermit={
+            c_hermit = {
                 name="隱士",
                 text={
                     "因對數錢伴固",
                     "{C:inactive}(最多{C:money}$#1#{C:inactive})"
                 }
             },
-            c_wheel_of_fortune={
+            c_wheel_of_fortune = {
                 name="碰車數分",
                 text={
                     "確率{C:green}#1#𨕭#2#{}帝添",
@@ -1850,7 +1850,7 @@ return{
                     "偶然"
                 }
             },
-            c_strength={
+            c_strength = {
                 name="力孟",
                 text={
                     "增堛",
@@ -1858,14 +1858,14 @@ return{
                     "㐌撰𨕭{C:attention}1"
                 }
             },
-            c_hanged_man={
+            c_hanged_man = {
                 name="仉挑逆",
                 text={
                     "破毀最多",
                     "{C:attention}#1#{}蘿牌㐌撰"
                 }
             },
-            c_death={
+            c_death = {
                 name="死神",
                 text={
                     "撰{C:attention}#1#{}蘿,",
@@ -1874,7 +1874,7 @@ return{
                     "{C:inactive}(抖𫿇帝拉插次序)"
                 }
             },
-            c_temperance={
+            c_temperance = {
                 name="和合",
                 text={
                     "認總價𧸝𧵑",
@@ -1883,7 +1883,7 @@ return{
                     "{C:inactive}(現在羅{C:money}$#2#{C:inactive})"
                 }
             },
-            c_devil={
+            c_devil = {
                 name="惡鬼",
                 text={
                     "彊化{C:attention}#1#",
@@ -1891,7 +1891,7 @@ return{
                     "{C:attention}#2#"
                 }
             },
-            c_tower={
+            c_tower = {
                 name="座塔",
                 text={
                     "彊化{C:attention}#1#",
@@ -1899,7 +1899,7 @@ return{
                     "{C:attention}#2#"
                 }
             },
-            c_star={
+            c_star = {
                 name="星宿",
                 text={
                     "變𢷮最多",
@@ -1907,7 +1907,7 @@ return{
                     "質{V:1}#2#"
                 }
             },
-            c_moon={
+            c_moon = {
                 name="映月",
                 text={
                     "變𢷮最多",
@@ -3637,7 +3637,7 @@ return{
             Skipped="㐌𠬃過",
             Current="現在",
             Defeated="㐌打敗",
-            Upcoming="挹𬧐",
+            Upcoming="挹逮",
             Selected="㐌撰"
         },
         ranks={
@@ -3688,7 +3688,7 @@ return{
             --------------------------------------------------------------------------------------------------------
         },
         high_scores={
-            hand="拪𡨧一",
+            hand="拪卒一",
             furthest_round="盤高一",
             furthest_ante="級蹻高一",
             most_money="墨錢高一",
