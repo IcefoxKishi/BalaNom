@@ -1,11 +1,11 @@
 {
-	"id": "VNBalatro",
-	"name": "Vietnamese Balatro",
-	"author": ["HuyTheKiller"],
-	"description": "Adds Vietnamese as a selectable language for Balatro. Load this mod for more information.",
-	"prefix": "vn",
+	"id": "BalNom",
+	"name": "BalaNom",
+	"author": ["HuyTheKiller", "IcefoxKishi"],
+	"description": "Adds Vietnamese in Nom script as a selectable language for Balatro. Load this mod for more information.",
+	"prefix": "vnom",
 	"main_file": "VietnameseBalatro.lua",
 	"priority": 9999999999,
-	"version": "1.3.0",
+	"version": "1.0.0",
 	"dependencies": ["Steamodded (>=1.0.0~ALPHA-1217c)"]
 }
