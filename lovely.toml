@@ -115,7 +115,7 @@ match_indent = true
 target = "game.lua"
 pattern = '''['zh_TW'] = {font = 3, label = "繁體中文", key = 'zh_TW', beta = nil, button = "意見回饋", warning = {'這個語言目前尚為Beta版本。請幫助我們改善翻譯品質，','點擊”意見回饋” 來提供你的意見。', "再按一下即可確認"}},'''
 position = "after"
-payload = '''['vi'] = {font = 3, label = "Tiếng Việt", key = 'vi', beta = true, button = "Phản Hồi Ngôn Ngữ (vô dụng)", warning = {"Đây là bản dịch cá nhân và được chèn vào game thông qua Lovely.", "Phương thức chèn này cực kì thiếu ổn định. Vui lòng cài thêm", "Steamodded (smods) để tối ưu hoá trải nghiệm nếu có thể."}},'''
+payload = '''['vnom'] = {font = 3, label = "𡨸喃", key = 'vnom', beta = true, button = "返回言語（無用）", warning = {"低羅版譯個人吧得躔𠓨𠻀𨔈通過拉璃。", "方式躔呢極其少穩定。𢝙弄㧡添", "𣱬㩢（smods）帝最優化𣦆驗裊固體。"}},'''
 match_indent = true
 
 [[patches]]
@@ -123,7 +123,7 @@ match_indent = true
 target = "globals.lua"
 pattern = "VERSION = VERSION..'-FULL'"
 position = "after"
-payload = "VERSIONVN = VERSION..'-VietnameseBalatro by HuyTheKiller'"
+payload = "VERSIONVN = VERSION..'-BalaNom by HuyTheKiller & IcefoxKishi'"
 match_indent = true
 
 [[patches]]

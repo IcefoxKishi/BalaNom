@@ -11,7 +11,7 @@ return{
                 name="播消𢝙閏",
                 text={
                     "{C:red}+#1#{}因裊",
-                    "𢬣牌㐌𨔈",
+                    "拪牌㐌𨔈",
                     "諸{C:attention}#2#"
                 }
             },
@@ -19,7 +19,7 @@ return{
                 name="播消諧謔",
                 text={
                     "{C:red}+#1#{}因裊",
-                    "𢬣牌㐌𨔈",
+                    "拪牌㐌𨔈",
                     "諸{C:attention}#2#"
                 }
             },
@@ -27,7 +27,7 @@ return{
                 name="播消癲狂",
                 text={
                     "{C:red}+#1#{}因裊",
-                    "𢬣牌㐌𨔈",
+                    "拪牌㐌𨔈",
                     "諸{C:attention}#2#"
                 }
             },
@@ -35,7 +35,7 @@ return{
                 name="播消癲呆",
                 text={
                     "{C:red}+#1#{}因裊",
-                    "𢬣牌㐌𨔈",
+                    "拪牌㐌𨔈",
                     "諸{C:attention}#2#"
                 }
             },
@@ -43,7 +43,7 @@ return{
                 name="播消詼諧",
                 text={
                     "{C:red}+#1#{}因裊",
-                    "𢬣牌㐌𨔈",
+                    "拪牌㐌𨔈",
                     "諸{C:attention}#2#"
                 }
             },
@@ -51,7 +51,7 @@ return{
                 name="播消撈家",
                 text={
                     "{C:chips}+#1#{}闡裊",
-                    "𢬣牌㐌𨔈",
+                    "拪牌㐌𨔈",
                     "諸{C:attention}#2#"
                 }
             },
@@ -59,7 +59,7 @@ return{
                 name="播消巧譎",
                 text={
                     "{C:chips}+#1#{}闡裊",
-                    "𢬣牌㐌𨔈",
+                    "拪牌㐌𨔈",
                     "諸{C:attention}#2#"
                 }
             },
@@ -67,15 +67,15 @@ return{
                 name="播消矯了",
                 text={
                     "{C:chips}+#1#{}闡裊",
-                    "𢬣牌㐌𨔈",
+                    "拪牌㐌𨔈",
                     "諸{C:attention}#2#"
                 }
             },
             j_devious={
-                name="播消𩲵魔",
+                name="播消伶魔",
                 text={
                     "{C:chips}+#1#{}闡裊",
-                    "𢬣牌㐌𨔈",
+                    "拪牌㐌𨔈",
                     "諸{C:attention}#2#"
                 }
             },
@@ -83,7 +83,7 @@ return{
                 name="播消巧詐",
                 text={
                     "{C:chips}+#1#{}闡裊",
-                    "𢬣牌㐌𨔈",
+                    "拪牌㐌𨔈",
                     "諸{C:attention}#2#"
                 }
             },
@@ -91,7 +91,7 @@ return{
                 name="𡛤播消",
                 text={
                     "{C:red}+#1#{}因裊",
-                    "𢬣牌㐌𨔈諸",
+                    "拪牌㐌𨔈諸",
                     "{C:attention}#2#{}蘿或𠃝欣"
                 }
             },
@@ -234,7 +234,7 @@ return{
                 name="𥸠會員",
                 text={
                     "{X:red,C:white}X#1#{}人每",
-                    "{C:attention}#2#{}𢬣牌㐌𨔈",
+                    "{C:attention}#2#{}拪牌㐌𨔈",
                     "{C:inactive}#3#"
                 }
             },
@@ -256,7 +256,7 @@ return{
                 }
             },
             j_chaos={
-                name="𭛭混亂",
+                name="係混亂",
                 text={
                     "{C:attention}#1#{}{C:green}辣招吏",
                     "免費每㪯行"
@@ -397,7 +397,7 @@ return{
                 name="𠫾車扒",
                 text={
                     "播消呢添{C:mult}+#1#{}因",
-                    "每𢬣牌㐌𨔈{C:attention}連接",
+                    "每拪牌㐌𨔈{C:attention}連接",
                     "麻空貯蘿{C:attention}𩈘",
                     "掑點",
                     "{C:inactive}(現在羅{C:mult}+#2#{C:inactive}因)"
@@ -439,7 +439,7 @@ return{
                 name="𧼋越野",
                 text={
                     "添{C:chips}+#2#{}闡",
-                    "裊𢬣牌㐌𨔈",
+                    "裊拪牌㐌𨔈",
                     "貯{C:attention}蛇",
                     "{C:inactive}(現在羅{C:chips}+#1#{C:inactive}闡)"
                 }
@@ -449,7 +449,7 @@ return{
                 text={
                     "{C:chips}+#1#{}闡",
                     "{C:chips}-#2#{}闡朱",
-                    "每𢬣牌㐌𨔈"
+                    "每拪牌㐌𨔈"
                 }
             },
             j_dna={
@@ -570,7 +570,7 @@ return{
             j_green_joker={
                 name="播消綠",
                 text={
-                    "{C:mult}+#1#{}因每𢬣牌㐌𨔈",
+                    "{C:mult}+#1#{}因每拪牌㐌𨔈",
                     "{C:mult}-#2#{}因每吝𠬃牌",
                     "{C:inactive}(現在羅{C:mult}+#3#{C:inactive}因)"
                 }
@@ -809,7 +809,7 @@ return{
                 name="一見為兩",
                 text={
                     "{X:mult,C:white}X#1#{}因裊",
-                    "𢬣牌㐌𨔈貯",
+                    "拪牌㐌𨔈貯",
                     "𠬠蘿{C:clubs}鯜{}掑點吧",
                     "𠬠蘿{C:attention}質{}恪掑點",
                 },
@@ -848,7 +848,7 @@ return{
                 name="準二",
                 text={
                     "{X:mult,C:white}X#1#{}因裊",
-                    "𢬣牌㐌𨔈",
+                    "拪牌㐌𨔈",
                     "貯{C:attention}#2#"
                 },
                 unlock={
@@ -861,7 +861,7 @@ return{
                 name="準三",
                 text={
                     "{X:mult,C:white}X#1#{}因裊",
-                    "𢬣牌㐌𨔈",
+                    "拪牌㐌𨔈",
                     "貯{C:attention}#2#"
                 },
                 unlock={
@@ -874,7 +874,7 @@ return{
                 name="準四",
                 text={
                     "{X:mult,C:white}X#1#{}因裊",
-                    "𢬣牌㐌𨔈",
+                    "拪牌㐌𨔈",
                     "貯{C:attention}#2#"
                 },
                 unlock={
@@ -887,7 +887,7 @@ return{
                 name="準圯",
                 text={
                     "{X:mult,C:white}X#1#{}因裊",
-                    "𢬣牌㐌𨔈",
+                    "拪牌㐌𨔈",
                     "貯{C:attention}#2#"
                 },
                 unlock={
@@ -900,7 +900,7 @@ return{
                 name="準族",
                 text={
                     "{X:mult,C:white}X#1#{}因裊",
-                    "𢬣牌㐌𨔈",
+                    "拪牌㐌𨔈",
                     "貯{C:attention}#2#"
                 },
                 unlock={
@@ -949,7 +949,7 @@ return{
                 name="播消方",
                 text={
                     "播消呢添{C:chips}+#2#{}闡",
-                    "裊𢬣牌㐌𨔈",
+                    "裊拪牌㐌𨔈",
                     "貯中{C:attention}4{}蘿",
                     "{C:inactive}(現在羅{C:chips}#1#{C:inactive}闡)"
                 }
@@ -2459,10 +2459,10 @@ return{
                 }
             },
             tag_buffoon={
-                name="沲𭛭",
+                name="沲係",
                 text={
                     "認𠬠",
-                    "{C:attention}絵𭛭大{}免費"
+                    "{C:attention}絵係大{}免費"
                 }
             },
             tag_handy={
@@ -2562,7 +2562,7 @@ return{
                 name="個鈢",
                 text={
                     "𠬃𠫾２蘿偶然",
-                    "每𢬣牌㐌𨔈"
+                    "每拪牌㐌𨔈"
                 }
             },
             bl_wall={
@@ -2824,7 +2824,7 @@ return{
                 }
             },
             b_checkered={
-                name="部牌𪟄哥鱸",
+                name="部牌𥉮哥鱸",
                 text={
                     "扒頭陣某",
                     "{C:attention}26{}蘿{C:spades}碧{}吧",
@@ -3267,21 +3267,21 @@ return{
                 }
             },
             p_buffoon_normal={
-                name="絵𭛭",
+                name="絵係",
                 text={
                     "撰{C:attention}#1#{}𥪝最多",
                     "{C:attention}#2#{}蘿{C:joker}播消"
                 }
             },
             p_buffoon_jumbo={
-                name="絵𭛭𡘯",
+                name="絵係𡘯",
                 text={
                     "撰{C:attention}#1#{}𥪝最多",
                     "{C:attention}#2#{}蘿{C:joker}播消"
                 }
             },
             p_buffoon_mega={
-                name="絵𭛭大",
+                name="絵係大",
                 text={
                     "撰{C:attention}#1#{}𥪝最多",
                     "{C:attention}#2#{}蘿{C:joker}播消"
@@ -3541,11 +3541,11 @@ return{
             },
 
             sleeve_casl_checkered={
-                name="襆𪟄哥鱸",
+                name="襆𥉮哥鱸",
                 text=G.localization.descriptions.Back["b_checkered"].text
             },
             sleeve_casl_checkered_alt={
-                name="襆𪟄哥鱸",
+                name="襆𥉮哥鱸",
                 text={
                     "每蘿{C:clubs}鯜{}𠱊變𢷮",
                     "成蘿{C:spades}碧{}吧",
@@ -3793,44 +3793,44 @@ return{
             c_jokerless_1="空播消",
         },
         poker_hands={
-            ['FlushFive']="同五貴",
-            ['FlushHouse']="同葫蘆",
-            ['FiveofaKind']="五貴",
-            ['RoyalFlush']="蛇主",
-            ['StraightFlush']="同花蛇",
-            ['FourofaKind']="四貴",
-            ['FullHouse']="葫蘆",
+            ['Flush Five']="同五貴",
+            ['Flush House']="同葫蘆",
+            ['Five of a Kind']="五貴",
+            ['Royal Flush']="蛇主",
+            ['Straight Flush']="同花蛇",
+            ['Four of a Kind']="四貴",
+            ['Full House']="葫蘆",
             ['Flush']="同",
             ['Straight']="蛇",
-            ['ThreeofaKind']="三之",
-            ['TwoPair']="滔",
+            ['Three of a Kind']="三之",
+            ['Two Pair']="滔",
             ['Pair']="對",
-            ['HighCard']="冇啤"
+            ['High Card']="冇啤"
         },
         poker_hand_descriptions={
-            ['FlushFive']={
+            ['Flush Five']={
                 "５蘿同堛吧同質"
             },
-            ['FlushHouse']={
+            ['Flush House']={
                 "𠬠部𠀧吧𠬠對",
                 "麻必哿調同質"
             },
-            ['FiveofaKind']={
+            ['Five of a Kind']={
                 "５蘿同堛"
             },
-            ['RoyalFlush']={
+            ['Royal Flush']={
                 "５蘿𥊢行（堛連接）",
                 "麻必哿調同質"
             },
-            ['StraightFlush']={
+            ['Straight Flush']={
                 "５蘿𥊢行（堛連接）",
                 "麻必哿調同質"
             },
-            ['FourofaKind']={
+            ['Four of a Kind']={
                 "４蘿同堛。固體𨔈",
                 "添１蘿空掑點"
             },
-            ['FullHouse']={
+            ['Full House']={
                 "𠬠部𠀧吧𠬠對"
             },
             ['Flush']={
@@ -3839,11 +3839,11 @@ return{
             ['Straight']={
                 "５蘿𥊢行（堛連接）"
             },
-            ['ThreeofaKind']={
+            ['Three of a Kind']={
                 "３蘿同堛。固體𨔈",
                 "添最多２蘿空掑點"
             },
-            ['TwoPair']={
+            ['Two Pair']={
                 "２對牌某２堛恪胞、固體",
                 "𨔈添１蘿空掑點"
             },
@@ -3851,7 +3851,7 @@ return{
                 "２蘿同堛。固體𨔈",
                 "添最多３蘿空掑點"
             },
-            ['HighCard']={
+            ['High Card']={
                 "裊拪㐌𨔈空属拪鬧於𨕭,",
                 "只蘿牌某堛高一掑點"
             }
@@ -4014,7 +4014,7 @@ return{
             k_celestial_pack="絵天體",
             k_spectral_pack="絵超靈",
             k_standard_pack="絵標準",
-            k_buffoon_pack="絵𭛭",
+            k_buffoon_pack="絵係",
             k_enter_text="入文本",
             k_defeated_by="被打敗罷",
             k_level_prefix="級",
@@ -4504,11 +4504,11 @@ return{
             lq_2={"些𠬃局","𥚯揚過！"},
             lq_3={"㐌𦤾𣅶","遁牌吧","𨔈吏耒！"},
             lq_4={"各俱固句：","家丐","㫻勝！"},
-            lq_5={"固𡲈如些㐌","尋𦋦埃𬔫羅","僶𭛭實事耒！"},
+            lq_5={"固𡲈如些㐌","尋𦋦埃𬔫羅","僶係實事耒！"},
             lq_6={"喂空、伴𣃣","被草𢗡啊？"},
             lq_7={"固𡲈如句嘟當","暗指眾些耒！"},
             lq_8={"裊倅固拪","時倅㐌自","捌眜吏耒！"},
-            lq_9={"倅羅𠬠僶𭛭","棟義、噲伴","時吵？"},
+            lq_9={"倅羅𠬠僶係","棟義、噲伴","時吵？"},
             lq_10={"棟羅溧","個壁耒！"},
             dq_1={"薏！倅懞羅","伴㐌取産","門䈹朱試托","季窮呢耒！"}
         },
@@ -4622,7 +4622,7 @@ return{
                 "𬔫自𥪝{C:attention}㪯行"
             },
             s_2={
-                "咳試𢱖蘿𭛭",
+                "咳試𢱖蘿係",
                 "\"惵佳\"呢鬧"
             },
             s_3={
