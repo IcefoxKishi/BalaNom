@@ -4,7 +4,7 @@
 	"author": ["HuyTheKiller", "IcefoxKishi"],
 	"description": "Adds Vietnamese in Nom script as a selectable language for Balatro. Load this mod for more information.",
 	"prefix": "vnom",
-	"main_file": "VietnameseBalatro.lua",
+	"main_file": "BalaNom.lua",
 	"priority": 9999999999,
 	"version": "1.0.0",
 	"dependencies": ["Steamodded (>=1.0.0~ALPHA-1217c)"]

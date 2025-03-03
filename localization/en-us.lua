@@ -1,11 +1,10 @@
 return {
     descriptions = {
         Mod = {
-            VNBalatro = {
-                name = "Vietnamese Balatro",
+            BalaNom = {
+                name = "BalaNom",
                 text = {
-                   "{s:1.3}Adds {s:1.3,C:red}Viet{s:1.3,C:money}nam{s:1.3,C:red}ese {s:1.3}translation for Balatro and provides",
-                   "{s:1.3}a modified version of m6x11plus specifically made to support said language.",
+                   "{s:1.3}Adds {s:1.3,C:red}N{s:1.3,C:money}o{s:1.3,C:red}m {s:1.3}transcription for Balatro.",
                    " ",
                    "Currently providing translation for vanilla game and the following mods:",
                    "CardSleeves, Cryptid, Galdur, Incantation,",
