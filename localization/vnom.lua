@@ -50,7 +50,7 @@ return{
             j_sly={
                 name="播消撈家",
                 text={
-                    "{C:闡s}+#1#{}闡裊",
+                    "{C:chips}+#1#{}闡裊",
                     "𢬣牌㐌𨔈",
                     "諸{C:attention}#2#"
                 }
@@ -58,7 +58,7 @@ return{
             j_wily={
                 name="播消巧譎",
                 text={
-                    "{C:闡s}+#1#{}闡裊",
+                    "{C:chips}+#1#{}闡裊",
                     "𢬣牌㐌𨔈",
                     "諸{C:attention}#2#"
                 }
@@ -66,7 +66,7 @@ return{
             j_clever={
                 name="播消矯了",
                 text={
-                    "{C:闡s}+#1#{}闡裊",
+                    "{C:chips}+#1#{}闡裊",
                     "𢬣牌㐌𨔈",
                     "諸{C:attention}#2#"
                 }
@@ -74,7 +74,7 @@ return{
             j_devious={
                 name="播消𩲵魔",
                 text={
-                    "{C:闡s}+#1#{}闡裊",
+                    "{C:chips}+#1#{}闡裊",
                     "𢬣牌㐌𨔈",
                     "諸{C:attention}#2#"
                 }
@@ -82,7 +82,7 @@ return{
             j_crafty={
                 name="播消巧詐",
                 text={
-                    "{C:闡s}+#1#{}闡裊",
+                    "{C:chips}+#1#{}闡裊",
                     "𢬣牌㐌𨔈",
                     "諸{C:attention}#2#"
                 }
@@ -119,10 +119,10 @@ return{
             j_stone={
                 name="播消𥒥",
                 text={
-                    "添{C:闡s}+#1#{}闡某",
+                    "添{C:chips}+#1#{}闡某",
                     "每{C:attention}蘿𥒥{}𥪝",
                     "{C:attention}哿部牌{}𧵑伴",
-                    "{C:inactive}(現在羅{C:闡s}+#2#{C:inactive}闡)",
+                    "{C:inactive}(現在羅{C:chips}+#2#{C:inactive}闡)",
                 }
             },
             j_golden={
@@ -209,7 +209,7 @@ return{
             j_banner={
                 name="𦰟旗",
                 text={
-                    "{C:闡s}+#1#{}闡朱",
+                    "{C:chips}+#1#{}闡朱",
                     "每{C:attention}辣𠬃牌",
                     "噲吏"
                 }
@@ -297,7 +297,7 @@ return{
                 name="鏡𩈘當怍",
                 text={
                     "蘿{C:attention}𩈘{}㐌𨔈",
-                    "掑添{C:闡s}+#1#{}闡",
+                    "掑添{C:chips}+#1#{}闡",
                     "欺掑點"
                 }
             },
@@ -355,7 +355,7 @@ return{
                 text={
                     "蘿㐌𨔈某",
                     "堛{C:attention}禮{}掑添",
-                    "{C:闡s}+#1#{}闡欺掑點",
+                    "{C:chips}+#1#{}闡欺掑點",
                     "{C:inactive}(A,9,7,5,3)"
                 }
             },
@@ -363,7 +363,7 @@ return{
                 name="學者",
                 text={
                     "蘿{C:attention}A{}㐌𨔈",
-                    "掑添{C:闡s}+#2#{}闡",
+                    "掑添{C:chips}+#2#{}闡",
                     "吧{C:mult}+#1#{}因",
                     "欺掑點"
                 }
@@ -438,17 +438,17 @@ return{
             j_runner={
                 name="𧼋越野",
                 text={
-                    "添{C:闡s}+#2#{}闡",
+                    "添{C:chips}+#2#{}闡",
                     "裊𢬣牌㐌𨔈",
                     "貯{C:attention}蛇",
-                    "{C:inactive}(現在羅{C:闡s}+#1#{C:inactive}闡)"
+                    "{C:inactive}(現在羅{C:chips}+#1#{C:inactive}闡)"
                 }
             },
             j_ice_cream={
                 name="縑握桂",
                 text={
-                    "{C:闡s}+#1#{}闡",
-                    "{C:闡s}-#2#{}闡朱",
+                    "{C:chips}+#1#{}闡",
+                    "{C:chips}-#2#{}闡朱",
                     "每𢬣牌㐌𨔈"
                 }
             },
@@ -471,9 +471,9 @@ return{
             j_blue_joker={
                 name="播消藍",
                 text={
-                    "{C:闡s}+#1#{}闡朱每",
+                    "{C:chips}+#1#{}闡朱每",
                     "蘿牌噲吏𥪝{C:attention}部牌",
-                    "{C:inactive}(現在羅{C:闡s}+#2#{C:inactive}闡)"
+                    "{C:inactive}(現在羅{C:chips}+#2#{C:inactive}闡)"
                 }
             },
             j_sixth_sense={
@@ -499,7 +499,7 @@ return{
                 text={
                     "每{C:attention}蘿牌{}㐌𨔈",
                     "永遠添",
-                    "{C:闡s}+#1#{}闡欺掑點"
+                    "{C:chips}+#1#{}闡欺掑點"
                 }
             },
             j_faceless={
@@ -685,7 +685,7 @@ return{
                 text={
                     "蘿牌㐌𨔈",
                     "固質{C:spades}碧{}掑添",
-                    "{C:闡s}+#1#{}闡欺掑點",
+                    "{C:chips}+#1#{}闡欺掑點",
                 },
                 unlock={
                     "所有𠃣一{E:1,C:attention}#1#",
@@ -757,9 +757,9 @@ return{
                 name="播消𡮈",
                 text={
                     "播消呢添",
-                    "{C:闡s}+#2#{}闡每蘿{C:attention}2",
+                    "{C:chips}+#2#{}闡每蘿{C:attention}2",
                     "㐌𨔈掑點",
-                    "{C:inactive}(現在羅{C:闡s}+#1#{C:inactive}闡)"
+                    "{C:inactive}(現在羅{C:chips}+#1#{C:inactive}闡)"
                 },
                 unlock={
                     "勝𠬠陣𥪝{E:1,C:attention}#1#",
@@ -948,10 +948,10 @@ return{
             j_square={
                 name="播消方",
                 text={
-                    "播消呢添{C:闡s}+#2#{}闡",
+                    "播消呢添{C:chips}+#2#{}闡",
                     "裊𢬣牌㐌𨔈",
                     "貯中{C:attention}4{}蘿",
-                    "{C:inactive}(現在羅{C:闡s}#1#{C:inactive}闡)"
+                    "{C:inactive}(現在羅{C:chips}#1#{C:inactive}闡)"
                 }
             },
             j_seance={
@@ -1144,9 +1144,9 @@ return{
             j_bull={
                 name="𤙭特",
                 text={
-                    "{C:闡s}+#1#{}闡朱",
+                    "{C:chips}+#1#{}闡朱",
                     "每{C:money}$1{}伴固",
-                    "{C:inactive}(現在羅{C:闡s}+#2#{C:inactive}闡)"
+                    "{C:inactive}(現在羅{C:chips}+#2#{C:inactive}闡)"
                 }
             },
             j_diet_cola={
@@ -1211,7 +1211,7 @@ return{
                 name="部談",
                 text={
                     "每蘿{C:attention}10{}或{C:attention}４{}㐌𨔈",
-                    "掑添{C:闡s}+#1#{}闡吧",
+                    "掑添{C:chips}+#1#{}闡吧",
                     "{C:mult}+#2#{}因欺掑點"
                 },
             },
@@ -1226,10 +1226,10 @@ return{
             j_castle={
                 name="樓台",
                 text={
-                    "播消呢添{C:闡s}+#1#{}闡",
+                    "播消呢添{C:chips}+#1#{}闡",
                     "每蘿{V:1}#2#{}被𠬃,",
                     "質𠊝𢷮每盤",
-                    "{C:inactive}(現在羅{C:闡s}+#3#{C:inactive}闡)"
+                    "{C:inactive}(現在羅{C:chips}+#3#{C:inactive}闡)"
                 },
             },
             j_smiley={
@@ -1254,7 +1254,7 @@ return{
             j_stuntman={
                 name="𠊛㨂替",
                 text={
-                    "{C:闡s}+#1#{}闡,{C:attention}-#2#{}蘿",
+                    "{C:chips}+#1#{}闡,{C:attention}-#2#{}蘿",
                     "𢬇𥪝拪"
                 },
                 unlock={
@@ -1947,7 +1947,7 @@ return{
                     "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
-                    "{C:闡s}+#4#{}闡"
+                    "{C:chips}+#4#{}闡"
                 }
             },
             c_venus={
@@ -1956,7 +1956,7 @@ return{
                     "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
-                    "{C:闡s}+#4#{}闡"
+                    "{C:chips}+#4#{}闡"
                 }
             },
             c_earth={
@@ -1965,7 +1965,7 @@ return{
                     "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
-                    "{C:闡s}+#4#{}闡"
+                    "{C:chips}+#4#{}闡"
                 }
             },
             c_mars={
@@ -1974,7 +1974,7 @@ return{
                     "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
-                    "{C:闡s}+#4#{}闡"
+                    "{C:chips}+#4#{}闡"
                 }
             },
             c_jupiter={
@@ -1983,7 +1983,7 @@ return{
                     "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
-                    "{C:闡s}+#4#{}闡"
+                    "{C:chips}+#4#{}闡"
                 }
             },
             c_saturn={
@@ -1992,7 +1992,7 @@ return{
                     "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
-                    "{C:闡s}+#4#{}闡"
+                    "{C:chips}+#4#{}闡"
                 }
             },
             c_uranus={
@@ -2001,7 +2001,7 @@ return{
                     "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
-                    "{C:闡s}+#4#{}闡"
+                    "{C:chips}+#4#{}闡"
                 }
             },
             c_neptune={
@@ -2010,7 +2010,7 @@ return{
                     "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
-                    "{C:闡s}+#4#{}闡"
+                    "{C:chips}+#4#{}闡"
                 }
             },
             c_pluto={
@@ -2019,7 +2019,7 @@ return{
                     "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
-                    "{C:闡s}+#4#{}闡"
+                    "{C:chips}+#4#{}闡"
                 }
             },
             c_ceres={
@@ -2028,7 +2028,7 @@ return{
                     "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
-                    "{C:闡s}+#4#{}闡"
+                    "{C:chips}+#4#{}闡"
                 }
             },
             c_planet_x={
@@ -2037,7 +2037,7 @@ return{
                     "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
-                    "{C:闡s}+#4#{}闡"
+                    "{C:chips}+#4#{}闡"
                 }
             },
             c_eris={
@@ -2046,7 +2046,7 @@ return{
                     "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
-                    "{C:闡s}+#4#{}闡"
+                    "{C:chips}+#4#{}闡"
                 }
             },
         },
@@ -2210,7 +2210,7 @@ return{
             e_foil={
                 name="映金",
                 text={
-                    "{C:闡s}+#1#{}闡"
+                    "{C:chips}+#1#{}闡"
                 }
             },
             e_holo={
@@ -2283,7 +2283,7 @@ return{
             m_stone={
                 name="蘿𥒥",
                 text={
-                    "{C:闡s}+#1#{}闡",
+                    "{C:chips}+#1#{}闡",
                     "空固堛咍質"
                 }
             },
@@ -3003,14 +3003,14 @@ return{
                     "{C:light_black}#1#{V:1}#2#"
                 }
             },
-            card_闡s={
+            card_chips={
                 text={
-                    "{C:闡s}+#1#{}闡"
+                    "{C:chips}+#1#{}闡"
                 }
             },
-            card_extra_闡s={
+            card_extra_chips={
                 text={
-                    "{C:闡s}+#1#{}闡添"
+                    "{C:chips}+#1#{}闡添"
                 }
             },
             remove_negative={
@@ -4363,8 +4363,8 @@ return{
             a_xmult_minus="-X#1#因",
             a_mult="+#1#因",
             a_mult_minus="-#1#因",
-            a_闡s="+#1#",
-            a_闡s_minus="-#1#",
+            a_chips="+#1#",
+            a_chips_minus="-#1#",
             a_handsize="+#1#蘿𢬇𥪝拪",
             a_handsize_minus="-#1#蘿𢬇𥪝拪",
             a_hands="+#1#拪牌",
@@ -4373,7 +4373,7 @@ return{
             ante_x_voucher="票級蹻#1#",
             loyalty_active="固効力！",
             loyalty_inactive="噲吏#1#拪",
-            deck_preview_wheel_singular="數量固體𠃣欣由固#1#蘿被扑䏠,
+            deck_preview_wheel_singular="數量固體𠃣欣由固#1#蘿被扑䏠",
             deck_preview_wheel_plural="數量固體𠃣欣由固#1#蘿被扑䏠",
             challenges_completed="㐌完成#1#/#2#試托",
             unlocked="#1#/#2#㐌𢲫鎖",
@@ -4404,8 +4404,8 @@ return{
             -----------------------------------------------分用朱Steamodded-----------------------------------------------
             c_types='#1#類',
             cashout_hidden='...吧添#1#目女',
-            a_x闡s="X#1#闡",
-            a_x闡s_minus="-X#1#闡",
+            a_xchips="X#1#闡",
+            a_xchips_minus="-X#1#闡",
             ----------------------------------------------分用朱JokerDisplay----------------------------------------------
             ["jdis_odds"]="#1#𨕭#2#",
             ------------------------------------------------------------------------------------------------------------------------
@@ -4453,7 +4453,7 @@ return{
             ch_c_set_seed={
                 "１吝𨔈某種㐌㧡：{C:inactive}{Hidden}"
             },
-            ch_c_闡s_dollar_cap={
+            ch_c_chips_dollar_cap={
                 "{C:blue}闡{}空體越過{C:money}${}現固"
             },
             ch_c_none={
