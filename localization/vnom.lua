@@ -1845,7 +1845,7 @@ return{
                 name="碰車數分",
                 text={
                     "確率{C:green}#1#𨕭#2#{}帝添",
-                    "印版{C:dark_edition}映金{},{C:dark_edition}拉𪸝",
+                    "印版{C:dark_edition}映金{}、{C:dark_edition}拉𪸝",
                     "或{C:dark_edition}多色{}朱𠬠{C:attention}播消",
                     "偶然"
                 }
