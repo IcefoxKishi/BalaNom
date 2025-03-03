@@ -1,4695 +1,4680 @@
-﻿return {
-    descriptions = {
-        Joker = {
-            j_joker = {
-                name = "Joker",
-                text = {
-                    "{C:red,s:1.1}+#1#{} Nhân"
+return{
+    descriptions={
+        Joker={
+            j_joker={
+                name="播消",
+                text={
+                    "{C:red,s:1.1}+#1#{}因"
                 }
             },
-            j_jolly = {
-                name = "Joker Vui Nhộn",
-                text = {
-                    "{C:red}+#1#{} Nhân nếu",
-                    "tay bài đã chơi",
-                    "chứa {C:attention}#2#"
+            j_jolly={
+                name="播消𢝙閏",
+                text={
+                    "{C:red}+#1#{}因裊",
+                    "𢬣牌㐌𨔈",
+                    "諸{C:attention}#2#"
                 }
             },
-            j_zany = {
-                name = "Joker Hài Hước",
-                text = {
-                    "{C:red}+#1#{} Nhân nếu",
-                    "tay bài đã chơi",
-                    "chứa {C:attention}#2#"
+            j_zany={
+                name="播消諧謔",
+                text={
+                    "{C:red}+#1#{}因裊",
+                    "𢬣牌㐌𨔈",
+                    "諸{C:attention}#2#"
                 }
             },
-            j_mad = {
-                name = "Joker Điên Cuồng",
-                text = {
-                    "{C:red}+#1#{} Nhân nếu",
-                    "tay bài đã chơi",
-                    "chứa {C:attention}#2#"
+            j_mad={
+                name="播消癲狂",
+                text={
+                    "{C:red}+#1#{}因裊",
+                    "𢬣牌㐌𨔈",
+                    "諸{C:attention}#2#"
                 }
             },
-            j_crazy = {
-                name = "Joker Điên Dại",
-                text = {
-                    "{C:red}+#1#{} Nhân nếu",
-                    "tay bài đã chơi",
-                    "chứa {C:attention}#2#",
+            j_crazy={
+                name="播消癲呆",
+                text={
+                    "{C:red}+#1#{}因裊",
+                    "𢬣牌㐌𨔈",
+                    "諸{C:attention}#2#"
                 }
             },
-            j_droll = {
-                name = "Joker Khôi Hài",
-                text = {
-                    "{C:red}+#1#{} Nhân nếu",
-                    "tay bài đã chơi",
-                    "chứa {C:attention}#2#"
+            j_droll={
+                name="播消詼諧",
+                text={
+                    "{C:red}+#1#{}因裊",
+                    "𢬣牌㐌𨔈",
+                    "諸{C:attention}#2#"
                 }
             },
-            j_sly = {
-                name = "Joker Láu Cá",
-                text = {
-                    "{C:chips}+#1#{} Chip nếu",
-                    "tay bài đã chơi",
-                    "chứa {C:attention}#2#"
+            j_sly={
+                name="播消撈家",
+                text={
+                    "{C:闡s}+#1#{}闡裊",
+                    "𢬣牌㐌𨔈",
+                    "諸{C:attention}#2#"
                 }
             },
-            j_wily = {
-                name = "Joker Xảo Quyệt",
-                text = {
-                    "{C:chips}+#1#{} Chip nếu",
-                    "tay bài đã chơi",
-                    "chứa {C:attention}#2#"
+            j_wily={
+                name="播消巧譎",
+                text={
+                    "{C:闡s}+#1#{}闡裊",
+                    "𢬣牌㐌𨔈",
+                    "諸{C:attention}#2#"
                 }
             },
-            j_clever = {
-                name = "Joker Khéo Léo",
-                text = {
-                    "{C:chips}+#1#{} Chip nếu",
-                    "tay bài đã chơi",
-                    "chứa {C:attention}#2#"
+            j_clever={
+                name="播消矯了",
+                text={
+                    "{C:闡s}+#1#{}闡裊",
+                    "𢬣牌㐌𨔈",
+                    "諸{C:attention}#2#"
                 }
             },
-            j_devious = {
-                name = "Joker Ranh Ma",
-                text = {
-                    "{C:chips}+#1#{} Chip nếu",
-                    "tay bài đã chơi",
-                    "chứa {C:attention}#2#"
+            j_devious={
+                name="播消𩲵魔",
+                text={
+                    "{C:闡s}+#1#{}闡裊",
+                    "𢬣牌㐌𨔈",
+                    "諸{C:attention}#2#"
                 }
             },
-            j_crafty = {
-                name = "Joker Xảo Trá",
-                text = {
-                    "{C:chips}+#1#{} Chip nếu",
-                    "tay bài đã chơi",
-                    "chứa {C:attention}#2#"
+            j_crafty={
+                name="播消巧詐",
+                text={
+                    "{C:闡s}+#1#{}闡裊",
+                    "𢬣牌㐌𨔈",
+                    "諸{C:attention}#2#"
                 }
             },
-            j_half = {
-                name = "Nửa Joker",
-                text = {
-                    "{C:red}+#1#{} Nhân nếu",
-                    "tay bài đã chơi chứa",
-                    "{C:attention}#2#{} lá hoặc ít hơn"
+            j_half={
+                name="𡛤播消",
+                text={
+                    "{C:red}+#1#{}因裊",
+                    "𢬣牌㐌𨔈諸",
+                    "{C:attention}#2#{}蘿或𠃝欣"
                 }
             },
-            j_fortune_teller = {
-                name = "Nhà Tiên Tri",
-                text = {
-                    "{C:red}+#1#{} Nhân mỗi lá {C:purple}Tarot",
-                    "đã sử dụng trong trận này",
-                    "{C:inactive}(Hiện tại là {C:red}+#2#{C:inactive})"
+            j_fortune_teller={
+                name="家先知",
+                text={
+                    "{C:red}+#1#{}因每蘿{C:purple}些鱸",
+                    "㐌使用𥪝陣呢",
+                    "{C:inactive}(現在羅{C:red}+#2#{C:inactive})"
                 }
             },
-            j_juggler = {
-                name = "Người Tung Hứng",
-                text = {
-                    "{C:attention}+#1#{} lá giữ trong tay"
+            j_juggler={
+                name="𠊛崧𢸾",
+                text={
+                    "{C:attention}+#1#{}蘿𢬇𥪝拪"
                 }
             },
-            j_drunkard = {
-                name = "Sâu Rượu",
-                text = {
-                    "{C:red}+#1#{} lượt bỏ bài",
-                    "mỗi ván"
+            j_drunkard={
+                name="螻酒",
+                text={
+                    "{C:red}+#1#{}辣𠬃牌",
+                    "每盤"
                 }
             },
-            j_stone = {
-                name = "Joker Đá",
-                text = {
-                    "Thêm {C:chips}+#1#{} Chip với",
-                    "mỗi {C:attention}Lá Đá{} trong",
-                    "{C:attention}cả bộ bài{} của bạn",
-                    "{C:inactive}(Hiên tại là {C:chips}+#2#{C:inactive} Chip)",
+            j_stone={
+                name="播消𥒥",
+                text={
+                    "添{C:闡s}+#1#{}闡某",
+                    "每{C:attention}蘿𥒥{}𥪝",
+                    "{C:attention}哿部牌{}𧵑伴",
+                    "{C:inactive}(現在羅{C:闡s}+#2#{C:inactive}闡)",
                 }
             },
-            j_golden = {
-                name = "Joker Vàng",
-                text = {
-                    "Nhận {C:money}$#1#{} ở",
-                    "cuối ván"
+            j_golden={
+                name="播消鐄",
+                text={
+                    "認{C:money}$#1#{}於",
+                    "季盤"
                 }
             },
-            j_stencil = {
-                name = "Khuôn Tô Joker",
-                text = {
-                    "{X:red,C:white} X1 {} Nhân cho mỗi",
-                    "ô {C:attention}Joker{} trống",
-                    "{s:0.8}Kể cả Khuôn Tô Joker",
-                    "{C:inactive}(Hiên tại là {X:red,C:white} X#1# {C:inactive})"
+            j_stencil={
+                name="坤囌播消",
+                text={
+                    "{X:red,C:white}X1{}因朱每",
+                    "杇{C:attention}播消{}𥧪",
+                    "{s:0.8}計哿坤囌播消",
+                    "{C:inactive}(現在羅{X:red,C:white}X#1#{C:inactive})"
                 }
             },
-            j_four_fingers = {
-                name = "Bốn Ngón Tay",
-                text = {
-                    "Mọi {C:attention}Thùng{} và",
-                    "{C:attention}Sảnh{} có thể được",
-                    "tạo ra bằng {C:attention}4{} lá"
+            j_four_fingers={
+                name="𦊚𢭫拪",
+                text={
+                    "每{C:attention}同{}吧",
+                    "{C:attention}蛇{}固體得",
+                    "造𦋦憑{C:attention}4{}蘿"
                 }
             },
-            j_mime = {
-                name = "Kịch Câm",
-                text = {
-                    "Tái kích khả năng",
-                    "của mọi lá bài {C:attention}giữ",
-                    "{C:attention}trong tay"
+            j_mime={
+                name="劇唫",
+                text={
+                    "再激可能",
+                    "𧵑每蘿牌{C:attention}𱟩",
+                    "{C:attention}𥪝拪"
                 }
             },
-            j_credit_card = {
-                name = "Thẻ Tín Dụng",
-                text = {
-                    "Ghi nợ",
-                    "tối đa {C:red}$#1#"
+            j_credit_card={
+                name="𥸠信用",
+                text={
+                    "掑嫧",
+                    "最多{C:red}$#1#"
                 }
             },
-            j_greedy_joker = {
-                name = "Joker Tham Lam",
-                text = {
-                    "Lá bài đã chơi",
-                    "có chất {C:diamonds}#2#{} ghi thêm",
-                    "{C:mult}+#1#{} Nhân khi ghi điểm", 
+            j_greedy_joker={
+                name="播消貪婪",
+                text={
+                    "蘿牌㐌𨔈",
+                    "固質{C:diamonds}#2#{}掑添",
+                    "{C:mult}+#1#{}因欺掑點",
                 }
             },
-            j_lusty_joker = {
-                name = "Joker Dục Vọng",
-                text = {
-                    "Lá bài đã chơi",
-                    "có chất {C:hearts}#2#{} ghi thêm",
-                    "{C:mult}+#1#{} Nhân khi ghi điểm", 
+            j_lusty_joker={
+                name="播消欲望",
+                text={
+                    "蘿牌㐌𨔈",
+                    "固質{C:hearts}#2#{}掑添",
+                    "{C:mult}+#1#{}因欺掑點",
                 }
             },
-            j_wrathful_joker = {
-                name = "Joker Phẫn Nộ",
-                text = {
-                    "Lá bài đã chơi",
-                    "có chất {C:spades}#2#{} ghi thêm",
-                    "{C:mult}+#1#{} Nhân khi ghi điểm", 
+            j_wrathful_joker={
+                name="播消忿怒",
+                text={
+                    "蘿牌㐌𨔈",
+                    "固質{C:spades}#2#{}掑添",
+                    "{C:mult}+#1#{}因欺掑點",
                 }
             },
-            j_gluttenous_joker = {
-                name = "Joker Háu Ăn",
-                text = {
-                    "Lá bài đã chơi",
-                    "có chất {C:clubs}#2#{} ghi thêm",
-                    "{C:mult}+#1#{} Nhân khi ghi điểm", 
+            j_gluttenous_joker={
+                name="播消好咹",
+                text={
+                    "蘿牌㐌𨔈",
+                    "固質{C:clubs}#2#{}掑添",
+                    "{C:mult}+#1#{}因欺掑點",
                 }
             },
-            j_ceremonial = {
-                name = "Dao Găm Hiến Tế",
-                text = {
-                    "Khi {C:attention}Blind{} được chọn,",
-                    "phá huỷ Joker liền phải",
-                    "và vĩnh viễn thêm {C:attention}hai lần",
-                    "giá bán của nó vào hệ số {C:red}Nhân",
-                    "{C:inactive}(Hiện tại là {C:mult}+#1#{C:inactive} Nhân)"
+            j_ceremonial={
+                name="刀針獻祭",
+                text={
+                    "欺{C:attention}瞙{}得撰、",
+                    "破毀播消連沛",
+                    "吧永遠添{C:attention}𠄩吝",
+                    "價𧸝𧵑奴𠓨係數{C:red}因",
+                    "{C:inactive}(現在羅{C:mult}+#1#{C:inactive}因)"
                 }
             },
-            j_banner = {
-                name = "Ngọn Cờ",
-                text = {
-                    "{C:chips}+#1#{} Chip cho",
-                    "mỗi {C:attention}lượt bỏ bài",
-                    "còn lại"
+            j_banner={
+                name="𦰟旗",
+                text={
+                    "{C:闡s}+#1#{}闡朱",
+                    "每{C:attention}辣𠬃牌",
+                    "噲吏"
                 }
             },
-            j_mystic_summit = {
-                name = "Đỉnh Kì Bí",
-                text = {
-                    "{C:mult}+#1#{} Nhân",
-                    "khi còn {C:attention}#2#",
-                    "lượt bỏ bài"
+            j_mystic_summit={
+                name="頂奇秘",
+                text={
+                    "{C:mult}+#1#{}因",
+                    "欺噲{C:attention}#2#",
+                    "辣𠬃牌"
                 }
             },
-            j_marble = {
-                name = "Joker Cẩm Thạch",
-                text = {
-                    "Thêm một lá {C:attention}Đá",
-                    "vào bộ bài khi",
-                    "{C:attention}Blind{} được chọn",
+            j_marble={
+                name="播消錦石",
+                text={
+                    "添𠬠蘿{C:attention}𥒥",
+                    "𠓨部牌欺",
+                    "{C:attention}瞙{}得撰",
                 }
             },
-            j_loyalty_card = {
-                name = "Thẻ Hội Viên",
-                text = {
-                    "{X:red,C:white} X#1# {} Nhân mỗi",
-                    "{C:attention}#2#{} tay bài đã chơi",
+            j_loyalty_card={
+                name="𥸠會員",
+                text={
+                    "{X:red,C:white}X#1#{}人每",
+                    "{C:attention}#2#{}𢬣牌㐌𨔈",
                     "{C:inactive}#3#"
                 }
             },
-            j_8_ball = {
-                name = "Bi 8",
-                text = {
-                    "Xác suất {C:green}#1# trên #2#{} cho mỗi",
-                    "lá {C:attention}8{} đã chơi để tạo ra",
-                    "lá {C:tarot}Tarot{} khi ghi điểm",
-                    "{C:inactive}(Phải có ô trống)"
+            j_8_ball={
+                name="碑８",
+                text={
+                    "確率{C:green}#1#𨕭#2#{}朱每",
+                    "蘿{C:attention}8{}㐌𨔈帝造𦋦",
+                    "蘿{C:tarot}些鱸{}欺掑點",
+                    "{C:inactive}(沛固杇𥧪)"
                 }
             },
-            j_dusk = {
-                name = "Hoàng Hôn",
-                text = {
-                    "Tái kích mọi lá bài",
-                    "đã chơi trong {C:attention}tay bài",
-                    "{C:attention}cuối{} của ván"
+            j_dusk={
+                name="黄昏",
+                text={
+                    "再激每蘿牌",
+                    "㐌𨔈𥪝{C:attention}拪牌",
+                    "{C:attention}季{}𧵑盤"
                 }
             },
-            j_chaos = {
-                name = "Hề Chaos",
-                text = {
-                    "{C:attention}#1#{} {C:green}lượt Gieo lại",
-                    "miễn phí mỗi shop"
+            j_chaos={
+                name="𭛭混亂",
+                text={
+                    "{C:attention}#1#{}{C:green}辣招吏",
+                    "免費每㪯行"
                 }
             },
-            j_misprint = {
-                name = "Lỗi In",
-                text = {
+            j_misprint={
+                name="儡印",
+                text={
                     ""
                 }
             },
-            j_raised_fist = {
-                name = "Nắm Đấm Giơ Cao",
-                text = {
-                    "Thêm {C:attention}hai lần{} bậc",
-                    "của lá bài có số {C:attention}nhỏ nhất",
-                    "giữ trong tay vào hệ số Nhân"
+            j_raised_fist={
+                name="揇𢶸捈高",
+                text={
+                    "添{C:attention}𠄩吝{}堛",
+                    "𧵑蘿牌固數{C:attention}𡮈一",
+                    "𢬇𥪝拪𠓨係數因"
                 }
             },
-            j_fibonacci = {
-                name = "Fibonacci",
-                text = {
-                    "Mỗi lá {C:attention}Át{}, {C:attention}2{}, {C:attention}3{}, {C:attention}5",
-                    "hoặc {C:attention}8{} đã chơi ghi thêm",
-                    "{C:mult}+#1#{} Nhân khi ghi điểm",
+            j_fibonacci={
+                name="非布那芝",
+                text={
+                    "每蘿{C:attention}A{},{C:attention}2{},{C:attention}3{},{C:attention}5",
+                    "或{C:attention}8{}㐌𨔈掑添",
+                    "{C:mult}+#1#{}因欺掑點",
                 }
             },
-            j_steel_joker = {
-                name = "Joker Thép",
-                text = {
-                    "Thêm {X:mult,C:white} X#1# {} Nhân",
-                    "cho mỗi {C:attention}Lá Thép",
-                    "trong {C:attention}cả bộ bài{} của bạn",
-                    "{C:inactive}(Hiện tại là {X:mult,C:white} X#2# {C:inactive} Nhân)",
+            j_steel_joker={
+                name="播消𨨧",
+                text={
+                    "添{X:mult,C:white}X#1#{}因",
+                    "朱每{C:attention}蘿𨨧",
+                    "𥪝{C:attention}哿部牌{}𧵑伴",
+                    "{C:inactive}(現在羅{X:mult,C:white}X#2#{C:inactive}因)",
                 }
             },
-            j_scary_face = {
-                name = "Gương Mặt Đáng Sợ",
-                text = {
-                    "Lá {C:attention}mặt{} đã chơi",
-                    "ghi thêm {C:chips}+#1#{} Chip",
-                    "khi ghi điểm"
+            j_scary_face={
+                name="鏡𩈘當怍",
+                text={
+                    "蘿{C:attention}𩈘{}㐌𨔈",
+                    "掑添{C:闡s}+#1#{}闡",
+                    "欺掑點"
                 }
             },
-            j_abstract = {
-                name = "Joker Trừu Tượng",
-                text = {
-                    "{C:mult}+#1#{} Nhân cho",
-                    "mỗi lá {C:attention}Joker",
-                    "{C:inactive}(Hiện tại là {C:red}+#2#{C:inactive} Nhân)"
+            j_abstract={
+                name="播消抽象",
+                text={
+                    "{C:mult}+#1#{}因朱",
+                    "每蘿{C:attention}播消",
+                    "{C:inactive}(現在羅{C:red}+#2#{C:inactive}因)"
                 }
             },
-            j_delayed_grat = {
-                name = "Thù Lao Chậm Trễ",
-                text = {
-                    "Nhận {C:money}$#1#{} mỗi {C:attention}lượt bỏ bài{} nếu",
-                    "không dùng lượt bỏ bài nào",
-                    "cho đến cuối ván"
+            j_delayed_grat={
+                name="酬勞踸滯",
+                text={
+                    "認{C:money}$#1#{}每{C:attention}辣𠬃牌{}裊",
+                    "空用辣𠬃牌鬧",
+                    "朱𦤾季盤"
                 }
             },
-            j_pareidolia = {
-                name = "Ảo Giác Gương Mặt",
-                text = {
-                    "Mọi lá bài đều được",
-                    "coi như lá {C:attention}mặt"
+            j_pareidolia={
+                name="幻覺鏡𩈘",
+                text={
+                    "每蘿牌調得",
+                    "䁛如蘿{C:attention}𩈘"
                 }
             },
-            j_hack = {
-                name = "Hài Nhảm",
-                text = {
-                    "Tái kích mỗi lá",
-                    "{C:attention}2{}, {C:attention}3{}, {C:attention}4{} hoặc {C:attention}5",
-                    "đã chơi",
+            j_hack={
+                name="諧𠰃",
+                text={
+                    "再激每蘿",
+                    "{C:attention}２{}、{C:attention}３{}、{C:attention}４{}或{C:attention}５",
+                    "㐌𨔈",
                 }
             },
-            j_gros_michel = {
-                name = "Gros Michel",
-                text = {
-                    "{C:mult}+#1#{} Nhân",
-                    "xác suất {C:green}#2# trên #3#",
-                    "lá này bị phá huỷ",
-                    "ở cuối ván"
+            j_gros_michel={
+                name="桎蕉高＃２",
+                text={
+                    "{C:mult}+#1#{}因",
+                    "確率{C:green}#2#𨕭#3#",
+                    "蘿呢被破毀",
+                    "於季盤"
                 }
             },
-            j_even_steven = {
-                name = "Chẵn Chín Chắn",
-                text = {
-                    "Lá đã chơi với",
-                    "bậc {C:attention}chẵn{} ghi thêm",
-                    "{C:mult}+#1#{} Nhân khi ghi điểm",
-                    "{C:inactive}(10, 8, 6, 4, 2)"
+            j_even_steven={
+                name="軫𤇪鎮",
+                text={
+                    "蘿㐌𨔈某",
+                    "堛{C:attention}軫{}掑添",
+                    "{C:mult}+#1#{}因欺掑點",
+                    "{C:inactive}(10,8,6,4,2)"
                 }
             },
-            j_odd_todd = {
-                name = "Lẻ Lanh Lẹ",
-                text = {
-                    "Lá đã chơi với",
-                    "bậc {C:attention}lẻ{} ghi thêm",
-                    "{C:chips}+#1#{} Chip khi ghi điểm",
-                    "{C:inactive}(A, 9, 7, 5, 3)"
+            j_odd_todd={
+                name="禮𫑅𫑐",
+                text={
+                    "蘿㐌𨔈某",
+                    "堛{C:attention}禮{}掑添",
+                    "{C:闡s}+#1#{}闡欺掑點",
+                    "{C:inactive}(A,9,7,5,3)"
                 }
             },
-            j_scholar = {
-                name = "Học Giả",
-                text = {
-                    "Lá {C:attention}Át{} đã chơi",
-                    "ghi thêm {C:chips}+#2#{} Chip",
-                    "và {C:mult}+#1#{} Nhân",
-                    "khi ghi điểm"
+            j_scholar={
+                name="學者",
+                text={
+                    "蘿{C:attention}A{}㐌𨔈",
+                    "掑添{C:闡s}+#2#{}闡",
+                    "吧{C:mult}+#1#{}因",
+                    "欺掑點"
                 }
             },
-            j_business = {
-                name = "Danh Thiếp",
-                text = {
-                    "Lá {C:attention}mặt{} đã chơi có",
-                    "xác suất {C:green}#1# trên #2#{} để",
-                    "cho {C:money}$2{} khi ghi điểm"
+            j_business={
+                name="名帖",
+                text={
+                    "蘿{C:attention}𩈘{}㐌𨔈固",
+                    "確率{C:green}#1#𨕭#2#{}帝",
+                    "朱{C:money}$2{}欺掑點"
                 }
             },
-            j_supernova = {
-                name = "Siêu Tân Tinh",
-                text = {
-                    "Thêm số lần {C:attention}tay poker",
-                    "đã được chơi trong trận này",
-                    "vào hệ số Nhân"
+            j_supernova={
+                name="超新星",
+                text={
+                    "添數吝{C:attention}拪扑基",
+                    "㐌得𨔈𥪝陣呢",
+                    "𠓨係數因"
                 }
             },
-            j_superposition = {
-                name = "Chồng Chất Lượng Tử",
-                text = {
-                    "Tạo ra một lá {C:tarot}Tarot{} nếu",
-                    "tay poker chứa lá {C:attention}Át",
-                    "và {C:attention}Sảnh",
-                    "{C:inactive}(Phải có ô trống)"
+            j_superposition={
+                name="𥔧𬥔量子",
+                text={
+                    "造𦋦𠬠蘿{C:tarot}些鱸{}裊",
+                    "拪扑基貯蘿{C:attention}A",
+                    "吧{C:attention}蛇",
+                    "{C:inactive}（沛固杇𥧪）"
                 }
             },
-            j_ride_the_bus = {
-                name = "Đi Xe Buýt",
-                text = {
-                    "Joker này thêm {C:mult}+#1#{} Nhân",
-                    "mỗi tay bài đã chơi {C:attention}liên tiếp",
-                    "mà không chứa lá {C:attention}mặt",
-                    "ghi điểm",
-                    "{C:inactive}(Hiện tại là {C:mult}+#2#{C:inactive} Nhân)"
+            j_ride_the_bus={
+                name="𠫾車扒",
+                text={
+                    "播消呢添{C:mult}+#1#{}因",
+                    "每𢬣牌㐌𨔈{C:attention}連接",
+                    "麻空貯蘿{C:attention}𩈘",
+                    "掑點",
+                    "{C:inactive}(現在羅{C:mult}+#2#{C:inactive}因)"
                 }
             },
-            j_space = {
-                name = "Joker Vũ Trụ",
-                text = {
-                    "Xác suất {C:green}#1# trên #2#",
-                    "để nâng level của",
-                    "{C:attention}tay poker{} đã chơi"
+            j_space={
+                name="播消宇宙",
+                text={
+                    "確率{C:green}#1#𨕭#2#",
+                    "帝㨢級𧵑",
+                    "{C:attention}拪扑基{}㐌𨔈"
                 }
             },
-            j_egg = {
-                name = "Trứng",
-                text = {
-                    "Tăng {C:money}$#1#",
-                    "{C:attention}giá bán",
-                    "ở cuối ván"
+            j_egg={
+                name="𠨡",
+                text={
+                    "增{C:money}$#1#",
+                    "{C:attention}價𧸝",
+                    "於季盤"
                 }
             },
-            j_burglar = {
-                name = "Kẻ Trộm",
-                text = {
-                    "Khi {C:attention}Blind{} được chọn,",
-                    "thêm {C:blue}+#1#{} Tay bài và",
-                    "{C:attention}mất toàn bộ lượt bỏ bài"
+            j_burglar={
+                name="仉濫",
+                text={
+                    "欺{C:attention}瞙{}得撰、",
+                    "添{C:blue}+#1#{}拪牌吧",
+                    "{C:attention}秩全部辣𠬃牌"
                 }
             },
-            j_blackboard = {
-                name = "Bảng Đen",
-                text = {
-                    "{X:red,C:white} X#1# {} Nhân nếu mọi lá",
-                    "giữ trong tay có chất",
-                    "{C:spades}#2#{} hoặc {C:clubs}#3#"
+            j_blackboard={
+                name="版黰",
+                text={
+                    "{X:red,C:white}X#1#{}因裊每蘿",
+                    "𢬇𥪝拪固質",
+                    "{C:spades}#2#{}或{C:clubs}#3#"
                 }
             },
-            j_runner = {
-                name = "Chạy Việt Dã",
-                text = {
-                    "Thêm {C:chips}+#2#{} Chip",
-                    "nếu tay bài đã chơi",
-                    "chứa {C:attention}Sảnh",
-                    "{C:inactive}(Hiện tại là {C:chips}+#1#{C:inactive} Chip)"
+            j_runner={
+                name="𧼋越野",
+                text={
+                    "添{C:闡s}+#2#{}闡",
+                    "裊𢬣牌㐌𨔈",
+                    "貯{C:attention}蛇",
+                    "{C:inactive}(現在羅{C:闡s}+#1#{C:inactive}闡)"
                 }
             },
-            j_ice_cream = {
-                name = "Kem Ốc Quế",
-                text = {
-                    "{C:chips}+#1#{} Chip",
-                    "{C:chips}-#2#{} Chip cho",
-                    "mỗi tay bài đã chơi"
+            j_ice_cream={
+                name="縑握桂",
+                text={
+                    "{C:闡s}+#1#{}闡",
+                    "{C:闡s}-#2#{}闡朱",
+                    "每𢬣牌㐌𨔈"
                 }
             },
-            j_dna = {
-                name = "DNA",
-                text = {
-                    "Nếu {C:attention}tay đầu tiên{} của ván",
-                    "chỉ có {C:attention}1{} lá, thêm một",
-                    "bản sao vĩnh viễn vào bộ bài",
-                    "và bốc nó lên {C:attention}tay"
+            j_dna={
+                name="DNA",
+                text={
+                    "裊{C:attention}拪頭先{}𧵑盤",
+                    "只固{C:attention}1{}蘿,添𠬠",
+                    "版抄永遠𠓨部牌",
+                    "吧扑奴𨕭{C:attention}拪"
                 }
             },
-            j_splash = {
-                name = "Bắn Toé",
-                text = {
-                    "Mọi {C:attention}lá bài đã chơi",
-                    "đều ghi điểm"
+            j_splash={
+                name="𨉠嘒",
+                text={
+                    "每{C:attention}蘿牌㐌𨔈",
+                    "調掑點"
                 }
             },
-            j_blue_joker = {
-                name = "Joker Lam",
-                text = {
-                    "{C:chips}+#1#{} Chip cho mỗi",
-                    "lá bài còn lại trong {C:attention}bộ bài",
-                    "{C:inactive}(Hiện tại là {C:chips}+#2#{C:inactive} Chip)"
+            j_blue_joker={
+                name="播消藍",
+                text={
+                    "{C:闡s}+#1#{}闡朱每",
+                    "蘿牌噲吏𥪝{C:attention}部牌",
+                    "{C:inactive}(現在羅{C:闡s}+#2#{C:inactive}闡)"
                 }
             },
-            j_sixth_sense = {
-                name = "Giác Quan Thứ Sáu",
-                text = {
-                    "Nếu {C:attention}tay đầu tiên{} của ván",
-                    "là một lá {C:attention}6{}, phá huỷ nó và",
-                    "tạo ra một lá {C:spectral}Siêu Linh",
-                    "{C:inactive}(Phải có ô trống)"
+            j_sixth_sense={
+                name="覺官次𦒹",
+                text={
+                    "裊{C:attention}拪頭先{}𧵑盤",
+                    "羅𠬠蘿{C:attention}６{}、破毀奴吧",
+                    "造𦋦𠬠蘿{C:spectral}超靈",
+                    "{C:inactive}(沛固杇𥧪)"
                 }
             },
-            j_constellation = {
-                name = "Chòm Sao",
-                text = {
-                    "Joker này thêm {X:mult,C:white} X#1# {} Nhân",
-                    "mỗi khi một lá {C:planet}Hành Tinh{}",
-                    "được sử dụng",
-                    "{C:inactive}(Hiện tại là {X:mult,C:white} X#2# {C:inactive} Nhân)"
+            j_constellation={
+                name="𫇳𣇟",
+                text={
+                    "播消呢添{X:mult,C:white}X#1#{}因",
+                    "每欺𠬠蘿{C:planet}行星{}",
+                    "得使用",
+                    "{C:inactive}(現在羅{X:mult,C:white}X#2#{C:inactive}因)"
                 }
             },
-            j_hiker = {
-                name = "Người Leo Núi",
-                text = {
-                    "Mỗi {C:attention}lá bài{} đã chơi",
-                    "vĩnh viễn thêm",
-                    "{C:chips}+#1#{} Chip khi ghi điểm"
+            j_hiker={
+                name="𠊛撩𡶀",
+                text={
+                    "每{C:attention}蘿牌{}㐌𨔈",
+                    "永遠添",
+                    "{C:闡s}+#1#{}闡欺掑點"
                 }
             },
-            j_faceless = {
-                name = "Joker Vô Diện",
-                text = {
-                    "Nhận {C:money}$#1#{} nếu",
-                    "{C:attention}#2# lá mặt{} hoặc hơn",
-                    "bị bỏ cùng một lúc"
+            j_faceless={
+                name="播消無面",
+                text={
+                    "認{C:money}$#1#{}裊",
+                    "{C:attention}#2#蘿𩈘{}或欣",
+                    "被𠬃共𠬠𣅶"
                 }
             },
-            j_todo_list = {
-                name = "Danh Sách Công Việc",
-                text = {
-                    "Nhận {C:money}$#1#{} nếu {C:attention}tay poker",
-                    "là {C:attention}#2#{},",
-                    "tay poker thay đổi",
-                    "ở cuối ván"
+            j_todo_list={
+                name="名冊工役",
+                text={
+                    "認{C:money}$#1#{}裊{C:attention}拪扑基",
+                    "羅{C:attention}#2#{},",
+                    "拪扑基𠊝𢷮",
+                    "於季盤"
                 }
             },
-            j_ticket = {
-                name = "Tấm Vé Vàng",
-                text = {
-                    "Lá {C:attention}Vàng{} đã chơi nhận",
-                    "thêm {C:money}$#1#{} khi ghi điểm",
+            j_ticket={
+                name="𬌓派鐄",
+                text={
+                    "蘿{C:attention}鐄{}㐌𨔈認",
+                    "添{C:money}$#1#{}欺掑點",
                 },
-                unlock = {
-                    "Chơi 1 tay 5 lá",
-                    "mà chỉ chứa",
-                    "lá {C:attention,E:1}Vàng"
+                unlock={
+                    "𨔈１拪５蘿",
+                    "麻只貯",
+                    "蘿{C:attention,E:1}鐄"
                 }
             },
-            j_mr_bones = {
-                name = "Ông Bones",
-                text = {
-                    "Ngăn thua trận",
-                    "nếu chip đạt được",
-                    "ít nhất {C:attention}25%{} so với",
-                    "chip yêu cầu, rối {S:1.1,C:red,E:2}tự huỷ"
+            j_mr_bones={
+                name="翁𩩫",
+                text={
+                    "拫輸陣",
+                    "裊闡達得",
+                    "𠃣一{C:attention}25%{}𨋤某",
+                    "闡要求、耒{S:1.1,C:red,E:2}自毀"
                 },
-                unlock = {
-                    "Thua {C:attention,E:1}#1#{} trận",
+                unlock={
+                    "輸{C:attention,E:1}#1#{}陣",
                     "{C:inactive}(#2#)"
                 }
             },
-            j_acrobat = {
-                name = "Diễn Xiếc",
-                text = {
-                    "{X:red,C:white} X#1# {} Nhân cho {C:attention}tay bài",
-                    "{C:attention}cuối cùng{} của ván"
+            j_acrobat={
+                name="演𪨜",
+                text={
+                    "{X:red,C:white}X#1#{}因朱{C:attention}拪牌",
+                    "{C:attention}季窮{}𧵑盤"
                 },
-                unlock = {
-                    "Chơi {C:attention,E:1}#1#{} tay bài",
+                unlock={
+                    "𨔈{C:attention,E:1}#1#{}拪牌",
                     "{C:inactive}(#2#)"
                 }
             },
-            j_sock_and_buskin = {
-                name = "Hài Bi Kịch",
-                text = {
-                    "Tái kích mọi",
-                    "lá {C:attention}mặt{} đã chơi"
+            j_sock_and_buskin={
+                name="諧悲劇",
+                text={
+                    "再激每",
+                    "蘿{C:attention}𩈘{}㐌𨔈"
                 },
-                unlock = {
-                    "Chơi tổng cộng",
-                    "{C:attention,E:1}#1#{} lá mặt",
+                unlock={
+                    "𨔈總共",
+                    "{C:attention,E:1}#1#{}蘿𩈘",
                     "{C:inactive}(#2#)"
                 }
             },
-            j_green_joker = {
-                name = "Joker Lục",
-                text = {
-                    "{C:mult}+#1#{} Nhân mỗi tay bài đã chơi",
-                    "{C:mult}-#2#{} Nhân mỗi lần bỏ bài",
-                    "{C:inactive}(Hiện tại là {C:mult}+#3#{C:inactive} Nhân)"
+            j_green_joker={
+                name="播消綠",
+                text={
+                    "{C:mult}+#1#{}因每𢬣牌㐌𨔈",
+                    "{C:mult}-#2#{}因每吝𠬃牌",
+                    "{C:inactive}(現在羅{C:mult}+#3#{C:inactive}因)"
                 }
             },
-            j_swashbuckler = {
-                name = "Hảo Hán",
-                text = {
-                    "Thêm tổng giá bán của các",
-                    "{C:attention}Joker{} khác đã sở hữu",
-                    "vào hệ số Nhân",
-                    "{C:inactive}(Hiện tại là {C:mult}+#1#{C:inactive} Nhân)"
+            j_swashbuckler={
+                name="好漢",
+                text={
+                    "添總價𧸝𧵑各",
+                    "{C:attention}播消{}恪㐌所有",
+                    "𠓨係數因",
+                    "{C:inactive}(現在羅{C:mult}+#1#{C:inactive}因)"
                 },
-                unlock = {
-                    "Bán tổng cộng",
-                    "{C:attention,E:1}#1#{} lá Joker",
+                unlock={
+                    "𧸝總共",
+                    "{C:attention,E:1}#1#{}蘿播消",
                     "{C:inactive}(#2#)"
                 }
             },
-            j_troubadour = {
-                name = "Người Hát Rong",
-                text = {
-                    "{C:attention}+#1#{} lá giữ trong tay,",
-                    "{C:blue}-#2#{} tay bài mỗi ván"
+            j_troubadour={
+                name="𠊛喝𨀐",
+                text={
+                    "{C:attention}+#1#{}蘿𢬇𥪝拪,",
+                    "{C:blue}-#2#{}拪牌每盤"
                 },
-                unlock = {
-                    "Thắng {C:attention,E:1}#1#{} ván",
-                    "liên tiếp chỉ bằng",
-                    "1 tay bài duy nhất"
+                unlock={
+                    "勝{C:attention,E:1}#1#{}盤",
+                    "連接只憑",
+                    "１拪牌唯一"
                 }
             },
-            j_certificate = {
-                name = "Chứng Chỉ",
-                text = {
-                    "Khi ván bắt đầu, thêm",
-                    "một {C:attention}lá bài{} ngẫu nhiên với",
-                    "một {C:attention}con dấu{} ngẫu nhiên",
-                    "vào tay của bạn"
+            j_certificate={
+                name="證紙",
+                text={
+                    "欺盤扒頭,添",
+                    "𠬠{C:attention}蘿牌{}偶然某",
+                    "𠬠{C:attention}𡥵𧿫{}偶然",
+                    "𠓨拪𧵑伴"
                 },
-                unlock = {
-                    "Sở hữu một",
-                    "lá bài Vàng với",
-                    "một {C:attention,E:1}con dấu Vàng"
+                unlock={
+                    "所有𠬠",
+                    "蘿牌鐄某",
+                    "𠬠{C:attention,E:1}𡥵𧿫鐄"
                 }
             },
-            j_smeared = {
-                name = "Joker Bị Nhoè",
-                text = {
-                    "{C:hearts}Cơ{} và {C:diamonds}Rô{} được",
-                    "xem như cùng một chất,",
-                    "{C:spades}Bích{} và {C:clubs}Tép{} được",
-                    "xem như cùng một chất"
+            j_smeared={
+                name="播消被漯",
+                text={
+                    "{C:hearts}箕{}吧{C:diamonds}鱸{}得",
+                    "覘如共𠬠質、",
+                    "{C:spades}碧{}吧{C:clubs}鯜{}得",
+                    "覘如共𠬠質"
                 },
-                unlock = {
-                    "Sở hữu ít nhất {C:attention}#1#",
-                    "{E:1,C:attention}#2#{} trong",
-                    "bộ bài của bạn"
+                unlock={
+                    "所有𠃣一{C:attention}#1#",
+                    "{E:1,C:attention}#2#{}𥪝",
+                    "部牌𧵑伴"
                 }
             },
-            j_throwback = {
-                name = "Hồi Tổ",
-                text = {
-                    "{X:mult,C:white} X#1# {} Nhân cho mỗi {C:attention}Blind",
-                    "đã bỏ qua trong trận này",
-                    "{C:inactive}(Hiện tại là {X:mult,C:white} X#2# {C:inactive} Nhân)"
+            j_throwback={
+                name="回祖",
+                text={
+                    "{X:mult,C:white}X#1#{}因朱每{C:attention}瞙",
+                    "㐌𠬃過𥪝陣呢",
+                    "{C:inactive}(現在羅{X:mult,C:white}X#2#{C:inactive}因)"
                 },
-                unlock = {
-                    "Tiếp tục một trận đã lưu",
-                    "từ menu chính"
+                unlock={
+                    "接續𠬠陣㐌留",
+                    "自程單正"
                 }
             },
-            j_hanging_chad = {
-                name = "Phiếu Đục Lỗ",
-                text = {
-                    "Tái kích lá ghi điểm",
-                    "{C:attention}đầu tiên{} trong tay bài",
-                    "thêm {C:attention}#1#{} lần"
+            j_hanging_chad={
+                name="票鐲魯",
+                text={
+                    "再激蘿掑點",
+                    "{C:attention}頭先{}𥪝拪牌",
+                    "添{C:attention}#1#{}吝"
                 },
-                unlock = {
-                    "Đánh bại một Boss Blind",
-                    "bằng {E:1,C:attention}#1#"
+                unlock={
+                    "打敗𠬠瞙主",
+                    "憑{E:1,C:attention}#1#"
                 }
             },
-            j_rough_gem = {
-                name = "Đá Quý",
-                text = {
-                    "Lá bài đã chơi",
-                    "có chất {C:diamonds}Rô{} ghi thêm",
-                    "{C:money}$#1#{} khi ghi điểm", 
+            j_rough_gem={
+                name="𥒥貴",
+                text={
+                    "蘿牌㐌𨔈",
+                    "固質{C:diamonds}鱸{}掑添",
+                    "{C:money}$#1#{}欺掑點",
                 },
-                unlock = {
-                    "Sở hữu ít nhất {E:1,C:attention}#1#",
-                    "lá bài chất {E:1,C:attention}#2#",
-                    "trong bộ bài của bạn"
+                unlock={
+                    "所有𠃣一{E:1,C:attention}#1#",
+                    "蘿牌質{E:1,C:attention}#2#",
+                    "𥪝部牌𧵑伴"
                 }
             },
-            j_bloodstone = {
-                name = "Đá Đốm Đỏ",
-                text = {
-                    "Xác suất {C:green}#1# trên #2#",
-                    "để lá bài đã chơi",
-                    "có chất {C:hearts}Cơ{} ghi thêm ",
-                    "{X:mult,C:white} X#3# {} Nhân khi ghi điểm", 
+            j_bloodstone={
+                name="𥒥炶赭",
+                text={
+                    "確率{C:green}#1#𨕭#2#",
+                    "帝蘿牌㐌𨔈",
+                    "固質{C:hearts}箕{}掑添",
+                    "{X:mult,C:white}X#3#{}因欺掑點",
                 },
-                unlock = {
-                    "Sở hữu ít nhất {E:1,C:attention}#1#",
-                    "lá bài chất {E:1,C:attention}#2#",
-                    "trong bộ bài của bạn"
+                unlock={
+                    "所有𠃣一{E:1,C:attention}#1#",
+                    "蘿牌質{E:1,C:attention}#2#",
+                    "𥪝部牌𧵑伴"
                 }
             },
-            j_arrowhead = {
-                name = "Đá Mũi Mác",
-                text = {
-                    "Lá bài đã chơi",
-                    "có chất {C:spades}Bích{} ghi thêm",
-                    "{C:chips}+#1#{} Chip khi ghi điểm",
+            j_arrowhead={
+                name="𥒥鋂鏌",
+                text={
+                    "蘿牌㐌𨔈",
+                    "固質{C:spades}碧{}掑添",
+                    "{C:闡s}+#1#{}闡欺掑點",
                 },
-                unlock = {
-                    "Sở hữu ít nhất {E:1,C:attention}#1#",
-                    "lá bài chất {E:1,C:attention}#2#",
-                    "trong bộ bài của bạn"
+                unlock={
+                    "所有𠃣一{E:1,C:attention}#1#",
+                    "蘿牌質{E:1,C:attention}#2#",
+                    "𥪝部牌𧵑伴"
                 }
             },
-            j_onyx_agate = {
-                name = "Đá Mã Não",
-                text = {
-                    "Lá bài đã chơi",
-                    "có chất {C:clubs}Tép{} ghi thêm",
-                    "{C:mult}+#1#{} Nhân khi ghi điểm", 
+            j_onyx_agate={
+                name="𥒥馬腦",
+                text={
+                    "蘿牌㐌𨔈",
+                    "固質{C:clubs}鯜{}掑添",
+                    "{C:mult}+#1#{}因欺掑點",
                 },
-                unlock = {
-                    "Sở hữu ít nhất {E:1,C:attention}#1#",
-                    "lá bài chất {E:1,C:attention}#2#",
-                    "trong bộ bài của bạn"
+                unlock={
+                    "所有𠃣一{E:1,C:attention}#1#",
+                    "蘿牌質{E:1,C:attention}#2#",
+                    "𥪝部牌𧵑伴"
                 }
             },
-            j_glass = {
-                name = "Joker Kính",
-                text = {
-                    "Joker này thêm",
-                    "{X:mult,C:white} X#1# {} Nhân cho mỗi",
-                    "{C:attention}Lá Kính{} bị phá huỷ",
-                    "{C:inactive}(Hiện tại là {X:mult,C:white} X#2# {C:inactive} Nhân)"
+            j_glass={
+                name="播消鏡",
+                text={
+                    "播消呢添",
+                    "{X:mult,C:white}X#1#{}因朱每",
+                    "{C:attention}蘿鏡{}被破毀",
+                    "{C:inactive}(現在羅{X:mult,C:white}X#2#{C:inactive}因)"
                 },
-                unlock = {
-                    "Sở hữu ít nhất {E:1,C:attention}#1#",
+                unlock={
+                    "所有𠃣一{E:1,C:attention}#1#",
                     "{E:1,C:attention}#2#",
-                    "trong bộ bài của bạn"
+                    "𥪝部牌𧵑伴"
                 }
             },
-            j_ring_master = {
-                name = "Ông Bầu",
-                text = {
-                    "Lá {C:attention}Joker{}, {C:tarot}Tarot{},",
-                    "{C:planet}Hành Tinh{}, và {C:spectral}Siêu Linh",
-                    "có thể xuất hiện nhiều lần"
+            j_ring_master={
+                name="翁蔀",
+                text={
+                    "蘿{C:attention}播消{},{C:tarot}些鱸{},",
+                    "{C:planet}行星{},吧{C:spectral}超靈",
+                    "固體出現饒吝"
                 },
-                unlock = {
-                    "Đạt Ante",
-                    "level {E:1,C:attention}#1#"
+                unlock={
+                    "達級蹻{E:1,C:attention}#1#"
                 }
             },
-            j_flower_pot = {
-                name = "Bình Hoa",
-                text = {
-                    "{X:mult,C:white} X#1# {} Nhân nếu",
-                    "tay poker chứa một",
-                    "lá {C:diamonds}Rô{}, lá {C:clubs}Tép{},",
-                    "lá {C:hearts}Cơ{} và lá {C:spades}Bích"
+            j_flower_pot={
+                name="瓶花",
+                text={
+                    "{X:mult,C:white}X#1#{}因裊",
+                    "拪扑基貯𠬠",
+                    "蘿{C:diamonds}鱸{},蘿{C:clubs}鯜{},",
+                    "蘿{C:hearts}箕{}吧蘿{C:spades}碧"
                 },
-                unlock = {
-                    "Đạt Ante",
-                    "level {E:1,C:attention}#1#"
+                unlock={
+                    "達級蹻{E:1,C:attention}#1#"
                 }
             },
-            j_blueprint = {
-                name = "Bản Thiết Kế",
-                text = {
-                    "Sao chép khả năng",
-                    "của {C:attention}Joker{} liền phải"
+            j_blueprint={
+                name="版設計",
+                text={
+                    "抄箚可能",
+                    "𧵑{C:attention}播消{}連沛"
                 },
-                unlock = {
-                    "Thắng một trận"
+                unlock={
+                    "勝𠬠陣"
                 }
             },
-            j_wee = {
-                name = "Joker Nhỏ",
-                text = {
-                    "Joker này thêm",
-                    "{C:chips}+#2#{} Chip mỗi lá {C:attention}2",
-                    "đã chơi ghi điểm",
-                    "{C:inactive}(Hiện tại {C:chips}+#1#{C:inactive} Chip)"
+            j_wee={
+                name="播消𡮈",
+                text={
+                    "播消呢添",
+                    "{C:闡s}+#2#{}闡每蘿{C:attention}2",
+                    "㐌𨔈掑點",
+                    "{C:inactive}(現在羅{C:闡s}+#1#{C:inactive}闡)"
                 },
-                unlock = {
-                    "Thắng một trận trong {E:1,C:attention}#1#",
-                    "màn hoặc ít hơn"
+                unlock={
+                    "勝𠬠陣𥪝{E:1,C:attention}#1#",
+                    "幔或𠃣欣"
                 }
             },
-            j_merry_andy = {
-                name = "Văn Vui Vẻ",
-                text = {
-                    "{C:red}+#1#{} lượt bỏ bài",
-                    "mỗi ván,",
-                    "{C:red}#2#{} lá giữ trong tay"
+            j_merry_andy={
+                name="文𢝙𡲈",
+                text={
+                    "{C:red}+#1#{}辣𠬃牌",
+                    "每盤,",
+                    "{C:red}#2#{}蘿𢬇𥪝拪"
                 },
-                unlock = {
-                    "Thắng một trận trong {E:1,C:attention}#1#",
-                    "màn hoặc ít hơn"
+                unlock={
+                    "勝𠬠陣𥪝{E:1,C:attention}#1#",
+                    "幔或𠃣欣"
                 }
             },
-            j_oops = {
-                name = "Úi! Toàn 6",
-                text = {
-                    "Nhân đôi toàn bộ",
-                    "{C:green,E:1,S:1.1}xác suất {C:attention}được liệt kê",
-                    "{C:inactive}(VD: {C:green}1 trên 3{C:inactive} -> {C:green}2 trên 3{C:inactive})"
+            j_oops={
+                name="喂！全６",
+                text={
+                    "因對全部",
+                    "{C:green,E:1,S:1.1}確率{C:attention}得列計",
+                    "{C:inactive}(譬喻：{C:green}１𨕭３{C:inactive}->{C:green}２𨕭３{C:inactive})"
                 },
-                unlock = {
-                    "Trong một tay bài,",
-                    "đạt ít nhất",
-                    "{E:1,C:attention}#1#{} chip"
+                unlock={
+                    "𥪝𠬠拪牌,",
+                    "達𠃣一",
+                    "{E:1,C:attention}#1#{}闡"
                 }
             },
-            j_idol = {
-                name = "Thần Tượng",
-                text = {
-                    "Mỗi lá {C:attention}#2# {V:1}#3#",
-                    "ghi thêm {X:mult,C:white} X#1# {} Nhân",
-                    "khi ghi điểm",
-                    "{s:0.8}Lá bài thay đổi sau mỗi ván"
+            j_idol={
+                name="神像",
+                text={
+                    "每蘿{C:attention}#2#{V:1}#3#",
+                    "掑添{X:mult,C:white}X#1#{}因",
+                    "欺掑點",
+                    "{s:0.8}蘿牌𠊝𢷮差每盤"
                 },
-                unlock = {
-                    "Trong một tay bài,",
-                    "đạt ít nhất",
-                    "{E:1,C:attention}#1#{} chip"
+                unlock={
+                    "𥪝𠬠拪牌,",
+                    "達𠃣一",
+                    "{E:1,C:attention}#1#{}闡"
                 }
             },
-            j_seeing_double = {
-                name = "Nhất Kiến Vi Lưỡng",
-                text = {
-                    "{X:mult,C:white} X#1# {} Nhân nếu",
-                    "tay bài đã chơi chứa",
-                    "một lá {C:clubs}Tép{} ghi điểm và",
-                    "một lá {C:attention}chất{} khác ghi điểm",
+            j_seeing_double={
+                name="一見為兩",
+                text={
+                    "{X:mult,C:white}X#1#{}因裊",
+                    "𢬣牌㐌𨔈貯",
+                    "𠬠蘿{C:clubs}鯜{}掑點吧",
+                    "𠬠蘿{C:attention}質{}恪掑點",
                 },
-                unlock = {
-                    "Chơi một tay chứa",
+                unlock={
+                    "𨔈𠬠拪貯",
                     "{E:1,C:attention}#1#"
                 }
             },
-            j_matador = {
-                name = "Người Đấu Bò Tót",
-                text = {
-                    "Nhận {C:money}$#1#{} nếu tay bài",
-                    "đã chơi kích hoạt khả năng",
-                    "của {C:attention}Boss Blind"
+            j_matador={
+                name="𠊛鬪𤙭猝",
+                text={
+                    "認{C:money}$#1#{}裊拪牌",
+                    "㐌𨔈激活可能",
+                    "𧵑{C:attention}瞙主"
                 },
-                unlock = {
-                    "Đánh bại một Boss Blind",
-                    "bằng {E:1,C:attention}1 tạy{} mà",
-                    "không dùng lượt bỏ bài nào"
+                unlock={
+                    "打敗𠬠瞙主",
+                    "憑{E:1,C:attention}𠬠拪{}麻",
+                    "空用辣𠬃牌鬧"
                 }
             },
-            j_hit_the_road = {
-                name = "Lên Đường",
-                text = {
-                    "Joker này thêm {X:mult,C:white} X#1# {} Nhân",
-                    "cho mỗi lá {C:attention}Bồi",
-                    "bị bỏ trong ván này",
-                    "{C:inactive}(Hiện tại là {X:mult,C:white} X#2# {C:inactive} Nhân)"
+            j_hit_the_road={
+                name="𨕭塘",
+                text={
+                    "播消呢添{X:mult,C:white}X#1#{}因",
+                    "朱每蘿{C:attention}Ｊ",
+                    "被𠬃𥪝盤呢",
+                    "{C:inactive}(現在羅{X:mult,C:white}X#2#{C:inactive}因)"
                 },
-                unlock = {
-                    "Bỏ {E:1,C:attention}5{} lá {E:1,C:attention}Bồi",
-                    "cùng một lúc"
+                unlock={
+                    "𠬃{E:1,C:attention}５{}蘿{E:1,C:attention}Ｊ",
+                    "共沒𣅶"
                 }
             },
-            j_duo = {
-                name = "Chuẩn Nhị",
-                text = {
-                    "{X:mult,C:white} X#1# {} Nhân nếu",
-                    "tay bài đã chơi",
-                    "chứa {C:attention}#2#"
+            j_duo={
+                name="準二",
+                text={
+                    "{X:mult,C:white}X#1#{}因裊",
+                    "𢬣牌㐌𨔈",
+                    "貯{C:attention}#2#"
                 },
-                unlock = {
-                    "Thắng một trận",
-                    "mà không chơi",
-                    "{E:1,C:attention}#1#{} nào"
+                unlock={
+                    "勝𠬠陣",
+                    "麻空𨔈",
+                    "{E:1,C:attention}#1#{}鬧"
                 }
             },
-            j_trio = {
-                name = "Chuẩn Tam",
-                text = {
-                    "{X:mult,C:white} X#1# {} Nhân nếu",
-                    "tay bài đã chơi",
-                    "chứa {C:attention}#2#"
+            j_trio={
+                name="準三",
+                text={
+                    "{X:mult,C:white}X#1#{}因裊",
+                    "𢬣牌㐌𨔈",
+                    "貯{C:attention}#2#"
                 },
-                unlock = {
-                    "Thắng một trận",
-                    "mà không chơi",
-                    "{E:1,C:attention}#1#{} nào"
+                unlock={
+                    "勝𠬠陣",
+                    "麻空𨔈",
+                    "{E:1,C:attention}#1#{}鬧"
                 }
             },
-            j_family = {
-                name = "Chuẩn Tứ",
-                text = {
-                    "{X:mult,C:white} X#1# {} Nhân nếu",
-                    "tay bài đã chơi",
-                    "chứa {C:attention}#2#"
+            j_family={
+                name="準四",
+                text={
+                    "{X:mult,C:white}X#1#{}因裊",
+                    "𢬣牌㐌𨔈",
+                    "貯{C:attention}#2#"
                 },
-                unlock = {
-                    "Thắng một trận",
-                    "mà không chơi",
-                    "{E:1,C:attention}#1#{} nào"
+                unlock={
+                    "勝𠬠陣",
+                    "麻空𨔈",
+                    "{E:1,C:attention}#1#{}鬧"
                 }
             },
-            j_order = {
-                name = "Chuẩn Dãy",
-                text = {
-                    "{X:mult,C:white} X#1# {} Nhân nếu",
-                    "tay bài đã chơi",
-                    "chứa {C:attention}#2#"
+            j_order={
+                name="準圯",
+                text={
+                    "{X:mult,C:white}X#1#{}因裊",
+                    "𢬣牌㐌𨔈",
+                    "貯{C:attention}#2#"
                 },
-                unlock = {
-                    "Thắng một trận",
-                    "mà không chơi",
-                    "{E:1,C:attention}#1#{} nào"
+                unlock={
+                    "勝𠬠陣",
+                    "麻空𨔈",
+                    "{E:1,C:attention}#1#{}鬧"
                 }
             },
-            j_tribe = {
-                name = "Chuẩn Tộc",
-                text = {
-                    "{X:mult,C:white} X#1# {} Nhân nếu",
-                    "tay bài đã chơi",
-                    "chứa {C:attention}#2#"
+            j_tribe={
+                name="準族",
+                text={
+                    "{X:mult,C:white}X#1#{}因裊",
+                    "𢬣牌㐌𨔈",
+                    "貯{C:attention}#2#"
                 },
-                unlock = {
-                    "Thắng một trận",
-                    "mà không chơi",
-                    "{E:1,C:attention}#1#{} nào"
+                unlock={
+                    "勝𠬠陣",
+                    "麻空𨔈",
+                    "{E:1,C:attention}#1#{}鬧"
                 }
             },
-            j_cavendish = {
-                name = "Cavendish",
-                text = {
-                    "{X:mult,C:white} X#1# {} Nhân",
-                    "xác suất {C:green}#2# trên #3#",
-                    "lá này bị phá huỷ",
-                    "ở cuối ván"
+            j_cavendish={
+                name="桎蕉",
+                text={
+                    "{X:mult,C:white}X#1#{}因",
+                    "確率{C:green}#2#𨕭#3#",
+                    "蘿呢被破毀",
+                    "於季盤"
                 }
             },
-            j_card_sharp = {
-                name = "Bài Thủ Gian",
-                text = {
-                    "{X:mult,C:white} X#1# {} Nhân nếu",
-                    "{C:attention}tay poker{} đã chơi",
-                    "đã được chơi trước đó",
-                    "trong ván này"
+            j_card_sharp={
+                name="牌手奸",
+                text={
+                    "{X:mult,C:white}X#1#{}因裊",
+                    "{C:attention}拪扑基{}㐌𨔈",
+                    "㐌得𨔈畧妬",
+                    "𥪝盤呢"
                 }
             },
-            j_red_card = {
-                name = "Thẻ Đỏ",
-                text = {
-                    "Joker này thêm",
-                    "{C:red}+#1#{} Nhân khi bất kì",
-                    "{C:attention}Gói Bài{} nào bị bỏ qua",
-                    "{C:inactive}(Hiện tại là {C:red}+#2#{C:inactive} Nhân)"
+            j_red_card={
+                name="𥸠赭",
+                text={
+                    "播消呢添",
+                    "{C:red}+#1#{}因欺不其",
+                    "{C:attention}絵牌{}鬧被𠬃過",
+                    "{C:inactive}(現在羅{C:red}+#2#{C:inactive}因)"
                 }
             },
-            j_madness = {
-                name = "Điên Loạn",
-                text = {
-                    "Khi {C:attention}Small Blind{} hoặc {C:attention}Big Blind",
-                    "được chọn, thêm {X:mult,C:white} X#1# {} Nhân",
-                    "và {C:attention}phá huỷ{} một Joker ngẫu nhiên",
-                    "{C:inactive}(Hiện tại là {X:mult,C:white} X#2# {C:inactive} Nhân)"
+            j_madness={
+                name="癲亂",
+                text={
+                    "欺{C:attention}瞙𡮈{}或{C:attention}瞙𡘯",
+                    "得撰,添{X:mult,C:white}X#1#{}因",
+                    "吧{C:attention}破毀{}𠬠播消偶然",
+                    "{C:inactive}(現在羅{X:mult,C:white}X#2#{C:inactive}因)"
                 }
             },
-            j_square = {
-                name = "Joker Vuông",
-                text = {
-                    "Joker này thêm {C:chips}+#2#{} Chip",
-                    "nếu tay bài đã chơi",
-                    "chứa đúng {C:attention}4{} lá",
-                    "{C:inactive}(Hiện tại là {C:chips}#1#{C:inactive} Chip)"
+            j_square={
+                name="播消方",
+                text={
+                    "播消呢添{C:闡s}+#2#{}闡",
+                    "裊𢬣牌㐌𨔈",
+                    "貯中{C:attention}4{}蘿",
+                    "{C:inactive}(現在羅{C:闡s}#1#{C:inactive}闡)"
                 }
             },
-            j_seance = {
-                name = "Gọi Hồn",
-                text = {
-                    "Nếu {C:attention}tay poker{} là",
-                    "{C:attention}#1#{}, tạo ra một",
-                    "lá {C:spectral}Siêu Linh{} ngẫu nhiên",
-                    "{C:inactive}(Phải có ô trống)"
+            j_seance={
+                name="噲魂",
+                text={
+                    "裊{C:attention}拪扑基{}羅",
+                    "{C:attention}#1#{},造𦋦𠬠",
+                    "蘿{C:spectral}超靈{}偶然",
+                    "{C:inactive}(沛固杇𥧪)"
                 }
             },
-            j_riff_raff = {
-                name = "Hạ Lưu",
-                text = {
-                    "Khi {C:attention}Blind{} được chọn,",
-                    "tạo ra {C:attention}#1# Joker {C:blue}Thường",
-                    "{C:inactive}(Phải có ô trống)"
+            j_riff_raff={
+                name="下流",
+                text={
+                    "欺{C:attention}瞙{}得撰,",
+                    "造𦋦{C:attention}#1#播消{C:blue}常",
+                    "{C:inactive}(沛固杇𥧪)"
                 }
             },
-            j_vampire = {
-                name = "Ma Cà Rồng",
-                text = {
-                    "Joker này thêm {X:mult,C:white} X#1# {} Nhân",
-                    "mỗi {C:attention}lá Cường Hoá{} đã chơi ghi điểm,",
-                    "loại bỏ {C:attention}Cường Hoá",
-                    "{C:inactive}(Hiện tại là {X:mult,C:white} X#2# {C:inactive} Nhân)"
+            j_vampire={
+                name="魔茄蠬",
+                text={
+                    "播消呢添{X:mult,C:white}X#1#{}因",
+                    "每{C:attention}蘿彊化{}㐌𨔈掑點,",
+                    "類𠬃{C:attention}彊化",
+                    "{C:inactive}(現在羅{X:mult,C:white}X#2#{C:inactive}因)"
                 }
             },
-            j_shortcut = {
-                name = "Đường Tắt",
-                text = {
-                    "Cho phép tạo ra {C:attention}Sảnh",
-                    "bị khuyết {C:attention}1 bậc",
-                    "{C:inactive}(VD: {C:attention}10 8 6 5 3{C:inactive})"
+            j_shortcut={
+                name="塘𨄠",
+                text={
+                    "朱法造𦋦{C:attention}蛇",
+                    "被闕{C:attention}１堛",
+                    "{C:inactive}(VD:{C:attention}10　８　６　５　３{C:inactive})"
                 }
             },
-            j_hologram = {
-                name = "Ảnh Ba Chiều",
-                text = {
-                    "Joker này thêm {X:mult,C:white} X#1# {} Nhân",
-                    "mỗi khi một {C:attention}lá bài thường",
-                    "được thêm vào bộ bài",
-                    "{C:inactive}(Hiện tại là {X:mult,C:white} X#2# {C:inactive} Nhân)"
+            j_hologram={
+                name="影𠀧朝",
+                text={
+                    "播消呢添{X:mult,C:white}X#1#{}因",
+                    "每欺𠬠{C:attention}蘿牌常",
+                    "得添𠓨部牌",
+                    "{C:inactive}(現在羅{X:mult,C:white}X#2#{C:inactive}因)"
                 }
             },
-            j_vagabond = {
-                name = "Kẻ Lang Thang",
-                text = {
-                    "Tạo ra một lá {C:purple}Tarot",
-                    "nếy tay bài được chơi",
-                    "khi có {C:money}$#1#{} hoặc ít hơn",
+            j_vagabond={
+                name="仉狼湯",
+                text={
+                    "造𦋦𠬠蘿{C:purple}些鱸",
+                    "裊拪牌得𨔈",
+                    "欺固{C:money}$#1#{}或ít欣",
                 }
             },
-            j_baron = {
-                name = "Nam Tước",
-                text = {
-                    "Mỗi lá {C:attention}Già{} giữ",
-                    "trong tay ghi thêm",
-                    "{X:mult,C:white} X#1# {} Nhân",
+            j_baron={
+                name="男爵",
+                text={
+                    "每蘿{C:attention}Ｋ{}𢬇",
+                    "𥪝拪掑添",
+                    "{X:mult,C:white}X#1#{}因",
 
                 }
             },
-            j_cloud_9 = {
-                name = "Chín Tầng Mây",
-                text = {
-                    "Nhận {C:money}$#1#{} cho mỗi lá {C:attention}9",
-                    "trong {C:attention}cả bộ bài{} của bạn",
-                    "ở cuối ván",
-                    "{C:inactive}(Hiện tại là {C:money}$#2#{}{C:inactive})"
+            j_cloud_9={
+                name="𠃩層𩄲",
+                text={
+                    "認{C:money}$#1#{}朱每蘿{C:attention}9",
+                    "𥪝{C:attention}哿部牌{}𧵑伴",
+                    "於季盤",
+                    "{C:inactive}(現在羅{C:money}$#2#{}{C:inactive})"
                 }
             },
-            j_rocket = {
-                name = "Tên Lửa",
-                text = {
-                    "Nhận {C:money}$#1#{} ở cuối ván",
-                    "Tiền thưởng tăng thêm {C:money}$#2#",
-                    "khi {C:attention}Boss Blind{} bị đánh bại",
+            j_rocket={
+                name="箭焒",
+                text={
+                    "認{C:money}$#1#{}於季盤",
+                    "錢賞增添{C:money}$#2#",
+                    "欺{C:attention}瞙主{}被打敗",
                 }
             },
-            j_obelisk = {
-                name = "Đài Tưởng Niệm",
-                text = {
-                    "Joker này thêm {X:mult,C:white} X#1# {} Nhân",
-                    "mỗi tay poker {C:attention}liên tiếp{} đã chơi",
-                    "mà không chơi {C:attention}tay poker",
-                    "có nhiều lần chơi nhất",
-                    "{C:inactive}(Hiện tại là {X:mult,C:white} X#2# {C:inactive} Nhân)"
+            j_obelisk={
+                name="台想念",
+                text={
+                    "播消呢添{X:mult,C:white}X#1#{}因",
+                    "每拪扑基{C:attention}連接{}㐌𨔈",
+                    "麻空𨔈{C:attention}拪扑基",
+                    "固饒吝𨔈一",
+                    "{C:inactive}(現在羅{X:mult,C:white}X#2#{C:inactive}因)"
                 }
             },
-            j_midas_mask = {
-                name = "Mặt Nạ Midas",
-                text = {
-                    "Mọi lá {C:attention}mặt{} đã chơi",
-                    "trở thành lá {C:attention}Vàng",
-                    "khi ghi điểm",
+            j_midas_mask={
+                name="𩈘𩈩嵋笪",
+                text={
+                    "每蘿{C:attention}𩈘{}㐌𨔈",
+                    "㨋成蘿{C:attention}鐄",
+                    "欺掑點",
                 }
             },
-            j_luchador = {
-                name = "Đô Vật",
-                text = {
-                    "Bán lá này để",
-                    "vô hiệu hoá khả năng của",
-                    "{C:attention}Boss Blind{} hiện tại",
+            j_luchador={
+                name="都𢪱",
+                text={
+                    "𧸝蘿呢帝",
+                    "無効化可能𧵑",
+                    "{C:attention}瞙主{}現在",
                 }
             },
-            j_photograph = {
-                name = "Bức Ảnh",
-                text = {
-                    "Lá {C:attention}mặt{} đầu tiên",
-                    "ghi thêm {X:mult,C:white} X#1# {} Nhân",
-                    "khi ghi điểm",
+            j_photograph={
+                name="幅影",
+                text={
+                    "蘿{C:attention}𩈘{}頭先",
+                    "掑添{X:mult,C:white}X#1#{}因",
+                    "欺掑點",
                 }
             },
-            j_gift = {
-                name = "Thẻ Quà Tặng",
-                text = {
-                    "Thêm {C:money}$#1#{} {C:attention}giá bán",
-                    "vào mỗi lá {C:attention}Joker",
-                    "và lá {C:attention}Tiêu Thụ",
-                    "ở cuối ván"
+            j_gift={
+                name="𥸠𩚧贈",
+                text={
+                    "添{C:money}$#1#{}{C:attention}價𧸝",
+                    "𠓨每蘿{C:attention}播消",
+                    "吧蘿{C:attention}銷售",
+                    "於季盤"
                 }
             },
-            j_turtle_bean = {
-                name = "Đậu Đen",
-                text = {
-                    "{C:attention}+#1#{} lá giữ trong tay,",
-                    "giảm đi {C:red}#2#{} mỗi ván"
+            j_turtle_bean={
+                name="豆黰",
+                text={
+                    "{C:attention}+#1#{}蘿𢬇𥪝拪,",
+                    "減𠫾{C:red}#2#{}每盤"
                 }
             },
-            j_erosion = {
-                name = "Xói Mòn",
-                text = {
-                    "{C:red}+#1#{} Nhân cho mỗi",
-                    "lá bài dưới mức {C:attention}#3#{} lá",
-                    "trong cả bộ bài",
-                    "{C:inactive}(Hiện tại là {C:red}+#2#{C:inactive} Nhân)"
+            j_erosion={
+                name="㩡𤷱",
+                text={
+                    "{C:red}+#1#{}因朱每",
+                    "蘿牌𨑜墨{C:attention}#3#{}蘿",
+                    "𥪝哿部牌",
+                    "{C:inactive}(現在羅{C:red}+#2#{C:inactive}因)"
                 }
             },
-            j_reserved_parking = {
-                name = "Bãi Đỗ Xe Riêng",
-                text = {
-                    "Mỗi lá {C:attention}mặt",
-                    "giữ trong tay có",
-                    "xác suất {C:green}#2# trên #3#",
-                    "để nhận thêm {C:money}$#1#",
+            j_reserved_parking={
+                name="𡓁逗車貞",
+                text={
+                    "每蘿{C:attention}𩈘",
+                    "𢬇𥪝拪固",
+                    "確率{C:green}#2#𨕭#3#",
+                    "帝認添{C:money}$#1#",
                     
                 }
             },
-            j_mail = {
-                name = "Tiền Hoàn Thư",
-                text = {
-                    "Nhận {C:money}$#1#{} cho mỗi",
-                    "lá {C:attention}#2#{} bị bỏ,",
-                    "bậc thay đổi mỗi ván"
+            j_mail={
+                name="錢還書",
+                text={
+                    "認{C:money}$#1#{}朱每",
+                    "蘿{C:attention}#2#{}被𠬃、",
+                    "堛𠊝𢷮每盤"
                 }
             },
-            j_to_the_moon = {
-                name = "Lên Thẳng Cung Trăng",
-                text = {
-                    "Nhận thêm {C:money}$#1#",
-                    "{C:attention}tiền lãi{} cho mỗi {C:money}$5{} bạn có",
-                    "ở cuối ván"
+            j_to_the_moon={
+                name="𨕭𣦎宮𢁋",
+                text={
+                    "認添{C:money}$#1#",
+                    "{C:attention}前𥚥{}朱每{C:money}$5{}伴固",
+                    "於季盤"
                 }
             },
-            j_hallucination = {
-                name = "Ảo Giác",
-                text = {
-                    "Xác suất {C:green}#1# trên #2#{} để tạo",
-                    "ra một lá {C:tarot}Tarot{} khi bất kì",
-                    "{C:attention}Gói Bài{} nào được mở",
-                    "{C:inactive}(Phải có ô trống)"
+            j_hallucination={
+                name="幻覺",
+                text={
+                    "確率{C:green}#1#𨕭#2#{}帝造",
+                    "𦋦𠬠蘿{C:tarot}些鱸{}欺不其",
+                    "{C:attention}絵牌{}鬧得𢲫",
+                    "{C:inactive}(沛固杇𥧪)"
                 }
             },
-            j_lucky_cat = {
-                name = "Mèo Thần Tài",
-                text = {
-                    "Joker này thêm {X:mult,C:white} X#1# {} Nhân",
-                    "mỗi khi một lá {C:attention}May Mắn",
-                    "kích {C:green}thành công",
-                    "{C:inactive}(Hiện tại là {X:mult,C:white} X#2# {C:inactive} Nhân)"
+            j_lucky_cat={
+                name="貓神財",
+                text={
+                    "播消呢添{X:mult,C:white}X#1#{}因",
+                    "每欺𠬠蘿{C:attention}𢆧敏",
+                    "激{C:green}成功",
+                    "{C:inactive}(現在羅{X:mult,C:white}X#2#{C:inactive}因)"
                 }
             },
-            j_baseball = {
-                name = "Thẻ Bóng Chày",
-                text = {
-                    "Mỗi Joker {C:green}Ít Phổ Biến",
-                    "ghi thêm {X:mult,C:white} X#1# {} Nhân",
+            j_baseball={
+                name="𥸠䏾𣖖",
+                text={
+                    "每播消{C:green}𠃣普遍",
+                    "掑添{X:mult,C:white}X#1#{}因",
                 }
             },
-            j_bull = {
-                name = "Bò Đực",
-                text = {
-                    "{C:chips}+#1#{} Chip cho",
-                    "mỗi {C:money}$1{} bạn có",
-                    "{C:inactive}(Hiện tại là {C:chips}+#2#{C:inactive} Chip)"
+            j_bull={
+                name="𤙭特",
+                text={
+                    "{C:闡s}+#1#{}闡朱",
+                    "每{C:money}$1{}伴固",
+                    "{C:inactive}(現在羅{C:闡s}+#2#{C:inactive}闡)"
                 }
             },
-            j_diet_cola = {
-                name = "Cola Không Đường",
-                text = {
-                    "Bán lá này để",
-                    "tạo ra một",
-                    "{C:attention}#1#{} miễn phí"
+            j_diet_cola={
+                name="估羅空糖",
+                text={
+                    "𧸝蘿呢帝",
+                    "造𦋦𠬠",
+                    "{C:attention}#1#{}免費"
                 }
             },
-            j_trading = {
-                name = "Thẻ Trao Đổi",
-                text = {
-                    "Nếu {C:attention}lượt bỏ bài đầu tiên",
-                    "của ván chỉ có {C:attention}1{} lá, phá huỷ",
-                    "nó và nhận {C:money}$#1#"
+            j_trading={
+                name="𥸠掉𢷮",
+                text={
+                    "裊{C:attention}辣𠬃牌頭先",
+                    "𧵑盤只固{C:attention}1{}蘿、破毀",
+                    "奴吧認{C:money}$#1#"
                 }
             },
-            j_flash = {
-                name = "Thẻ Ghi Nhớ",
-                text = {
-                    "Joker này thêm {C:mult}+#1#{} Nhân",
-                    "mỗi lượt {C:attention}gieo lại{} trong shop",
-                    "{C:inactive}(Hiện tại là {C:mult}+#2#{C:inactive} Nhân)"
+            j_flash={
+                name="𥸠掑汝",
+                text={
+                    "播消呢添{C:mult}+#1#{}因",
+                    "每辣{C:attention}招吏{}𥪝㪯行",
+                    "{C:inactive}(現在羅{C:mult}+#2#{C:inactive}因)"
                 }
             },
-            j_popcorn= {
-                name = "Bỏng Ngô",
-                text = {
-                    "{C:mult}+#1#{} Nhân",
-                    "{C:mult}-#2#{} Nhân mỗi",
-                    "ván đã chơi"
+            j_popcorn={
+                name="𤊡梧",
+                text={
+                    "{C:mult}+#1#{}因",
+                    "{C:mult}-#2#{}因每",
+                    "盤㐌𨔈"
                 }
             },
-            j_ramen= {
-                name = "Ramen",
-                text = {
-                    "{X:mult,C:white} X#1# {} Nhân,",
-                    "mất đi {X:mult,C:white} X#2# {} Nhân",
-                    "mỗi {C:attention}lá bài{} bị bỏ",
+            j_ramen={
+                name="拉麺",
+                text={
+                    "{X:mult,C:white}X#1#{}因,",
+                    "秩𠫾{X:mult,C:white}X#2#{}因",
+                    "每{C:attention}蘿牌{}被𠬃",
                 }
             },
-            j_trousers= {
-                name = "Quần Dài Dư",
-                text = {
-                    "Joker này thêm {C:mult}+#1#{} Nhân",
-                    "nếu tay đã chơi",
-                    "chứa {C:attention}#2#",
-                    "{C:inactive}(Hiện tại là {C:red}+#3#{C:inactive} Nhân)"
+            j_trousers={
+                name="裙曳余",
+                text={
+                    "播消呢添{C:mult}+#1#{}因",
+                    "裊拪㐌𨔈",
+                    "貯{C:attention}#2#",
+                    "{C:inactive}(現在羅{C:red}+#3#{C:inactive}因)"
                 }
             },
-            j_ancient= {
-                name = "Joker Cổ Đại",
-                text = {
-                    "Mỗi lá đã chơi có",
-                    "chất {V:1}#2#{} ghi thêm",
-                    "{X:mult,C:white} X#1# {} Nhân khi ghi điểm,",
-                    "{s:0.8}chất thay đổi ở cuối ván"
+            j_ancient={
+                name="播消古代",
+                text={
+                    "每蘿㐌𨔈固",
+                    "質{V:1}#2#{}掑添",
+                    "{X:mult,C:white}X#1#{}因欺掑點,",
+                    "{s:0.8}質𠊝𢷮於季盤"
                 }
             },
-            j_walkie_talkie = {
-                name = "Bộ Đàm",
-                text = {
-                    "Mỗi lá {C:attention}10{} hoặc {C:attention}4{} đã chơi",
-                    "ghi thêm {C:chips}+#1#{} Chip và", 
-                    "{C:mult}+#2#{} Nhân khi ghi điểm"
+            j_walkie_talkie={
+                name="部談",
+                text={
+                    "每蘿{C:attention}10{}或{C:attention}４{}㐌𨔈",
+                    "掑添{C:闡s}+#1#{}闡吧",
+                    "{C:mult}+#2#{}因欺掑點"
                 },
             },
-            j_selzer= {
-                name = "Khoáng Có Ga",
-                text = {
-                    "Tái kích mọi lá bài",
-                    "đã chơi cho",
-                    "{C:attention}#1#{} tay sắp tới",
+            j_selzer={
+                name="礦固𪵤",
+                text={
+                    "再激每蘿牌",
+                    "㐌𨔈朱",
+                    "{C:attention}#1#{}拪㕸𬧐",
                 }
             },
-            j_castle = {
-                name = "Lâu Đài",
-                text = {
-                    "Joker này thêm {C:chips}+#1#{} Chip",
-                    "mỗi lá {V:1}#2#{} bị bỏ,",
-                    "chất thay đổi mỗi ván",
-                    "{C:inactive}(Hiện tại là {C:chips}+#3#{C:inactive} Chip)"
+            j_castle={
+                name="樓台",
+                text={
+                    "播消呢添{C:闡s}+#1#{}闡",
+                    "每蘿{V:1}#2#{}被𠬃,",
+                    "質𠊝𢷮每盤",
+                    "{C:inactive}(現在羅{C:闡s}+#3#{C:inactive}闡)"
                 },
             },
-            j_smiley = {
-                name = "Mặt Cười",
-                text = {
-                    "Lá {C:attention}mặt{} đã chơi",
-                    "ghi thêm {C:mult}+#1#{} Nhân",
-                    "khi ghi điểm"
+            j_smiley={
+                name="𩈘䶞",
+                text={
+                    "蘿{C:attention}𩈘{}㐌𨔈",
+                    "掑添{C:mult}+#1#{}因",
+                    "欺掑點"
                 }
             },
-            j_campfire = {
-                name = "Lửa Trại",
-                text = {
-                    "Joker Này thêm {X:mult,C:white}X#1#{} Nhân",
-                    "cho mỗi lá bài {C:attention}đã bán{}, đặt",
-                    "lại khi {C:attention}Boss Blind{} bị đánh bại",
-                    "{C:inactive}(Hiện tại là {X:mult,C:white} X#2# {C:inactive} Nhân)"
+            j_campfire={
+                name="焒寨",
+                text={
+                    "播消呢添{X:mult,C:white}X#1#{}因",
+                    "朱每蘿牌{C:attention}㐌𧸝{}、撻",
+                    "吏欺{C:attention}瞙主{}被打敗",
+                    "{C:inactive}(現在羅{X:mult,C:white}X#2#{C:inactive}因)"
                 }
             },
 
 
-            j_stuntman = {
-                name = "Người Đóng Thế",
-                text = {
-                    "{C:chips}+#1#{} Chip, {C:attention}-#2#{} lá",
-                    "giữ trong tay"
+            j_stuntman={
+                name="𠊛㨂替",
+                text={
+                    "{C:闡s}+#1#{}闡,{C:attention}-#2#{}蘿",
+                    "𢬇𥪝拪"
                 },
-                unlock = {
-                    "Trong một tay bài,",
-                    "đạt ít nhất",
-                    "{E:1,C:attention}#1#{} chip"
+                unlock={
+                    "𥪝𠬠拪牌,",
+                    "達𠃣一",
+                    "{E:1,C:attention}#1#{}闡"
                 }
             },
-            j_invisible = {
-                name = "Joker Tàng Hình",
-                text = {
-                    "Sau {C:attention}#1#{} ván,",
-                    "bán lá này để {C:attention}Nhân bản",
-                    "một Joker ngẫu nhiên",
-                    "{C:inactive}(Hiện tại là {C:attention}#2#{C:inactive}/#1#)"
+            j_invisible={
+                name="播消藏形",
+                text={
+                    "差{C:attention}#1#{}盤,",
+                    "𧸝蘿呢帝{C:attention}因版",
+                    "𠬠播消偶然",
+                    "{C:inactive}(現在羅{C:attention}#2#{C:inactive}/#1#)"
                 },
-                unlock = {
-                    "Thắng một trận mà",
-                    "không sở hữu nhiều hơn",
-                    "{E:1,C:attention}4 Joker"
+                unlock={
+                    "勝𠬠陣麻",
+                    "空所有饒欣",
+                    "{E:1,C:attention}4播消"
                 }
             },
-            j_brainstorm = {
-                name = "Động Não",
-                text = {
-                    "Sao chép khả năng của",
-                    "{C:attention}Joker{} ở tít bên trái"
+            j_brainstorm={
+                name="動腦",
+                text={
+                    "抄箚可能𧵑",
+                    "{C:attention}播消{}於節邊賴"
                 },
-                unlock = {
-                    "Bỏ bộ 5 lá bài thuộc",
-                    "{E:1,C:attention}Sảnh Chúa"
+                unlock={
+                    "𠬃部５蘿牌属",
+                    "{E:1,C:attention}蛇主"
                 }
             },
-            j_satellite = {
-                name = "Vệ Tinh",
-                text = {
-                    "Nhận {C:money}$#1#{} ở cuối mỗi ván",
-                    "cho mỗi lá {C:planet}Hành Tinh{} khác loại",
-                    "đã dùng trong trận này",
-                    "{C:inactive}(Hiện tại là {C:money}$#2#{C:inactive})"
+            j_satellite={
+                name="衛星",
+                text={
+                    "認{C:money}$#1#{}於季每盤",
+                    "朱每蘿{C:planet}行星{}恪類",
+                    "㐌用𥪝陣呢",
+                    "{C:inactive}(現在羅{C:money}$#2#{C:inactive})"
                 },
-                unlock = {
-                    "Sở hữu {E:1,C:money}$#1#",
-                    "hoặc hơn"
+                unlock={
+                    "所有{E:1,C:money}$#1#",
+                    "或欣"
                 }
             },
-            j_shoot_the_moon = {
-                name = "Shoot the Moon",
-                text = {
-                    "Mỗi lá {C:attention}Đầm",
-                    "giữ trong tay",
-                    "ghi thêm {C:mult}+#1#{} Nhân",
+            j_shoot_the_moon={
+                name="射月",
+                text={
+                    "每蘿{C:attention}Ｑ",
+                    "𢬇𥪝拪",
+                    "掑添{C:mult}+#1#{}因",
                 },
-                unlock = {
-                    "Chơi toàn bộ lá {E:1,C:attention}Cơ",
-                    "trong bộ bài của bạn",
-                    "trong một ván duy nhất"
+                unlock={
+                    "𨔈全部蘿{E:1,C:attention}箕",
+                    "𥪝部牌𧵑伴",
+                    "𥪝𠬠盤唯一"
                 }
             },
-            j_drivers_license = {
-                name = "Giấy Phép Lái Xe",
-                text = {
-                    "{X:mult,C:white} X#1# {} Nhân nếu bạn sở hữu",
-                    "ít nhất {C:attention}16{} lá Cường Hoá",
-                    "trong cả bộ bài",
-                    "{C:inactive}(Hiện tại là {C:attention}#2#{C:inactive})"
+            j_drivers_license={
+                name="絏法梩車",
+                text={
+                    "{X:mult,C:white}X#1#{}因裊伴所有",
+                    "𠃣一{C:attention}16{}蘿彊化",
+                    "𥪝哿部牌",
+                    "{C:inactive}(現在羅{C:attention}#2#{C:inactive})"
                 },
-                unlock = {
-                    "Cường hoá {E:1,C:attention}#1#{} lá bài",
-                    "trong bộ bài của bạn"
+                unlock={
+                    "彊化{E:1,C:attention}#1#{}蘿牌",
+                    "𥪝部牌𧵑伴"
                 }
             },
-            j_cartomancer = {
-                name = "Thầy Bói",
-                text = {
-                    "Tạo ra một lá {C:tarot}Tarot",
-                    "khi {C:attention}Blind{} được chọn",
-                    "{C:inactive}(Phải có ô trống)"
+            j_cartomancer={
+                name="偨𧴤",
+                text={
+                    "造𦋦𠬠蘿{C:tarot}些鱸",
+                    "欺{C:attention}瞙{}得撰",
+                    "{C:inactive}(沛固杇𥧪)"
                 },
-                unlock = {
-                    "Khám phá toàn bộ",
-                    "lá {E:1,C:tarot}Tarot"
+                unlock={
+                    "勘破全部",
+                    "蘿{E:1,C:tarot}些鱸"
                 }
             },
-            j_astronomer = {
-                name = "Nhà Thiên Văn Học",
-                text = {
-                    "Mọi lá {C:planet}Hành Tinh{} và",
-                    "{C:planet}Gói Thiên Thể{} trong",
-                    "shop đều {C:attention}miễn phí"
+            j_astronomer={
+                name="家天文學",
+                text={
+                    "每蘿{C:planet}行星{}吧",
+                    "{C:planet}絵天體{}𥪝",
+                    "㪯行調{C:attention}免費"
                 },
-                unlock = {
-                    "Khám phá toàn bộ",
-                    "lá {E:1,C:planet}Hành Tinh"
+                unlock={
+                    "勘破全部",
+                    "蘿{E:1,C:planet}行星"
                 }
             },
-            j_burnt = {
-                name = "Joker Cháy Sém",
-                text = {
-                    "Nâng level cho",
-                    "tay poker {C:attention}bị bỏ",
-                    "đầu tiên của mỗi ván",
+            j_burnt={
+                name="播消𤈜𤒦",
+                text={
+                    "㨢級朱",
+                    "拪扑基{C:attention}被𠬃",
+                    "頭先𧵑每盤",
                 },
-                unlock = {
-                    "Bán tổng cộng",
-                    "{E:1,C:attention}#1#{} lá bài",
+                unlock={
+                    "𧸝總共",
+                    "{E:1,C:attention}#1#{}蘿牌",
                     "{C:inactive}(#2#)"
                 }
             },
-            j_bootstraps = {
-                name = "Tự Vươn Lên",
-                text = {
-                    "{C:mult}+#1#{} Nhân cho mỗi",
-                    "{C:money}$#2#{} bạn có",
-                    "{C:inactive}(Hiện tại là {C:mult}+#3#{C:inactive} Nhân)"
+            j_bootstraps={
+                name="自𫏖𨕭",
+                text={
+                    "{C:mult}+#1#{}因朱每",
+                    "{C:money}$#2#{}伴固",
+                    "{C:inactive}(現在羅{C:mult}+#3#{C:inactive}因)"
                 },
-                unlock = {
-                    "Sở hữu ít nhất {E:1,C:attention}#1#",
-                    "Joker {C:dark_edition}Đa Sắc"
+                unlock={
+                    "所有𠃣一{E:1,C:attention}#1#",
+                    "播消{C:dark_edition}多色"
                 }
             },
-            j_caino = {
-                name = "Canio",
-                text = {
-                    "Joker này thêm {X:mult,C:white} X#1# {} Nhân",
-                    "khi một lá {C:attention}mặt{} bị phá huỷ",
-                    "{C:inactive}(Hiện tại là {X:mult,C:white} X#2# {C:inactive} Nhân)"
+            j_caino={
+                name="哥尼烏",
+                text={
+                    "播消呢添{X:mult,C:white}X#1#{}因",
+                    "欺𠬠蘿{C:attention}𩈘{}被破毀",
+                    "{C:inactive}(現在羅{X:mult,C:white}X#2#{C:inactive}因)"
                 },
-                unlock = {
+                unlock={
                     "{E:1,s:1.3}?????"
                 }
             },
-            j_triboulet = {
-                name = "Triboulet",
-                text = {
-                    "Mỗi lá {C:attention}Già{} và {C:attention}Đầm{}",
-                    "đã chơi ghi thêm",
-                    "{X:mult,C:white} X#1# {} Nhân khi ghi điểm"
+            j_triboulet={
+                name="芝哺黎",
+                text={
+                    "每蘿{C:attention}Ｋ{}吧{C:attention}Ｑ{}",
+                    "㐌𨔈掑添",
+                    "{X:mult,C:white}X#1#{}因欺掑點"
                 },
-                unlock = {
+                unlock={
                     "{E:1,s:1.3}?????"
                 }
             },
-            j_yorick = {
-                name = "Yorick",
-                text = {
-                    "Joker này thêm",
-                    "{X:mult,C:white} X#1# {} Nhân cho mỗi",
-                    "{C:attention}#2#{C:inactive} [#3#]{} lá bài bị bỏ",
-                    "{C:inactive}(Hiện tại là {X:mult,C:white} X#4# {C:inactive} Nhân)"
+            j_yorick={
+                name="由滴",
+                text={
+                    "播消呢添",
+                    "{X:mult,C:white}X#1#{}因朱每",
+                    "{C:attention}#2#{C:inactive}[#3#]{}蘿牌被𠬃",
+                    "{C:inactive}(現在羅{X:mult,C:white}X#4#{C:inactive}因)"
                 },
-                unlock = {
+                unlock={
                     "{E:1,s:1.3}?????"
                 }
             },
-            j_chicot = {
-                name = "Chicot",
-                text = {
-                    "Vô hiệu hoá khả năng",
-                    "của mọi {C:attention}Boss Blind"
+            j_chicot={
+                name="芝孤",
+                text={
+                    "無効化可能",
+                    "𧵑每{C:attention}瞙主"
                 },
-                unlock = {
+                unlock={
                     "{E:1,s:1.3}?????"
                 }
             },
-            j_perkeo = {
-                name = "Perkeo",
-                text = {
-                    "Tạo ra một bản sao {C:dark_edition}Âm Bản",
-                    "của {C:attention}1{} lá {C:attention}Tiêu Thụ{} ngẫu nhiên",
-                    "thuộc sở hữu của bạn",
-                    "ở cuối {C:attention}shop",
+            j_perkeo={
+                name="巴機烏",
+                text={
+                    "造𦋦𠬠版抄{C:dark_edition}陰版",
+                    "𧵑{C:attention}1{}蘿{C:attention}銷售{}偶然",
+                    "属所有𧵑伴",
+                    "於季{C:attention}㪯行",
                 },
-                unlock = {
+                unlock={
                     "{E:1,s:1.3}?????"
                 }
             }
         },
-        Voucher = {
-            v_overstock_norm = {
-                name = "Quá Trữ",
-                text = {
-                    "{C:attention}+1{} ô lá bài",
-                    "có sẵn trong shop"
+        Voucher={
+            v_overstock_norm={
+                name="過貯",
+                text={
+                    "{C:attention}+1{}杇蘿牌",
+                    "固産𥪝㪯行"
                 }
             },
-            v_clearance_sale = {
-                name = "Bán Hạ Giá",
-                text = {
-                    "Mọi lá bài và gói bài trong",
-                    "shop được giảm {C:attention}#1#%{} giá"
+            v_clearance_sale={
+                name="𧸝下價",
+                text={
+                    "每蘿牌吧絵牌𥪝",
+                    "㪯行得減{C:attention}#1#%{}價"
                 }
             },
-            v_tarot_merchant = {
-                name = "Thương Gia Tarot",
-                text = {
-                    "Lá {C:tarot}Tarot{} xuất hiện",
-                    "thường xuyên hơn {C:attention}#1# lần",
-                    "trong shop"
+            v_tarot_merchant={
+                name="商家些鱸",
+                text={
+                    "蘿{C:tarot}些鱸{}出現",
+                    "常川欣{C:attention}#1#吝",
+                    "𥪝㪯行"
                 }
             },
-            v_planet_merchant = {
-                name = "Thương Gia Hành Tinh",
-                text = {
-                    "Lá {C:planet}Hành Tinh{} xuất hiện",
-                    "thường xuyên hơn {C:attention}#1# lần",
-                    "trong shop"
+            v_planet_merchant={
+                name="商家行星",
+                text={
+                    "蘿{C:planet}行星{}出現",
+                    "常川欣{C:attention}#1#吝",
+                    "𥪝㪯行"
                 }
             },
-            v_hone = {
-                name = "Cải Tiến",
-                text = {
-                    "Lá {C:dark_edition}Ánh Kim{}, {C:dark_edition}Lấp Lánh{} và",
-                    "{C:dark_edition}Đa Sắc{} xuất hiện",
-                    "thường xuyên hơn {C:attention}#1# lần"
+            v_hone={
+                name="改進",
+                text={
+                    "蘿{C:dark_edition}映金{},{C:dark_edition}拉𪸝{}吧",
+                    "{C:dark_edition}多色{}出現",
+                    "常川欣{C:attention}#1#吝"
                 }
             },
-            v_reroll_surplus = {
-                name = "Gieo Thặng Dư",
-                text = {
-                    "Mỗi lượt gieo lại tiết kiệm",
-                    "được {C:money}$#1#"
+            v_reroll_surplus={
+                name="招乘余",
+                text={
+                    "每辣招吏節儉",
+                    "得{C:money}$#1#"
                 }
             },
-            v_crystal_ball = {
-                name = "Cầu Pha Lê",
-                text = {
-                    "{C:attention}+1{} ô tiêu thụ"
+            v_crystal_ball={
+                name="球玻璃",
+                text={
+                    "{C:attention}+1{}杇銷售"
                 }
             },
-            v_telescope = {
-                name = "Kính Thiên Văn",
-                text = {
-                    "{C:attention}Gói Thiên Thể{} luôn",
-                    "chứa lá {C:planet}Hành Tinh",
-                    "cho {C:attention}tay poker",
-                    "chơi nhiều nhất"
+            v_telescope={
+                name="鏡天文",
+                text={
+                    "{C:attention}絵天體{}㫻",
+                    "貯蘿{C:planet}行星",
+                    "朱{C:attention}拪扑基",
+                    "𨔈饒一"
                 }
             },
-            v_grabber = {
-                name = "Tay Cầm",
-                text = {
-                    "Vĩnh viễn thêm",
-                    "{C:blue}+#1#{} tay bài",
-                    "mỗi ván"
+            v_grabber={
+                name="拪擒",
+                text={
+                    "永遠添",
+                    "{C:blue}+#1#{}拪牌",
+                    "每盤"
                 }
             },
-            v_wasteful = {
-                name = "Phung Phí",
-                text = {
-                    "Vĩnh viễn thêm",
-                    "{C:red}+#1#{} lượt bỏ bài",
-                    "mỗi ván"
+            v_wasteful={
+                name="瘋費",
+                text={
+                    "永遠添",
+                    "{C:red}+#1#{}辣𠬃牌",
+                    "每盤"
                 }
             },
-            v_seed_money = {
-                name = "Tiền Hạt Giống",
-                text = {
-                    "Tăng giới hạn lãi",
-                    "thu được mỗi ván",
-                    "lên {C:money}$#1#"
+            v_seed_money={
+                name="錢籺種",
+                text={
+                    "增界限𥚥",
+                    "收得每盤",
+                    "𨕭{C:money}$#1#"
                 }
             },
-            v_blank = {
-                name = "Trống",
-                text = {
-                    "{C:inactive}Vô dụng?"
+            v_blank={
+                name="𥧪",
+                text={
+                    "{C:inactive}無用？"
                 }
             },
-            v_magic_trick = {
-                name = "Ảo Thuật",
-                text = {
-                    "{C:attention}Lá bài thường{} có thể",
-                    "được mua trong {C:attention}shop"
+            v_magic_trick={
+                name="幻術",
+                text={
+                    "{C:attention}蘿牌常{}固體",
+                    "得𢱖𥪝{C:attention}㪯行"
                 }
             },
-            v_hieroglyph = {
-                name = "Chữ Tượng Hình",
-                text = {
-                    "{C:attention}-#1#{} Ante,",
-                    "{C:blue}-#1#{} tay bài",
-                    "mỗi ván"
+            v_hieroglyph={
+                name="𡨸象形",
+                text={
+                    "{C:attention}-#1#{}級蹻,",
+                    "{C:blue}-#1#{}拪牌",
+                    "每盤"
                 }
             },
-            v_directors_cut = {
-                name = "Nguyên Bản Đạo Diễn",
-                text = {
-                    "Gieo lại Boss Blind",
-                    "{C:attention}1{} lần mỗi Ante,",
-                    "{C:money}$#1#{} mỗi lượt gieo"
+            v_directors_cut={
+                name="原本導演",
+                text={
+                    "招吏瞙主",
+                    "{C:attention}1{}吝每級蹻,",
+                    "{C:money}$#1#{}每辣招"
                 }
             },
-            v_paint_brush = {
-                name = "Cọ Vẽ",
-                text = {
-                    "{C:attention}+#1#{} lá giữ trong tay",
+            v_paint_brush={
+                name="椇𡲈",
+                text={
+                    "{C:attention}+#1#{}蘿𢬇𥪝拪",
                 }
             },
-            v_overstock_plus = {
-                name = "Siêu Quá Trữ",
-                text = {
-                    "{C:attention}+1{} ô lá bài",
-                    "có sẵn trong shop"
+            v_overstock_plus={
+                name="超過貯",
+                text={
+                    "{C:attention}+1{}杇蘿牌",
+                    "固産𥪝㪯行"
                 },
-                unlock = {
-                    "Tiêu tổng cộng",
-                    "{C:money}$#1#{} trong shop",
+                unlock={
+                    "銷總共",
+                    "{C:money}$#1#{}𥪝㪯行",
                     "{C:inactive}($#2#)"
                 }
             },
-            v_liquidation = {
-                name = "Bán Thanh Lý",
-                text = {
-                    "Mọi lá bài và gói bài trong",
-                    "shop được giảm {C:attention}#1#%{} giá"
+            v_liquidation={
+                name="𧸝清理",
+                text={
+                    "每蘿牌吧絵牌𥪝",
+                    "㪯行得減{C:attention}#1#%{}價"
                 },
-                unlock = {
-                    "Đổi ra ít nhất",
-                    "{C:attention}#1#{C:voucher} Phiếu",
-                    "trong một trận"
+                unlock={
+                    "𢷮𦋦𠃣一",
+                    "{C:attention}#1#{C:voucher}票",
+                    "𥪝𠬠陣"
                 }
             },
-            v_tarot_tycoon = {
-                name = "Trùm Tarot",
-                text = {
-                    "Lá {C:tarot}Tarot{} xuất hiện",
-                    "thường xuyên hơn {C:attention}#1# lần",
-                    "trong shop"
+            v_tarot_tycoon={
+                name="𠆳些鱸",
+                text={
+                    "蘿{C:tarot}些鱸{}出現",
+                    "常川欣{C:attention}#1#吝",
+                    "𥪝㪯行"
                 },
-                unlock = {
-                    "Mua tổng cộng",
-                    "{C:attention}#1#{} lá {C:tarot}Tarot",
-                    "từ shop",
+                unlock={
+                    "𢱖總共",
+                    "{C:attention}#1#{}蘿{C:tarot}些鱸",
+                    "自㪯行",
                     "{C:inactive}(#2#)"
                 }
             },
-            v_planet_tycoon = {
-                name = "Trùm Hành Tinh",
-                text = {
-                    "Lá {C:planet}Hành Tinh{} xuất hiện",
-                    "thường xuyên hơn {C:attention}#1# lần",
-                    "trong shop"
+            v_planet_tycoon={
+                name="𠆳行星",
+                text={
+                    "蘿{C:planet}行星{}出現",
+                    "常川欣{C:attention}#1#吝",
+                    "𥪝㪯行"
                 },
-                unlock = {
-                    "Mua tổng cộng",
-                    "{C:attention}#1#{} lá {C:planet}Hành Tinh",
-                    "từ shop",
+                unlock={
+                    "𢱖總共",
+                    "{C:attention}#1#{}蘿{C:planet}行星",
+                    "自㪯行",
                     "{C:inactive}(#2#)"
                 }
             },
-            v_glow_up = {
-                name = "Biến Hoá",
-                text = {
-                    "Lá {C:dark_edition}Ánh Kim{}, {C:dark_edition}Lấp Lánh{} và",
-                    "{C:dark_edition}Đa Sắc{} xuất hiện",
-                    "thường xuyên hơn {C:attention}#1# lần"
+            v_glow_up={
+                name="變化",
+                text={
+                    "蘿{C:dark_edition}映金{},{C:dark_edition}拉𪸝{}吧",
+                    "{C:dark_edition}多色{}出現",
+                    "常川欣{C:attention}#1#吝"
                 },
-                unlock = {
-                    "Sở hữu ít nhất {C:attention}#1#",
-                    "lá {C:attention}Joker{} với ấn bản",
-                    "{C:dark_edition}Ánh Kim{}, {C:dark_edition}Lấp Lánh",
-                    "hoặc {C:dark_edition}Đa Sắc"
+                unlock={
+                    "所有𠃣一{C:attention}#1#",
+                    "蘿{C:attention}播消{}某印版",
+                    "{C:dark_edition}映金{},{C:dark_edition}拉𪸝",
+                    "或{C:dark_edition}多色"
                 }
             },
-            v_reroll_glut = {
-                name = "Gieo Thừa Thãi",
-                text = {
-                    "Mỗi lượt gieo lại tiết kiệm",
-                    "được {C:money}$#1#"
+            v_reroll_glut={
+                name="招餘汰",
+                text={
+                    "每辣招吏節儉",
+                    "得{C:money}$#1#"
                 },
-                unlock = {
-                    "Gieo lại shop",
-                    "tổng cộng {C:attention}#1#{} lần",
+                unlock={
+                    "招吏㪯行",
+                    "總共{C:attention}#1#{}吝",
                     "{C:inactive}(#2#)"
                 }
             },
-            v_omen_globe = {
-                name = "Cầu Chỉ Điểm",
-                text = {
-                    "Lá {C:spectral}Siêu Linh{} có thể",
-                    "xuất hiện trong",
-                    "các {C:attention}Gói Thần Bí"
+            v_omen_globe={
+                name="球指點",
+                text={
+                    "蘿{C:spectral}超靈{}固體",
+                    "出現𥪝",
+                    "各{C:attention}絵神秘"
                 },
-                unlock = {
-                    "Dùng tổng cộng {C:attention}#1#",
-                    "lá {C:tarot}Tarot{} từ bất kì",
-                    "{C:tarot}Gói Thần Bí{} nào",
+                unlock={
+                    "用總共{C:attention}#1#",
+                    "蘿{C:tarot}些鱸{}自不其",
+                    "{C:tarot}絵神秘{}鬧",
                     "{C:inactive}(#2#)"
                 }
             },
-            v_observatory = {
-                name = "Đài Thiên Văn",
-                text = {
-                    "Lá {C:planet}Hành Tinh{} ở trong",
-                    "ô {C:attention}tiêu thụ{} ghi thêm",
-                    "{X:red,C:white} X#1# {} Nhân cho {C:attention}tay poker",
-                    "chuyên hoá của nó"
+            v_observatory={
+                name="台天文",
+                text={
+                    "蘿{C:planet}行星{}於𥪝",
+                    "杇{C:attention}銷售{}掑添",
+                    "{X:red,C:white}X#1#{}因朱{C:attention}拪扑基",
+                    "專化𧵑奴"
                 },
-                unlock = {
-                    "Dùng tổng cộng {C:attention}#1#",
-                    "Lá {C:planet}Hành Tinh{} từ bất kì",
-                    "{C:planet}Gói Thiên Thể{} nào",
+                unlock={
+                    "用總共{C:attention}#1#",
+                    "蘿{C:planet}行星{}自不其",
+                    "{C:planet}絵天體{}鬧",
                     "{C:inactive}(#2#)"
                 }
             },
-            v_nacho_tong = {
-                name = "Kẹp Gắp Nacho",
-                text = {
-                    "Vĩnh viễn thêm",
-                    "{C:blue}+#1#{} tay bài",
-                    "mỗi ván"
+            v_nacho_tong={
+                name="鋏扱那朱",
+                text={
+                    "永遠添",
+                    "{C:blue}+#1#{}拪牌",
+                    "每盤"
                 },
-                unlock = {
-                    "Chơi tổng cộng",
-                    "{C:attention}#1#{} lá bài",
+                unlock={
+                    "𨔈總共",
+                    "{C:attention}#1#{}蘿牌",
                     "{C:inactive}(#2#)"
                 }
             },
-            v_recyclomancy = {
-                name = "Tái Chế",
-                text = {
-                    "Vĩnh viễn thêm",
-                    "{C:red}+#1#{} lượt bỏ bài",
-                    "mỗi ván"
+            v_recyclomancy={
+                name="術再製",
+                text={
+                    "永遠添",
+                    "{C:red}+#1#{}辣𠬃牌",
+                    "每盤"
                 },
-                unlock = {
-                    "Bỏ đi tổng cộng",
-                    "{C:attention}#1#{} lá bài",
+                unlock={
+                    "𠬃𠫾總共",
+                    "{C:attention}#1#{}蘿牌",
                     "{C:inactive}(#2#)"
                 }
             },
-            v_money_tree = {
-                name = "Cây Hái Ra Tiền",
-                text = {
-                    "Tăng giới hạn lãi",
-                    "thu được mỗi ván",
-                    "lên {C:money}$#1#"
+            v_money_tree={
+                name="核𢲨𦋦錢",
+                text={
+                    "增界限𥚥",
+                    "收得每盤",
+                    "𨕭{C:money}$#1#"
                 },
-                unlock = {
-                    "Đạt tiền lãi tối đa",
-                    "mỗi ván trong",
-                    "{C:attention}#1#{} ván liên tiếp",
+                unlock={
+                    "達錢𥚥最多",
+                    "每盤𥪝",
+                    "{C:attention}#1#{}盤連接",
                     "{C:inactive}(#2#)"
                 }
             },
-            v_antimatter = {
-                name = "Phản Vật Chất",
-                text = {
-                    "{C:dark_edition}+1{} ô Joker"
+            v_antimatter={
+                name="反物質",
+                text={
+                    "{C:dark_edition}+1{}杇播消"
                 },
-                unlock = {
-                    "Đổi ra phiếu {C:voucher}Trống",
-                    "tổng cộng {C:attention}#1#{} lần",
+                unlock={
+                    "𢷮𦋦票{C:voucher}𥧪",
+                    "總共{C:attention}#1#{}吝",
                     "{C:inactive}(#2#)"
                 }
             },
-            v_illusion = {
-                name = "Siêu Ảo Thuật",
-                text = {
-                    "{C:attention}Lá bài thường{} trong shop",
-                    "có thể có {C:enhanced}Cường Hoá{},",
-                    "{C:dark_edition}Ấn Bản{}, và/hoặc {C:attention}Con Dấu"
+            v_illusion={
+                name="超幻術",
+                text={
+                    "{C:attention}蘿牌常{}𥪝㪯行",
+                    "固體固{C:enhanced}彊化{},",
+                    "{C:dark_edition}印版{},吧/或{C:attention}𡥵𧿫"
                 },
-                unlock = {
-                    "Mua tổng cộng",
-                    "{C:attention}#1#{} lá bài thường",
-                    "từ shop",
+                unlock={
+                    "𢱖總共",
+                    "{C:attention}#1#{}蘿牌常",
+                    "自㪯行",
                     "{C:inactive}(#2#)"
                 }
             },
-            v_petroglyph = {
-                name = "Tranh Khắc Đá",
-                text = {
-                    "{C:attention}-#1#{} Ante,",
-                    "{C:red}-#1#{} lượt bỏ bài",
-                    "mỗi ván"
+            v_petroglyph={
+                name="𢂰刻𥒥",
+                text={
+                    "{C:attention}-#1#{}級蹻,",
+                    "{C:red}-#1#{}辣𠬃牌",
+                    "每盤"
                 },
-                unlock = {
-                    "Đạt Ante",
-                    "level {E:1,C:attention}#1#"
+                unlock={
+                    "達級蹻{E:1,C:attention}#1#"
                 }
             },
-            v_retcon = {
-                name = "Trinh Sát",
-                text = {
-                    "Gieo lại Boss Blind",
-                    "{C:attention}không giới hạn{} số lần,",
-                    "{C:money}$#1#{} mỗi lượt gieo"
+            v_retcon={
+                name="偵察",
+                text={
+                    "招吏瞙主",
+                    "{C:attention}空界限{}數吝,",
+                    "{C:money}$#1#{}每辣招"
                 },
-                unlock = {
-                    "Khám phá",
-                    "{C:attention}#1#{} loại Blind"
+                unlock={
+                    "勘破",
+                    "{C:attention}#1#{}類瞙"
                 }
             },
-            v_palette = {
-                name = "Bảng Màu",
-                text = {
-                    "{C:attention}+#1#{} lá giữ trong tay",
+            v_palette={
+                name="榜𬜝",
+                text={
+                    "{C:attention}+#1#{}蘿𢬇𥪝拪",
                 },
-                unlock = {
-                    "giảm số lá giữ trong tay",
-                    "xuống còn {C:attention}#1#{} lá"
+                unlock={
+                    "減數蘿𢬇𥪝拪",
+                    "𨑜噲{C:attention}#1#{}蘿"
                 }
             }
         },
-        Tarot = {
-            c_fool = {
-                name = "Kẻ Ngốc",
-                text = {
-                    "Tạo ra lá {C:tarot}Tarot",
-                    "hoặc lá {C:planet}Hành Tinh",
-                    "được dùng gần nhất",
-                    "trong trận này",
-                    "{s:0.8}không bao gồm {s:0.8,C:tarot}Kẻ Ngốc"
+        tarot={
+            c_fool={
+                name="仉呆",
+                text={
+                    "造𦋦蘿{C:tarot}些鱸",
+                    "或蘿{C:planet}行星",
+                    "得用gầnnhất",
+                    "𥪝陣呢",
+                    "{s:0.8}空包歉{s:0.8,C:tarot}仉呆"
                 }
             },
-            c_magician = {
-                name = "Pháp Sư",
-                text = {
-                    "Cường hoá {C:attention}#1#",
-                    "lá đã chọn thành",
+            c_magician={
+                name="法師",
+                text={
+                    "彊化{C:attention}#1#",
+                    "蘿㐌撰成",
                     "{C:attention}#2#"
                 }
             },
-            c_high_priestess = {
-                name = "Đại Tư Tế",
-                text = {
-                    "Tạo ra tối đa {C:attention}#1#",
-                    "lá {C:planet}Hành Tinh{} ngẫu nhiên",
-                    "{C:inactive}(Phải có ô trống)"
+            c_high_priestess={
+                name="大司祭",
+                text={
+                    "造𦋦最多{C:attention}#1#",
+                    "蘿{C:planet}行星{}偶然",
+                    "{C:inactive}(沛固杇𥧪)"
                 }
             },
-            c_empress = {
-                name = "Hoàng Hậu",
-                text = {
-                    "Cường hoá {C:attention}#1#",
-                    "lá đã chọn thành",
+            c_empress={
+                name="皇后",
+                text={
+                    "彊化{C:attention}#1#",
+                    "蘿㐌撰成",
                     "{C:attention}#2#"
                 }
             },
-            c_emperor = {
-                name = "Hoàng Đế",
-                text = {
-                    "Tạo ra tối đa {C:attention}#1#",
-                    "lá {C:tarot}Tarot{} ngẫu nhiên",
-                    "{C:inactive}(Phải có ô trống)"
+            c_emperor={
+                name="皇帝",
+                text={
+                    "造𦋦最多{C:attention}#1#",
+                    "蘿{C:tarot}些鱸{}偶然",
+                    "{C:inactive}(沛固杇𥧪)"
                 }
             },
-            c_heirophant = {
-                name = "Giáo Hoàng",
-                text = {
-                    "Cường hoá {C:attention}#1#",
-                    "lá đã chọn thành",
+            c_heirophant={
+                name="教皇",
+                text={
+                    "彊化{C:attention}#1#",
+                    "蘿㐌撰成",
                     "{C:attention}#2#"
                 }
             },
-            c_lovers = {
-                name = "Tình Nhân",
-                text = {
-                    "Cường hoá {C:attention}#1#",
-                    "lá đã chọn thành",
+            c_lovers={
+                name="情人",
+                text={
+                    "彊化{C:attention}#1#",
+                    "蘿㐌撰成",
                     "{C:attention}#2#"
                 }
             },
-            c_chariot = {
-                name = "Chiến Xa",
-                text = {
-                    "Cường hoá {C:attention}#1#",
-                    "lá đã chọn thành",
+            c_chariot={
+                name="戰車",
+                text={
+                    "彊化{C:attention}#1#",
+                    "蘿㐌撰成",
                     "{C:attention}#2#"
                 }
             },
-            c_justice = {
-                name = "Công Lý",
-                text = {
-                    "Cường hoá {C:attention}#1#",
-                    "lá đã chọn thành",
+            c_justice={
+                name="公理",
+                text={
+                    "彊化{C:attention}#1#",
+                    "蘿㐌撰成",
                     "{C:attention}#2#"
                 }
             },
-            c_hermit = {
-                name = "Ẩn Sĩ",
-                text = {
-                    "Nhân đôi số tiền bạn có",
-                    "{C:inactive}(Tối đa {C:money}$#1#{C:inactive})"
+            c_hermit={
+                name="隱士",
+                text={
+                    "因對數錢伴固",
+                    "{C:inactive}(最多{C:money}$#1#{C:inactive})"
                 }
             },
-            c_wheel_of_fortune = {
-                name = "Bánh Xe Số Phận",
-                text = {
-                    "Xác suất {C:green}#1# trên #2#{} để thêm",
-                    "ấn bản {C:dark_edition}Ánh Kim{}, {C:dark_edition}Lấp Lánh",
-                    "hoặc {C:dark_edition}Đa Sắc{} cho một {C:attention}Joker",
-                    "ngẫu nhiên"
+            c_wheel_of_fortune={
+                name="碰車數分",
+                text={
+                    "確率{C:green}#1#𨕭#2#{}帝添",
+                    "印版{C:dark_edition}映金{},{C:dark_edition}拉𪸝",
+                    "或{C:dark_edition}多色{}朱𠬠{C:attention}播消",
+                    "偶然"
                 }
             },
-            c_strength = {
-                name = "Sức Mạnh",
-                text = {
-                    "Tăng bậc",
-                    "cho tối đa {C:attention}#1#{} lá bài",
-                    "đã chọn lên {C:attention}1"
+            c_strength={
+                name="力孟",
+                text={
+                    "增堛",
+                    "朱最多{C:attention}#1#{}蘿牌",
+                    "㐌撰𨕭{C:attention}1"
                 }
             },
-            c_hanged_man = {
-                name = "Kẻ Treo Ngược",
-                text = {
-                    "Phá huỷ tối đa",
-                    "{C:attention}#1#{} lá bài đã chọn"
+            c_hanged_man={
+                name="仉挑逆",
+                text={
+                    "破毀最多",
+                    "{C:attention}#1#{}蘿牌㐌撰"
                 }
             },
-            c_death = {
-                name = "Tử Thần",
-                text = {
-                    "Chọn {C:attention}#1#{} lá,",
-                    "biến lá {C:attention}bên trái",
-                    "thành lá {C:attention}bên phải",
-                    "{C:inactive}(Kéo thả để sắp xếp thứ tự)"
+            c_death={
+                name="死神",
+                text={
+                    "撰{C:attention}#1#{}蘿,",
+                    "變蘿{C:attention}邊賴",
+                    "成蘿{C:attention}邊沛",
+                    "{C:inactive}(抖𫿇帝拉插次序)"
                 }
             },
-            c_temperance = {
-                name = "Hoà Hợp",
-                text = {
-                    "Nhận tổng giá bán của",
-                    "toàn bộ Joker đang sở hữu",
-                    "{C:inactive}(Tối đa {C:money}$#1#{C:inactive})",
-                    "{C:inactive}(Hiện tại là {C:money}$#2#{C:inactive})"
+            c_temperance={
+                name="和合",
+                text={
+                    "認總價𧸝𧵑",
+                    "全部播消當所有",
+                    "{C:inactive}(最多{C:money}$#1#{C:inactive})",
+                    "{C:inactive}(現在羅{C:money}$#2#{C:inactive})"
                 }
             },
-            c_devil = {
-                name = "Ác Quỷ",
-                text = {
-                    "Cường hoá {C:attention}#1#",
-                    "lá đã chọn thành",
+            c_devil={
+                name="惡鬼",
+                text={
+                    "彊化{C:attention}#1#",
+                    "蘿㐌撰成",
                     "{C:attention}#2#"
                 }
             },
-            c_tower = {
-                name = "Toà Tháp",
-                text = {
-                    "Cường hoá {C:attention}#1#",
-                    "lá đã chọn thành",
+            c_tower={
+                name="座塔",
+                text={
+                    "彊化{C:attention}#1#",
+                    "蘿㐌撰成",
                     "{C:attention}#2#"
                 }
             },
-            c_star = {
-                name = "Tinh Tú",
-                text = {
-                    "Biến đổi tối đa",
-                    "{C:attention}#1#{} đã chọn thành",
-                    "chất {V:1}#2#"
+            c_star={
+                name="星宿",
+                text={
+                    "變𢷮最多",
+                    "{C:attention}#1#{}㐌撰成",
+                    "質{V:1}#2#"
                 }
             },
-            c_moon = {
-                name = "Ánh Nguyệt",
-                text = {
-                    "Biến đổi tối đa",
-                    "{C:attention}#1#{} đã chọn thành",
-                    "chất {V:1}#2#"
+            c_moon={
+                name="映月",
+                text={
+                    "變𢷮最多",
+                    "{C:attention}#1#{}㐌撰成",
+                    "質{V:1}#2#"
                 }
             },
-            c_sun = {
-                name = "Thái Dương",
-                text = {
-                    "Biến đổi tối đa",
-                    "{C:attention}#1#{} đã chọn thành",
-                    "chất {V:1}#2#"
+            c_sun={
+                name="太陽",
+                text={
+                    "變𢷮最多",
+                    "{C:attention}#1#{}㐌撰成",
+                    "質{V:1}#2#"
                 }
             },
-            c_judgement = {
-                name = "Phán Quyết",
-                text = {
-                    "Tạo ra một lá",
-                    "{C:attention}Joker{} ngẫu nhiên",
-                    "{C:inactive}(Phải có ô trống)"
+            c_judgement={
+                name="判決",
+                text={
+                    "造𦋦𠬠蘿",
+                    "{C:attention}播消{}偶然",
+                    "{C:inactive}(沛固杇𥧪)"
                 }
             },
-            c_world = {
-                name = "Thế Giới",
-                text = {
-                    "Biến đổi tối đa",
-                    "{C:attention}#1#{} đã chọn thành",
-                    "chất {V:1}#2#"
+            c_world={
+                name="世界",
+                text={
+                    "變𢷮最多",
+                    "{C:attention}#1#{}㐌撰成",
+                    "質{V:1}#2#"
                 }
             }
         },
-        Planet = {
-            c_mercury = {
-                name = "Thuỷ Tinh",
-                text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+        Planet={
+            c_mercury={
+                name="水星",
+                text={
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:mult}+#3#{}因吧",
+                    "{C:闡s}+#4#{}闡"
                 }
             },
-            c_venus = {
-                name = "Kim Tinh",
-                text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+            c_venus={
+                name="金星",
+                text={
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:mult}+#3#{}因吧",
+                    "{C:闡s}+#4#{}闡"
                 }
             },
-            c_earth = {
-                name = "Trái Đất",
-                text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+            c_earth={
+                name="𣛤坦",
+                text={
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:mult}+#3#{}因吧",
+                    "{C:闡s}+#4#{}闡"
                 }
             },
-            c_mars = {
-                name = "Hoả Tinh",
-                text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+            c_mars={
+                name="火星",
+                text={
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:mult}+#3#{}因吧",
+                    "{C:闡s}+#4#{}闡"
                 }
             },
-            c_jupiter = {
-                name = "Mộc Tinh",
-                text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+            c_jupiter={
+                name="木星",
+                text={
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:mult}+#3#{}因吧",
+                    "{C:闡s}+#4#{}闡"
                 }
             },
-            c_saturn = {
-                name = "Thổ Tinh",
-                text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+            c_saturn={
+                name="土星",
+                text={
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:mult}+#3#{}因吧",
+                    "{C:闡s}+#4#{}闡"
                 }
             },
-            c_uranus = {
-                name = "Thiên Vương Tinh",
-                text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+            c_uranus={
+                name="天王星",
+                text={
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:mult}+#3#{}因吧",
+                    "{C:闡s}+#4#{}闡"
                 }
             },
-            c_neptune = {
-                name = "Hải Vương Tinh",
-                text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+            c_neptune={
+                name="海王星",
+                text={
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:mult}+#3#{}因吧",
+                    "{C:闡s}+#4#{}闡"
                 }
             },
-            c_pluto = {
-                name = "Diêm Vương Tinh",
-                text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+            c_pluto={
+                name="閻王星",
+                text={
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:mult}+#3#{}因吧",
+                    "{C:闡s}+#4#{}闡"
                 }
             },
-            c_ceres = {
-                name = "Ceres",
-                text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+            c_ceres={
+                name="穀神星",
+                text={
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:mult}+#3#{}因吧",
+                    "{C:闡s}+#4#{}闡"
                 }
             },
-            c_planet_x = {
-                name = "Hành Tinh X",
-                text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+            c_planet_x={
+                name="行星X",
+                text={
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:mult}+#3#{}因吧",
+                    "{C:闡s}+#4#{}闡"
                 }
             },
-            c_eris = {
-                name = "Eris",
-                text = {
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){} Nâng level",
+            c_eris={
+                name="鬩神星",
+                text={
+                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Nhân and",
-                    "{C:chips}+#4#{} chip"
+                    "{C:mult}+#3#{}因吧",
+                    "{C:闡s}+#4#{}闡"
                 }
             },
         },
-        Spectral = {
-            c_familiar = {
-                name = "Quen Thuộc",
-                text = {
-                    "Phá huỷ {C:attention}1{} lá ngẫu nhiên",
-                    "trong tay, thêm {C:attention}#1#{} lá",
-                    "{C:attention} mặt Cường Hoá",
-                    "ngẫu nhiên vào tay"
+        Spectral={
+            c_familiar={
+                name="慣属",
+                text={
+                    "破毀{C:attention}1{}蘿偶然",
+                    "𥪝拪,添{C:attention}#1#{}蘿",
+                    "{C:attention}𩈘彊化",
+                    "偶然𠓨拪"
                 }
             },
-            c_grim = {
-                name = "Tàn Nhẫn",
-                text = {
-                    "Phá huỷ {C:attention}1{} lá ngẫu nhiên",
-                    "trong tay, thêm {C:attention}#1#{} lá",
-                    "{C:attention} Át Cường Hoá",
-                    "ngẫu nhiên vào tay"
+            c_grim={
+                name="殘忍",
+                text={
+                    "破毀{C:attention}1{}蘿偶然",
+                    "𥪝拪,添{C:attention}#1#{}蘿",
+                    "{C:attention}Ａ彊化",
+                    "偶然𠓨拪"
                 }
             },
-            c_incantation = {
-                name = "Nguyền Chú",
-                text = {
-                    "Phá huỷ {C:attention}1{} lá ngẫu nhiên",
-                    "trong tay, thêm {C:attention}#1#{} lá",
-                    "{C:attention} số Cường Hoá",
-                    "ngẫu nhiên vào tay"
+            c_incantation={
+                name="願咒",
+                text={
+                    "破毀{C:attention}1{}蘿偶然",
+                    "𥪝拪,添{C:attention}#1#{}蘿",
+                    "{C:attention}數彊化",
+                    "偶然𠓨拪"
                 }
             },
-            c_talisman = {
-                name = "Bùa May",
-                text = {
-                    "Thêm một {C:attention}Con Dấu Vàng",
-                    "lên {C:attention}1{} lá đã chọn",
-                    "trong tay"
+            c_talisman={
+                name="符𢆧",
+                text={
+                    "添𠬠{C:attention}𡥵𧿫鐄",
+                    "𨕭{C:attention}1{}蘿㐌撰",
+                    "𥪝拪"
                 }
             },
-            c_aura = {
-                name = "Hào Quang",
-                text = {
-                    "Thêm ấn bản {C:dark_edition}Ánh Kim{},",
-                    "{C:dark_edition}Lấp Lánh{} hoặc {C:dark_edition}Đa Sắc{} vào",
-                    "{C:attention}1{} lá đã chọn trong tay"
+            c_aura={
+                name="豪光",
+                text={
+                    "添印版{C:dark_edition}映金{},",
+                    "{C:dark_edition}拉𪸝{}或{C:dark_edition}多色{}𠓨",
+                    "{C:attention}1{}蘿㐌撰𥪝拪"
                 }
             },
-            c_wraith = {
-                name = "Hồn Ma",
-                text = {
-                    "Tạo ra một {C:attention}Joker",
-                    "{C:red}Hiếm{} ngẫu nhiên,",
-                    "đặt số tiền về {C:money}$0"
+            c_wraith={
+                name="魂魔",
+                text={
+                    "造𦋦𠬠{C:attention}播消",
+                    "{C:red}儉{}偶然,",
+                    "撻數錢𧗱{C:money}$0"
                 }
             },
-            c_sigil = {
-                name = "Ấn Ký",
-                text = {
-                    "Biến đổi toàn bộ lá bài",
-                    "trong tay thành một",
-                    "{C:attention}chất{} ngẫu nhiên"
+            c_sigil={
+                name="印記",
+                text={
+                    "變𢷮全部蘿牌",
+                    "𥪝拪成𠬠",
+                    "{C:attention}質{}偶然"
                 }
             },
-            c_ouija = {
-                name = "Cầu Cơ",
-                text = {
-                    "Biến đổi toàn bộ lá bài",
-                    "trong tay thành một",
-                    "{C:attention}bậc{} ngẫu nhiên",
-                    "{C:red}-1{} lá giữ trong tay"
+            c_ouija={
+                name="求箕",
+                text={
+                    "變𢷮全部蘿牌",
+                    "𥪝拪成𠬠",
+                    "{C:attention}堛{}偶然",
+                    "{C:red}-1{}蘿𢬇𥪝拪"
                 }
             },
-            c_ectoplasm = {
-                name = "Ngoại Chất",
-                text = {
-                    "Thêm {C:dark_edition}Âm Bản{} cho",
-                    "một {C:attention}Joker{} ngẫu nhiên,",
-                    "{C:red}-#1#{} lá giữ trong tay"
+            c_ectoplasm={
+                name="外質",
+                text={
+                    "添{C:dark_edition}陰版{}朱",
+                    "𠬠{C:attention}播消{}偶然,",
+                    "{C:red}-#1#{}蘿𢬇𥪝拪"
                 }
             },
-            c_immolate = {
-                name = "Hiến Tế",
-                text = {
-                    "Phá huỷ {C:attention}#1#{} lá",
-                    "ngẫu nhiên trong tay,",
-                    "nhận {C:money}$#2#"
+            c_immolate={
+                name="獻祭",
+                text={
+                    "破毀{C:attention}#1#{}蘿",
+                    "偶然𥪝拪,",
+                    "認{C:money}$#2#"
                 }
             },
-            c_ankh = {
-                name = "Ankh",
-                text = {
-                    "Tạo ra bản sao của",
-                    "một {C:attention}Joker{} ngẫu nhiên,",
-                    "phá huỷ toàn bộ Joker khác"
+            c_ankh={
+                name="安基",
+                text={
+                    "造𦋦版抄𧵑",
+                    "𠬠{C:attention}播消{}偶然,",
+                    "破毀全部播消恪"
                 }
             },
-            c_deja_vu = {
-                name = "Deja Vu",
-                text = {
-                    "Thêm một {C:red}Con Dấu Đỏ",
-                    "lên {C:attention}1{} lá đã chọn",
-                    "trong tay"
+            c_deja_vu={
+                name="提家于",
+                text={
+                    "添𠬠{C:red}𡥵𧿫赭",
+                    "𨕭{C:attention}1{}蘿㐌撰",
+                    "𥪝拪"
                 }
             },
-            c_hex = {
-                name = "Hắc Thuật",
-                text = {
-                    "Thêm ấn bản {C:dark_edition}Đa Sắc{} cho",
-                    "một {C:attention}Joker{} ngẫu nhiên,",
-                    "phá huỷ toàn bộ Joker khác"
+            c_hex={
+                name="黑術",
+                text={
+                    "添印版{C:dark_edition}多色{}朱",
+                    "𠬠{C:attention}播消{}偶然,",
+                    "破毀全部播消恪"
                 }
             },
-            c_trance = {
-                name = "Thôi Miên",
-                text = {
-                    "Thêm một {C:blue}Con Dấu Xanh",
-                    "lên {C:attention}1{} lá đã chọn",
-                    "trong tay"
+            c_trance={
+                name="催眠",
+                text={
+                    "添𠬠{C:blue}𡥵𧿫青",
+                    "𨕭{C:attention}1{}蘿㐌撰",
+                    "𥪝拪"
                 }
             },
-            c_medium = {
-                name = "Thầy Đồng",
-                text = {
-                    "Thêm một {C:purple}Con Dấu Tím",
-                    "lên {C:attention}1{} lá đã chọn",
-                    "trong tay"
+            c_medium={
+                name="柴童",
+                text={
+                    "添𠬠{C:purple}𡥵𧿫紺",
+                    "𨕭{C:attention}1{}蘿㐌撰",
+                    "𥪝拪"
                 }
             },
-            c_cryptid = {
-                name = "Dị Chủng",
-                text = {
-                    "Tạo ra {C:attention}#1#{} bản sao",
-                    "của {C:attention}1{} lá đã chọn",
-                    "trong tay"
+            c_cryptid={
+                name="異種",
+                text={
+                    "造𦋦{C:attention}#1#{}版抄",
+                    "𧵑{C:attention}1{}蘿㐌撰",
+                    "𥪝拪"
                 }
             },
-            c_soul = {
-                name = "Linh Hồn",
-                text = {
-                    "Tạo ra một Joker",
-                    "{C:legendary,E:1}Huyền Thoại",
-                    "{C:inactive}(Phải có ô trống)"
+            c_soul={
+                name="靈魂",
+                text={
+                    "造𦋦𠬠播消",
+                    "{C:legendary,E:1}玄話",
+                    "{C:inactive}(沛固杇𥧪)"
                 }
             },
-            c_black_hole = {
-                name = "Hố Đen",
-                text = {
-                    "Nâng mọi",
-                    "{C:legendary,E:1}tay poker",
-                    "thêm {C:attention}1{} level"
+            c_black_hole={
+                name="戽黰",
+                text={
+                    "㨢每",
+                    "{C:legendary,E:1}拪扑基",
+                    "添{C:attention}1{}級"
                 }
             }
         },
-        Edition = {
-            e_base = {
-                name = "Tiêu Chuẩn",
-                text = {
-                    "Không có hiệu ứng thêm"
+        Edition={
+            e_base={
+                name="標準",
+                text={
+                    "空固効應添"
                 }
             },
-            e_foil = {
-                name = "Ánh Kim",
-                text = {
-                    "{C:chips}+#1#{} chip"
+            e_foil={
+                name="映金",
+                text={
+                    "{C:闡s}+#1#{}闡"
                 }
             },
-            e_holo = {
-                name = "Lấp Lánh",
-                text = {
-                    "{C:mult}+#1#{} Nhân"
+            e_holo={
+                name="拉𪸝",
+                text={
+                    "{C:mult}+#1#{}因"
                 }
             },
-            e_polychrome = {
-                name = "Đa Sắc",
-                text = {
-                    "{X:mult,C:white} X#1# {} Nhân"
+            e_polychrome={
+                name="多色",
+                text={
+                    "{X:mult,C:white}X#1#{}因"
                 }
             },
-            e_negative = {
-                name = "Âm Bản",
-                text = {
-                    "{C:dark_edition}+#1#{} ô Joker"
+            e_negative={
+                name="陰版",
+                text={
+                    "{C:dark_edition}+#1#{}杇播消"
                 }
             },
-            e_negative_consumable = {
-                name = "Âm Bản",
-                text = {
-                    "{C:dark_edition}+#1#{} ô tiêu thụ"
+            e_negative_consumable={
+                name="陰版",
+                text={
+                    "{C:dark_edition}+#1#{}杇銷售"
                 }
             },
-            ----------------------------------------------- Phần dùng cho Steamodded -----------------------------------------------
-            e_negative_playing_card = {
-                name = "Âm Bản",
-                text = {
-                    "{C:dark_edition}+#1#{} lá giữ trong tay"
+            -----------------------------------------------Steamodded-----------------------------------------------
+            e_negative_playing_card={
+                name="陰版",
+                text={
+                    "{C:dark_edition}+#1#{}蘿𢬇𥪝拪"
                 }
             }
             ------------------------------------------------------------------------------------------------------------------------
         },
-        Enhanced = {
-            m_bonus = {
-                name = "Lá Thưởng",
-                text = {}
+        Enhanced={
+            m_bonus={
+                name="蘿賞",
+                text={}
             },
-            m_mult = {
-                name = "Lá Nhân",
-                text = {
-                    "{C:mult}+#1#{} Nhân"
+            m_mult={
+                name="蘿因",
+                text={
+                    "{C:mult}+#1#{}因"
                 }
             },
-            m_wild = {
-                name = "Lá Tuỳ Chất",
-                text = {
-                    "Có thể được dùng",
-                    "như bất kì chất nào"
+            m_wild={
+                name="蘿隨質",
+                text={
+                    "固體得用",
+                    "如不其質鬧"
                 }
             },
-            m_glass = {
-                name = "Lá Kính",
-                text = {
-                    "{X:mult,C:white} X#1# {} Nhân",
-                    "Xác suất {C:green}#2# trên #3#{}",
-                    "để phá huỷ lá bài"
+            m_glass={
+                name="蘿鏡",
+                text={
+                    "{X:mult,C:white}X#1#{}因",
+                    "確率{C:green}#2#𨕭#3#{}",
+                    "帝破毀蘿牌"
                 }
             },
-            m_steel = {
-                name = "Lá Thép",
-                text = {
-                    "{X:mult,C:white} X#1# {} Nhân",
-                    "khi lá này",
-                    "nằm trong tay"
+            m_steel={
+                name="蘿𨨧",
+                text={
+                    "{X:mult,C:white}X#1#{}因",
+                    "欺蘿呢",
+                    "噽𥪝拪"
                 }
             },
-            m_stone = {
-                name = "Lá Đá",
-                text = {
-                    "{C:chips}+#1#{} Chip",
-                    "không có bậc hay chất"
+            m_stone={
+                name="蘿𥒥",
+                text={
+                    "{C:闡s}+#1#{}闡",
+                    "空固堛咍質"
                 }
             },
-            m_gold = {
-                name = "Lá Vàng",
-                text = {
-                    "{C:money}$#1#{} nếu lá này",
-                    "được giữ trong tay",
-                    "ở cuối ván"
+            m_gold={
+                name="蘿鐄",
+                text={
+                    "{C:money}$#1#{}裊蘿呢",
+                    "得𢬇𥪝拪",
+                    "於季盤"
                 }
             },
-            m_lucky = {
-                name = "Lá May Mắn",
-                text = {
-                    "Xác suất {C:green}#1# trên #3#",
-                    "để được {C:mult}+#2#{} Nhân",
-                    "Xác suất {C:green}#1# trên #5#",
-                    "để nhận {C:money}$#4#"
-                }
-            }
-        },
-        Stake = {
-            stake_white = {
-                name = "Cược Trắng",
-                text = {
-                    "Độ khó tiêu chuẩn"
-                }
-            },
-            stake_red = {
-                name = "Cược Đỏ",
-                text = {
-                    "{C:attention}Small Blind",
-                    "không có tiền thưởng",
-                    "{s:0.8}Áp dụng các loại Cược trước đó"
-                }
-            },
-            stake_green = {
-                name = "Cược Lục",
-                text = {
-                    "Điểm yêu cầu tăng",
-                    "nhanh hơn sau mỗi {C:attention}Ante",
-                    "{s:0.8}Áp dụng các loại Cược trước đó"
-                }
-            },
-            stake_blue = {
-                name = "Cược Lam",
-                text = {
-                    "{C:red}-1{} Lượt bỏ bài",
-                    "{s:0.8}Áp dụng các loại Cược trước đó"
-                }
-            },
-            stake_black = {
-                name = "Cược Đen",
-                text = {
-                    "Shop có thể có Joker {C:attention}Vĩnh Hằng",
-                    "{C:inactive,s:0.8}(Không thể bán hoặc bị phá huỷ)",
-                    "{s:0.8}Áp dụng các loại Cược trước đó"
-                }
-            },
-            stake_purple = {
-                name = "Cược Tím",
-                text = {
-                    "Điểm yêu cầu tăng",
-                    "nhanh hơn sau mỗi {C:attention}Ante",
-                    "{s:0.8}Áp dụng các loại Cược trước đó"
-                }
-            },
-            stake_orange = {
-                name = "Cược Cam",
-                text = {
-                    "Shop có thể có Joker {C:attention}Ngắn Hạn",
-                    "{C:inactive,s:0.8}(Vô hiệu hoá sau 5 Ván)",
-                    "{s:0.8}Áp dụng các loại Cược trước đó"
-                }
-            },
-            stake_gold = {
-                name = "Cược Vàng",
-                text = {
-                    "Shop có thể có Joker {C:attention}Cho Thuê",
-                    "{C:inactive,s:0.8}(Tốn {C:money,s:0.8}$3{C:inactive,s:0.8} mỗi ván)",
-                    "{s:0.8}Áp dụng các loại Cược trước đó"
+            m_lucky={
+                name="蘿𢆧敏",
+                text={
+                    "確率{C:green}#1#𨕭#3#",
+                    "帝得{C:mult}+#2#{}因",
+                    "確率{C:green}#1#𨕭#5#",
+                    "帝認{C:money}$#4#"
                 }
             }
         },
-        Tag = {
-            tag_uncommon = {
-                name = "Nhãn Ít Phổ Biến",
-                text = {
-                    "Shop có một {C:green}Joker",
-                    "{C:green}Ít Phổ Biến{} miễn phí"
+        Stake={
+            stake_white={
+                name="蹻𤽸",
+                text={
+                    "度苦標準"
                 }
             },
-            tag_rare = {
-                name = "Nhãn Hiếm",
-                text = {
-                    "Shop có một",
-                    "{C:red}Joker Hiếm{} miễn phí"
+            stake_red={
+                name="蹻赭",
+                text={
+                    "{C:attention}瞙𡮈",
+                    "空固錢賞",
+                    "{s:0.8}壓用各類蹻畧帝"
                 }
             },
-            tag_negative = {
-                name = "Nhãn Âm Bản",
-                text = {
-                    "Joker bản chuẩn tiếp theo",
-                    "trong shop thì miễn phí",
-                    "và trở thành {C:dark_edition}Âm Bản"
+            stake_green={
+                name="蹻綠",
+                text={
+                    "點要求增",
+                    "速欣差每{C:attention}級蹻",
+                    "{s:0.8}壓用各類蹻畧帝"
                 }
             },
-            tag_foil = {
-                name = "Nhãn Ánh Kim",
-                text = {
-                    "Joker tiêu chuẩn tiếp theo",
-                    "trong shop thì miễn phí",
-                    "và trở thành {C:dark_edition}Ánh Kim"
+            stake_blue={
+                name="蹻藍",
+                text={
+                    "{C:red}-1{}辣𠬃牌",
+                    "{s:0.8}壓用各類蹻畧帝"
                 }
             },
-            tag_holo = {
-                name = "Nhãn Lấp Lánh",
-                text = {
-                    "Joker tiêu chuẩn tiếp theo",
-                    "trong shop thì miễn phí",
-                    "và trở thành {C:dark_edition}Lấp Lánh"
+            stake_black={
+                name="蹻黰",
+                text={
+                    "㪯行固體固播消{C:attention}永恆",
+                    "{C:inactive,s:0.8}(空體𧸝或被破毀)",
+                    "{s:0.8}壓用各類蹻畧帝"
                 }
             },
-            tag_polychrome = {
-                name = "Nhãn Đa Sắc",
-                text = {
-                    "Joker tiêu chuẩn tiếp theo",
-                    "trong shop thì miễn phí",
-                    "và trở thành {C:dark_edition}Đa Sắc"
+            stake_purple={
+                name="蹻紺",
+                text={
+                    "點要求增",
+                    "速欣差每{C:attention}級蹻",
+                    "{s:0.8}壓用各類蹻畧帝"
                 }
             },
-            tag_investment = {
-                name = "Nhãn Đầu Tư",
-                text = {
-                    "Sau khi đánh bại",
-                    "Boss Blind,",
-                    "nhận {C:money}$#1#"
+            stake_orange={
+                name="蹻柑",
+                text={
+                    "㪯行固體固播消{C:attention}艮限",
+                    "{C:inactive,s:0.8}(無効化差５盤)",
+                    "{s:0.8}壓用各類蹻畧帝"
                 }
             },
-            tag_voucher = {
-                name = "Nhãn Phiếu",
-                text = {
-                    "Thêm một {C:voucher}Phiếu",
-                    "vào shop tiếp theo"
-                }
-            },
-            tag_boss = {
-                name = "Nhãn Boss",
-                text = {
-                    "Gieo lại {C:attention}Boss Blind",
-                    "của hiện tại"
-                }
-            },
-            tag_standard = {
-                name = "Nhãn Tiêu Chuẩn",
-                text = {
-                    "Nhận một",
-                    "{C:attention}Gói Tiêu Chuẩn Đại{} miễn phí"
-                }
-            },
-            tag_charm = {
-                name = "Nhãn Bùa Chú",
-                text = {
-                    "Nhận một",
-                    "{C:tarot}Gói Thần Bí Đại{} miễn phí"
-                }
-            },
-            tag_meteor = {
-                name = "Nhãn Sao Băng",
-                text = {
-                    "Nhận một",
-                    "{C:planet}Gói Thiên Thể Đại{} miễn phí"
-                }
-            },
-            tag_buffoon = {
-                name = "Nhãn Hề",
-                text = {
-                    "Nhận một",
-                    "{C:attention}Gói Hề Đại{} miễn phí"
-                }
-            },
-            tag_handy = {
-                name = "Nhẫn Khéo Tay",
-                text = {
-                    "Nhận {C:money}$#1#{} mỗi {C:blue}tay",
-                    "đã chơi trận này",
-                    "{C:inactive}(Sẽ nhận {C:money}$#2#{C:inactive})"
-                }
-            },
-            tag_garbage = {
-                name = "Nhãn Phế Thải",
-                text = {
-                    "Nhận {C:money}$#1#{} mỗi {C:red}lượt bỏ bài",
-                    "chưa sử dụng trận này",
-                    "{C:inactive}(Sẽ nhận {C:money}$#2#{C:inactive})",
-                }
-            },
-            tag_coupon = {
-                name = "Nhãn Phiếu Thưởng",
-                text = {
-                    "Những lá bài đầu tiên",
-                    "và gói bài trong shop",
-                    "tiếp theo thì miễn phí"
-                }
-            },
-            tag_double = {
-                name = "Nhãn Kép",
-                text = {
-                    "Tạo ra bản sao của",
-                    "{C:attention}Nhãn{} đã chọn tiếp theo",
-                    "{s:0.8}không bao gồm {s:0.8,C:attention}Nhãn Kép"
-                }
-            },
-            tag_juggle = {
-                name = "Nhãn Tung Hứng",
-                text = {
-                    "{C:attention}+#1#{} lá giữ trong tay",
-                    "cho ván tiếp theo"
-                }
-            },
-            tag_d_six = {
-                name = "Nhãn Xúc Sắc số 6",
-                text = {
-                    "Lượt gieo lại trong shop",
-                    "tiếp theo bắt đầu từ {C:money}$0"
-                }
-            },
-            tag_top_up = {
-                name = "Nhãn Tiếp Tế",
-                text = {
-                    "Tạo ra tối đa {C:attention}#1#",
-                    "Joker {C:blue}Thường",
-                    "{C:inactive}(Phải có ô trống)"
-                }
-            },
-            tag_skip = {
-                name = "Nhãn Tăng Tốc",
-                text = {
-                    "Nhận {C:money}$#1#{} mỗi Blind",
-                    "đã bỏ qua trong trận này",
-                    "{C:inactive}(Sẽ nhận {C:money}$#2#{C:inactive})"
-                }
-            },
-            tag_orbital = {
-                name = "Nhãn Quỹ Đạo",
-                text = {
-                    "Nâng {C:attention}#1#",
-                    "thêm {C:attention}#2# level"
-                }
-            },
-            tag_economy = {
-                name = "Nhãn Kinh Tế",
-                text = {
-                    "Nhân đôi số tiền của bạn",
-                    "{C:inactive}(Tối đa {C:money}$#1#{C:inactive})"
-                }
-            },
-            tag_ethereal = {
-                name = "Nhãn Siêu Trần",
-                text = {
-                    "Nhận một",
-                    "{C:spectral}Gói Siêu Linh{} miễn phí"
+            stake_gold={
+                name="蹻鐄",
+                text={
+                    "㪯行固體固播消{C:attention}朱𠾔",
+                    "{C:inactive,s:0.8}(損{C:money,s:0.8}$3{C:inactive,s:0.8}每盤)",
+                    "{s:0.8}壓用各類蹻畧帝"
                 }
             }
         },
-        Blind = {
-            bl_small = {
-                name = "Small Blind",
-                text = {}
-            },
-            bl_big = {
-                name = "Big Blind",
-                text = {}
-            },
-            bl_hook = {
-                name = "The Hook",
-                text = {
-                    "Bỏ đi 2 lá ngẫu nhiên",
-                    "mỗi tay bài đã chơi"
+        Tag={
+            tag_uncommon={
+                name="沲𠃣普遍",
+                text={
+                    "㪯行固𠬠{C:green}播消",
+                    "{C:green}𠃣普遍{}免費"
                 }
             },
-            bl_wall = {
-                name = "The Wall",
-                text = {
-                    "Blind rất lớn"
+            tag_rare={
+                name="沲儉",
+                text={
+                    "㪯行固𠬠",
+                    "{C:red}播消儉{}免費"
                 }
             },
-            bl_wheel = {
-                name = "The Wheel",
-                text = {
-                    "#1# trên 7 lá bài",
-                    "bị bốc sấp"
+            tag_negative={
+                name="沲陰版",
+                text={
+                    "播消版準接遶",
+                    "𥪝㪯行時免費",
+                    "吧㨋成{C:dark_edition}陰版"
                 }
             },
-            bl_arm = {
-                name = "The Arm",
-                text = {
-                    "Hạ level của",
-                    "tay poker đã chơi"
+            tag_foil={
+                name="沲映金",
+                text={
+                    "播消版準接遶",
+                    "𥪝㪯行時免費",
+                    "吧㨋成{C:dark_edition}映金"
                 }
             },
-            bl_psychic = {
-                name = "The Psychic",
-                text = {
-                    "Phải chơi đủ 5 lá"
+            tag_holo={
+                name="沲拉𪸝",
+                text={
+                    "播消版準接遶",
+                    "𥪝㪯行時免費",
+                    "吧㨋成{C:dark_edition}拉𪸝"
                 }
             },
-            bl_goad = {
-                name = "The Goad",
-                text = {
-                    "Mọi Lá Bích",
-                    "bị vô hiệu hoá"
+            tag_polychrome={
+                name="沲多色",
+                text={
+                    "播消版準接遶",
+                    "𥪝㪯行時免費",
+                    "吧㨋成{C:dark_edition}多色"
                 }
             },
-            bl_water = {
-                name = "The Water",
-                text = {
-                    "Bắt đầu chơi",
-                    "với 0 lượt bỏ bài"
+            tag_investment={
+                name="沲投資",
+                text={
+                    "差欺打敗",
+                    "瞙主,",
+                    "認{C:money}$#1#"
                 }
             },
-            bl_eye = {
-                name = "The Eye",
-                text = {
-                    "Không chơi lại tay poker",
-                    "đã chơi trong ván này"
+            tag_voucher={
+                name="沲票",
+                text={
+                    "添𠬠{C:voucher}票",
+                    "𠓨㪯行接遶"
                 }
             },
-            bl_mouth = {
-                name = "The Mouth",
-                text = {
-                    "Chỉ chơi 1 loại",
-                    "tay poker trong ván này"
+            tag_boss={
+                name="沲主",
+                text={
+                    "招吏{C:attention}瞙主",
+                    "𧵑現在"
                 }
             },
-            bl_plant = {
-                name = "The Plant",
-                text = {
-                    "Mọi lá mặt",
-                    "bị vô hiệu hoá"
+            tag_standard={
+                name="沲標準",
+                text={
+                    "認𠬠",
+                    "{C:attention}絵標準大{}免費"
                 }
             },
-            bl_needle = {
-                name = "The Needle",
-                text = {
-                    "Chỉ chơi 1 tay duy nhất"
+            tag_charm={
+                name="沲符咒",
+                text={
+                    "認𠬠",
+                    "{C:tarot}絵神秘大{}免費"
                 }
             },
-            bl_head = {
-                name = "The Head",
-                text = {
-                    "Mọi lá Cơ",
-                    "bị vô hiệu hoá"
+            tag_meteor={
+                name="沲大",
+                text={
+                    "認𠬠",
+                    "{C:planet}絵天體大{}免費"
                 }
             },
-            bl_tooth = {
-                name = "The Tooth",
-                text = {
-                    "Mất $1 mỗi lá",
-                    "đã chơi"
+            tag_buffoon={
+                name="沲𭛭",
+                text={
+                    "認𠬠",
+                    "{C:attention}絵𭛭大{}免費"
                 }
             },
-            bl_final_leaf = {
-                name = "Verdant Leaf",
-                text = {
-                    "Mọi lá bị vô hiệu hoá",
-                    "cho đến khi bán đi 1 Joker"
+            tag_handy={
+                name="沲窖拪",
+                text={
+                    "認{C:money}$#1#{}每{C:blue}拪",
+                    "㐌𨔈陣呢",
+                    "{C:inactive}(Sẽ認{C:money}$#2#{C:inactive})"
                 }
             },
-            bl_final_vessel = {
-                name = "Violet Vessel",
-                text = {
-                    "Blind siêu lớn"
+            tag_garbage={
+                name="沲廢汰",
+                text={
+                    "認{C:money}$#1#{}每{C:red}辣𠬃牌",
+                    "諸使用陣呢",
+                    "{C:inactive}(Sẽ認{C:money}$#2#{C:inactive})",
                 }
             },
-            bl_ox = {
-                name = "The Ox",
-                text = {
-                    "Chơi #1#",
-                    "đặt tiền về $0"
+            tag_coupon={
+                name="沲票賞",
+                text={
+                    "仍蘿牌頭先",
+                    "吧絵牌𥪝㪯行",
+                    "接遶時免費"
                 }
             },
-            bl_house = {
-                name = "The House",
-                text = {
-                    "Đợt bốc đầu tiên",
-                    "bị bốc sấp"
+            tag_double={
+                name="沲甲",
+                text={
+                    "造𦋦版抄𧵑",
+                    "{C:attention}沲{}㐌撰接遶",
+                    "{s:0.8}空baogồm{s:0.8,C:attention}沲甲"
                 }
             },
-            bl_club = {
-                name = "The Club",
-                text = {
-                    "Mọi lá Tép",
-                    "bị vô hiệu hoá"
+            tag_juggle={
+                name="沲崧𢸾",
+                text={
+                    "{C:attention}+#1#{}蘿𢬇𥪝拪",
+                    "朱盤接遶"
                 }
             },
-            bl_fish = {
-                name = "The Fish",
-                text = {
-                    "Lá bài bị bốc sấp",
-                    "sau mỗi tay đã chơi"
+            tag_d_six={
+                name="沲搐勑數６",
+                text={
+                    "辣招吏𥪝㪯行",
+                    "接遶扒頭自{C:money}$0"
                 }
             },
-            bl_window = {
-                name = "The Window",
-                text = {
-                    "Mọi lá Rô",
-                    "bị vô hiệu hoá"
+            tag_top_up={
+                name="沲接濟",
+                text={
+                    "造𦋦最多{C:attention}#1#",
+                    "播消{C:blue}常",
+                    "{C:inactive}(沛固杇𥧪)"
                 }
             },
-            bl_manacle = {
-                name = "The Manacle",
-                text = {
-                    "-1 lá giữ trong tay"
+            tag_skip={
+                name="沲增速",
+                text={
+                    "認{C:money}$#1#{}每瞙",
+                    "㐌𠬃過𥪝陣呢",
+                    "{C:inactive}(Sẽ認{C:money}$#2#{C:inactive})"
                 }
             },
-            bl_serpent = {
-                name = "The Serpent",
-                text = {
-                    "Sau khi Chơi hoặc Bỏ bài,",
-                    "luôn bốc 3 lá"
+            tag_orbital={
+                name="沲軌道",
+                text={
+                    "㨢{C:attention}#1#",
+                    "添{C:attention}#2#級"
                 }
             },
-            bl_pillar = {
-                name = "The Pillar",
-                text = {
-                    "Lá bài đã chơi trong",
-                    "Ante này bị vô hiệu hoá"
+            tag_economy={
+                name="沲經濟",
+                text={
+                    "因對錢𧵑伴",
+                    "{C:inactive}(最多{C:money}$#1#{C:inactive})"
                 }
             },
-            bl_flint = {
-                name = "The Flint",
-                text = {
-                    "Chip và hệ số Nhân chuẩn",
-                    "bị cắt đi một nửa"
-                }
-            },
-            bl_mark = {
-                name = "The Mark",
-                text = {
-                    "Mọi lá mặt",
-                    "đều bị bốc sấp"
-                }
-            },
-            bl_final_acorn = {
-                name = "Amber Acorn",
-                text = {
-                    "Lật và trộn",
-                    "các lá Joker"
-                }
-            },
-            bl_final_heart = {
-                name = "Crimson Heart",
-                text = {
-                    "Một lá Joker ngẫu nhiên",
-                    "bị vô hiệu hoá mỗi tay bài"
-                }
-            },
-            bl_final_bell = {
-                name = "Cerulean Bell",
-                text = {
-                    "Ép 1 lá luôn ở trong",
-                    "tình trạng đã chọn"
+            tag_ethereal={
+                name="眼超塵",
+                text={
+                    "認𠬠",
+                    "{C:spectral}絵超靈{}免費"
                 }
             }
         },
-        Back = {
-            b_red = {
-                name = "Bộ Bài Đỏ",
-                text = {
-                    "{C:red}+#1#{} lượt bỏ bài",
-                    "mỗi ván"
+        Blind={
+            bl_small={
+                name="瞙𡮈",
+                text={}
+            },
+            bl_big={
+                name="瞙𡘯",
+                text={}
+            },
+            bl_hook={
+                name="個鈢",
+                text={
+                    "𠬃𠫾２蘿偶然",
+                    "每𢬣牌㐌𨔈"
                 }
             },
-            b_blue = {
-                name = "Bộ Bài Lam",
-                text = {
-                    "{C:blue}+#1#{} tay bài",
-                    "mỗi ván"
+            bl_wall={
+                name="堛墻",
+                text={
+                    "霧窒𡘯"
                 }
             },
-            b_yellow = {
-                name = "Bộ Bài Vàng",
-                text = {
-                    "Bắt đầu trận với",
-                    "{C:money}$#1#{} bổ sung"
+            bl_wheel={
+                name="碰車",
+                text={
+                    "#1#𨕭７蘿牌",
+                    "被扑䏠"
                 }
             },
-            b_green = {
-                name = "Bộ Bài Lục",
-                text = {
-                    "Ở cuối mỗi Ván:",
-                    "{C:money}$#1#{s:0.85} mỗi {C:blue}Tay bài{} còn lại",
-                    "{C:money}$#2#{s:0.85} mỗi {C:red}Lượt bỏ bài{} còn lại",
-                    "Không nhận {C:attention}Lãi"
+            bl_arm={
+                name="𦑃拪",
+                text={
+                    "下級𧵑",
+                    "拪扑基㐌𨔈"
                 }
             },
-            b_black = {
-                name = "Bộ Bài Đen",
-                text = {
-                    "{C:attention}+#1#{} ô Joker",
-                    "{C:blue}-#2#{} tay bài",
-                    "mỗi ván"
+            bl_psychic={
+                name="家外感",
+                text={
+                    "沛𨔈覩５蘿"
                 }
             },
-            b_magic = {
-                name = "Bộ Bài Ma Pháp",
-                text = {
-                    "Bắt đầu trận với",
-                    "phiếu {C:tarot,T:v_crystal_ball}#1#",
-                    "và {C:attention}2{} bản sao",
-                    "của {C:tarot,T:c_fool}#2#"
+            bl_goad={
+                name="𢭮𢹅",
+                text={
+                    "每蘿碧",
+                    "被無効化"
                 }
             },
-            b_nebula = {
-                name = "Bộ Bài Tinh Vân",
-                text = {
-                    "Bắt đầu trận với",
-                    "phiếu {C:planet,T:v_telescope}#1#",
+            bl_water={
+                name="瀾渃",
+                text={
+                    "扒頭𨔈",
+                    "某０辣𠬃牌"
+                }
+            },
+            bl_eye={
+                name="𡥵眜",
+                text={
+                    "空𨔈吏拪扑基",
+                    "㐌𨔈𥪝盤呢"
+                }
+            },
+            bl_mouth={
+                name="個𠰘",
+                text={
+                    "只𨔈１類",
+                    "拪扑基𥪝盤呢"
+                }
+            },
+            bl_plant={
+                name="個核",
+                text={
+                    "每蘿𩈘",
+                    "被無効化"
+                }
+            },
+            bl_needle={
+                name="核針",
+                text={
+                    "只𨔈１拪唯一"
+                }
+            },
+            bl_head={
+                name="個頭",
+                text={
+                    "每蘿箕",
+                    "被無効化"
+                }
+            },
+            bl_tooth={
+                name="個𦝄",
+                text={
+                    "秩$1每蘿",
+                    "㐌𨔈"
+                }
+            },
+            bl_final_leaf={
+                name="蘿綠",
+                text={
+                    "每蘿被無効化",
+                    "朱𦤾欺𧸝𠫾１播消"
+                }
+            },
+            bl_final_vessel={
+                name="璃紺",
+                text={
+                    "瞙超𡘯"
+                }
+            },
+            bl_ox={
+                name="𡥵𤛠",
+                text={
+                    "𨔈#1#",
+                    "撻錢𧗱$0"
+                }
+            },
+            bl_house={
+                name="嵬家",
+                text={
+                    "突扑頭先",
+                    "被扑䏠"
+                }
+            },
+            bl_club={
+                name="核椎",
+                text={
+                    "每蘿鯜",
+                    "被無効化"
+                }
+            },
+            bl_fish={
+                name="𡥵𩵜",
+                text={
+                    "蘿牌被扑䏠",
+                    "差每拪㐌𨔈"
+                }
+            },
+            bl_window={
+                name="㪯𢼂",
+                text={
+                    "每蘿鱸",
+                    "被無効化"
+                }
+            },
+            bl_manacle={
+                name="栱拪",
+                text={
+                    "-1蘿𢬇𥪝拪"
+                }
+            },
+            bl_serpent={
+                name="𧋻毒",
+                text={
+                    "差欺𨔈或𠬃牌,",
+                    "㫻扑３蘿"
+                }
+            },
+            bl_pillar={
+                name="核榾",
+                text={
+                    "蘿牌㐌𨔈𥪝",
+                    "級蹻呢被無効化"
+                }
+            },
+            bl_flint={
+                name="𥒥焒",
+                text={
+                    "闡吧係數因準",
+                    "被㓤𠫾𠬠𡛤"
+                }
+            },
+            bl_mark={
+                name="𧿫𧿭",
+                text={
+                    "每蘿𩈘",
+                    "調被扑䏠"
+                }
+            },
+            bl_final_acorn={
+                name="曷杞琥珀",
+                text={
+                    "搮吧遁",
+                    "各蘿播消"
+                }
+            },
+            bl_final_heart={
+                name="𣡙心赭𧺀",
+                text={
+                    "𠬠蘿播消偶然",
+                    "被無効化每拪牌"
+                }
+            },
+            bl_final_bell={
+                name="鐘藍湛",
+                text={
+                    "押１蘿㫻於𥪝",
+                    "情狀㐌撰"
+                }
+            }
+        },
+        Back={
+            b_red={
+                name="部牌赭",
+                text={
+                    "{C:red}+#1#{}辣𠬃牌",
+                    "每盤"
+                }
+            },
+            b_blue={
+                name="部牌藍",
+                text={
+                    "{C:blue}+#1#{}拪牌",
+                    "每盤"
+                }
+            },
+            b_yellow={
+                name="部牌鐄",
+                text={
+                    "扒頭陣某",
+                    "{C:money}$#1#{}補充"
+                }
+            },
+            b_green={
+                name="部牌綠",
+                text={
+                    "於季每盤:",
+                    "{C:money}$#1#{s:0.85}每{C:blue}拪牌{}噲吏",
+                    "{C:money}$#2#{s:0.85}每{C:red}辣𠬃牌{}噲吏",
+                    "空認{C:attention}𥚥"
+                }
+            },
+            b_black={
+                name="部牌黰",
+                text={
+                    "{C:attention}+#1#{}杇播消",
+                    "{C:blue}-#2#{}拪牌",
+                    "每盤"
+                }
+            },
+            b_magic={
+                name="部牌魔法",
+                text={
+                    "扒頭陣某",
+                    "票{C:tarot,T:v_crystal_ball}#1#",
+                    "吧{C:attention}2{}版抄",
+                    "𧵑{C:tarot,T:c_fool}#2#"
+                }
+            },
+            b_nebula={
+                name="部牌星雲",
+                text={
+                    "扒頭陣某",
+                    "票{C:planet,T:v_telescope}#1#",
                     "",
-                    "{C:red}#2#{} ô tiêu thụ"
+                    "{C:red}#2#{}杇銷售"
                 }
             },
-            b_ghost = {
-                name = "Bộ Bài Bóng Ma",
-                text = {
-                    "Lá {C:spectral}Siêu Linh{} có thể",
-                    "xuất hiện trong shop,",
-                    "bắt đầu trận với lá {C:spectral,T:c_hex}Hắc Thuật",
+            b_ghost={
+                name="部牌䏾魔",
+                text={
+                    "蘿{C:spectral}超靈{}固體",
+                    "出現𥪝㪯行,",
+                    "扒頭陣某蘿{C:spectral,T:c_hex}黑術",
                 }
             },
-            b_abandoned = {
-                name = "Bộ Bài Bỏ Hoang",
-                text = {
-                    "Bắt đầu trận với",
-                    "bộ bài không chứa",
-                    "{C:attention}Lá Mặt{} nào"
+            b_abandoned={
+                name="部牌𠬃荒",
+                text={
+                    "扒頭陣某",
+                    "部牌空貯",
+                    "{C:attention}蘿𩈘{}鬧"
                 }
             },
-            b_checkered = {
-                name = "Bộ Bài Sọc Carô",
-                text = {
-                    "Bắt đầu trận với",
-                    "{C:attention}26{} lá {C:spades}Bích{} và",
-                    "{C:attention}26{} lá {C:hearts}Cơ{} trong bộ bài"
+            b_checkered={
+                name="部牌𪟄哥鱸",
+                text={
+                    "扒頭陣某",
+                    "{C:attention}26{}蘿{C:spades}碧{}吧",
+                    "{C:attention}26{}蘿{C:hearts}箕{}𥪝部牌"
                 }
             },
-            b_zodiac = {
-                name = "Bộ Bài Hoàng Đạo",
-                text = {
-                    "Bắt đầu trận với",
+            b_zodiac={
+                name="部牌黄道",
+                text={
+                    "扒頭陣某",
                     "{C:tarot,T:v_tarot_merchant}#1#{},",
                     "{C:planet,T:v_planet_merchant}#2#",
-                    "và {C:attention,T:v_overstock_norm}#3#"
+                    "吧{C:attention,T:v_overstock_norm}#3#"
                 }
             },
-            b_painted = {
-                name = "Bộ Bài Sơn Màu",
-                text = {
-                    "{C:attention}+#1#{} lá giữ trong tay,",
-                    "{C:red}#2#{} ô Joker"
+            b_painted={
+                name="部牌杣𬜝",
+                text={
+                    "{C:attention}+#1#{}蘿𢬇𥪝拪,",
+                    "{C:red}#2#{}杇播消"
                 }
             },
-            b_anaglyph = {
-                name = "Bộ Bài Chạm Nổi",
-                text = {
-                    "Sau khi đánh bại mỗi",
-                    "{C:attention}Boss Blind{}, nhận một",
+            b_anaglyph={
+                name="部牌鏨浮",
+                text={
+                    "差欺打敗每",
+                    "{C:attention}瞙主{},認𠬠",
                     "{C:attention,T:tag_double}#1#"
                 }
             },
-            b_plasma = {
-                name = "Bộ Bài Plasma",
-                text = {
-                    "Cân bằng {C:blue}Chip{} và",
-                    "hệ số {C:red}Nhân{} khi tính điểm",
-                    "cho tay đã chơi",
-                    "{C:red}X#1#{} điểm Blind sàn"
+            b_plasma={
+                name="部牌離子體",
+                text={
+                    "斤平{C:blue}闡{}吧",
+                    "係數{C:red}因{}欺併點",
+                    "朱拪㐌𨔈",
+                    "{C:red}X#1#{}點瞙棧"
                 }
             },
-            b_erratic = {
-                name = "Bộ Bài Hỗn Loạn",
-                text = {
-                    "Toàn bộ {C:attention}Bậc{} và {C:attention}Chất",
-                    "trong bộ bài đều được",
-                    "ngẫu nhiên hoá"
+            b_erratic={
+                name="部牌混亂",
+                text={
+                    "全部{C:attention}堛{}吧{C:attention}質",
+                    "𥪝部牌調得",
+                    "偶然化"
                 }
             },
-            b_challenge = {
-                name = "Bộ Bài Thử Thách",
-                text = {
+            b_challenge={
+                name="部牌試托",
+                text={
                     ""
                 }
             }
         },
-        Other = {
-            gold_seal = {
-                name = "Con Dấu Vàng",
-                text = {
-                    "Nhận {C:money}$3{} khi lá này",
-                    "được chơi và",
-                    "ghi điểm"
+        Other={
+            gold_seal={
+                name="𡥵𧿫鐄",
+                text={
+                    "認{C:money}$3{}欺蘿呢",
+                    "得𨔈吧",
+                    "掑點"
                 }
             },
-            red_seal = {
-                name = "Con Dấu Đỏ",
-                text = {
-                    "Tái kích lá bài",
-                    "này {C:attention}1{} lần"
+            red_seal={
+                name="𡥵𧿫赭",
+                text={
+                    "再激蘿牌",
+                    "呢{C:attention}1{}吝"
                 }
             },
-            blue_seal = {
-                name = "Con Dấu Lam",
-                text = {
-                    "Tạo ra một lá {C:planet}Hành Tinh{} cho",
-                    "{C:attention}tay poker{} cuối cùng của ván",
-                    "nếu được {C:attention}giữ{} trong tay",
-                    "{C:inactive}(Phải có ô trống)"
+            blue_seal={
+                name="𡥵𧿫藍",
+                text={
+                    "造𦋦𠬠蘿{C:planet}行星{}朱",
+                    "{C:attention}拪扑基{}季共𧵑盤",
+                    "裊得{C:attention}𢬇{}𥪝拪",
+                    "{C:inactive}(沛固杇𥧪)"
                 }
             },
-            purple_seal = {
-                name = "Con Dấu Tím",
-                text = {
-                    "Tạo ra một lá {C:tarot}Tarot",
-                    "khi {C:attention}bị bỏ",
-                    "{C:inactive}(Phải có ô trống)"
+            purple_seal={
+                name="𡥵𧿫紺",
+                text={
+                    "造𦋦𠬠蘿{C:tarot}些鱸",
+                    "欺{C:attention}被𠬃",
+                    "{C:inactive}(沛固杇𥧪)"
                 }
             },
-            eternal = {
-                name = "Vĩnh Hằng",
-                text = {
-                    "Không thể bán",
-                    "hoặc bị phá huỷ"
+            eternal={
+                name="永恆",
+                text={
+                    "空體𧸝",
+                    "或被破毀"
                 }
             },
-            perishable = {
-                name = "Ngắn Hạn",
-                text = {
-                    "Vô hiệu hoá sau",
-                    "{C:attention}#1#{} ván",
-                    "{C:inactive}(còn {C:attention}#2#{C:inactive} ván)"
+            perishable={
+                name="艮限",
+                text={
+                    "無効化差",
+                    "{C:attention}#1#{}盤",
+                    "{C:inactive}(còn{C:attention}#2#{C:inactive}盤)"
                 }
             },
-            rental = {
-                name = "Cho Thuê",
-                text = {
-                    "Mất {C:money}$#1#{} ở",
-                    "cuối ván"
+            rental={
+                name="朱𠾔",
+                text={
+                    "秩{C:money}$#1#{}於",
+                    "季盤"
                 }
             },
-            white_sticker = {
-                name = "Nhãn Trắng",
-                text = {
-                    "Đã dùng Joker này",
-                    "để thắng ở độ khó",
-                    "{C:attention}Cược Trắng"
+            white_sticker={
+                name="沲𤽸",
+                text={
+                    "㐌用播消呢",
+                    "帝勝於度苦",
+                    "{C:attention}蹻𤽸"
                 }
             },
-            red_sticker = {
-                name = "Nhãn Đỏ",
-                text = {
-                    "Đã dùng Joker này",
-                    "để thắng ở độ khó",
-                    "{C:attention}Cược Đỏ"
+            red_sticker={
+                name="沲赭",
+                text={
+                    "㐌用播消呢",
+                    "帝勝於度苦",
+                    "{C:attention}蹻赭"
                 }
             },
-            green_sticker = {
-                name = "Nhãn Lục",
-                text = {
-                    "Đã dùng Joker này",
-                    "để thắng ở độ khó",
-                    "{C:attention}Cược Lục"
+            green_sticker={
+                name="沲綠",
+                text={
+                    "㐌用播消呢",
+                    "帝勝於度苦",
+                    "{C:attention}蹻綠"
                 }
             },
-            blue_sticker = {
-                name = "Nhãn Lam",
-                text = {
-                    "Đã dùng Joker này",
-                    "để thắng ở độ khó",
-                    "{C:attention}Cược Lam"
+            blue_sticker={
+                name="沲藍",
+                text={
+                    "㐌用播消呢",
+                    "帝勝於度苦",
+                    "{C:attention}蹻藍"
                 }
             },
-            black_sticker = {
-                name = "Nhãn Đen",
-                text = {
-                    "Đã dùng Joker này",
-                    "để thắng ở độ khó",
-                    "{C:attention}Cược Đen"
+            black_sticker={
+                name="沲黰",
+                text={
+                    "㐌用播消呢",
+                    "帝勝於度苦",
+                    "{C:attention}蹻黰"
                 }
             },
-            purple_sticker = {
-                name = "Nhãn Tím",
-                text = {
-                    "Đã dùng Joker này",
-                    "để thắng ở độ khó",
-                    "{C:attention}Cược Tím"
+            purple_sticker={
+                name="沲紺",
+                text={
+                    "㐌用播消呢",
+                    "帝勝於度苦",
+                    "{C:attention}蹻紺"
                 }
             },
-            orange_sticker = {
-                name = "Nhãn Cam",
-                text = {
-                    "Đã dùng Joker này",
-                    "để thắng ở độ khó",
-                    "{C:attention}Cược Cam"
+            orange_sticker={
+                name="沲柑",
+                text={
+                    "㐌用播消呢",
+                    "帝勝於度苦",
+                    "{C:attention}蹻柑"
                 }
             },
-            gold_sticker = {
-                name = "Nhãn Vàng",
-                text = {
-                    "Đã dùng Joker này",
-                    "để thắng ở độ khó",
-                    "{C:attention}Cược Vàng"
+            gold_sticker={
+                name="沲鐄",
+                text={
+                    "㐌用播消呢",
+                    "帝勝於度苦",
+                    "{C:attention}蹻鐄"
                 }
             },
-            playing_card = {
-                text = {
-                    " {C:light_black}#1# {V:1}#2# "
+            playing_card={
+                text={
+                    "{C:light_black}#1#{V:1}#2#"
                 }
             },
-            card_chips = {
-                text = {
-                    "{C:chips}+#1#{} chip"
+            card_闡s={
+                text={
+                    "{C:闡s}+#1#{}闡"
                 }
             },
-            card_extra_chips = {
-                text = {
-                    "{C:chips}+#1#{} chip thêm"
+            card_extra_闡s={
+                text={
+                    "{C:闡s}+#1#{}闡添"
                 }
             },
-            remove_negative = {
-                name = "n",
-                text = {
-                    "{C:inactive,s:0.9}(Loại bỏ {C:dark_edition,s:0.9}Âm Bản{C:inactive,s:0.9} khỏi bản sao)"
+            remove_negative={
+                name="n",
+                text={
+                    "{C:inactive,s:0.9}(類𠬃{C:dark_edition,s:0.9}陰版{C:inactive,s:0.9}塊版抄)"
                 }
             },
-            locked = {
-                name = "Bị Khoá",
-                text = {}
+            locked={
+                name="被鎖",
+                text={}
             },
-            debuffed_default = {
-                name = "Vô Hiệu",
-                text = {
-                    "Mọi khả năng",
-                    "bị vô hiệu hoá"
+            debuffed_default={
+                name="無効",
+                text={
+                    "每可能",
+                    "被無効化"
                 }
             },
-            debuffed_playing_card = {
-                name = "Vô Hiệu",
-                text = {
-                    "Không ghi chip nào",
-                    "và mọi khả năng",
-                    "bị vô hiệu hoá"
+            debuffed_playing_card={
+                name="無効",
+                text={
+                    "空掑闡鬧",
+                    "吧每可能",
+                    "被無効化"
                 }
             },
-            demo_locked = {
-                name = "Bị Khoá",
-                text = {
-                    "Không có sẵn",
-                    "trong bản demo này"
+            demo_locked={
+                name="被鎖",
+                text={
+                    "空固産",
+                    "𥪝bảndemo呢"
                 }
             },
-            challenge_locked = {
-                name = "Bị Khoá",
-                text = {
-                    "Thắng trận với ít nhất",
-                    "#1# bộ bài khác nhau để mở khoá",
-                    "Chế độ Thử Thách",
+            challenge_locked={
+                name="被鎖",
+                text={
+                    "勝陣某𠃣一",
+                    "#1#部牌恪胞帝𢲫鎖",
+                    "Chếđộ試托",
                     "{C:attention,s:2}#2#/#1#"
                 }
             },
-            demo_shop_locked = {
-                name = "Bị Khoá",
-                text = {
-                    "Lá Bài từ bộ sưu tập",
-                    "cá nhân của {C:attention}Jimbo{},",
-                    "có sẵn trong bản đầy đủ",
-                    "của {E:1,C:red}Balatro"
+            demo_shop_locked={
+                name="被鎖",
+                text={
+                    "蘿牌自部搜集",
+                    "個人𧵑{C:attention}焰甫{},",
+                    "固産𥪝版苔覩",
+                    "𧵑{E:1,C:red}波羅朱"
                 }
             },
-            wip_locked = {
-                name = "Bị Khoá",
-                text = {
-                    "Đang được",
-                    "phát triển"
+            wip_locked={
+                name="被鎖",
+                text={
+                    "當得",
+                    "發展"
                 }
             },
-            deck_locked_win = {
-                name = "Bị Khoá",
-                text = {
-                    "Thắng một trận bằng",
+            deck_locked_win={
+                name="被鎖",
+                text={
+                    "勝𠬠陣憑",
                     "{C:attention}#1#",
-                    "ở bất kì độ khó nào"
+                    "於不其度苦鬧"
                 }
             },
-            deck_locked_discover = {
-                name = "Bị Khoá",
-                text = {
-                    "Khám phá ít nhất",
-                    "{C:attention}#1#{} vật phẩm từ",
-                    "bộ sưu tập của bạn"
+            deck_locked_discover={
+                name="被鎖",
+                text={
+                    "勘破𠃣一",
+                    "{C:attention}#1#{}物品自",
+                    "部搜集𧵑伴"
                 }
             },
-            deck_locked_stake = {
-                name = "Bị Khoá",
-                text = {
-                    "Thắng một trận bằng",
-                    "bất kì bộ bài nào ở",
-                    "độ khó {V:1}#1#"
+            deck_locked_stake={
+                name="被鎖",
+                text={
+                    "勝𠬠陣憑",
+                    "不其部牌鬧於",
+                    "度苦{V:1}#1#"
                 }
             },
-            joker_locked_legendary = {
-                name = "Bị Khoá",
-                text = {
-                    "Tìm lá Joker này",
-                    "từ lá {C:spectral}Linh Hồn"
+            joker_locked_legendary={
+                name="被鎖",
+                text={
+                    "尋蘿播消呢",
+                    "自蘿{C:spectral}靈魂"
                 }
             },
-            undiscovered_joker = {
-                name = "Chưa Khám Phá",
-                text = {
-                    "Mua hoặc dùng",
-                    "lá này trong một",
-                    "trận ngẫu nhiên",
-                    "để biết tác dụng của nó"
+            undiscovered_joker={
+                name="諸勘破",
+                text={
+                    "𢱖或用",
+                    "蘿呢𥪝𠬠",
+                    "陣偶然",
+                    "帝別作用𧵑奴"
                 }
             },
-            undiscovered_tarot = {
-                name = "Chưa Khám Phá",
-                text = {
-                    "Mua hoặc dùng",
-                    "lá này trong một",
-                    "trận ngẫu nhiên",
-                    "để biết tác dụng của nó"
+            undiscovered_tarot={
+                name="諸勘破",
+                text={
+                    "𢱖或用",
+                    "蘿呢𥪝𠬠",
+                    "陣偶然",
+                    "帝別作用𧵑奴"
                 }
             },
-            undiscovered_planet = {
-                name = "Chưa Khám Phá",
-                text = {
-                    "Mua hoặc dùng",
-                    "lá này trong một",
-                    "trận ngẫu nhiên",
-                    "để biết tác dụng của nó"
+            undiscovered_planet={
+                name="諸勘破",
+                text={
+                    "𢱖或用",
+                    "蘿呢𥪝𠬠",
+                    "陣偶然",
+                    "帝別作用𧵑奴"
                 }
             },
-            undiscovered_spectral = {
-                name = "Chưa Khám Phá",
-                text = {
-                    "Mua hoặc dùng",
-                    "lá này trong một",
-                    "trận ngẫu nhiên",
-                    "để biết tác dụng của nó"
+            undiscovered_spectral={
+                name="諸勘破",
+                text={
+                    "𢱖或用",
+                    "蘿呢𥪝𠬠",
+                    "陣偶然",
+                    "帝別作用𧵑奴"
                 }
             },
-            undiscovered_voucher = {
-                name = "Chưa Khám Phá",
-                text = {
-                    "Đổi ra phiếu",
-                    "này trong một",
-                    "trận ngẫu nhiên",
-                    "để biết tác dụng của nó"
+            undiscovered_voucher={
+                name="諸勘破",
+                text={
+                    "𢷮𦋦票",
+                    "呢𥪝𠬠",
+                    "陣偶然",
+                    "帝別作用𧵑奴"
                 }
             },
-            undiscovered_booster = {
-                name = "Chưa Khám Phá",
-                text = {
-                    "Mở gói bài này",
-                    "trong một trận ngẫu nhiên",
-                    "để biết tác dụng của nó"
+            undiscovered_booster={
+                name="諸勘破",
+                text={
+                    "𢲫絵牌呢",
+                    "𥪝𠬠陣偶然",
+                    "帝別作用𧵑奴"
                 }
             },
-            undiscovered_edition = {
-                name = "Chưa Khám Phá",
-                text = {
-                    "Tìm ấn bản này",
-                    "trong một trận ngẫu nhiên",
-                    "để biết tác dụng của nó"
+            undiscovered_edition={
+                name="諸勘破",
+                text={
+                    "Tìm印版呢",
+                    "𥪝𠬠陣偶然",
+                    "帝別作用𧵑奴"
                 }
             },
-            undiscovered_tag = {
-                name = "Chưa Khám Phá",
-                text = {
-                    "Dùng nhãn bỏ qua này",
-                    "trong một trận ngẫu nhiên",
-                    "để biết tác dụng của nó"
+            undiscovered_tag={
+                name="諸勘破",
+                text={
+                    "用沲𠬃qua呢",
+                    "𥪝𠬠陣偶然",
+                    "帝別作用𧵑奴"
                 }
             },
-            p_arcana_normal = {
-                name = "Gói Thần Bí",
-                text = {
-                    "Chọn {C:attention}#1#{} trong tối đa",
-                    "{C:attention}#2#{} lá {C:tarot}Tarot",
-                    "để dùng ngay"
+            p_arcana_normal={
+                name="絵神秘",
+                text={
+                    "撰{C:attention}#1#{}𥪝最多",
+                    "{C:attention}#2#{}蘿{C:tarot}些鱸",
+                    "帝用𣦍"
                 }
             },
-            p_arcana_jumbo = {
-                name = "Gói Thần Bí Lớn",
-                text = {
-                    "Chọn {C:attention}#1#{} trong tối đa",
-                    "{C:attention}#2#{} lá {C:tarot}Tarot",
-                    "để dùng ngay"
+            p_arcana_jumbo={
+                name="絵神秘𡘯",
+                text={
+                    "撰{C:attention}#1#{}𥪝最多",
+                    "{C:attention}#2#{}蘿{C:tarot}些鱸",
+                    "帝用𣦍"
                 }
             },
-            p_arcana_mega = {
-                name = "Gói Thần Bí Đại",
-                text = {
-                    "Chọn {C:attention}#1#{} trong tối đa",
-                    "{C:attention}#2#{} lá {C:tarot}Tarot",
-                    "để dùng ngay"
+            p_arcana_mega={
+                name="絵神秘大",
+                text={
+                    "撰{C:attention}#1#{}𥪝最多",
+                    "{C:attention}#2#{}蘿{C:tarot}些鱸",
+                    "帝用𣦍"
                 }
             },
-            p_celestial_normal = {
-                name = "Gói Thiên Thể",
-                text = {
-                    "Chọn {C:attention}#1#{} trong tối đa",
-                    "{C:attention}#2#{} lá {C:planet}Hành Tinh",
-                    "để dùng ngay"
+            p_celestial_normal={
+                name="絵天體",
+                text={
+                    "撰{C:attention}#1#{}𥪝最多",
+                    "{C:attention}#2#{}蘿{C:planet}行星",
+                    "帝用𣦍"
                 }
             },
-            p_celestial_jumbo = {
-                name = "Gói Thiên Thể Lớn",
-                text = {
-                    "Chọn {C:attention}#1#{} trong tối đa",
-                    "{C:attention}#2#{} lá {C:planet}Hành Tinh",
-                    "để dùng ngay"
+            p_celestial_jumbo={
+                name="絵天體𡘯",
+                text={
+                    "撰{C:attention}#1#{}𥪝最多",
+                    "{C:attention}#2#{}蘿{C:planet}行星",
+                    "帝用𣦍"
                 }
             },
-            p_celestial_mega = {
-                name = "Gói Thiên Thể Đại",
-                text = {
-                    "Chọn {C:attention}#1#{} trong tối đa",
-                    "{C:attention}#2#{} lá {C:planet}Hành Tinh",
-                    "để dùng ngay"
+            p_celestial_mega={
+                name="絵天體大",
+                text={
+                    "撰{C:attention}#1#{}𥪝最多",
+                    "{C:attention}#2#{}蘿{C:planet}行星",
+                    "帝用𣦍"
                 }
             },
-            p_spectral_normal = {
-                name = "Gói Siêu Linh",
-                text = {
-                    "Chọn {C:attention}#1#{} trong tối đa",
-                    "{C:attention}#2#{} lá {C:spectral}Siêu Linh",
-                    "để dùng ngay"
+            p_spectral_normal={
+                name="絵超靈",
+                text={
+                    "撰{C:attention}#1#{}𥪝最多",
+                    "{C:attention}#2#{}蘿{C:spectral}超靈",
+                    "帝用𣦍"
                 }
             },
-            p_spectral_jumbo = {
-                name = "Gói Siêu Linh Lớn",
-                text = {
-                    "Chọn {C:attention}#1#{} trong tối đa",
-                    "{C:attention}#2#{} lá {C:spectral}Siêu Linh",
-                    "để dùng ngay"
+            p_spectral_jumbo={
+                name="絵超靈𡘯",
+                text={
+                    "撰{C:attention}#1#{}𥪝最多",
+                    "{C:attention}#2#{}蘿{C:spectral}超靈",
+                    "帝用𣦍"
                 }
             },
-            p_spectral_mega = {
-                name = "Gói Siêu Linh Đại",
-                text = {
-                    "Chọn {C:attention}#1#{} trong tối đa",
-                    "{C:attention}#2#{} lá {C:spectral}Siêu Linh",
-                    "để dùng ngay"
+            p_spectral_mega={
+                name="絵超靈大",
+                text={
+                    "撰{C:attention}#1#{}𥪝最多",
+                    "{C:attention}#2#{}蘿{C:spectral}超靈",
+                    "帝用𣦍"
                 }
             },
-            p_standard_normal = {
-                name = "Gói Tiêu Chuẩn",
-                text = {
-                    "Chọn {C:attention}#1#{} trong tối đa",
-                    "{C:attention}#2#{C:attention} lá bài Thường",
-                    "để thêm vào bộ bài"
+            p_standard_normal={
+                name="絵標準",
+                text={
+                    "撰{C:attention}#1#{}𥪝最多",
+                    "{C:attention}#2#{C:attention}蘿牌常",
+                    "帝添𠓨部牌"
                 }
             },
-            p_standard_jumbo = {
-                name = "Gói Tiêu Chuẩn Lớn",
-                text = {
-                    "Chọn {C:attention}#1#{} trong tối đa",
-                    "{C:attention}#2#{C:attention} lá bài Thường",
-                    "để thêm vào bộ bài"
+            p_standard_jumbo={
+                name="絵標準𡘯",
+                text={
+                    "撰{C:attention}#1#{}𥪝最多",
+                    "{C:attention}#2#{C:attention}蘿牌常",
+                    "帝添𠓨部牌"
                 }
             },
-            p_standard_mega = {
-                name = "Gói Tiêu Chuẩn Đại",
-                text = {
-                    "Chọn {C:attention}#1#{} trong tối đa",
-                    "{C:attention}#2#{C:attention} lá bài Thường",
-                    "để thêm vào bộ bài"
+            p_standard_mega={
+                name="絵標準大",
+                text={
+                    "撰{C:attention}#1#{}𥪝最多",
+                    "{C:attention}#2#{C:attention}蘿牌常",
+                    "帝添𠓨部牌"
                 }
             },
-            p_buffoon_normal = {
-                name = "Gói Hề",
-                text = {
-                    "Chọn {C:attention}#1#{} trong tối đa",
-                    "{C:attention}#2#{} lá {C:joker}Joker"
+            p_buffoon_normal={
+                name="絵𭛭",
+                text={
+                    "撰{C:attention}#1#{}𥪝最多",
+                    "{C:attention}#2#{}蘿{C:joker}播消"
                 }
             },
-            p_buffoon_jumbo = {
-                name = "Gói Hề Lớn",
-                text = {
-                    "Chọn {C:attention}#1#{} trong tối đa",
-                    "{C:attention}#2#{} lá {C:joker}Joker"
+            p_buffoon_jumbo={
+                name="絵𭛭𡘯",
+                text={
+                    "撰{C:attention}#1#{}𥪝最多",
+                    "{C:attention}#2#{}蘿{C:joker}播消"
                 }
             },
-            p_buffoon_mega = {
-                name = "Gói Hề Đại",
-                text = {
-                    "Chọn {C:attention}#1#{} trong tối đa",
-                    "{C:attention}#2#{} lá {C:joker}Joker"
+            p_buffoon_mega={
+                name="絵𭛭大",
+                text={
+                    "撰{C:attention}#1#{}𥪝最多",
+                    "{C:attention}#2#{}蘿{C:joker}播消"
                 }
             },
-            pinned_left = {
-                name = "Bị Ghim",
-                text = {
-                    "Joker này bị ghim",
-                    "ở ô tận cùng",
-                    "bên trái"
+            pinned_left={
+                name="被金",
+                text={
+                    "播消呢被金",
+                    "於杇盡窮",
+                    "邊賴"
                 }
             },
-            ----------------------------------------------- Phần dùng cho Steamodded -----------------------------------------------
-            load_success = {
-				text = {
-					'Mod đã tải',
-					'{C:green}thành công!'
-				}
-			},
-			load_failure_d = {
-				text = {
-					'Thiếu {C:attention}Mod phụ thuộc!',
-					'#1#',
-				}
-			},
-			load_failure_c = {
-				text = {
-					'Chưa giải quyết {C:attention}xung đột Mod!',
-					'#1#'
-				}
-			},
-			load_failure_d_c = {
-				text = {
-					'Thiếu {C:attention}Mod phụ thuộc!',
-					'#1#',
-					'Chưa giải quyết {C:attention}xung đột Mod!',
-					'#2#'
-				}
-			},
-			load_failure_o = {
-				text = {
-					'Steamodded {C:attention}quá cũ!',
-					'phiên bản từ {C:money}0.9.8{} trở xuống',
-					'không còn được hỗ trợ.'
-				}
-			},
-			load_failure_i = {
-				text = {
-					'{C:attention}Không tương thích!{}',
-					'Cần Steamodded phiên bản #1#,',
-					'nhưng đang dùng #2#.'
-				}
-			},
-            load_failure_p = {
-				text = {
-					'{C:attention}Xung đột tiền tố!{}',
-					'Tiền tố của mod này',
-					'bị trùng với 1 mod khác.',
-					'({C:attention}#1#{})'
-				}
-			},
-            load_failure_m = {
-                text = {
-                    '{C:attention}Tệp Chính Không Tìm Thấy!{}',
-                    'Tệp chính của mod này',
-                    'không thể được tìm thấy.',
+            -----------------------------------------------Steamodded-----------------------------------------------
+            load_success={
+                text={
+                    '㩢諸載',
+                    '{C:green}成功！'
+                }
+            },
+            load_failure_d={
+                text={
+                    '少{C:attention}㩢附属！',
+                    '#1#',
+                }
+            },
+            load_failure_c={
+                text={
+                    '諸解決{C:attention}衝突㩢！',
+                    '#1#'
+                }
+            },
+            load_failure_d_c={
+                text={
+                    '少{C:attention}㩢附属！',
+                    '#1#',
+                    '諸解決{C:attention}衝突㩢！',
+                    '#2#'
+                }
+            },
+            load_failure_o={
+                text={
+                    '𣱬𥣫{C:attention}過屢！',
+                    '翻版自{C:money}0.9.8{}㨋𨑜',
+                    '空噲得互助。'
+                }
+            },
+            load_failure_i={
+                text={
+                    '{C:attention}空相適！{}',
+                    '𫢍𣱬𥣫翻版#1#,',
+                    '仍當用#2#.'
+                }
+            },
+            load_failure_p={
+                text={
+                    '{C:attention}衝突前素！{}',
+                    '前素𧵑㩢呢',
+                    '被重某１㩢恪.',
                     '({C:attention}#1#{})'
                 }
             },
-			load_disabled = {
-                text = {
-                    'Mod này đã',
-                    '{C:attention}vô hiệu hoá!{}'
+            load_failure_m={
+                text={
+                    '{C:attention}牒正空尋𧡊！{}',
+                    '牒正𧵑㩢呢',
+                    '空體得尋𧡊。',
+                    '({C:attention}#1#{})'
+                }
+            },
+            load_disabled={
+                text={
+                    '㩢呢㐌',
+                    '{C:attention}無効化！{}'
                 }
             }
             ------------------------------------------------------------------------------------------------------------------------
         },
-        Mod = {
-            VNBalatro = {
-                name = "Balatro tiếng Việt",
-                text = {
-                   "{s:1.3}Thêm bản dịch {s:1.3,C:red}tiếng {s:1.3,C:money}Việt{} {s:1.3}cho Balatro và cung cấp font m6x11plus đã",
-                   "{s:1.3}được tinh chỉnh lại để hỗ trợ ngôn ngữ này.",
-                   " ",
-                   "Hiện đang cung cấp bản dịch cho game gốc và các mod sau:",
-                   "CardSleeves, Cryptid, Galdur, Incantation,",
-                   "JokerDisplay, Jokermon, Multiplayer và Ortalab.",
+        mod={
+            VNBalatro={
+                name="波羅朱𡨸喃",
+                text={
+                "{s:1.3}添版翻音{s:1.3,C:red}𡨸{s:1.3,C:money}喃{}{s:1.3}朱波羅朱",
+                "",
+                "現當供給版譯徒𨔈梏吧各㩢恪：",
+                "襆牌、異種、肝都、願咒、",
+                "現播消、播消們、饒𠊛𨔈吧烏些拉。",
                 },
             },
-            ----------------------------------------------- Phần dùng cho CardSleeves -----------------------------------------------
-            CardSleeves = {
-                name = "Bọc Bài",
-                text = {
-                    "{s:1.3}Thêm {s:1.3,C:attention}15{} {s:1.3,E:1,C:dark_edition}Bọc Bài{} {s:1.3}ở dạng điều chỉnh cho các bộ bài.",
-                    " ",
-                    "Bao gồm API cho các mod khác",
-                    "tự thêm Bọc Bài của riêng chúng.",
-                    " ",
-                    "Được lập trình và áp dụng bởi {C:blue}Larswijn{}.",
-                    "Ý tưởng ban đầu và hình vẽ bởi {C:red}Sable{}.",
-                    " ",
-                    "{s:1.1}Xem https://github.com/larswijn/CardSleeves để biết thêm thông tin."
+            -----------------------------------------------CardSleeves-----------------------------------------------
+            CardSleeves={
+                name="襆牌",
+                text={
+                    "{s:1.3}添{s:1.3,C:attention}15{}{s:1.3,E:1,C:dark_edition}襆牌{}{s:1.3}於樣調整朱各部牌.",
+                    "",
+                    "包歉交面立程朱各㩢恪",
+                    "自添襆牌𧵑貞眾。",
+                    "",
+                    "得立程吧壓用罷{C:blue}Larswijn{}.",
+                    "意想班頭吧形𡲈罷{C:red}Sable{}.",
+                    "",
+                    "{s:1.1}覘　https://github.com/larswijn/CardSleeves　帝別添通信。"
                 }
             },
-            ---------------------------------------------- Phần dùng cho JokerDisplay -----------------------------------------------
-            ["JokerDisplay"] = {
-                name = "JokerDisplay",
-                text = {
-                    "Hiển thị thông tin hữu ích ngay bên dưới lá Joker",
-					" ",
-                    "{C:attention}Phím tắt:{}",
-                    "{C:blue}Chuột phải hoặc B:{} ẩn/hiện",
-                    "{C:blue}Chuột trái hoặc Mũi tên lên:{} đóng sập/mở rộng",
-					" ",
-					"Lời cảm ơn chân thành đến {C:green}Eremel{} và {C:green}OppositeWolf770{}",
-					" ",
-					"Bản dịch tiếng Nga bởi: {C:green}WholeHorse{}",
-					"Bản dịch tiếng Pháp bởi: {C:green}SDM_0{}",
+            ----------------------------------------------JokerDisplay-----------------------------------------------
+            ["JokerDisplay"]={
+                name="現播消",
+                text={
+                    "顕示通信有益𣦍邊𨑜蘿播消",
+                    "",
+                    "{C:attention}柉𨄠：{}",
+                    "{C:blue}𤝞沛或Ｂ：{}隱・現",
+                    "{C:blue}𤝞賴或鋂箭𨕭：{}㨂柆・𢲫𣳔",
+                    "",
+                    "𠳒感恩真誠𦤾{C:green}Eremel{}吧{C:green}OppositeWolf770{}",
+                    "",
+                    "版譯㗂娥罷：{C:green}WholeHorse{}",
+                    "版譯㗂法罷：{C:green}SDM_0{}",
                 },
             }
             -------------------------------------------------------------------------------------------------------------------------
         },
-        Sleeve = {
-            sleeve_casl_none = {
-                name = "Không Bọc",
-                text = { "Không có điều chỉnh bọc" }
+        Sleeve={
+            sleeve_casl_none={
+                name="空襆",
+                text={"空固調整襆"}
             },
 
-            sleeve_locked = {
-                name = "Bị Khoá",
-                text = {
-                    "Thắng một trận bằng",
-                    "{C:attention}#1#{} ở độ khó",
-                    "{V:1}#2#{} trở lên"
+            sleeve_locked={
+                name="被鎖",
+                text={
+                    "勝𠬠陣憑",
+                    "{C:attention}#1#{}於度苦",
+                    "{V:1}#2#{}㨋𨕭"
                 }
             },
 
-            sleeve_casl_red = {
-                name = "Bọc Đỏ",
-                text = G.localization.descriptions.Back["b_red"].text
+            sleeve_casl_red={
+                name="襆赭",
+                text=G.localization.descriptions.Back["b_red"].text
             },
-            sleeve_casl_red_alt = {
-                name = "Bọc Đỏ",
-                text = {
-                    "{C:red}+#1#{} lượt bỏ bài mỗi ván",
+            sleeve_casl_red_alt={
+                name="襆赭",
+                text={
+                    "{C:red}+#1#{}辣𠬃牌每盤",
                     "",
-                    "{C:blue}#2#{} tay bài mỗi ván"
+                    "{C:blue}#2#{}拪牌每盤"
                 },
             },
 
-            sleeve_casl_blue = {
-                name = "Bọc Lam",
-                text = G.localization.descriptions.Back["b_blue"].text
+            sleeve_casl_blue={
+                name="襆藍",
+                text=G.localization.descriptions.Back["b_blue"].text
             },
-            sleeve_casl_blue_alt = {
-                name = "Bọc Lam",
-                text = {
-                    "{C:blue}+#1#{} tay bài mỗi ván",
+            sleeve_casl_blue_alt={
+                name="襆藍",
+                text={
+                    "{C:blue}+#1#{}拪牌每盤",
                     "",
-                    "{C:red}#2#{} lượt bỏ bài mỗi ván"
+                    "{C:red}#2#{}辣𠬃牌每盤"
                 },
             },
 
-            sleeve_casl_yellow = {
-                name = "Bọc Vàng",
-                text = G.localization.descriptions.Back["b_yellow"].text
+            sleeve_casl_yellow={
+                name="襆鐄",
+                text=G.localization.descriptions.Back["b_yellow"].text
             },
-            sleeve_casl_yellow_alt = {
-                name = "Bọc Vàng",
-                text = {
-                    "Bắt đầu trận với",
-                    "phiếu {C:money,T:v_seed_money}#1#{}"
+            sleeve_casl_yellow_alt={
+                name="襆鐄",
+                text={
+                    "扒頭陣某",
+                    "票{C:money,T:v_seed_money}#1#{}"
                 },
             },
 
-            sleeve_casl_green = {
-                name = "Bọc Lục",
-                text = {
-                    "Ở cuối mỗi Ván:",
-                    "+{C:money}$#1#{s:0.85} mỗi {C:blue}Tay bài{} còn lại",
-                    "+{C:money}$#2#{s:0.85} mỗi {C:red}Lượt bỏ bài{} còn lại",
-                    "Không nhận {C:attention}Lãi"
+            sleeve_casl_green={
+                name="襆綠",
+                text={
+                    "於季每盤:",
+                    "+{C:money}$#1#{s:0.85}每{C:blue}拪牌{}噲吏",
+                    "+{C:money}$#2#{s:0.85}每{C:red}辣𠬃牌{}噲吏",
+                    "空認{C:attention}Lãi"
                     }
             },
-            sleeve_casl_green_alt = {
-                name = "Bọc Lục",
-                text = {
-                    "Ghi nợ {C:red}$#1#{}",
-                    "cho mỗi Tay bài",
-                    "và Lượt bỏ bài",
-                    "{C:inactive}(Hiện tại là {C:red}-$#2#{C:inactive})"
+            sleeve_casl_green_alt={
+                name="襆綠",
+                text={
+                    "掑嫧{C:red}$#1#{}",
+                    "朱每拪牌",
+                    "吧辣𠬃牌",
+                    "{C:inactive}(現在羅{C:red}-$#2#{C:inactive})"
                 }
             },
 
-            sleeve_casl_black = {
-                name = "Bọc Đen",
-                text = G.localization.descriptions.Back["b_black"].text
+            sleeve_casl_black={
+                name="襆黰",
+                text=G.localization.descriptions.Back["b_black"].text
             },
-            sleeve_casl_black_alt = {
-                name = "Bọc Đen",
-                text = {
-                    "{C:attention}+#1#{} ô Joker",
+            sleeve_casl_black_alt={
+                name="襆黰",
+                text={
+                    "{C:attention}+#1#{}杇播消",
                     "",
-                    "{C:blue}-#2#{} lượt bỏ bài",
-                    "mỗi ván"
+                    "{C:blue}-#2#{}辣𠬃牌",
+                    "每盤"
                 }
             },
 
-            sleeve_casl_magic = {
-                name = "Bọc Ma Pháp",
-                text = G.localization.descriptions.Back["b_magic"].text
+            sleeve_casl_magic={
+                name="襆魔法",
+                text=G.localization.descriptions.Back["b_magic"].text
             },
-            sleeve_casl_magic_alt = {
-                name = "Bọc Ma Pháp",
-                text = {
-                    "Bắt đầu trận với",
-                    "phiếu {C:tarot,T:v_omen_globe}#1#{}",
+            sleeve_casl_magic_alt={
+                name="襆魔法",
+                text={
+                    "扒頭陣某",
+                    "票{C:tarot,T:v_omen_globe}#1#{}",
                 }
             },
 
-            sleeve_casl_nebula = {
-                name = "Bọc Tinh Vân",
-                text = G.localization.descriptions.Back["b_nebula"].text
+            sleeve_casl_nebula={
+                name="襆星雲",
+                text=G.localization.descriptions.Back["b_nebula"].text
             },
-            sleeve_casl_nebula_alt = {
-                name = "Bọc Tinh Vân",
-                text = {
-                    "Bắt đầu trận với",
-                    "phiếu {C:planet,T:v_observatory}#1#{}",
+            sleeve_casl_nebula_alt={
+                name="襆星雲",
+                text={
+                    "扒頭陣某",
+                    "票{C:planet,T:v_observatory}#1#{}",
                     }
             },
 
-            sleeve_casl_ghost = {
-                name = "Bọc Bóng Ma",
-                text = G.localization.descriptions.Back["b_ghost"].text
+            sleeve_casl_ghost={
+                name="襆䏾魔",
+                text=G.localization.descriptions.Back["b_ghost"].text
             },
-            sleeve_casl_ghost_alt = {
-                name = "Bọc Bóng Ma",
-                text = {
-                    "Tần suất xuất hiện lá {C:spectral}Siêu Linh{}",
-                    "ở trong shop được nhân đôi,",
-                    "Các {C:spectral}Gói Siêu Linh{} có thêm",
-                    "{C:attention}#1#{} lá để chọn",
+            sleeve_casl_ghost_alt={
+                name="襆䏾魔",
+                text={
+                    "頻率出現蘿{C:spectral}超靈{}",
+                    "於𥪝㪯行得因對、",
+                    "各{C:spectral}絵超靈{}固添",
+                    "{C:attention}#1#{}蘿帝撰",
                 }
             },
 
-            sleeve_casl_abandoned = {
-                name = "Bọc Bỏ Hoang",
-                text = G.localization.descriptions.Back["b_abandoned"].text
+            sleeve_casl_abandoned={
+                name="襆𠬃荒",
+                text=G.localization.descriptions.Back["b_abandoned"].text
             },
-            sleeve_casl_abandoned_alt = {
-                name = "Bọc Bỏ Hoang",
-                text = {
-                    "{C:attention}Lá Mặt{} sẽ không còn",
-                    "xuất hiện trong trận"
+            sleeve_casl_abandoned_alt={
+                name="襆𠬃荒",
+                text={
+                    "{C:attention}蘿𩈘{}𠱊空噲",
+                    "出現𥪝陣"
                 }
             },
 
-            sleeve_casl_checkered = {
-                name = "Bọc Sọc Carô",
-                text = G.localization.descriptions.Back["b_checkered"].text
+            sleeve_casl_checkered={
+                name="襆𪟄哥鱸",
+                text=G.localization.descriptions.Back["b_checkered"].text
             },
-            sleeve_casl_checkered_alt = {
-                name = "Bọc Sọc Carô",
-                text = {
-                    "Mọi lá {C:clubs}Tép{} sẽ biến đổi",
-                    "thành lá {C:spades}Bích{} và",
-                    "mọi lá {C:diamonds}Rô{} sẽ biến đổi",
-                    "thành lá {C:hearts}Cơ{}",
+            sleeve_casl_checkered_alt={
+                name="襆𪟄哥鱸",
+                text={
+                    "每蘿{C:clubs}鯜{}𠱊變𢷮",
+                    "成蘿{C:spades}碧{}吧",
+                    "每蘿{C:diamonds}鱸{}𠱊變𢷮",
+                    "成蘿{C:hearts}箕{}",
                 }
             },
 
-            sleeve_casl_zodiac = {
-                name = "Bọc Hoàng Đạo",
-                text = G.localization.descriptions.Back["b_zodiac"].text
+            sleeve_casl_zodiac={
+                name="襆黄道",
+                text=G.localization.descriptions.Back["b_zodiac"].text
             },
-            sleeve_casl_zodiac_alt = {
-                name = "Bọc Hoàng Đạo",
-                text = {
-                    "Các Gói {C:tarot}Thần Bí{} và {C:planet}Thiên Thể{} đều",
-                    "có thêm {C:attention}#1#{} lá để chọn",
+            sleeve_casl_zodiac_alt={
+                name="襆黄道",
+                text={
+                    "各絵{C:tarot}神秘{}吧{C:planet}天體{}調",
+                    "固添{C:attention}#1#{}蘿帝撰",
                 }
             },
 
-            sleeve_casl_painted = {
-                name = "Bọc Sơn Màu",
-                text = G.localization.descriptions.Back["b_painted"].text
+            sleeve_casl_painted={
+                name="襆杣𬜝",
+                text=G.localization.descriptions.Back["b_painted"].text
             },
-            sleeve_casl_painted_alt = {
-                name = "Bọc Sơn Màu",
-                text = {
-                    "{C:attention}+#1#{} số lá có thể chọn,",
-                    "{C:red}#2#{} ô Joker",
+            sleeve_casl_painted_alt={
+                name="襆杣𬜝",
+                text={
+                    "{C:attention}+#1#{}數蘿固體撰,",
+                    "{C:red}#2#{}杇播消",
                 }
             },
 
-            sleeve_casl_anaglyph = {
-                name = "Bọc Chạm Nổi",
-                text = G.localization.descriptions.Back["b_anaglyph"].text
+            sleeve_casl_anaglyph={
+                name="襆鏨浮",
+                text=G.localization.descriptions.Back["b_anaglyph"].text
             },
-            sleeve_casl_anaglyph_alt = {
-                name = "Bọc Chạm Nổi",
-                text = {
-                    "Sau khi đánh bại {C:attention}Small Blind{}",
-                    "hoặc {C:attention}Big Blind{}, nhận",
-                    "một {C:attention,T:tag_double}#1#"
+            sleeve_casl_anaglyph_alt={
+                name="襆鏨浮",
+                text={
+                    "差欺打敗{C:attention}瞙𡮈{}",
+                    "或{C:attention}瞙𡘯{},認",
+                    "𠬠{C:attention,T:tag_double}#1#"
                 }
             },
 
-            sleeve_casl_plasma = {
-                name = "Bọc Plasma",
-                text = G.localization.descriptions.Back["b_plasma"].text
+            sleeve_casl_plasma={
+                name="襆離子體",
+                text=G.localization.descriptions.Back["b_plasma"].text
             },
-            sleeve_casl_plasma_alt = {
-                name = "Bọc Plasma",
-                text = {
-                    "Cân bằng {C:money}giá tiền{} của mọi",
-                    "vật phẩm trong {C:attention}shop{}",
+            sleeve_casl_plasma_alt={
+                name="襆離子體",
+                text={
+                    "斤平{C:money}價錢{}𧵑每",
+                    "物品𥪝{C:attention}㪯行{}",
                 }
             },
 
-            sleeve_casl_erratic = {
-                name = "Bọc Hỗn Loạn",
-                text = G.localization.descriptions.Back["b_erratic"].text
+            sleeve_casl_erratic={
+                name="襆混亂",
+                text=G.localization.descriptions.Back["b_erratic"].text
             },
-            sleeve_casl_erratic_alt = {
-                name = "Bọc Hỗn Loạn",
-                text = {
-                    "Số lượng {C:blue}tay bài{}, {C:red}lượt bỏ bài{},",
-                    "{C:money}tiền{} và {C:attention}ô joker{} khởi đầu đều",
-                    "ngẫu nhiên trong khoảng từ {C:attention}#1#{} đến {C:attention}#2#{}",
+            sleeve_casl_erratic_alt={
+                name="襆混亂",
+                text={
+                    "數量{C:blue}拪牌{},{C:red}辣𠬃牌{},",
+                    "{C:money}錢{}吧{C:attention}杇播消{}起頭調",
+                    "偶然𥪝壙自{C:attention}#1#{}𦤾{C:attention}#2#{}",
                 }
             }
         }
     },
-    UI = {},
-    tutorial = {},
-    misc = {
-        suits_singular = {
-            Spades = "Bích",
-            Hearts = "Cơ",
-            Clubs = "Tép",
-            Diamonds = "Rô"
+    UI={},
+    tutorial={},
+    misc={
+        suits_singular={
+            Spades="碧",
+            Hearts="箕",
+            Clubs="鯜",
+            Diamonds="鱸"
         },
-        suits_plural = {
-            Spades = "Bích",
-            Hearts = "Cơ",
-            Clubs = "Tép",
-            Diamonds = "Rô"
+        suits_plural={
+            Spades="碧",
+            Hearts="箕",
+            Clubs="鯜",
+            Diamonds="鱸"
         },
-        blind_states = {
-            Select = "Chọn",
-            Skipped = "Đã bỏ qua",
-            Current = "Hiện tại",
-            Defeated = "Đã đánh bại",
-            Upcoming = "Sắp tới",
-            Selected = "Đã chọn"
+        blind_states={
+            Select="撰",
+            Skipped="㐌𠬃過",
+            Current="現在",
+            Defeated="㐌打敗",
+            Upcoming="挹𬧐",
+            Selected="㐌撰"
         },
-        ranks = {
-            Ace = "Át",
-            King = "Già",
-            Queen = "Đầm",
-            Jack = "Bồi",
-            ['10'] = "10",
-            ['9'] = "9",
-            ['8'] = "8",
-            ['7'] = "7",
-            ['6'] = "6",
-            ['5'] = "5",
-            ['4'] = "4",
-            ['3'] = "3",
-            ['2'] = "2"
+        ranks={
+            Ace="Ａ",
+            King="Ｋ",
+            Queen="Ｑ",
+            Jack="Ｊ",
+            ['10']="10",
+            ['9']="９",
+            ['8']="８",
+            ['7']="７",
+            ['6']="６",
+            ['5']="５",
+            ['4']="４",
+            ['3']="３",
+            ['2']="２"
         },
-        collabs = {
-            Spades = {
-                ['1'] = 'Mặc Định', 
-                ['2'] = 'The Witcher',
-                ['3'] = 'Cyberpunk 2077',
-                ['4'] = 'Shovel Knight',
-                ['5'] = 'Don\'t Starve',
+        collabs={
+            --------------------------dịchtêngamemấtdạy101--------------------------
+            Spades={
+                ['1']='默定',
+                ['2']='𠊛符水',---thewitcher
+                ['3']='浮亂電子2077',---saibờpăn'77
+                ['4']='俠士鏟',---shovelknight
+                ['5']='停折𠲝',---don'tstarve
             },
-            Hearts = {
-                ['1'] = 'Mặc Định', 
-                ['2'] = 'Among Us',
-                ['3'] = 'The Binding of Isaac',
-                ['4'] = 'Cult of the Lamb',
-                ['5'] = 'Divinity Original Sin 2',
+            Hearts={
+                ['1']='默定',
+                ['2']='中眾些',---amogus
+                ['3']='生祭衣角',---thebindingofisaac
+                ['4']='宗教裘嫩',---cultofthelamb
+                ['5']='神界：罪儡頭先２'---divinityoriginalsin2,
             },
-            Clubs = {
-                ['1'] = 'Mặc Định', 
-                ['2'] = 'Vampire Survivors',
-                ['3'] = 'Slay the Spire',
-                ['4'] = 'Potion Craft',
-                ['5'] = 'Warframe',
+            Clubs={
+                ['1']='默定',
+                ['2']='𤯨率魔茄蠬',---vampiresurvivors
+                ['3']='𢷄𡼈',---slaythespire
+                ['4']='製神藥',---potioncraft
+                ['5']='具𣛠戰爭',---warframe
             },
-            Diamonds = {
-                ['1'] = 'Mặc Định', 
-                ['2'] = 'Dave the Diver',
-                ['3'] = 'Stardew Valley',
-                ['4'] = 'Enter the Gungeon',
-                ['5'] = '1000xRESIST',
+            Diamonds={
+                ['1']='默定',
+                ['2']='𠏲𣵰多撝',---davethediver
+                ['3']='樁隴𣇟枚',---stardewvalley
+                ['4']='𠓨獄銃',---enterthegungeon
+                ['5']='千因抗拒',---1000xresist
             },
+            --------------------------------------------------------------------------------------------------------
         },
-        high_scores = {
-            hand = "Tay Tốt Nhất",
-            furthest_round = "Ván Cao Nhất",
-            furthest_ante = "Ante Cao Nhất",
-            most_money = "Mức Tiền Cao Nhất",
-            boss_streak = "Boss liên tiếp nhiều nhất",
-            collection = "Bộ Sưu Tập",
-            win_streak = "Chuỗi Thắng Dài Nhất",
-            current_streak = "",
-            poker_hand = "Tay Chơi Nhiều Nhất"
+        high_scores={
+            hand="拪𡨧一",
+            furthest_round="盤高一",
+            furthest_ante="級蹻高一",
+            most_money="墨錢高一",
+            boss_streak="主連接饒一",
+            collection="部搜集",
+            win_streak="綴勝𨱾一",
+            current_streak="",
+            poker_hand="拪𨔈饒一"
         },
-        achievement_names = {
-            ante_up = "Ante Thăng Tiến!",
-            ante_upper = "Ante Thăng Tiến Tiếp!",
-            heads_up = "Tiên Đoán",
-            low_stakes = "Cược Thấp",
-            mid_stakes = "Cược Trung Bình",
-            high_stakes = "Cược Cao",
-            card_player = "Kẻ Chơi Bài",
-            card_discarder = "Kẻ Bỏ Bài",
-            nest_egg = "Tổ Trứng",
-            flushed = "Thùng Trôi",
-            speedrunner = "Speedrunner",
-            roi = "Hoàn Vốn",
-            shattered = "Tan Vỡ",
-            royale = "Hoàng Gia",
-            retrograde = "Nghịch Hành",
-            _10k = "10K",
-            _1000k = "1.000K",
-            _100000k = "100.000K",
-            tiny_hands = "Tay Bé",
-            big_hands = "Tay Lớn",
-            you_get_what_you_get = "Có Gì Xài Nấy",
-            rule_bender = "Kẻ Uốn Luật",
-            rule_breaker = "Kẻ Phá Luật",
-            legendary = "Huyền Thoại",
-            astronomy = "Thiên Văn Học",
-            cartomancy = "Bói Toán",
-            clairvoyance = "Thần Nhãn",
-            extreme_couponer = "Tín Đồ Mua Sắm",
-            completionist = "Kẻ Chinh Phục",
-            completionist_plus = "Kẻ Chinh Phục+",
-            completionist_plus_plus = "Kẻ Chinh Phục++",
-            ----------------------------------------------- Phần dùng cho Steamodded -----------------------------------------------
-            hidden_achievement = "???",
+        achievement_names={
+            ante_up="級蹻昇進！",
+            ante_upper="級蹻昇進接！",
+            heads_up="先斷",
+            low_stakes="蹻隰",
+            mid_stakes="蹻中平",
+            high_stakes="蹻高",
+            card_player="仉𨔈牌",
+            card_discarder="古𠬃牌",
+            nest_egg="組𠨡",
+            flushed="桶㵢",
+            speedrunner="速行者",
+            roi="還本",
+            shattered="散破",
+            royale="皇家",
+            retrograde="逆行",
+            _10k="𠬠萬",
+            _1000k="𤾓萬",
+            _100000k="𤾓兆",
+            tiny_hands="拪𡮣",
+            big_hands="拪𡘯",
+            you_get_what_you_get="固之支乃",
+            rule_bender="仉捥律",
+            rule_breaker="仉破律",
+            legendary="玄話",
+            astronomy="天文學",
+            cartomancy="𧴤算",
+            clairvoyance="神眼",
+            extreme_couponer="信徒𢱖攕",
+            completionist="仉征服",
+            completionist_plus="仉征服+",
+            completionist_plus_plus="仉征服++",
+            -----------------------------------------------Steamodded-----------------------------------------------
+            hidden_achievement="???",
             ------------------------------------------------------------------------------------------------------------------------
         },
-        achievement_descriptions = {
-            ante_up = "Đạt Ante 4",
-            ante_upper = "Đạt Ante 8",
-            heads_up = "Thắng một Trận",
-            low_stakes = "Thắng một trận ở độ khó Cược Đỏ trở lên",
-            mid_stakes = "Thắng một trận ở độ khó Cược Đen trở lên",
-            high_stakes = "Thắng một trận ở độ khó Cược Vàng trở lên",
-            card_player = "Chơi ít nhất 2500 Lá bài",
-            card_discarder = "Bỏ ít nhất 2500 Lá bài",
-            nest_egg = "Trữ $400 hoặc hơn trong một trận duy nhất",
-            flushed = "Chơi Thùng bằng 5 Lá Tuỳ Chất",
-            speedrunner = "Thắng một trận bằng 12 màn hoặc ít hơn",
-            roi = "Mua 5 phiếu ở Ante 4",
-            shattered = "Đập vỡ 2 Lá Kính trong một tay bài",
-            royale = "Chơi Sảnh Chúa",
-            retrograde = "Nâng một tay poker đến level 10",
-            _10k = "Đạt 10.000 Chip bằng một tay bài duy nhất",
-            _1000k = "Đạt 1.000.000 Chip bằng một tạy chơi duy nhất",
-            _100000k = "Đạt 100.000.000 Chip bằng một tay bài duy nhất",
-            tiny_hands = "Làm mỏng bộ bài xuống 20 lá hoặc ít hơn",
-            big_hands = "Sở hữu hơn 80 lá trong bộ bài",
-            you_get_what_you_get = "Thắng một trận mà không gieo lại shop lần nào",
-            rule_bender = "Hoàn thành bất kì trận thử thách nào",
-            rule_breaker = "Hoàn thành mọi trận thử thách",
-            legendary = "Khám phá một Joker Huyền Thoại",
-            astronomy = "Khám phá mọi lá Hành Tinh",
-            cartomancy = "Khám phá mọi lá Tarot",
-            clairvoyance = "Khám phá mọi lá Siêu Linh",
-            extreme_couponer = "Khám phá mọi loại phiếu",
-            completionist = "Khám phá 100% bộ sưu tập",
-            completionist_plus = "Thắng mọi bộ bài ở độ khó Cược Vàng",
-            completionist_plus_plus = "Dán Nhãn Vàng lên mọi Joker",
-            ----------------------------------------------- Phần dùng cho Steamodded -----------------------------------------------
-            hidden_achievement = "Hãy chơi thêm để khám phá!",
+        achievement_descriptions={
+            ante_up="達級蹻４",
+            ante_upper="達級蹻８",
+            heads_up="勝𠬠陣",
+            low_stakes="勝𠬠陣於度苦蹻赭㨋𨕭",
+            mid_stakes="勝𠬠陣於度苦蹻黰㨋𨕭",
+            high_stakes="勝𠬠陣於度苦蹻鐄㨋𨕭",
+            card_player="𨔈𠃣一2500蘿牌",
+            card_discarder="𠬃𠃣一2500蘿牌",
+            nest_egg="貯$400或欣𥪝𠬠陣唯一",
+            flushed="𨔈同憑５蘿隨質",
+            speedrunner="勝𠬠陣憑12幔或𠃣欣",
+            roi="𢱖５票於級蹻４",
+            shattered="拾破２蘿鏡𥪝𠬠拪牌",
+            royale="𨔈蛇主",
+            retrograde="㨢𠬠拪扑基𦤾級10",
+            _10k="達10.000闡憑𠬠拪牌唯一",
+            _1000k="達1.000.000闡憑𠬠拪𨔈唯一",
+            _100000k="達100.000.000闡憑𠬠拪牌唯一",
+            tiny_hands="濫𤘁部牌𨑜20蘿或𠃣欣",
+            big_hands="所有欣80蘿𥪝部牌",
+            you_get_what_you_get="勝𠬠陣麻空招吏㪯行吝鬧",
+            rule_bender="完成不其陣試托鬧",
+            rule_breaker="完成每陣試托",
+            legendary="勘破𠬠播消玄話",
+            astronomy="勘破每蘿行星",
+            cartomancy="勘破每蘿些鱸",
+            clairvoyance="勘破每蘿超靈",
+            extreme_couponer="勘破每類票",
+            completionist="勘破100%部搜集",
+            completionist_plus="勝每部牌於度苦蹻鐄",
+            completionist_plus_plus="𬖭沲鐄𨕭每播消",
+            -----------------------------------------------分用朱Steamodded-----------------------------------------------
+            hidden_achievement="咳𨔈添帝勘破！",
             ------------------------------------------------------------------------------------------------------------------------
         },
-        challenge_names = {
-            c_omelette_1 = "Trứng Ốp Lết",
-            c_city_1 = "Viếng Thành Phố 15 phút",
-            c_rich_1 = "Nhà Tài Phiệt",
-            c_knife_1 = "Mài Dao",
-            c_xray_1 = "Đôi Mắt Xuyên Thấu",
-            c_mad_world_1 = "Thế Giới Điên Loạn",
-            c_luxury_1 = "Thuế Xa Xỉ",
-            c_non_perishable_1 = "Không Thể Tan Biến",
-            c_medusa_1 = "Medusa",
-            c_double_nothing_1 = "Được Ăn Cả Ngã Về Không",
-            c_typecast_1 = "Thực Tập Hoá Lành Nghề",
-            c_inflation_1 = "Lạm Phát",
-            c_bram_poker_1 = "Bram Poker",
-            c_fragile_1 = "Dễ Vỡ",
-            c_monolith_1 = "Cột Đá",
-            c_blast_off_1 = "Phóng Lên Vũ Trụ",
-            c_five_card_1 = "Bốc Năm Lá",
-            c_golden_needle_1 = "Cây Kim Vàng",
-            c_cruelty_1 = "Ác Nghiệt",
-            c_jokerless_1 = "Không Joker",
+        challenge_names={
+            c_omelette_1="𠨡押烈",
+            c_city_1="𠶇城舖15發",
+            c_rich_1="家財閥",
+            c_knife_1="磨刀",
+            c_xray_1="對眜穿透",
+            c_mad_world_1="世界癲亂",
+            c_luxury_1="𠾔奢侈",
+            c_non_perishable_1="空體散遍",
+            c_medusa_1="迷悠沙",
+            c_double_nothing_1="得咹哿我𧗱空",
+            c_typecast_1="實習化令藝",
+            c_inflation_1="濫發",
+            c_bram_poker_1="巴監扑基",
+            c_fragile_1="易破",
+            c_monolith_1="榾𥒥",
+            c_blast_off_1="放𨕭宇宙",
+            c_five_card_1="扑𠄼蘿",
+            c_golden_needle_1="核針鐄",
+            c_cruelty_1="惡孽",
+            c_jokerless_1="空播消",
         },
-        poker_hands = {
-            ['Flush Five'] = "Thùng Ngũ Quý",
-            ['Flush House'] = "Thùng Cù Lũ",
-            ['Five of a Kind'] = "Ngũ Quý",
-            ['Royal Flush'] = "Sảnh Chúa",
-            ['Straight Flush'] = "Thùng Phá Sảnh",
-            ['Four of a Kind'] = "Tứ Quý",
-            ['Full House'] = "Cù Lũ",
-            ['Flush'] = "Thùng",
-            ['Straight'] = "Sảnh",
-            ['Three of a Kind'] = "Sám Chi",
-            ['Two Pair'] = "Thú",
-            ['Pair'] = "Đôi",
-            ['High Card'] = "Mậu Thầu"
+        poker_hands={
+            ['FlushFive']="同五貴",
+            ['FlushHouse']="同葫蘆",
+            ['FiveofaKind']="五貴",
+            ['RoyalFlush']="蛇主",
+            ['StraightFlush']="同花蛇",
+            ['FourofaKind']="四貴",
+            ['FullHouse']="葫蘆",
+            ['Flush']="同",
+            ['Straight']="蛇",
+            ['ThreeofaKind']="三之",
+            ['TwoPair']="滔",
+            ['Pair']="對",
+            ['HighCard']="冇啤"
         },
-        poker_hand_descriptions = {
-            ['Flush Five'] = {
-                "5 lá đồng bậc và đồng chất"
+        poker_hand_descriptions={
+            ['FlushFive']={
+                "５蘿同堛吧同質"
             },
-            ['Flush House'] = {
-                "Một Bộ Ba và một Đôi",
-                "mà tất cả đều đồng chất"
+            ['FlushHouse']={
+                "𠬠部𠀧吧𠬠對",
+                "麻必哿調同質"
             },
-            ['Five of a Kind'] = {
-                "5 lá đồng bậc"
+            ['FiveofaKind']={
+                "５蘿同堛"
             },
-            ['Royal Flush'] = {
-                "5 lá thẳng hàng (bậc liên tiếp)",
-                "mà tất cả đều đồng chất"
+            ['RoyalFlush']={
+                "５蘿𥊢行（堛連接）",
+                "麻必哿調同質"
             },
-            ['Straight Flush'] = {
-                "5 lá thẳng hàng (bậc liên tiếp)",
-                "mà tất cả đều đồng chất"
+            ['StraightFlush']={
+                "５蘿𥊢行（堛連接）",
+                "麻必哿調同質"
             },
-            ['Four of a Kind'] = {
-                "4 lá đồng bậc. Có thể chơi",
-                "thêm 1 lá không ghi điểm"
+            ['FourofaKind']={
+                "４蘿同堛。固體𨔈",
+                "添１蘿空掑點"
             },
-            ['Full House'] = {
-                "Một Bộ Ba và một Đôi"
+            ['FullHouse']={
+                "𠬠部𠀧吧𠬠對"
             },
-            ['Flush'] = {
-                "5 lá đồng chất"
+            ['Flush']={
+                "５蘿同質"
             },
-            ['Straight'] = {
-                "5 lá thẳng hàng (bậc liên tiếp)"
+            ['Straight']={
+                "５蘿𥊢行（堛連接）"
             },
-            ['Three of a Kind'] = {
-                "3 lá đồng bậc. Có thể chơi",
-                "thêm tối đa 2 lá không ghi điểm"
+            ['ThreeofaKind']={
+                "３蘿同堛。固體𨔈",
+                "添最多２蘿空掑點"
             },
-            ['Two Pair'] = {
-                "2 đôi bài với 2 bậc khác nhau, có thể",
-                "chơi thêm 1 lá không ghi điểm"
+            ['TwoPair']={
+                "２對牌某２堛恪胞、固體",
+                "𨔈添１蘿空掑點"
             },
-            ['Pair'] = {
-                "2 lá đồng bậc. Có thể chơi",
-                "thêm tối đa 3 lá không ghi điểm"
+            ['Pair']={
+                "２蘿同堛。固體𨔈",
+                "添最多３蘿空掑點"
             },
-            ['High Card'] = {
-                "Nếu tay đã chơi không thuộc tay nào ở trên,",
-                "chỉ lá bài với bậc cao nhất ghi điểm"
+            ['HighCard']={
+                "裊拪㐌𨔈空属拪鬧於𨕭,",
+                "只蘿牌某堛高一掑點"
             }
         },
-        labels = {
-            common = "Thường",
-            uncommon = "Ít Phổ Biến",
-            rare = "Hiếm",
-            legendary = "Huyền Thoại",
-            tarot = "Tarot",
-            planet = "Hành Tinh",
-            pluto_planet = "Hành Tinh Lùn",
-            voucher = "Phiếu",
-            foil = "Ánh Kim",
-            holographic = "Lấp Lánh",
-            polychrome = "Đa Sắc",
-            negative = "Âm Bản",
-            gold_seal = "Con Dấu Vàng",
-            blue_seal = "Con Dấu Xanh",
-            red_seal = "Con Dấu Đỏ",
-            purple_seal = "Con Dấu Tím",
-            locked = "Bị Khoá",
-            eternal = "Vĩnh Hằng",
-            perishable = "Ngắn Hạn",
-            rental = "Cho Thuê",
-            pinned_left = "Bị Ghim",
+        labels={
+            common="常",
+            uncommon="𠃣普遍",
+            rare="儉",
+            legendary="玄話",
+            tarot="些鱸",
+            planet="行星",
+            pluto_planet="行星倫",
+            voucher="票",
+            foil="映金",
+            holographic="拉𪸝",
+            polychrome="多色",
+            negative="陰版",
+            gold_seal="𡥵𧿫鐄",
+            blue_seal="𡥵𧿫青",
+            red_seal="𡥵𧿫赭",
+            purple_seal="𡥵𧿫紺",
+            locked="被鎖",
+            eternal="永恆",
+            perishable="艮限",
+            rental="朱𠾔",
+            pinned_left="被金",
         },
-        dictionary = {
-            b_sell = "BÁN",
-            b_use = "DÙNG",
-            b_select = "CHỌN",
-            b_buy = "MUA",
-            b_redeem = "ĐỔI",
-            b_open = "MỞ",
-            b_and_use = "& DÙNG",
-            b_next_round_1 = "Ván",
-            b_next_round_2 = "Kế Tiếp",
-            b_play_hand = "Chơi Tay Bài",
-            b_discard = "Bỏ Bài",
-            b_sort_hand = "Sắp Xếp",
-            b_run_info_1 = "T.tin",
-            b_run_info_2 = "Trận Này",
-            b_options = "Tuỳ Chọn",
-            b_reroll_boss = "Gieo lại Boss",
-            b_skip_blind = "Bỏ Qua Blind",
-            b_skip_reward = "Thưởng Bỏ Qua",
-            b_skip = "Bỏ Qua",
-            b_start_new_run = "Trận Mới",
-            b_main_menu = "Menu Chính",
-            b_collection = "Bộ Sưu Tập",
-            b_seed = "Giống",
-            b_copy_seed = "Sao Chép Giống",
-            b_copy = "Sao Chép",
-            b_credits = "Danh Đề",
-            b_stats = "Thống Kê",
-            b_customize_deck = "Tuỳ Chỉnh Lá Bài",
-            b_settings = "Cài Đặt",
-            b_set_game = "Trò Chơi",
-            b_set_video = "Hiển Thị",
-            b_set_graphics = "Đồ Hoạ",
-            b_set_audio = "Âm Thanh",
-            b_set_gamespeed = "Tốc Độ Trò Chơi",
-            b_set_play_discard_pos = "Vị Trí Nút Chơi/Bỏ",
-            b_set_screenshake = "Rung Lắc Màn Hình",
-            b_high_contrast_cards = "Lá Tương Phản Cao",
-            b_reduced_motion = "Giảm Chuyển Động",
-            b_set_rumble = "Độ Rung Điều Khiển",
-            b_set_crash_reports = "Báo Cáo Tình Trạng Crash",
-            b_set_monitor = "Màn Hình Hiển Thị",
-            b_set_windowmode = "Chế Độ Hiển Thị",
-            b_set_apply = "Áp Dụng",
-            b_set_master_vol = "Âm Lượng Tổng",
-            b_set_music_vol = "Âm Lượng Nhạc",
-            b_set_game_vol = "Âm Lượng Trò Chơi",
-            b_set_shadows = "Đổ Bóng",
-            b_set_pixel_smoothing = "Làm Mượt Pixel",
-            b_set_CRT = "CRT",
-            b_set_CRT_bloom = "Nhoè CRT",
-            b_stat_jokers = "Lá Joker",
-            b_stat_consumables = "Lá Tiêu Thụ",
-            b_stat_tarots = "Lá Tarot",
-            b_stat_planets = "Lá Hành Tinh",
-            b_stat_spectrals = "Lá Siêu Linh",
-            b_stat_vouchers = "Phiếu",
-            b_next = "Tiếp Theo",
-            b_endless = "Chế Độ Vô Hạn",
-            b_wishlist = "Thêm vào Danh Sách Ước trên Steam",
-            b_playbalatro = "Đến trang playbalatro.com",
-            b_remaining = "Bộ Còn Lại",
-            b_full_deck = "Bộ Đầy Đủ",
-            b_poker_hands = "Tay Poker",
-            b_blinds = "Blind",
-            b_vouchers = "Phiếu",
-            b_stake = "Cược",
-            b_jokers = "Joker",
-            b_tarot_cards = "Lá Tarot",
-            b_planet_cards = "Lá Hành Tinh",
-            b_spectral_cards = "Lá Siêu Linh",
-            b_enhanced_cards = "Lá Cường Hoá",
-            b_editions = "Ấn Bản",
-            b_booster_packs = "Gói Bài",
-            b_tags = "Nhãn Bỏ Qua",
-            b_decks = "Bộ Bài",
-            b_seals = "Con Dấu",
-            b_continue = "Tiếp Tục",
-            b_back = "Trở Lại",
-            b_music = "Âm Nhạc",
-            b_sounds = "Âm Thanh",
-            b_imagery = "Hình Ảnh",
-            b_new_run = "Trận Mới",
-            b_challenges = "Thử Thách",
-            b_new_challenge = "Bắt Đầu Trận Thử Thách Mới",
-            b_current_profile = "Hồ Sơ Hiện Tại",
-            b_load_profile = "Tải Hồ Sơ",
-            b_create_profile = "Tạo Hồ Sơ",
-            b_delete_profile = "Xoá Hồ Sơ",
-            b_reset_profile = "Đặt Lại Hồ Sơ",
-            b_rules = "Luật",
-            b_restrictions = "Hạn Chế",
-            b_deck = "Bộ Bài",
-            b_play_cap = "CHƠI",
-            b_options_cap = "TUỲ CHỌN",
-            b_collection_cap = "BỘ SƯU TẬP",
-            b_quit_cap = "THOÁT",
-            b_cash_out = "Nhận Tiền",
-            b_unlock_all = "Mở Khoá Toàn Bộ",
-            k_unknown = "?????",
-            k_compatible = "tương thích",
-            k_incompatible = "không tương thích",
-            k_active = "có hiệu lực",
-            k_round = "Ván",
-            k_ante = "Ante",
-            k_seed = "Giống",
-            k_reroll = "Gieo lại",
-            k_mult = "Nhân",
-            k_rank = "Bậc",
-            k_suit = "Chất",
-            k_stake = "Cược",
-            k_common = "Thường",
-            k_uncommon = "Ít Phổ Biến",
-            k_rare = "Hiếm",
-            k_legendary = "Huyền Thoại",
-            k_debuffed = "Vô Hiệu",
-            k_locked = "Bị Khoá",
-            k_undisovered = "Chưa Khám Phá",
-            k_joker = "Joker",
-            k_voucher = "Phiếu",
-            k_tarot = "Tarot",
-            k_planet = "Hành Tinh",
-            k_deck = "Bộ Bài",
-            k_dwarf_planet = "Hành Tinh Lùn",
-            k_planet_q = "Hành Tinh?",
-            k_spectral = "Siêu Linh",
-            k_booster = "Gói Bài",
-            k_edition = "Ấn Bản",
-            k_hud_hands = "Tay Bài",
-            k_hud_discards = "Lượt Bỏ",
-            k_lower_score = "Điểm",
-            k_arcana_pack = "Gói Thần Bí",
-            k_celestial_pack = "Gói Thiên Thể",
-            k_spectral_pack = "Gói Siêu Linh",
-            k_standard_pack = "Gói Tiêu Chuẩn",
-            k_buffoon_pack = "Gói Hề",
-            k_enter_text = "Nhập Văn Bản",
-            k_defeated_by = "Bị Đánh Bại Bởi",
-            k_level_prefix = "lv.",
-            k_also_applied = "Cũng áp dụng",
-            k_base_cards = "Lá Chuẩn",
-            k_effective = "Hiệu Quả",
-            k_aces = "Át",
-            k_face_cards = "Lá Mặt",
-            k_numbered_cards = "Lá Số",
-            k_cap_consumables = "LÁ TIÊU THỤ",
-            k_page = "Trang",
-            k_ante_cap = "ANTE",
-            k_base_cap = "ĐIỂM SÀN",
-            k_jokers_cap = "JOKER",
-            k_vouchers_cap = "PHIẾU",
-            k_x_base = "X Điểm sàn",
-            k_not_discovered = "Chưa Khám Phá",
-            k_unlocked_ex = "Đã Mở Khoá!",
-            k_achievement = "Thành Tựu",
-            k_trophy = "Cúp",
-            k_challenge_mode = "Chế Độ Thử Thách",
-            k_daily_run = "Trận Hằng Ngày",
-            k_profile = "Hồ Sơ",
-            k_wins = "Lần Thắng",
-            k_empty_caps = "TRỐNG",
-            k_collection = "Bộ Sưu Tập",
-            k_progress = "Tiến Trình",
-            k_challenges = "Thử Thách",
-            k_joker_stickers = "Nhãn Joker",
-            k_deck_stake_wins = "Cược Đã Thắng",
-            k_stake_level = "Cấp Độ Cược",
-            k_none = "Không Có",
-            k_game_modifiers = "Phần Điều Chỉnh",
-            k_custom_rules = "Luật Chơi",
-            k_banned_cards = "Lá Bị Cấm",
-            k_banned_tags = "Nhãn Bị Cấm",
-            k_other = "Khác",
-            k_money = "Tiền",
-            k_best_hand = "Tay Tốt Nhất",
-            k_seeded_run = "Trận Chơi Bằng Giống",
-            k_enter_seed = "Nhập Giống",
-            k_enter_name = "Nhập Tên",
-            k_lvl = "lv.",
-            k_skipped_cap = "ĐÃ BỎ QUA",
-            k_no_reward = "Không Thưởng",
-            k_reward = "Thưởng",
-            k_nope_ex = "Trật!",
-            k_not_allowed_ex = "Không Hợp Lệ!",
-            k_or = "hoặc",
-            k_poker_hand = "tay poker",
-            k_gold = "Vàng",
-            k_card_stats = "Thống Kê Lá Bài",
-            k_balanced = "Đã Cân Bằng",
-            k_view = "Xem",
-            k_all_hands = "Tất Cả Tay",
-            k_high_score_ex = "Phá Kỷ Lục!",
-            k_demo_version_ex = "Bản Demo!",
-            k_playing_as = "Đang chơi như",
-            k_choose = "Chọn",
-            k_achievements_disabled = "Thành Tựu Đã Vô Hiệu Hoá",
-            k_trophies_disabled = "Cúp Đã Vô Hiệu Hoá",
-            ph_display_stickers = "Hiển Thị Nhãn Cược trong Trận",
-            ph_improve_run = "Cải thiện trận của bạn!",
-            ph_no_boss_active = "không có boss hiệu lực",
-            ph_sneak_peek = "Xem Trước",
-            ph_deck_preview_stones = "Lá Đá",
-            ph_deck_preview_effective = "Tổng hiệu suất từ Joker, Blind, and Lá Cường Hoá",
-            ph_blind_score_at_least = "Đạt ít nhất",
-            ph_blind_reward = "Thưởng: ",
-            ph_4_7_of_clubs = "bốn lá 7 Tép",
-            ph_up_ante_1 = "Thăng Ante",
-            ph_up_ante_2 = "Nâng toàn bộ Blind",
-            ph_up_ante_3 = "Làm mới Blind",
-            ph_select_challenge = "Chọn một Thử Thách",
-            ph_stat_joker = "Tổng sồ ván đã chơi với lá này",
-            ph_stat_consumable = "Số lần sử dụng lá này",
-            ph_stat_voucher = "Số lần đổi ra phiếu này",
-            ph_demo_thanks_1 = "Cảm ơn vì đã chơi",
-            ph_demo_thanks_2 = "BALATRO BẢN DEMO",
-            ph_game_over = "THUA CUỘC",
-            ph_you_win = "CHIẾN THẮNG!",
-            ph_you_win_demo = "BẠN THẮNG BẢN DEMO!",
-            ph_vouchers_redeemed = "Phiếu đã quy đổi trong trận này",
-            ph_no_vouchers = "Không có phiếu nào đã quy đổi trong trận này",
-            ph_defeat_this_blind_1 = "Đánh bại Blind này",
-            ph_defeat_this_blind_2 = "Để khám phá nó",
-            ph_click_confirm = "Click lần nữa để xác nhận",
-            ph_choose_blind_1 = "Chọn Blind",
-            ph_choose_blind_2 = "tiếp theo",
-            ph_mr_bones = "Được cứu bởi Ông Bones",
-            ph_score_at_least = "Ghi ít nhất",
-            ph_all_poker_hand = "Tất cả Tay Poker",
-            ph_1_level = "+1 Level",
-            ph_boss_disabled = "Boss Đã Vô Hiệu Hoá!",
-            ph_most_played = "(tay chơi nhiều nhất)",
-            ph_defeat_the_boss = "Đánh bại Boss Blind",
-            ph_score_furthest_ante = "Ante",
-            ph_score_furthest_round = "Màn",
-            ph_score_hand = "Tay Tốt Nhất",
-            ph_score_poker_hand = "Tay Chơi Nhiều Nhất",
-            ph_score_new_collection = "Khám Phá Mới",
-            ph_score_cards_played = "Số Lá Bài Đã Chơi",
-            ph_score_cards_discarded = "Số Lá Bài Đã Bỏ",
-            ph_score_times_rerolled = "Số lần Gieo lại",
-            ph_score_cards_purchased = "Số Lá Bài Đã Mua",
-            ph_unscored_hand = "Tay này sẽ không ghi điểm",
-            ph_alert_debuff_confirm = "Nhấn 'Chơi' lại để xác nhận",
-            ml_demo_thanks_message = {
-                "Hãy suy nghĩ về việc thêm Balatro",
-                "vào Danh sách ước trên Steam và đăng ký",
-                "nhận bảng tin ở playbalatro.com"
+        dictionary={
+            b_sell="𧸝",
+            b_use="用",
+            b_select="撰",
+            b_buy="𢱖",
+            b_redeem="𢷮",
+            b_open="𢲫",
+            b_and_use="吧用",
+            b_next_round_1="盤",
+            b_next_round_2="繼接",
+            b_play_hand="𨔈拪牌",
+            b_discard="𠬃牌",
+            b_sort_hand="拉插",
+            b_run_info_1="通信",
+            b_run_info_2="陣呢",
+            b_options="隨撰",
+            b_reroll_boss="招吏主",
+            b_skip_blind="𠬃過瞙",
+            b_skip_reward="賞𠬃過",
+            b_skip="𠬃過",
+            b_start_new_run="陣𬔫",
+            b_main_menu="程單正",
+            b_collection="部搜集",
+            b_seed="種",
+            b_copy_seed="抄箚種",
+            b_copy="抄箚",
+            b_credits="名提",
+            b_stats="統計",
+            b_customize_deck="隨整蘿牌",
+            b_settings="㧡撻",
+            b_set_game="𠻀𨔈",
+            b_set_video="顕示",
+            b_set_graphics="圖畫",
+            b_set_audio="音聲",
+            b_set_gamespeed="速度𠻀𨔈",
+            b_set_play_discard_pos="位置鈕𨔈/𠬃",
+            b_set_screenshake="𢲣𢳝幔形",
+            b_high_contrast_cards="蘿相反高",
+            b_reduced_motion="減轉動",
+            b_set_rumble="度𢲣調遣",
+            b_set_crash_reports="報告情狀𬔗",
+            b_set_monitor="幔形顕示",
+            b_set_windowmode="制度顕示",
+            b_set_apply="壓用",
+            b_set_master_vol="音量總",
+            b_set_music_vol="音量樂",
+            b_set_game_vol="音量𠻀制",
+            b_set_shadows="堵䏾",
+            b_set_pixel_smoothing="濫𬗱點影",
+            b_set_CRT="CRT",
+            b_set_CRT_bloom="漯CRT",
+            b_stat_jokers="蘿播消",
+            b_stat_consumables="蘿銷售",
+            b_stat_tarots="蘿些鱸",
+            b_stat_planets="蘿行星",
+            b_stat_spectrals="蘿超靈",
+            b_stat_vouchers="票",
+            b_next="接遶",
+            b_endless="制度無限",
+            b_wishlist="添𠓨名冊約𨕭𣱬",
+            b_playbalatro="𦤾張playbalatro.com",
+            b_remaining="部噲吏",
+            b_full_deck="部苔覩",
+            b_poker_hands="拪扑基",
+            b_blinds="瞙",
+            b_vouchers="票",
+            b_stake="蹻",
+            b_jokers="播消",
+            b_tarot_cards="蘿些鱸",
+            b_planet_cards="蘿行星",
+            b_spectral_cards="蘿超靈",
+            b_enhanced_cards="蘿彊化",
+            b_editions="印版",
+            b_booster_packs="絵牌",
+            b_tags="沲𠬃過",
+            b_decks="部牌",
+            b_seals="𡥵𧿫",
+            b_continue="接續",
+            b_back="㨋吏",
+            b_music="音樂",
+            b_sounds="音聲",
+            b_imagery="形影",
+            b_new_run="陣𬔫",
+            b_challenges="試托",
+            b_new_challenge="扒頭陣試托𬔫",
+            b_current_profile="胡疏現在",
+            b_load_profile="載胡疏",
+            b_create_profile="造胡疏",
+            b_delete_profile="扠胡疏",
+            b_reset_profile="撻吏胡疏",
+            b_rules="律",
+            b_restrictions="限制",
+            b_deck="部牌",
+            b_play_cap="𨔈",
+            b_options_cap="隨撰",
+            b_collection_cap="部搜集",
+            b_quit_cap="𢴎",
+            b_cash_out="認錢",
+            b_unlock_all="𢲫鎖全部",
+            k_unknown="?????",
+            k_compatible="相適",
+            k_incompatible="空相適",
+            k_active="固効力",
+            k_round="盤",
+            k_ante="級蹻",
+            k_seed="種",
+            k_reroll="招吏",
+            k_mult="因",
+            k_rank="堛",
+            k_suit="質",
+            k_stake="蹻",
+            k_common="常",
+            k_uncommon="𠃣普遍",
+            k_rare="儉",
+            k_legendary="玄話",
+            k_debuffed="無効",
+            k_locked="被鎖",
+            k_undisovered="諸勘破",
+            k_joker="播消",
+            k_voucher="票",
+            k_tarot="些鱸",
+            k_planet="行星",
+            k_deck="部牌",
+            k_dwarf_planet="行星倫",
+            k_planet_q="行星？",
+            k_spectral="超靈",
+            k_booster="絵牌",
+            k_edition="印版",
+            k_hud_hands="拪牌",
+            k_hud_discards="辣𠬃",
+            k_lower_score="點",
+            k_arcana_pack="絵神秘",
+            k_celestial_pack="絵天體",
+            k_spectral_pack="絵超靈",
+            k_standard_pack="絵標準",
+            k_buffoon_pack="絵𭛭",
+            k_enter_text="入文本",
+            k_defeated_by="被打敗罷",
+            k_level_prefix="級",
+            k_also_applied="共壓用",
+            k_base_cards="蘿準",
+            k_effective="効果",
+            k_aces="Ａ",
+            k_face_cards="蘿𩈘",
+            k_numbered_cards="蘿數",
+            k_cap_consumables="蘿銷售",
+            k_page="張",
+            k_ante_cap="級蹻",
+            k_base_cap="點棧",
+            k_jokers_cap="播消",
+            k_vouchers_cap="票",
+            k_x_base="Ｘ點棧",
+            k_not_discovered="諸勘破",
+            k_unlocked_ex="㐌𢲫鎖！",
+            k_achievement="成就",
+            k_trophy="及",
+            k_challenge_mode="制度試托",
+            k_daily_run="陣恆㝵",
+            k_profile="胡疏",
+            k_wins="吝勝",
+            k_empty_caps="𥧪",
+            k_collection="部搜集",
+            k_progress="進程",
+            k_challenges="試托",
+            k_joker_stickers="沲播消",
+            k_deck_stake_wins="蹻㐌勝",
+            k_stake_level="級度蹻",
+            k_none="空固",
+            k_game_modifiers="分調整",
+            k_custom_rules="律𨔈",
+            k_banned_cards="蘿被禁",
+            k_banned_tags="沲被禁",
+            k_other="恪",
+            k_money="錢",
+            k_best_hand="拪卒一",
+            k_seeded_run="陣𨔈憑種",
+            k_enter_seed="入種",
+            k_enter_name="入𠸜",
+            k_lvl="級",
+            k_skipped_cap="㐌𠬃過",
+            k_no_reward="空賞",
+            k_reward="賞",
+            k_nope_ex="跌！",
+            k_not_allowed_ex="空合例！",
+            k_or="或",
+            k_poker_hand="拪扑基",
+            k_gold="鐄",
+            k_card_stats="統計蘿牌",
+            k_balanced="㐌斤平",
+            k_view="覘",
+            k_all_hands="必哿拪",
+            k_high_score_ex="破記錄！",
+            k_demo_version_ex="版𨔈試！",
+            k_playing_as="當𨔈如",
+            k_choose="撰",
+            k_achievements_disabled="成就㐌無効化",
+            k_trophies_disabled="及㐌無効化",
+            ph_display_stickers="顕示沲蹻𥪝陣",
+            ph_improve_run="改善陣𧵑伴！",
+            ph_no_boss_active="空固主効力",
+            ph_sneak_peek="覘畧",
+            ph_deck_preview_stones="蘿𥒥",
+            ph_deck_preview_effective="總効率自播消,瞙,吧蘿彊化",
+            ph_blind_score_at_least="達𠃣一",
+            ph_blind_reward="賞：",
+            ph_4_7_of_clubs="𦊚蘿７鯜",
+            ph_up_ante_1="昇級蹻",
+            ph_up_ante_2="㨢全部瞙",
+            ph_up_ante_3="濫𬔫瞙",
+            ph_select_challenge="撰𠬠試托",
+            ph_stat_joker="總數盤㐌𨔈某蘿呢",
+            ph_stat_consumable="數吝使用蘿呢",
+            ph_stat_voucher="數吝𢷮𦋦票呢",
+            ph_demo_thanks_1="感恩爲㐌𨔈",
+            ph_demo_thanks_2="波羅朱版𨔈試",
+            ph_game_over="輸局",
+            ph_you_win="戰勝！",
+            ph_you_win_demo="伴勝版𨔈試！",
+            ph_vouchers_redeemed="票㐌歸𢷮𥪝陣呢",
+            ph_no_vouchers="空固票鬧㐌歸𢷮𥪝陣呢",
+            ph_defeat_this_blind_1="打敗瞙呢",
+            ph_defeat_this_blind_2="帝勘破奴",
+            ph_click_confirm="𢭝吝女帝確認",
+            ph_choose_blind_1="撰瞙",
+            ph_choose_blind_2="接遶",
+            ph_mr_bones="得救罷翁𩩪",
+            ph_score_at_least="掑𠃣一",
+            ph_all_poker_hand="必哿拪扑基",
+            ph_1_level="＋１級",
+            ph_boss_disabled="主㐌無効化！",
+            ph_most_played="(拪𨔈饒一)",
+            ph_defeat_the_boss="打敗瞙主",
+            ph_score_furthest_ante="級蹻",
+            ph_score_furthest_round="幔",
+            ph_score_hand="拪卒一",
+            ph_score_poker_hand="拪𨔈饒一",
+            ph_score_new_collection="勘破𬔫",
+            ph_score_cards_played="數蘿牌㐌𨔈",
+            ph_score_cards_discarded="數蘿牌㐌𠬃",
+            ph_score_times_rerolled="數吝招吏",
+            ph_score_cards_purchased="數蘿牌㐌𢱖",
+            ph_unscored_hand="拪呢𠱊空掑點",
+            ph_alert_debuff_confirm="𢭝'𨔈'吏帝確認",
+            ml_demo_thanks_message={
+                "咳推擬𧗱役添波羅朱",
+                "𠓨名冊約𨕭𣱬吧登記",
+                "認榜信於playbalatro.com"
             },
-            ml_eternal = {
-                "Vĩnh Hằng",
-                "Không thể bán",
-                "hoặc bị phá huỷ"
+            ml_eternal={
+                "永恆",
+                "空體𧸝",
+                "或被破毀"
             },
-            ml_gold_seal_desc = {
-                "Con Dấu Vàng",
-                "Trả về tay",
-                "khi chơi"
+            ml_gold_seal_desc={
+                "𡥵𧿫鐄",
+                "把𧗱拪",
+                "欺𨔈"
             },
-            ml_crash_report_info = {
-                "Báo cáo tình trạng Crash sẽ đươc gửi đến nhà phát triển",
-                "để giảm thiểu vấn đề gặp phải trong tương lai. Không có",
-                "bất kì thông tin cá nhân nào sẽ được gửi đi."
+            ml_crash_report_info={
+                "報告情狀𬔗𠱊得𢭮𦤾家發展",
+                "帝減少問題﨤沛𥪝將來。空固",
+                "不其通信個人鬧𠱊得𢭮𠫾。"
             },
-            ml_play_discard_pos_opt = {
-                "Bỏ Bài/Chơi Bài",
-                "Chơi Bài/Bỏ Bài"
+            ml_play_discard_pos_opt={
+                "𠬃牌/𨔈牌",
+                "𨔈牌/𠬃牌"
             },
-            ml_windowmode_opt = {
-                "Cửa Số",
-                "Toàn Màn Hình",
-                "Không Viền"
+            ml_windowmode_opt={
+                "㪯𢼂",
+                "全幔形",
+                "空𧜘"
             },
-            ml_vsync_opt = {
-                "VSync Bật",
-                "VSync Tắt"
+            ml_vsync_opt={
+                "VSync弼",
+                "VSync熄"
             },
-            ml_shadow_opt = {
-                "Bật",
-                "Tắt"
+            ml_shadow_opt={
+                "弼",
+                "熄"
             },
-            ml_smoothing_opt = {
-                "Tắt",
-                "Bật"
+            ml_smoothing_opt={
+                "熄",
+                "弼"
             },
-            ml_bloom_opt = {
-                "Tắt",
-                "Bật"
+            ml_bloom_opt={
+                "熄",
+                "弼"
             },
-            ml_card_stats = {
-                "Thống Kê",
-                "Lá Bài"
+            ml_card_stats={
+                "統計",
+                "蘿牌"
             },
-            ml_paste_seed = {
-                "Dán",
-                "Giống"
+            ml_paste_seed={
+                "𬖭",
+                "種"
             },
-            ml_disabled_seed = {
-                "Toàn bộ Mở Khoá và Khám",
-                "Phá sẽ không được tính"
+            ml_disabled_seed={
+                "全部𢲫鎖吧勘",
+                "破𠱊空得併"
             },
-            ml_edition_seal_enhancement_explanation = {
-                "Lá bài Thường có thể có một",
-                "Cường Hoá, Ấn Bản và Con Dấu"
+            ml_edition_seal_enhancement_explanation={
+                "蘿牌常固體固𠬠",
+                "彊化,印版吧𡥵𧿫"
             },
-            ml_unlock_all_explanation = {
-                "CẢNH BÁO! Mở khoá toàn bộ Bộ sưu tập",
-                "se vô hiệu hoá thành tựu cho Hồ sơ này!"
+            ml_unlock_all_explanation={
+                "警報！𢲫鎖全部部sưutập",
+                "se無効化成tựu朱胡疏呢！"
             },
-            ml_unlock_all_trophies = {
-                "CẢNH BÁO! Mở khoá toàn bộ Bộ sưu tập",
-                "se vô hiệu hoá cúp cho Hồ sơ này!"
+            ml_unlock_all_trophies={
+                "警報！𢲫鎖全部部搜集",
+                "𠱊無効化及朱胡疏呢！"
             },
-            ['$'] = "$",
-            k_redeemed_ex = "Đã Quy Đổi!",
-            k_duplicated_ex = "Đã Nhân Bản!",
-            k_no_room_ex = "Hết Ô Trống!",
-            k_no_space_ex = "Hết Ô Trống!",
-            k_no_other_jokers = "Không Còn Joker Khác!",
-            k_plus_tarot = "+1 Lá Tarot",
-            k_plus_stone = "+1 Lá Đá",
-            k_plus_planet = "+1 Lá Hành Tinh",
-            k_plus_spectral = "+1 Lá Siêu Linh",
-            k_plus_joker = "+1 Joker",
-            k_active_ex = "Có Hiệu Lực!",
-            k_level_up_ex = "Lên Level!",
-            k_upgrade_ex = "Nâng Cấp!",
-            k_again_ex = "Lần Nữa!",
-            k_val_up = "Lên Giá!",
-            k_reset = "Đặt Lại",
-            k_extinct_ex = "Tuyệt Chủng!",
-            k_disabled_ex = "Vô Hiệu!",
-            k_safe_ex = "An Toàn!",
-            k_saved_ex = "Đã Cứu!",
-            k_swapped_ex = "Đã Tráo Đổi!",
-            k_copied_ex = "Đã Sao Chép!",
-            k_melted_ex = "Đã Tan Chảy!",
-            k_eaten_ex = "Đã Ăn Hết!",
-            k_drank_ex = "Đã Uống Hết!",
-            k_eroded_ex = "Đã Mòn Hết!",
-            ----------------------------------------------- Phần dùng cho Steamodded -----------------------------------------------
-            b_mods = 'Mod',
-			b_mods_cap = 'MOD',
-            b_modded_version = 'Bản cài Mod!',
-            b_steamodded = 'Steamodded',
-            b_open_mods_dir = 'Mở thư mục Mod',
-            b_no_mods = 'Không phát hiện mod nào...',
-            b_mod_list = 'Danh sách Mod đã kích hoạt',
-            b_mod_loader = 'Trình Cài Mod',
-            b_developed_by = 'Phát triển bởi ',
-            b_rewrite_by = 'Viết lại bởi ',
-            b_github_project = 'Dự Án Github',
-            b_github_bugs_1 = 'Bạn có thể báo lỗi và đóng góp',
-            b_github_bugs_2 = 'ở đó (bằng tiếng Anh nhé).',
-            b_disable_mod_badges = 'Tắt huy hiệu Mod',
-            b_author = 'Người tạo',
-			b_authors = 'Người tạo',
-            b_unknown = 'Không rõ',
-            b_lovely_mod = '(Mod Lovely thuần tuý) ',
-            b_by = ' Bởi: ',
-            b_config = "Tuỳ Chọn",
-			b_additions = 'Phần Thêm',
-            b_stickers = 'Nhãn',
-            b_achievements = "Thành Tựu",
-            b_applies_stakes_1 = 'Áp dụng ',
-			b_applies_stakes_2 = '',
-            b_graphics_mipmap_level = "Kích cỡ Mipmap",
-            b_browse = 'Duyệt',
-			b_search_prompt = 'Tìm mod',
-			b_search_button = 'Tìm kiếm',
-            b_seeded_unlocks = 'Giống Mở Khoá',
-            b_seeded_unlocks_info = 'Cho phép mở khoá trong trận chơi bằng giống',
-            ml_achievement_settings = {
-                'Tắt',
-                'Bật',
-                'Bỏ Hạn Chế'
+            ['$']="$",
+            k_redeemed_ex="㐌歸𢷮！",
+            k_duplicated_ex="㐌因版！",
+            k_no_room_ex="𣍊杇𥧪！",
+            k_no_space_ex="𣍊杇𥧪！",
+            k_no_other_jokers="空噲播消恪！",
+            k_plus_tarot="＋１蘿些鱸",
+            k_plus_stone="＋１蘿𥒥",
+            k_plus_planet="＋１蘿行星",
+            k_plus_spectral="＋１蘿超靈",
+            k_plus_joker="＋１播消",
+            k_active_ex="固効力！",
+            k_level_up_ex="𨕭級！",
+            k_upgrade_ex="㨢級！",
+            k_again_ex="吝女！",
+            k_val_up="𨕭價！",
+            k_reset="撻吏",
+            k_extinct_ex="絶種！",
+            k_disabled_ex="無効！",
+            k_safe_ex="安全！",
+            k_saved_ex="㐌救！",
+            k_swapped_ex="㐌掉𢷮！",
+            k_copied_ex="㐌抄箚！",
+            k_melted_ex="㐌潵沚！",
+            k_eaten_ex="㐌咹𣍊！",
+            k_drank_ex="㐌㕵𣍊！",
+            k_eroded_ex="㐌𤷱𣍊！",
+            -----------------------------------------------分用朱Steamodded-----------------------------------------------
+            b_mods='㩢',
+            b_mods_cap='㩢',
+            b_modded_version='版㧡㩢！',
+            b_steamodded='𣱬㩢',
+            b_open_mods_dir='𢲫書目㩢',
+            b_no_mods='空發現㩢鬧。。。',
+            b_mod_list='名冊㩢㐌激活',
+            b_mod_loader='程㧡㩢',
+            b_developed_by='發展罷',
+            b_rewrite_by='曰吏罷',
+            b_github_project='預案掑吸',
+            b_github_bugs_1='報儡吧㨂𢵰',
+            b_github_bugs_2='於妬（憑㗂英唲）。',
+            b_disable_mod_badges='熄徽號㩢',
+            b_author='𠊛造',
+            b_authors='𠊛造',
+            b_unknown='空𤑟',
+            b_lovely_mod='（㩢泣璃純醉）',
+            b_by='罷：',
+            b_config="隨撰",
+            b_additions='分添',
+            b_stickers='沲',
+            b_achievements="成就",
+            b_applies_stakes_1='壓用',
+            b_applies_stakes_2='',
+            b_graphics_mipmap_level="激舉Mipmap",
+            b_browse='閲',
+            b_search_prompt='尋㩢',
+            b_search_button='尋斂',
+            b_seeded_unlocks='種𢲫鎖',
+            b_seeded_unlocks_info='朱法𢲫鎖𥪝陣𨔈憑種',
+            ml_achievement_settings={
+                '熄',
+                '弼',
+                '𠬃限制'
             },
-            b_deckskins_lc = 'Màu Tương Phản Thấp',
-            b_deckskins_hc = 'Màu Tương Phản Cao',
-            b_deckskins_def = 'Màu Mặc Định',
-            ---------------------------------------------- Phần dùng cho JokerDisplay ----------------------------------------------
-            ["jdis_enabled"] = "Đã kích hoạt",
-			["jdis_hide_by_default"] = "Ẩn mặc định",
-			["jdis_hide_empty"] = "Ẩn trống",
-			["jdis_disable_collapse"] = "Tắt đóng sập",
-			["jdis_disable_perishable"] = "Tắt Ngắn Hạn",
-			["jdis_disable_rental"] = "Tắt Cho Thuê",
-			["jdis_modifiers"] = "Phần Biến Đổi",
-			["jdis_reminders"] = "Ghi Nhớ",
-			["jdis_extras"] = "Thêm",
-			["jdis_default_display"] = "Măc Định",
-			["jdis_small_display"] = "Đóng Sập",
-			["jdis_active"] = "Có hiệu lực!",
-			["jdis_inactive"] = "Không hiệu lực",
-			["jdis_all_suits"] = "Cả 4 chất",
-            ------------------------------------------------- Phần dùng cho Galdur -------------------------------------------------
-            ["gald_master"] = "Bật Galdur",
-            ["gald_use_desc"] = {
-                "Kích hoạt thiết lập Galdur"    
+            b_deckskins_lc='𬜝相反隰',
+            b_deckskins_hc='𬜝相反高',
+            b_deckskins_def='𬜝默定',
+            ----------------------------------------------分用朱JokerDisplay----------------------------------------------
+            ["jdis_enabled"]="㐌激活",
+            ["jdis_hide_by_default"]="隱默定",
+            ["jdis_hide_empty"]="隱𥧪",
+            ["jdis_disable_collapse"]="熄㨂𬔗",
+            ["jdis_disable_perishable"]="熄艮限",
+            ["jdis_disable_rental"]="熄朱𠾔",
+            ["jdis_modifiers"]="分變𢷮",
+            ["jdis_reminders"]="掑汝",
+            ["jdis_extras"]="添",
+            ["jdis_default_display"]="默定",
+            ["jdis_small_display"]="㨂𬔗",
+            ["jdis_active"]="固効力！",
+            ["jdis_inactive"]="空効力",
+            ["jdis_all_suits"]="哿４質",
+            -------------------------------------------------分用朱肝都-------------------------------------------------
+            ["gald_master"]="弼肝都",
+            ["gald_use_desc"]={
+                "激活設立肝都"
             },
-            ["gald_anim"] = "Bật hoạt ảnh",
-            ["gald_anim_desc"] = {
-                "Kích hoạt hiệu ứng hoạt ảnh cho phần",
-                "xem trước bộ bài và chồng cược"
+            ["gald_anim"]="弼活影",
+            ["gald_anim_desc"]={
+                "激活効應活影朱分",
+                "覘畧部牌吧重蹻"
             },
-            ["gald_reduce"] = "Giảm kích thước bộ bài",
-            ["gald_reduce_desc"] = {
-                "Giảm số lượng lá bài",
-                "trên màn hình"    
+            ["gald_reduce"]="減激鑠部牌",
+            ["gald_reduce_desc"]={
+                "減數量蘿牌",
+                "𨕭幔形"
             },
-            ["gald_stake_colour"] = "Làm Mờ Cược",
-            ["gald_stake_colour_options"] = {
-                "Làm mờ chưa thắng",    
-                "Làm mờ đã thắng",
+            ["gald_stake_colour"]="濫𥊚蹻",
+            ["gald_stake_colour_options"]={
+                "濫𥊚諸勝",
+                "濫𥊚㐌勝",
             },
-            ["gald_stake_colour_desc"] = {
-                "Chọn loại cược nào bị làm mờ",
-                "trong màn hình chọn cược"
+            ["gald_stake_colour_desc"]={
+                "撰類蹻鬧被濫𥊚",
+                "𥪝幔形撰蹻"
             },
-            ["gald_stake_select"] = "Chọn Cược",
-            ["gald_stake_select_options"] = {
-                "Lần trước đó",    
-                "Mở khoá tiếp theo",
-                "Cược Trắng"
+            ["gald_stake_select"]="撰蹻",
+            ["gald_stake_select_options"]={
+                "吝畧帝",
+                "𢲫鎖接遶",
+                "蹻𤽸"
             },
-            ["gald_stake_select_desc"] = {
-                "Chọn loại cược nào được bốc",
-                "mặc định trong màn hình chọn cược"
+            ["gald_stake_select_desc"]={
+                "撰類蹻鬧得bốc",
+                "默定𥪝幔形撰蹻"
             },
-            ["gald_unlock"] = "Mở khoá toàn bộ cược",
-            ["gald_unlock_desc"] = {
-                "Cho phép chọn và chơi bất kì loại cược nào"    
+            ["gald_unlock"]="𢲫鎖全部蹻",
+            ["gald_unlock_desc"]={
+                "朱法撰吧𨔈不其類蹻鬧"
             },
-            ["gald_select_deck"] = "Chọn Bộ Bài",
-            ["gald_select_stake"] = "Chọn Cược",
-            ["gald_play"] = "Chơi",
-            ["gald_selected"] = "ĐÃ CHỌN",
-            ["gald_locked"] = "Bị Khoá",
-            ["gald_unlock_1"] = "Thắng bằng bộ bài này ở ",
-            ["gald_unlock_and"] = " và ",
-            ["gald_new_page_error"] = "Lỗi thêm trang",
-            ["gald_quick_start"] = "Trận Trước Đó",
-            ["gald_random_deck"] = "Bộ Bài Ngẫu Nhiên",
-            ["gald_random_stake"] = "Cược Ngẫu Nhiên",
-            ---------------------------------------------- Phần dùng cho CardSleeves ----------------------------------------------
-            k_sleeve = "Bọc Bài",
-            gald_sleeves = "Chọn Bọc",
-            gald_random_sleeve = "Bọc Ngẫu Nhiên",
-            sleeve_unique_effect_desc = "Một số bọc bài có khả năng riêng biệt khi kết hợp với một số bộ bài nhất định",
-            adjust_deck_alignment = "Xếp chồng bài",
-            adjust_deck_alignment_desc = {
-                "Xếp chồng bài gọn hơn trong trận",
-                "(chỉ ảnh hưởng đến vẻ ngoài)"
+            ["gald_select_deck"]="撰部牌",
+            ["gald_select_stake"]="撰蹻",
+            ["gald_play"]="𨔈",
+            ["gald_selected"]="㐌撰",
+            ["gald_locked"]="被鎖",
+            ["gald_unlock_1"]="勝憑部牌呢於",
+            ["gald_unlock_and"]="吧",
+            ["gald_new_page_error"]="儡添張",
+            ["gald_quick_start"]="陣畧帝",
+            ["gald_random_deck"]="部牌偶然",
+            ["gald_random_stake"]="蹻偶然",
+            ----------------------------------------------分用朱CardSleeves----------------------------------------------
+            k_sleeve="襆牌",
+            gald_sleeves="撰襆",
+            gald_random_sleeve="襆偶然",
+            sleeve_unique_effect_desc="𠬠數襆牌固可能貞別欺結合某𠬠數部牌一定",
+            adjust_deck_alignment="Xếpchồng牌",
+            adjust_deck_alignment_desc={
+                "插重牌𦄣欣𥪝陣",
+                "（只影響𦤾𡲈外）"
             },
-            allow_any_sleeve_selection = "Mở khoá mọi bọc bài",
-            allow_any_sleeve_selection_desc = {
-                "Cho phép chọn bất kì bọc bài nào từ",
-                "màn hình ván mới như thể đã mở khoá"
+            allow_any_sleeve_selection="𢲫鎖每襆牌",
+            allow_any_sleeve_selection_desc={
+                "朱法撰不其襆牌鬧自",
+                "幔形盤𬔫如體㐌𢲫鎖"
             },
-            sleeve_info_location = "Vị trí thông tin bọc bài",
-            sleeve_info_location_desc = {
-                "Chọn vị trí hiển thị thông tin bọc bài",
-                "như tên và mô tả (chỉ ảnh hưởng đến vẻ ngoài)"
+            sleeve_info_location="位置通信襆牌",
+            sleeve_info_location_desc={
+                "撰位置顕示通信襆牌",
+                "如𠸜吧模寫（只影響𦤾𡲈外）"
             },
-            sleeve_info_location_options = {
-                "Chỉ ở Bảng Bộ bài",
-                "Chỉ ở T.Tin Trận Này",
-                "Xem ở cả hai",
-                "Ẩn T.Tin bọc bài"
+            sleeve_info_location_options={
+                "只於榜部牌",
+                "只於通信陣呢",
+                "覘於哿𠄩",
+                "隱通信襆牌"
             },
-            sleeve_not_found_error = "Không thể tìm thấy bọc bài! Mod của nó bị gỡ rồi à?",
-            ----------------------------------------------- Phần dùng cho Incantation -----------------------------------------------
-            incant_negatives_only = "Chỉ chồng lá Âm Bản",
-            incant_stack_anything = "Cho phép chồng & chia bất kì lá tiêu thụ nào",
-			incant_unsafe_mode = 'Chế độ Không an toàn',
-            ----------------------------------- Phần dùng cho Nopeus - cần phiên bản đã Việt hoá -----------------------------------
-            nopeus_ff = "Siêu Tốc",
-            nopeus_popup = "Chữ Lá Bài Nổi Lên",
-            nopeus_off = "Tắt",
-            nopeus_planets = "Hành Tinh",
-            nopeus_on = "Mọi thứ (Chuẩn)",
-            nopeus_optimized = "Mọi thứ (Ko mục khác)",
-            nopeus_unsafe = "Ko An Toàn",
-            nopeus_alltext = "Tất Cả",
-            nopeus_noagain = 'Không "Lần Nữa!"',
-            nopeus_nomisc = "Không mục khác",
-            nopeus_notext = "Không hiển thị",
-            ------------------------------- Nopeus loc is deprecated - made out of personal interest -------------------------------
-            k_voucher_restock_1 = "ĐÁNH BẠI",
-            k_voucher_restock_2 = "BOSS BLIND",
-            k_voucher_restock_3 = "ĐỂ THAY MỚI",
-            k_cry_voucher_restock_2 = "HAI BOSS BLIND",
+            sleeve_not_found_error="空體尋𧡊襆牌！㩢𧵑奴被攑耒啊？",
+            -----------------------------------------------分用朱Incantation-----------------------------------------------
+            incant_negatives_only="只重蘿陰版",
+            incant_stack_anything="朱法重吧技不其蘿銷售鬧",
+            incant_unsafe_mode='制度空安全',
+            k_voucher_restock_1="打敗",
+            k_voucher_restock_2="瞙主",
+            k_voucher_restock_3="帝𠊝𬔫",
+            k_cry_voucher_restock_2="𠄩瞙主",
         },
-        v_dictionary = {
-            a_xmult = "X#1# Nhân",
-            a_xmult_minus = "-X#1# Nhân",
-            a_mult = "+#1# Nhân",
-            a_mult_minus = "-#1# Nhân",
-            a_chips = "+#1#",
-            a_chips_minus = "-#1#",
-            a_handsize = "+#1# Lá Giữ Trong Tay",
-            a_handsize_minus = "-#1# Lá Giữ Trong Tay",
-            a_hands = "+#1# Tay Bài",
-            a_sold_tally = "#1#/#2# Đã Bán",
-            a_remaining = "Còn Lại #1#",
-            ante_x_voucher = "PHIẾU ANTE #1#",
-            loyalty_active = "Có Hiệu Lực!",
-            loyalty_inactive = "còn lại #1# tay",
-            deck_preview_wheel_singular = "Số lượng có thể ít hơn do có #1# lá bị bốc sấp",
-            deck_preview_wheel_plural = "Số lượng có thể ít hơn do có #1# lá bị bốc sấp",
-            challenges_completed = "Đã Hoàn Thành #1#/#2# Thử Thách",
-            unlocked = "#1#/#2# Đã Mở Khoá",
-            completed = "#1#/#2# Đã Hoàn Thành",
-            interest = "#1# tiền lãi mỗi $#2# (tối đa #3#)",
-            remaining_hand_money = "Tay Bài Còn Lại ($#1# mỗi tay)",
-            remaining_discard_money = "Lượt Bỏ Bài Còn lại ($#1# mỗi lượt)",
-            ml_foil_desc = {
-                "Ánh Kim",
-                "+#1# Chip"
+        v_dictionary={
+            a_xmult="X#1#因",
+            a_xmult_minus="-X#1#因",
+            a_mult="+#1#因",
+            a_mult_minus="-#1#因",
+            a_闡s="+#1#",
+            a_闡s_minus="-#1#",
+            a_handsize="+#1#蘿𢬇𥪝拪",
+            a_handsize_minus="-#1#蘿𢬇𥪝拪",
+            a_hands="+#1#拪牌",
+            a_sold_tally="#1#/#2#㐌𧸝",
+            a_remaining="噲吏#1#",
+            ante_x_voucher="票級蹻#1#",
+            loyalty_active="固効力！",
+            loyalty_inactive="噲吏#1#拪",
+            deck_preview_wheel_singular="數量固體𠃣欣由固#1#蘿被扑䏠,
+            deck_preview_wheel_plural="數量固體𠃣欣由固#1#蘿被扑䏠",
+            challenges_completed="㐌完成#1#/#2#試托",
+            unlocked="#1#/#2#㐌𢲫鎖",
+            completed="#1#/#2#㐌完成",
+            interest="#1#錢𥚥每$#2#(最多#3#)",
+            remaining_hand_money="拪牌噲吏($#1#每拪)",
+            remaining_discard_money="辣𠬃牌噲吏($#1#每辣)",
+            ml_foil_desc={
+                "映金",
+                "+#1#闡"
             },
-            ml_holo_desc = {
-                "Lấp Lánh",
-                "+#1# Nhân"
+            ml_holo_desc={
+                "拉𪸝",
+                "+#1#因"
             },
-            ml_polychrome_desc = {
-                "Đa Sắc",
-                "X#1# Nhân"
+            ml_polychrome_desc={
+                "多色",
+                "X#1#因"
             },
-            ml_negative_desc = {
-                "Âm Bản",
-                "+#1# ô Joker"
+            ml_negative_desc={
+                "陰版",
+                "+#1#杇播消"
             },
-            ml_negative_consumable_desc = {
-                "Âm Bản",
-                "+#1# ô Tiêu Thụ"
+            ml_negative_consumable_desc={
+                "陰版",
+                "+#1#杇銷售"
             },
-            ----------------------------------------------- Phần dùng cho Steamodded -----------------------------------------------
-            c_types = '#1# Loại',
-			cashout_hidden = '...và thêm #1# mục nữa',
-            a_xchips = "X#1# Chip",
-            a_xchips_minus = "-X#1# Chip",
-            ---------------------------------------------- Phần dùng cho JokerDisplay ----------------------------------------------
-            ["jdis_odds"] = "#1# trên #2#",
+            -----------------------------------------------分用朱Steamodded-----------------------------------------------
+            c_types='#1#類',
+            cashout_hidden='...吧添#1#目女',
+            a_x闡s="X#1#闡",
+            a_x闡s_minus="-X#1#闡",
+            ----------------------------------------------分用朱JokerDisplay----------------------------------------------
+            ["jdis_odds"]="#1#𨕭#2#",
             ------------------------------------------------------------------------------------------------------------------------
         },
-        v_text = {
-            ch_m_dollars = {
-                "Bắt đầu với {C:money}$#1#"
+        v_text={
+            ch_m_dollars={
+                "扒頭某{C:money}$#1#"
             },
-            ch_m_hands = {
-                "{C:blue}#1#{} tay bài mỗi ván"
+            ch_m_hands={
+                "{C:blue}#1#{}拪牌每盤"
             },
-            ch_m_discards = {
-                "{C:red}#1#{} lượt bỏ bài mỗi ván"
+            ch_m_discards={
+                "{C:red}#1#{}辣𠬃牌每盤"
             },
-            ch_m_reroll_cost = {
-                "{C:money}$#1#{} giá gốc để gieo lại"
+            ch_m_reroll_cost={
+                "{C:money}$#1#{}價梏帝招吏"
             },
-            ch_m_joker_slots = {
-                "{C:attention}#1#{} ô Joker"
+            ch_m_joker_slots={
+                "{C:attention}#1#{}杇播消"
             },
-            ch_m_consumable_slots = {
-                "{C:attention}#1#{} ô Tiêu Thụ"
+            ch_m_consumable_slots={
+                "{C:attention}#1#{}杇銷售"
             },
-            ch_m_hand_size = {
-                "{C:attention}#1#{} lá giữ trong tay"
+            ch_m_hand_size={
+                "{C:attention}#1#{}蘿𢬇𥪝拪"
             },
-            ch_m_none = {
-                "{C:inactive}Không Có"
+            ch_m_none={
+                "{C:inactive}空固"
             },
-            ch_c_no_reward = {
-                "Tất cả {C:attention}Blind{} không có tiền thưởng"
+            ch_c_no_reward={
+                "Tấtcả{C:attention}瞙{}空固錢賞"
             },
-            ch_c_no_reward_specific = {
-                "{C:attention}#1# Blind{} không có tiền thưởng"
+            ch_c_no_reward_specific={
+                "{C:attention}#1#瞙{}空固錢賞"
             },
-            ch_c_no_extra_hand_money = {
-                "{C:blue}Tay bài{} dư không thưởng thêm tiền"
+            ch_c_no_extra_hand_money={
+                "{C:blue}拪牌{}餘空賞添錢"
             },
-            ch_c_no_interest = {
-                "Không nhận {C:attention}Lãi{} ở cuối ván"
+            ch_c_no_interest={
+                "空認{C:attention}𥚥{}於季盤"
             },
-            ch_c_daily = {
-                "{E:1,s:1.2,C:red}Thử Thách Hằng Ngày!"
+            ch_c_daily={
+                "{E:1,s:1.2,C:red}試托恆㝵！"
             },
-            ch_c_set_seed = {
-                "1 lần chơi với Giống đã cài: {C:inactive}{Hidden}"
+            ch_c_set_seed={
+                "１吝𨔈某種㐌㧡：{C:inactive}{Hidden}"
             },
-            ch_c_chips_dollar_cap = {
-                "{C:blue}Chip{} không thể vượt quá {C:money}${} hiện có"
+            ch_c_闡s_dollar_cap={
+                "{C:blue}闡{}空體越過{C:money}${}現固"
             },
-            ch_c_none = {
-                "{C:inactive}Không Có"
+            ch_c_none={
+                "{C:inactive}空固"
             },
-            ch_c_no_shop_jokers = {
-                "Joker không còn xuất hiện trong {C:attention}shop"
+            ch_c_no_shop_jokers={
+                "播消空噲出現𥪝{C:attention}㪯行"
             },
-            ch_c_inflation = {
-                "Vĩnh viễn tăng giá thêm {C:money}$1{} sau mỗi lần mua"
+            ch_c_inflation={
+                "永遠增價添{C:money}$1{}差每吝𢱖"
             },
-            ch_c_discard_cost = {
-                "Mỗi lượt bỏ bài tốn {C:money}$#1#"
+            ch_c_discard_cost={
+                "每辣𠬃牌損{C:money}$#1#"
             },
-            ch_c_all_eternal = {
-                "Mọi Joker đều {C:eternal}Vĩnh Hằng"
+            ch_c_all_eternal={
+                "每播消調{C:eternal}永恆"
             },
-            ch_c_flipped_cards = {
-                "{C:green}1 trên #1#{} lá bị bốc sấp"
+            ch_c_flipped_cards={
+                "{C:green}１𨕭#1#{}蘿被扑䏠"
             },
-            ch_c_debuff_played_cards = {
-                "Mọi lá {C:attention}Đã chơi{} bị {C:attention}vô hiệu hoá{} sau khi ghi điểm"
+            ch_c_debuff_played_cards={
+                "每蘿{C:attention}㐌𨔈{}被{C:attention}無効化{}差欺掑點"
             },
-            ch_c_minus_hand_size_per_X_dollar = {
-                "{C:red}-1{} lá giữ trong tay cho mỗi {C:money}$#1#{} bạn có"
+            ch_c_minus_hand_size_per_X_dollar={
+                "{C:red}-1{}蘿𢬇𥪝拪朱每{C:money}$#1#{}伴固"
             },
-            ch_c_set_eternal_ante = {
-                "Khi boss ante {C:attention}#1#{} bị đánh bại, tất cả Joker trở thành {C:attention}vĩnh hằng"
+            ch_c_set_eternal_ante={
+                "欺主級蹻{C:attention}#1#{}被打敗,必哿播消㨋成{C:attention}永恆"
             },
-            ch_c_set_joker_slots_ante = {
-                "Khi boss ante {C:attention}#1#{} bị đánh bại, đặt số ô Joker thành {C:attention}0"
+            ch_c_set_joker_slots_ante={
+                "欺主級蹻{C:attention}#1#{}被打敗,撻數杇播消成{C:attention}0"
             },
-            ---------------------------------------------- Phần dùng cho CardSleeves ----------------------------------------------
-            ch_m_sleeve = {
-                "Bắt đầu với {C:attention}#1#{}"
+            ----------------------------------------------分用朱CardSleeves----------------------------------------------
+            ch_m_sleeve={
+                "扒頭某{C:attention}#1#{}"
             }
             -----------------------------------------------------------------------------------------------------------------------
         },
-        quips = {
-            wq_1 = {"Bạn Xuất Xắc lắm!"},
-            wq_2 = {"Bạn đối phó với nó","cũng tốt đấy!"},
-            wq_3 = {"Có vẻ như bạn đã","không bị tháu cáy nhỉ!"},
-            wq_4 = {"Thật tiếc khi","đống chip này chỉ","là ảo mà thôi..."},
-            wq_5 = {"Có vẻ như tôi đã","dạy bạn rất tốt!"},
-            wq_6 = {"Bạn đã làm mấy", "pha xử lí tốt đấy!"},
-            wq_7 = {"May là tôi đã","không cược", "cho bạn thua!"},
-            lq_1 = {"Hình như có hơi", "\"dục tốc bất đạt\"", "nhỉ..."},
-            lq_2 = {"Ta bỏ cuộc", "dễ dàng quá!"},
-            lq_3 = {"Đã đến lúc", "trộn bài và", "chơi lại rồi!"},
-            lq_4 = {"Các cụ có câu:", "nhà cái", "luôn thắng!"},
-            lq_5 = {"Có vẻ như ta đã", "tìm ra ai mới là", "thằng hề thực sự rồi!"},
-            lq_6 = {"Ôi không, bạn vừa", "bị tháu cáy à?"},
-            lq_7 = {"Có vẻ như câu đùa đang","ám chỉ chúng ta rồi!"},
-            lq_8 = {"Nếu tôi có tay","thì tôi đã tự", "bịt mắt lại rồi!"},
-            lq_9 = {"Tôi là một thằng hề", "đúng nghĩa, còn bạn", "thì sao?"},
-            lq_10 = {"Đúng là rớt"," cái bịch rồi!"},
-            dq_1 = {"Éc! Tôi mong là","bạn đã thủ sẵn","món tủ cho thử thách","cuối cùng này rồi!"}
+        quips={
+            wq_1={"伴出色夦！"},
+            wq_2={"伴對付某奴","共卒帝！"},
+            wq_3={"固𡲈如伴㐌","空被草𢗡𠰚！"},
+            wq_4={"實惜欺","埬闡呢只","羅幻麻推。。。"},
+            wq_5={"固𡲈如倅㐌","𠰺伴窒卒！"},
+            wq_6={"伴㐌濫某","坡處理卒帝！"},
+            wq_7={"𢆧羅倅㐌","空蹻","朱伴輸！"},
+            lq_1={"形如固唉","\"欲速不達\"","𠰚。。。"},
+            lq_2={"些𠬃局","𥚯揚過！"},
+            lq_3={"㐌𦤾𣅶","遁牌吧","𨔈吏耒！"},
+            lq_4={"各俱固句：","家丐","㫻勝！"},
+            lq_5={"固𡲈如些㐌","尋𦋦埃𬔫羅","僶𭛭實事耒！"},
+            lq_6={"喂空、伴𣃣","被草𢗡啊？"},
+            lq_7={"固𡲈如句嘟當","暗指眾些耒！"},
+            lq_8={"裊倅固拪","時倅㐌自","捌眜吏耒！"},
+            lq_9={"倅羅𠬠僶𭛭","棟義、噲伴","時吵？"},
+            lq_10={"棟羅溧","個壁耒！"},
+            dq_1={"薏！倅懞羅","伴㐌取産","門䈹朱試托","季窮呢耒！"}
         },
-        tutorial = {
-            sb_1 = {
-                "Xin chào! Tôi tên là",
-                "{C:attention}Jimbo{}, tôi ở đây để",
-                "giúp bạn học cách chơi!"
+        tutorial={
+            sb_1={
+                "嗔嘲！倅𠸜羅",
+                "{C:attention}焰甫{}、倅於低帝",
+                "執伴學格𨔈！"
             },
-            sb_2 = {
-                "Mục tiêu của bạn là đạt",
-                "đủ số {C:blue}Chip{} để đánh bại",
-                "các {C:attention}Blind{}"
+            sb_2={
+                "目標𧵑伴羅達",
+                "覩數{C:blue}闡{}帝打敗",
+                "各{C:attention}瞙{}"
             },
-            sb_3 = {
-                "Còn đây là {C:blue}Small Blind{},",
-                "bạn chỉ cần đạt ít nhất",
-                "{C:attention}300 Chip{} để đánh bại nó."
+            sb_3={
+                "噲低羅{C:blue}瞙𡮈{},",
+                "伴只𫢍𫢍達𠃣一",
+                "{C:attention}300闡{}帝打敗奴."
             },
-            sb_4 = {
-                "Chọn {C:blue}Small Blind",
-                "để bắt đầu ván chơi nào!"
+            sb_4={
+                "撰{C:blue}瞙𡮈",
+                "帝扒頭盤𨔈鬧！"
             },
-            bb_1 = {
-                "Chọn tiếp đón {C:attention}Big Blind",
-                "sẽ được nhận chút tiền đó;"
+            bb_1={
+                "撰接迍{C:attention}瞙𡘯",
+                "𠱊得𠬠𡭧錢帝;"
             },
-            bb_2 = {
-                "Hoặc chọn {C:attention}bỏ qua nó",
-                "để lấy một {C:attention}Nhãn{}! Mỗi",
-                "{C:attention}Nhãn{} có khả năng riêng"
+            bb_2={
+                "或撰{C:attention}𠬃過奴",
+                "帝𫩉𠬠{C:attention}沲{}！每",
+                "{C:attention}沲{}固可能貞"
             },
-            bb_3 = {
-                "Nhưng nhớ để mắt đến",
-                "{C:attention}Boss Blind{} nhé.",
-                "Nó có khả năng gây phiền toái",
-                "nên bạn phải lên kế hoạch trước."
+            bb_3={
+                "仍汝帝眜𦤾",
+                "{C:attention}瞙主{}唲。",
+                "奴固可能咳煩蕞",
+                "𢧚伴沛𨕭計畫畧。"
             },
-            bb_4 = {
-                "nếu bạn đánh bại nó thì",
-                "sẽ thăng {C:attention}Ante{} và các",
-                "{C:attention}Blind{} sẽ trở nên khó hơn"
+            bb_4={
+                "裊伴打敗奴時",
+                "𠱊昇{C:attention}級蹻{}吧各",
+                "{C:attention}瞙{}𠱊㨋𢧚苦欣"
             },
-            bb_5 = {
-                "Đánh bại {C:attention}Ante{} #1# để thắng.",
-                "Hãy chọn nền vă- nhầm,",
-                "lối đi đúng đắn nào!"
+            bb_5={
+                "打敗{C:attention}級蹻{}#1#帝勝。",
+                "H咳撰𡋂文-𠰃、",
+                "𡓃𠫾董怛鬧！"
             },
-            fh_1 = {
-                "Bạn nhận chip bằng cách",
-                "chơi các {C:attention}tay Poker"
+            fh_1={
+                "伴認闡憑格",
+                "𨔈各{C:attention}拪扑基"
             },
-            fh_2 = {
-                "Mỗi {C:attention}tay Poker{} sẽ nhận",
-                "được một lượng {C:blue}Chip{} chuẩn",
-                "nhân thêm hệ số {C:red}Nhân{} nào đó"
+            fh_2={
+                "每{C:attention}拪扑基{}𠱊認",
+                "得𠬠量{C:blue}闡{}準",
+                "因添係數{C:red}因{}鬧帝"
             },
-            fh_3 = {
-                "Xem các {C:attention}tay Poker",
-                "ở mục {C:attention}T.tin Trận Này{},",
-                "cùng với các loại thông tin khác",
-                "về trận hiện tại của bạn"
+            fh_3={
+                "覘各{C:attention}拪扑基",
+                "於目{C:attention}通信陣呢{},",
+                "共某各類通信恪",
+                "𧗱陣現在𧵑伴"
             },
-            fh_4 = {
-                "Mấy lá bài cũng cho thêm",
-                "một lượng {C:blue}Chip{} nào đó,",
-                "lia chuột đến để xem thử nhé!"
+            fh_4={
+                "某蘿牌共朱添",
+                "𠬠量{C:blue}闡{}鬧帝,",
+                "攡𤝞𦤾帝覘試唲！"
             },
-            fh_5 = {
-                "Giờ thì hãy chọn tối đa",
-                "{C:attention}5{} lá bài để chơi",
-                "rồi nhấn {C:blue}'Chơi Tay Bài'"
+            fh_5={
+                "𣇞時咳撰最多",
+                "{C:attention}5{}蘿牌帝𨔈",
+                "耒𢭝{C:blue}'𨔈拪牌'"
             },
-            fh_6 = {
-                "Bạn cũng có thể {C:red}'Bỏ Bài'{}",
-                "tối đa {C:attention}5{} lá đã chọn",
-                "nhằm tạo ra tay Poker",
-                "mạnh hơn. Cứ thử đi!"
+            fh_6={
+                "伴共固體{C:red}'𠬃牌'{}",
+                "最多{C:attention}5{}蘿㐌撰",
+                "壬造𦋦拪扑基",
+                "孟欣。據試𠫾！"
             },
-            fh_7 = {
-                "Cẩn thận! Bạn chỉ có hữu hạn",
-                "số {C:blue}Tay bài{} và",
-                "số {C:red}Lượt Bỏ Bài{} mỗi ván thôi"
+            fh_7={
+                "謹慎！伴只固有限",
+                "數{C:blue}拪牌{}吧",
+                "數{C:red}辣𠬃牌{}每盤推"
             },
-            fh_8 = {
-                "Đạt {C:attention}300 Chip{} trước khi",
-                "bạn hết {C:blue}Tay bài",
-                "để thắng ván này.",
-                "Chúc may mắn!"
+            fh_8={
+                "達{C:attention}300闡{}畧欺",
+                "伴𣍊{C:blue}拪牌",
+                "帝勝盤呢.",
+                "祝𢆧敏！"
             },
-            sh_1 = {
-                "Khi bạn thu thập thêm lá bài,",
-                "hãy nhớ là bạn có thể sắp xếp",
-                "chúng. Lá {C:attention}Joker{} kích hoạt",
-                "theo thứ tự từ trái sang phải"
+            sh_1={
+                "欺伴收拾添蘿牌,",
+                "咳汝羅伴固體拉插",
+                "眾。蘿{C:attention}播消{}激活",
+                "遶次序自賴𢀨沛"
             },
-            sh_2 = {
-                "Và hãy nhớ rằng bạn sẽ",
-                "{C:attention}DÙNG{} mấy lá tiêu thụ nhé!"
+            sh_2={
+                "吧咳汝哴伴𠱊",
+                "{C:attention}用{}某蘿銷售𠰚！"
             },
-            sh_3 = {
-                "Chọn tối đa {C:attention}2{} lá",
-                "giữ trong tay và nhấn",
-                "{C:attention}'DÙNG'{} trên lá {C:tarot}Tarot",
-                "để cường hoá chúng!"
+            sh_3={
+                "撰最多{C:attention}2{}蘿",
+                "𢬇𥪝拪吧𢭝",
+                "{C:attention}'用'{}𨕭蘿{C:tarot}些鱸",
+                "帝彊化眾！"
             },
-            s_1 = {
-                "Làm tốt lắm! Giờ thì",
-                "bạn đã có {E:1}lắm {C:money}Tiền{} rồi,",
-                "bạn có thể mua thêm lá bài",
-                "mới từ trong {C:attention}Shop"
+            s_1={
+                "濫卒稟！𣇞時",
+                "伴㐌固{E:1}lắm{C:money}錢{}耒、",
+                "伴固體𢱖添蘿牌",
+                "𬔫自𥪝{C:attention}㪯行"
             },
-            s_2 = {
-                "Hãy thử mua lá hề",
-                "\"đẹp choai\" này nào"
+            s_2={
+                "咳試𢱖蘿𭛭",
+                "\"惵佳\"呢鬧"
             },
-            s_3 = {
-                "Đây là một trong số {C:attention}#1#",
-                "lá {C:attention}Joker{} mà bạn có thể thêm",
-                "vào trận. Mỗi lá {C:attention}Joker",
-                "đều có khả năng riêng"
+            s_3={
+                "低羅𠬠𥪝數{C:attention}#1#",
+                "蘿{C:attention}播消{}麻伴固體添",
+                "𠓨陣.每蘿{C:attention}播消",
+                "調固可能貞"
             },
-            s_4 = {
-                "Lá này thêm {C:red}+4 Nhân{} vào",
-                "mọi tay mà bạn chơi!"
+            s_4={
+                "蘿呢添{C:red}+4因{}𠓨",
+                "每拪麻伴𨔈！"
             },
-            s_5 = {
-                "Lựa cho cẩn thận nhé, bạn chỉ",
-                "đem được tối đa {C:attention}5{} lá {C:attention}Joker{}",
-                "cùng một lúc mà thôi"
+            s_5={
+                "攄撰謹慎唲、伴只",
+                "𨑴得最多{C:attention}５{}蘿{C:attention}播消{}",
+                "窮𠬠𣅶麻推"
             },
-            s_6 = {
-                "Giờ hãy mua những lá bài",
-                "khác ở trong {C:attention}Shop"
+            s_6={
+                "𣇞咳𢱖仍蘿牌",
+                "恪於𥪝{C:attention}㪯行"
             },
-            s_7 = {
-                "Lá {C:tarot}Tarot{} này là một",
-                "lá {C:attention}tiêu thụ{}. Cụ thể hơn",
-                "thì lá này sẽ cường hoá lá bài",
-                "của bạn! Cứ giữ lấy nó đi."
+            s_7={
+                "蘿{C:tarot}些鱸{}呢羅𠬠",
+                "蘿{C:attention}銷售{}。具體欣",
+                "時蘿呢𠱊彊化蘿牌",
+                "𧵑伴！據𢬇𫩉奴𠫾。"
             },
-            s_8 = {
-                "Bạn có thể giữ theo mình",
-                "tối đa {C:attention}2{} lá {C:attention}tiêu thụ{}",
-                "cùng một lúc"
+            s_8={
+                "伴固體𢬇遶𨉟",
+                "最多{C:attention}２{}蘿{C:attention}銷售{}",
+                "窮𠬠𣅶"
             },
-            s_9 = {
-                "Nếu bạn tích đủ tiền,",
-                "bạn có thể mua một {C:attention}Phiếu{}.",
-                "Mấy lá {C:attention}Phiếu{} này sẽ",
-                "nâng cấp thụ động trận của bạn!"
+            s_9={
+                "裊伴積覩錢,",
+                "伴固體𢱖𠬠{C:attention}票{}.",
+                "某蘿{C:attention}票{}呢𠱊",
+                "㨢級受動陣𧵑伴！"
             },
-            s_10 = {
-                "{C:attention}Phiếu{} được thay mới",
-                "sau khi bạn đánh bại",
-                "{C:attention}Boss Blind{}."
+            s_10={
+                "{C:attention}票{}得𠊝𬔫",
+                "差欺伴打敗",
+                "{C:attention}瞙主{}."
             },
-            s_11 = {
-                "Và nhớ ngó thử mấy",
-                "{C:booster}Gói Bài{} trong",
-                "từng shop nhé. Nó toàn",
-                "chứa đồ ngon đấy!"
+            s_11={
+                "吧汝𥄭試某",
+                "{C:booster}絵牌{}𥪝",
+                "曾㪯行唲。奴全",
+                "貯龱唁帝！"
             },
-            s_12 = {
-                "Giờ thì hãy sang",
-                "{C:attention}ván kế tiếp{} nào."
+            s_12={
+                "𣇞時咳𢀨",
+                "{C:attention}盤繼接{}鬧."
             }
         }
     }
