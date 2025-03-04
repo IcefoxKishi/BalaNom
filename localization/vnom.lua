@@ -985,7 +985,7 @@ return{
                 text={
                     "朱法造𦋦{C:attention}蛇",
                     "被闕{C:attention}１堛",
-                    "{C:inactive}(VD:{C:attention}10　８　６　５　３{C:inactive})"
+                    "{C:inactive}(譬喻：{C:attention}10 8 6 5 3{C:inactive})"
                 }
             },
             j_hologram={
@@ -1765,7 +1765,7 @@ return{
                 text={
                     "造𦋦蘿{C:tarot}些鱸",
                     "或蘿{C:planet}行星",
-                    "得用gầnnhất",
+                    "得用近一",
                     "𥪝陣呢",
                     "{s:0.8}空包歉{s:0.8,C:tarot}仉呆"
                 }
@@ -1845,7 +1845,7 @@ return{
                 name="碰車數分",
                 text={
                     "確率{C:green}#1#𨕭#2#{}帝添",
-                    "印版{C:dark_edition}映金{},{C:dark_edition}拉𪸝",
+                    "印版{C:dark_edition}映金{}、{C:dark_edition}拉𪸝",
                     "或{C:dark_edition}多色{}朱𠬠{C:attention}播消",
                     "偶然"
                 }
@@ -1944,7 +1944,7 @@ return{
             c_mercury={
                 name="水星",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
+                    "{S:0.8}({S:0.8,V:1}級#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
                     "{C:chips}+#4#{}闡"
@@ -1953,7 +1953,7 @@ return{
             c_venus={
                 name="金星",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
+                    "{S:0.8}({S:0.8,V:1}級#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
                     "{C:chips}+#4#{}闡"
@@ -1962,7 +1962,7 @@ return{
             c_earth={
                 name="𣛤坦",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
+                    "{S:0.8}({S:0.8,V:1}級#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
                     "{C:chips}+#4#{}闡"
@@ -1971,7 +1971,7 @@ return{
             c_mars={
                 name="火星",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
+                    "{S:0.8}({S:0.8,V:1}級#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
                     "{C:chips}+#4#{}闡"
@@ -1980,7 +1980,7 @@ return{
             c_jupiter={
                 name="木星",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
+                    "{S:0.8}({S:0.8,V:1}級#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
                     "{C:chips}+#4#{}闡"
@@ -1989,7 +1989,7 @@ return{
             c_saturn={
                 name="土星",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
+                    "{S:0.8}({S:0.8,V:1}級#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
                     "{C:chips}+#4#{}闡"
@@ -1998,7 +1998,7 @@ return{
             c_uranus={
                 name="天王星",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
+                    "{S:0.8}({S:0.8,V:1}級#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
                     "{C:chips}+#4#{}闡"
@@ -2007,7 +2007,7 @@ return{
             c_neptune={
                 name="海王星",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
+                    "{S:0.8}({S:0.8,V:1}級#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
                     "{C:chips}+#4#{}闡"
@@ -2016,7 +2016,7 @@ return{
             c_pluto={
                 name="閻王星",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
+                    "{S:0.8}({S:0.8,V:1}級#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
                     "{C:chips}+#4#{}闡"
@@ -2025,7 +2025,7 @@ return{
             c_ceres={
                 name="穀神星",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
+                    "{S:0.8}({S:0.8,V:1}級#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
                     "{C:chips}+#4#{}闡"
@@ -2034,7 +2034,7 @@ return{
             c_planet_x={
                 name="行星X",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
+                    "{S:0.8}({S:0.8,V:1}級#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
                     "{C:chips}+#4#{}闡"
@@ -2043,7 +2043,7 @@ return{
             c_eris={
                 name="鬩神星",
                 text={
-                    "{S:0.8}({S:0.8,V:1}lv.#1#{S:0.8}){}㨢級",
+                    "{S:0.8}({S:0.8,V:1}級#1#{S:0.8}){}㨢級",
                     "{C:attention}#2#",
                     "{C:mult}+#3#{}因吧",
                     "{C:chips}+#4#{}闡"
@@ -2470,7 +2470,7 @@ return{
                 text={
                     "認{C:money}$#1#{}每{C:blue}拪",
                     "㐌𨔈陣呢",
-                    "{C:inactive}(Sẽ認{C:money}$#2#{C:inactive})"
+                    "{C:inactive}(𠱊認{C:money}$#2#{C:inactive})"
                 }
             },
             tag_garbage={
@@ -2478,7 +2478,7 @@ return{
                 text={
                     "認{C:money}$#1#{}每{C:red}辣𠬃牌",
                     "諸使用陣呢",
-                    "{C:inactive}(Sẽ認{C:money}$#2#{C:inactive})",
+                    "{C:inactive}(𠱊認{C:money}$#2#{C:inactive})",
                 }
             },
             tag_coupon={
@@ -2494,7 +2494,7 @@ return{
                 text={
                     "造𦋦版抄𧵑",
                     "{C:attention}沲{}㐌撰接遶",
-                    "{s:0.8}空baogồm{s:0.8,C:attention}沲甲"
+                    "{s:0.8}空包歉{s:0.8,C:attention}沲甲"
                 }
             },
             tag_juggle={
@@ -2524,7 +2524,7 @@ return{
                 text={
                     "認{C:money}$#1#{}每瞙",
                     "㐌𠬃過𥪝陣呢",
-                    "{C:inactive}(Sẽ認{C:money}$#2#{C:inactive})"
+                    "{C:inactive}(𠱊認{C:money}$#2#{C:inactive})"
                 }
             },
             tag_orbital={
@@ -2924,7 +2924,7 @@ return{
                 text={
                     "無効化差",
                     "{C:attention}#1#{}盤",
-                    "{C:inactive}(còn{C:attention}#2#{C:inactive}盤)"
+                    "{C:inactive}(噲{C:attention}#2#{C:inactive}盤)"
                 }
             },
             rental={
@@ -3656,36 +3656,42 @@ return{
             ['2']="2"
         },
         collabs={
-            --------------------------dịch tên game mất dạy 101--------------------------
             Spades={
                 ['1']='默定',
-                ['2']='𠊛符水',---the witcher
-                ['3']='遊棍數2077',---sai bờ păn '77
-                ['4']='俠士鏟',---shovel knight
-                ['5']='停折𠲝',---don't starve
+                ['2'] = 'The Witcher',
+                ['3'] = 'Cyberpunk 2077',
+                ['4'] = 'Shovel Knight',
+                ['5'] = 'Don\'t Starve',
+                ['6'] = 'Assassin\'s Creed',
+                ['7'] = 'Slay the Princess'
             },
             Hearts={
                 ['1']='默定',
-                ['2']='中眾些',---amogus
-                ['3']='生祭衣角',---the binding of isaac
-                ['4']='宗教裘嫩',---cult of the lamb
-                ['5']='神界：罪儡頭先２',---divinity original sin 2
+                ['2'] = 'Among Us',
+                ['3'] = 'The Binding of Isaac',
+                ['4'] = 'Cult of the Lamb',
+                ['5'] = 'Divinity Original Sin 2',
+                ['6'] = 'Critical Role',
+                ['7'] = 'Bugsnax'
             },
             Clubs={
                 ['1']='默定',
-                ['2']='𤯨率魔茄蠬',---vampire survivors
-                ['3']='𢷄𡼈',---slay the spire
-                ['4']='製神藥',---potion craft
-                ['5']='具𣛠戰爭',---warframe
+                ['2']='Vampire Survivors',
+                ['3']='Slay the Spire',
+                ['4']='Potion Craft',---potion craft
+                ['5']='Warframe',---warframe
+                ['6']='Vault-Tec',
+                ['7']='Dead by Daylight'
             },
             Diamonds={
                 ['1']='默定',
-                ['2']='𠏲𣵰多撝',---dave the diver
-                ['3']='樁隴𣇟枚',---stardew valley
-                ['4']='𠓨獄銃',---enter the gungeon
-                ['5']='千因抗拒',---1000xresist
+                ['2']='Dave the Diver',---dave the diver
+                ['3']='Stardew Valley',---stardew valley
+                ['4']='Enter the Gungeon',---enter the gungeon
+                ['5']='1000xRESIST',---1000xresist
+                ['6']='Civilization VII',
+                ['7']='Rust'
             },
-            --------------------------------------------------------------------------------------------------------
         },
         high_scores={
             hand="拪卒一",
