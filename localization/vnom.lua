@@ -3656,36 +3656,42 @@ return{
             ['2']="2"
         },
         collabs={
-            --------------------------dịch tên game mất dạy 101--------------------------
             Spades={
                 ['1']='默定',
-                ['2']='𠊛符水',---the witcher
-                ['3']='遊棍數2077',---sai bờ păn '77
-                ['4']='俠士鏟',---shovel knight
-                ['5']='停折𠲝',---don't starve
+                ['2'] = 'The Witcher',
+                ['3'] = 'Cyberpunk 2077',
+                ['4'] = 'Shovel Knight',
+                ['5'] = 'Don\'t Starve',
+                ['6'] = 'Assassin\'s Creed',
+                ['7'] = 'Slay the Princess'
             },
             Hearts={
                 ['1']='默定',
-                ['2']='中眾些',---amogus
-                ['3']='生祭衣角',---the binding of isaac
-                ['4']='宗教裘嫩',---cult of the lamb
-                ['5']='神界：罪儡頭先２',---divinity original sin 2
+                ['2'] = 'Among Us',
+                ['3'] = 'The Binding of Isaac',
+                ['4'] = 'Cult of the Lamb',
+                ['5'] = 'Divinity Original Sin 2',
+                ['6'] = 'Critical Role',
+                ['7'] = 'Bugsnax'
             },
             Clubs={
                 ['1']='默定',
-                ['2']='𤯨率魔茄蠬',---vampire survivors
-                ['3']='𢷄𡼈',---slay the spire
-                ['4']='製神藥',---potion craft
-                ['5']='具𣛠戰爭',---warframe
+                ['2']='Vampire Survivors',
+                ['3']='Slay the Spire',
+                ['4']='Potion Craft',---potion craft
+                ['5']='Warframe',---warframe
+                ['6']='Vault-Tec',
+                ['7']='Dead by Daylight'
             },
             Diamonds={
                 ['1']='默定',
-                ['2']='𠏲𣵰多撝',---dave the diver
-                ['3']='樁隴𣇟枚',---stardew valley
-                ['4']='𠓨獄銃',---enter the gungeon
-                ['5']='千因抗拒',---1000xresist
+                ['2']='Dave the Diver',---dave the diver
+                ['3']='Stardew Valley',---stardew valley
+                ['4']='Enter the Gungeon',---enter the gungeon
+                ['5']='1000xRESIST',---1000xresist
+                ['6']='Civilization VII',
+                ['7']='Rust'
             },
-            --------------------------------------------------------------------------------------------------------
         },
         high_scores={
             hand="拪卒一",
