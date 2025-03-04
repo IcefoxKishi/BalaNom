@@ -199,7 +199,7 @@ return{
             j_ceremonial={
                 name="刀針獻祭",
                 text={
-                    "欺{C:attention}瞙{}得撰、",
+                    "欺{C:attention}霧{}得撰、",
                     "破毀播消連沛",
                     "吧永遠添{C:attention}𠄩吝",
                     "價𧸝𧵑奴𠓨係數{C:red}因",
@@ -227,7 +227,7 @@ return{
                 text={
                     "添𠬠蘿{C:attention}𥒥",
                     "𠓨部牌欺",
-                    "{C:attention}瞙{}得撰",
+                    "{C:attention}霧{}得撰",
                 }
             },
             j_loyalty_card={
@@ -422,7 +422,7 @@ return{
             j_burglar={
                 name="仉濫",
                 text={
-                    "欺{C:attention}瞙{}得撰、",
+                    "欺{C:attention}霧{}得撰、",
                     "添{C:blue}+#1#{}拪牌吧",
                     "{C:attention}秩全部辣𠬃牌"
                 }
@@ -632,7 +632,7 @@ return{
             j_throwback={
                 name="回祖",
                 text={
-                    "{X:mult,C:white}X#1#{}因朱每{C:attention}瞙",
+                    "{X:mult,C:white}X#1#{}因朱每{C:attention}霧",
                     "㐌𠬃過𥪝陣呢",
                     "{C:inactive}(現在羅{X:mult,C:white}X#2#{C:inactive}因)"
                 },
@@ -649,7 +649,7 @@ return{
                     "添{C:attention}#1#{}吝"
                 },
                 unlock={
-                    "打敗𠬠瞙主",
+                    "打敗𠬠霧主",
                     "憑{E:1,C:attention}#1#"
                 }
             },
@@ -823,10 +823,10 @@ return{
                 text={
                     "認{C:money}$#1#{}裊拪牌",
                     "㐌𨔈激活可能",
-                    "𧵑{C:attention}瞙主"
+                    "𧵑{C:attention}霧主"
                 },
                 unlock={
-                    "打敗𠬠瞙主",
+                    "打敗𠬠霧主",
                     "憑{E:1,C:attention}𠬠拪{}麻",
                     "空用辣𠬃牌鬧"
                 }
@@ -939,7 +939,7 @@ return{
             j_madness={
                 name="癲亂",
                 text={
-                    "欺{C:attention}瞙𡮈{}或{C:attention}瞙𡘯",
+                    "欺{C:attention}霧𡮈{}或{C:attention}霧𡘯",
                     "得撰,添{X:mult,C:white}X#1#{}因",
                     "吧{C:attention}破毀{}𠬠播消偶然",
                     "{C:inactive}(現在羅{X:mult,C:white}X#2#{C:inactive}因)"
@@ -966,7 +966,7 @@ return{
             j_riff_raff={
                 name="下流",
                 text={
-                    "欺{C:attention}瞙{}得撰,",
+                    "欺{C:attention}霧{}得撰,",
                     "造𦋦{C:attention}#1#播消{C:blue}常",
                     "{C:inactive}(沛固杇𥧪)"
                 }
@@ -1028,7 +1028,7 @@ return{
                 text={
                     "認{C:money}$#1#{}於季盤",
                     "錢賞增添{C:money}$#2#",
-                    "欺{C:attention}瞙主{}被打敗",
+                    "欺{C:attention}霧主{}被打敗",
                 }
             },
             j_obelisk={
@@ -1054,7 +1054,7 @@ return{
                 text={
                     "𧸝蘿呢帝",
                     "無効化可能𧵑",
-                    "{C:attention}瞙主{}現在",
+                    "{C:attention}霧主{}現在",
                 }
             },
             j_photograph={
@@ -1245,7 +1245,7 @@ return{
                 text={
                     "播消呢添{X:mult,C:white}X#1#{}因",
                     "朱每蘿牌{C:attention}㐌𧸝{}、撻",
-                    "吏欺{C:attention}瞙主{}被打敗",
+                    "吏欺{C:attention}霧主{}被打敗",
                     "{C:inactive}(現在羅{X:mult,C:white}X#2#{C:inactive}因)"
                 }
             },
@@ -1331,7 +1331,7 @@ return{
                 name="偨𧴤",
                 text={
                     "造𦋦𠬠蘿{C:tarot}些鱸",
-                    "欺{C:attention}瞙{}得撰",
+                    "欺{C:attention}霧{}得撰",
                     "{C:inactive}(沛固杇𥧪)"
                 },
                 unlock={
@@ -1414,7 +1414,7 @@ return{
                 name="芝孤",
                 text={
                     "無効化可能",
-                    "𧵑每{C:attention}瞙主"
+                    "𧵑每{C:attention}霧主"
                 },
                 unlock={
                     "{E:1,s:1.3}?????"
@@ -1542,7 +1542,7 @@ return{
             v_directors_cut={
                 name="原本導演",
                 text={
-                    "招吏瞙主",
+                    "招吏霧主",
                     "{C:attention}1{}吝每級蹻,",
                     "{C:money}$#1#{}每辣招"
                 }
@@ -1739,13 +1739,13 @@ return{
             v_retcon={
                 name="偵察",
                 text={
-                    "招吏瞙主",
+                    "招吏霧主",
                     "{C:attention}空界限{}數吝,",
                     "{C:money}$#1#{}每辣招"
                 },
                 unlock={
                     "勘破",
-                    "{C:attention}#1#{}類瞙"
+                    "{C:attention}#1#{}類霧"
                 }
             },
             v_palette={
@@ -2315,7 +2315,7 @@ return{
             stake_red={
                 name="蹻赭",
                 text={
-                    "{C:attention}瞙𡮈",
+                    "{C:attention}霧𡮈",
                     "空固錢賞",
                     "{s:0.8}壓用各類蹻畧帝"
                 }
@@ -2419,7 +2419,7 @@ return{
                 name="沲投資",
                 text={
                     "差欺打敗",
-                    "瞙主,",
+                    "霧主,",
                     "認{C:money}$#1#"
                 }
             },
@@ -2433,7 +2433,7 @@ return{
             tag_boss={
                 name="沲主",
                 text={
-                    "招吏{C:attention}瞙主",
+                    "招吏{C:attention}霧主",
                     "𧵑現在"
                 }
             },
@@ -2522,7 +2522,7 @@ return{
             tag_skip={
                 name="沲增速",
                 text={
-                    "認{C:money}$#1#{}每瞙",
+                    "認{C:money}$#1#{}每霧",
                     "㐌𠬃過𥪝陣呢",
                     "{C:inactive}(𠱊認{C:money}$#2#{C:inactive})"
                 }
@@ -2551,11 +2551,11 @@ return{
         },
         Blind={
             bl_small={
-                name="瞙𡮈",
+                name="霧𡮈",
                 text={}
             },
             bl_big={
-                name="瞙𡘯",
+                name="霧𡘯",
                 text={}
             },
             bl_hook={
@@ -2656,7 +2656,7 @@ return{
             bl_final_vessel={
                 name="璃紺",
                 text={
-                    "瞙超𡘯"
+                    "霧超𡘯"
                 }
             },
             bl_ox={
@@ -2851,7 +2851,7 @@ return{
                 name="部牌鏨浮",
                 text={
                     "差欺打敗每",
-                    "{C:attention}瞙主{},認𠬠",
+                    "{C:attention}霧主{},認𠬠",
                     "{C:attention,T:tag_double}#1#"
                 }
             },
@@ -2861,7 +2861,7 @@ return{
                     "斤平{C:blue}闡{}吧",
                     "係數{C:red}因{}欺併點",
                     "朱拪㐌𨔈",
-                    "{C:red}X#1#{}點瞙棧"
+                    "{C:red}X#1#{}點霧棧"
                 }
             },
             b_erratic={
@@ -3585,8 +3585,8 @@ return{
             sleeve_casl_anaglyph_alt={
                 name="襆鏨浮",
                 text={
-                    "差欺打敗{C:attention}瞙𡮈{}",
-                    "或{C:attention}瞙𡘯{},認",
+                    "差欺打敗{C:attention}霧𡮈{}",
+                    "或{C:attention}霧𡘯{},認",
                     "𠬠{C:attention,T:tag_double}#1#"
                 }
             },
@@ -3902,7 +3902,7 @@ return{
             b_run_info_2="陣呢",
             b_options="隨撰",
             b_reroll_boss="招吏主",
-            b_skip_blind="𠬃過瞙",
+            b_skip_blind="𠬃過霧",
             b_skip_reward="賞𠬃過",
             b_skip="𠬃過",
             b_start_new_run="陣𬔫",
@@ -3949,7 +3949,7 @@ return{
             b_remaining="部噲吏",
             b_full_deck="部苔覩",
             b_poker_hands="拪扑基",
-            b_blinds="瞙",
+            b_blinds="霧",
             b_vouchers="票",
             b_stake="蹻",
             b_jokers="播消",
@@ -4087,13 +4087,13 @@ return{
             ph_no_boss_active="空固主効力",
             ph_sneak_peek="覘畧",
             ph_deck_preview_stones="蘿𥒥",
-            ph_deck_preview_effective="總効率自播消,瞙,吧蘿彊化",
+            ph_deck_preview_effective="總効率自播消,霧,吧蘿彊化",
             ph_blind_score_at_least="達𠃣一",
             ph_blind_reward="賞：",
             ph_4_7_of_clubs="𦊚蘿７鯜",
             ph_up_ante_1="昇級蹻",
-            ph_up_ante_2="㨢全部瞙",
-            ph_up_ante_3="濫𬔫瞙",
+            ph_up_ante_2="㨢全部霧",
+            ph_up_ante_3="濫𬔫霧",
             ph_select_challenge="撰𠬠試托",
             ph_stat_joker="總數盤㐌𨔈某蘿呢",
             ph_stat_consumable="數吝使用蘿呢",
@@ -4105,10 +4105,10 @@ return{
             ph_you_win_demo="伴勝版𨔈試！",
             ph_vouchers_redeemed="票㐌歸𢷮𥪝陣呢",
             ph_no_vouchers="空固票鬧㐌歸𢷮𥪝陣呢",
-            ph_defeat_this_blind_1="打敗瞙呢",
+            ph_defeat_this_blind_1="打敗霧呢",
             ph_defeat_this_blind_2="帝勘破奴",
             ph_click_confirm="𢭝吝女帝確認",
-            ph_choose_blind_1="撰瞙",
+            ph_choose_blind_1="撰霧",
             ph_choose_blind_2="接遶",
             ph_mr_bones="得救罷翁𩩪",
             ph_score_at_least="掑𠃣一",
@@ -4116,7 +4116,7 @@ return{
             ph_1_level="＋１級",
             ph_boss_disabled="主㐌無効化！",
             ph_most_played="(拪𨔈饒一)",
-            ph_defeat_the_boss="打敗瞙主",
+            ph_defeat_the_boss="打敗霧主",
             ph_score_furthest_ante="級蹻",
             ph_score_furthest_round="幔",
             ph_score_hand="拪卒一",
@@ -4360,9 +4360,9 @@ return{
             incant_stack_anything="朱法重吧技不其蘿銷售鬧",
             incant_unsafe_mode='制度空安全',
             k_voucher_restock_1="打敗",
-            k_voucher_restock_2="瞙主",
+            k_voucher_restock_2="霧主",
             k_voucher_restock_3="帝𠊝𬔫",
-            k_cry_voucher_restock_2="𠄩瞙主",
+            k_cry_voucher_restock_2="𠄩霧主",
         },
         v_dictionary={
             a_xmult="X#1#因",
@@ -4442,10 +4442,10 @@ return{
                 "{C:inactive}空固"
             },
             ch_c_no_reward={
-                "Tấtcả{C:attention}瞙{}空固錢賞"
+                "Tấtcả{C:attention}霧{}空固錢賞"
             },
             ch_c_no_reward_specific={
-                "{C:attention}#1#瞙{}空固錢賞"
+                "{C:attention}#1#霧{}空固錢賞"
             },
             ch_c_no_extra_hand_money={
                 "{C:blue}拪牌{}餘空賞添錢"
@@ -4527,19 +4527,19 @@ return{
             sb_2={
                 "目標𧵑伴羅達",
                 "覩數{C:blue}闡{}帝打敗",
-                "各{C:attention}瞙{}"
+                "各{C:attention}霧{}"
             },
             sb_3={
-                "噲低羅{C:blue}瞙𡮈{},",
+                "噲低羅{C:blue}霧𡮈{},",
                 "伴只𫢍𫢍達𠃣一",
                 "{C:attention}300闡{}帝打敗奴."
             },
             sb_4={
-                "撰{C:blue}瞙𡮈",
+                "撰{C:blue}霧𡮈",
                 "帝扒頭盤𨔈鬧！"
             },
             bb_1={
-                "撰接迍{C:attention}瞙𡘯",
+                "撰接迍{C:attention}霧𡘯",
                 "𠱊得𠬠𡭧錢帝;"
             },
             bb_2={
@@ -4549,14 +4549,14 @@ return{
             },
             bb_3={
                 "仍汝帝眜𦤾",
-                "{C:attention}瞙主{}唲。",
+                "{C:attention}霧主{}唲。",
                 "奴固可能咳煩蕞",
                 "𢧚伴沛𨕭計畫畧。"
             },
             bb_4={
                 "裊伴打敗奴時",
                 "𠱊昇{C:attention}級蹻{}吧各",
-                "{C:attention}瞙{}𠱊㨋𢧚苦欣"
+                "{C:attention}霧{}𠱊㨋𢧚苦欣"
             },
             bb_5={
                 "打敗{C:attention}級蹻{}#1#帝勝。",
@@ -4670,7 +4670,7 @@ return{
             s_10={
                 "{C:attention}票{}得𠊝𬔫",
                 "差欺伴打敗",
-                "{C:attention}瞙主{}."
+                "{C:attention}霧主{}."
             },
             s_11={
                 "吧汝𥄭試某",
