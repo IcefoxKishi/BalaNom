@@ -233,7 +233,7 @@ return{
             j_loyalty_card={
                 name="𥸠會員",
                 text={
-                    "{X:red,C:white}X#1#{}人每",
+                    "{X:red,C:white}X#1#{}因每",
                     "{C:attention}#2#{}拪牌㐌𨔈",
                     "{C:inactive}#3#"
                 }
@@ -328,12 +328,12 @@ return{
                 name="諧𠰃",
                 text={
                     "再激每蘿",
-                    "{C:attention}２{}、{C:attention}３{}、{C:attention}４{}或{C:attention}５",
+                    "{C:attention}2{}、{C:attention}3{}、{C:attention}4{}或{C:attention}5",
                     "㐌𨔈",
                 }
             },
             j_gros_michel={
-                name="桎蕉高＃２",
+                name="桎蕉高#2",
                 text={
                     "{C:mult}+#1#{}因",
                     "確率{C:green}#2#𨕭#3#",
@@ -480,7 +480,7 @@ return{
                 name="覺官次𦒹",
                 text={
                     "裊{C:attention}拪頭先{}𧵑盤",
-                    "羅𠬠蘿{C:attention}６{}、破毀奴吧",
+                    "羅𠬠蘿{C:attention}6{}、破毀奴吧",
                     "造𦋦𠬠蘿{C:spectral}超靈",
                     "{C:inactive}(沛固杇𥧪)"
                 }
@@ -998,11 +998,11 @@ return{
                 }
             },
             j_vagabond={
-                name="仉狼湯",
+                name="仉浪湯",
                 text={
                     "造𦋦𠬠蘿{C:purple}些鱸",
                     "裊拪牌得𨔈",
-                    "欺固{C:money}$#1#{}或ít欣",
+                    "欺固{C:money}$#1#{}或𠃣欣",
                 }
             },
             j_baron={
@@ -3799,16 +3799,16 @@ return{
             c_jokerless_1="空播消",
         },
         poker_hands={
-            ['Flush Five']="同五貴",
-            ['Flush House']="同葫蘆",
-            ['Five of a Kind']="五貴",
+            ['Flush Five']="同五條",
+            ['Flush House']="同呼佬",
+            ['Five of a Kind']="五條",
             ['Royal Flush']="蛇主",
             ['Straight Flush']="同花蛇",
-            ['Four of a Kind']="四貴",
-            ['Full House']="葫蘆",
+            ['Four of a Kind']="四條",
+            ['Full House']="呼佬",
             ['Flush']="同",
             ['Straight']="蛇",
-            ['Three of a Kind']="三之",
+            ['Three of a Kind']="三條",
             ['Two Pair']="滔",
             ['Pair']="對",
             ['High Card']="冇啤"
@@ -4442,7 +4442,7 @@ return{
                 "{C:inactive}空固"
             },
             ch_c_no_reward={
-                "Tấtcả{C:attention}霧{}空固錢賞"
+                "悉哿{C:attention}霧{}空固錢賞"
             },
             ch_c_no_reward_specific={
                 "{C:attention}#1#霧{}空固錢賞"
