@@ -2283,14 +2283,14 @@ return{
             m_stone={
                 name="蘿𥒥",
                 text={
-                    "{C:chips}+#1#{}闡",
+                    "{C:chips}#1#{}闡",
                     "空固堛咍質"
                 }
             },
             m_gold={
                 name="蘿鐄",
                 text={
-                    "{C:money}$#1#{}裊蘿呢",
+                    "{C:money}#1#{}裊蘿呢",
                     "得𢬇𥪝拪",
                     "於季盤"
                 }
@@ -3801,10 +3801,10 @@ return{
         poker_hands={
             ['Flush Five']="同五條",
             ['Flush House']="同呼佬",
-            ['Five of a Kind']="五條",
+            ['Five of a Kind']="五季",
             ['Royal Flush']="蛇主",
             ['Straight Flush']="同花蛇",
-            ['Four of a Kind']="四條",
+            ['Four of a Kind']="四季",
             ['Full House']="呼佬",
             ['Flush']="同",
             ['Straight']="蛇",
